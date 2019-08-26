@@ -6,6 +6,7 @@ Python 🐍 notlarım
 
 - Hızlı notlar 🏃‍♂️ için [Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin
 - Kişisel notlarım 👨‍🏫 [Kişisel Notlar](Ki%C5%9Fisel%20Notlar) dizinindedir
+- Ücretsiz python sunucusu için  [☁ PythonAnyWhere](https://www.pythonanywhere.com) sitesine bakabilirsin
 
 > Data Science 📊 notlarım için [YDataScience](https://github.com/yedhrab/YDataScience) _repository_'isine bakabilirsin.
 
