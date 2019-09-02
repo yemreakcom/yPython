@@ -1,0 +1,30 @@
+# Summary
+
+<!--Index-->
+
+## Cheat Sheets
+
+- [Beginner Python Cheat Sheets](./Cheat%20Sheets/Beginner%20Python%20Cheat%20Sheets.pdf)
+
+## Kişisel Notlar
+
+- [0 - Vscode Üzerinden Python](./Ki%C5%9Fisel%20Notlar/0%20-%20Vscode%20%C3%9Czerinden%20Python.md)
+- [1.1 - Python Giriş](./Ki%C5%9Fisel%20Notlar/1.1%20-%20Python%20Giri%C5%9F.md)
+- [1.2 - Python Anahtar Kelimeler](./Ki%C5%9Fisel%20Notlar/1.2%20-%20Python%20Anahtar%20Kelimeler.md)
+- [1.3 - Python Değişkenleri](./Ki%C5%9Fisel%20Notlar/1.3%20-%20Python%20De%C4%9Fi%C5%9Fkenleri.md)
+- [2 - Python Döngüler ve Koşullar](./Ki%C5%9Fisel%20Notlar/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
+- [3 - Python Fonksiyonlar](./Ki%C5%9Fisel%20Notlar/3%20-%20Python%20Fonksiyonlar.md)
+- [4 - Python'da String İşlemleri](./Ki%C5%9Fisel%20Notlar/4%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
+- [5 - Python Veri Yapıları](./Ki%C5%9Fisel%20Notlar/5%20-%20Python%20Veri%20Yap%C4%B1lar%C4%B1.md)
+- [6 - Python Koleksiyonlar](./Ki%C5%9Fisel%20Notlar/6%20-%20Python%20Koleksiyonlar.md)
+- [7 - Python Class, Modül ve Paketler](./Ki%C5%9Fisel%20Notlar/7%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
+- [8 - Python Dosya İşlemleri](./Ki%C5%9Fisel%20Notlar/8%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
+- [9 - Python ile Arayüz Oluşturma](./Ki%C5%9Fisel%20Notlar/9%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
+- [9 - Pyton Kod Notları](./Ki%C5%9Fisel%20Notlar/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
+- [A - Python İleri Seviye](./Ki%C5%9Fisel%20Notlar/A%20-%20Python%20%C4%B0leri%20Seviye.md)
+- [X - Python Harici Linkler](./Ki%C5%9Fisel%20Notlar/X%20-%20Python%20Harici%20Linkler.md)
+- [X1 - Python ile Görüntü İşleme Notları](./Ki%C5%9Fisel%20Notlar/X1%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1.md)
+- [XX - Python Algoritma Örnekleri](./Ki%C5%9Fisel%20Notlar/XX%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
+- [XXX - Python CodeSnippets](./Ki%C5%9Fisel%20Notlar/XXX%20-%20Python%20CodeSnippets.md)
+
+<!--Index-->
