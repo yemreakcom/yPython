@@ -117,12 +117,13 @@ def link_folder(startpath):
 
         subindent = create_indent(level + 1, size=2)
         for f in files:
-            if "README.md" in f:
-                continue
+            if ".md" in f:
+                if "README.md" in f:
+                    continue
 
-            name = os.path.splitext(f)[0]
-            lines.append('{}{}'.format(
-                subindent, create_link(os.path.join(root, f))))
+                name = os.path.splitext(f)[0]
+                lines.append('{}{}'.format(
+                    subindent, create_link(os.path.join(root, f))))
 
     return lines
 
