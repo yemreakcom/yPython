@@ -1,8 +1,8 @@
-# YPython
+# 🐍 YPython
 
 Python 🐍 notlarım
 
-## Açıklama
+## 🗽 Açıklama
 
 - Hızlı notlar 🏃‍♂️ için [Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin
 - Kişisel notlarım 👨‍🏫 [Kişisel Notlar](Ki%C5%9Fisel%20Notlar) dizinindedir
@@ -10,7 +10,7 @@ Python 🐍 notlarım
 
 > Data Science 📊 notlarım için [YDataScience](https://github.com/yedhrab/YDataScience) _repository_'isine bakabilirsin.
 
-## Destek ve İletişim
+## 💖 Destek ve İletişim
 
 **The [MIT License](https://choosealicense.com/licenses/mit/) &copy; Yunus Emre Ak**
 

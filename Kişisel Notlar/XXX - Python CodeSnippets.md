@@ -2,17 +2,6 @@
 
 <!-- TODO: Sonradan bunlara başlık ekle -->
 
-## İçerikler <!-- omit in toc -->
-
-- [List İşlemleri](#list-%c4%b0%c5%9flemleri)
-- [Verileri Sınıflara Göre Gruplama](#verileri-s%c4%b1n%c4%b1flara-g%c3%b6re-gruplama)
-- [İstatistik](#%c4%b0statistik)
-- [Dict](#dict)
-- [Yüksek Miktardaki Verilerle İşlemler](#y%c3%bcksek-miktardaki-verilerle-%c4%b0%c5%9flemler)
-  - [Verilerin Formatı](#verilerin-format%c4%b1)
-  - [Verilerin İşlenmesi](#verilerin-%c4%b0%c5%9flenmesi)
-- [PW3 Postal Codes](#pw3-postal-codes)
-
 ## List İşlemleri
 
 ```python

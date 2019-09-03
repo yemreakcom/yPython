@@ -1,4 +1,4 @@
-  - [Cheat Sheets](./Cheat%20Sheets)
+  - [Cheat Sheets](./Cheat%20Sheets/README.md)
   - [Kişisel Notlar](./Ki%C5%9Fisel%20Notlar)
     - [0 - Vscode Üzerinden Python](./Ki%C5%9Fisel%20Notlar/0%20-%20Vscode%20%C3%9Czerinden%20Python.md)
     - [1.1 - Python Giriş](./Ki%C5%9Fisel%20Notlar/1.1%20-%20Python%20Giri%C5%9F.md)

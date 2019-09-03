@@ -1,14 +1,5 @@
 # Python Verimli Kodlama Notlarım <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Fonksiyonun Aldığı Vakti Hesaplama](#Fonksiyonun-Ald%C4%B1%C4%9F%C4%B1-Vakti-Hesaplama)
-- [Değişkenlerin Değerlerini Bulma](#De%C4%9Fi%C5%9Fkenlerin-De%C4%9Ferlerini-Bulma)
-- [Bağımlılıkları ve PythonPath'i Ayarlama](#Ba%C4%9F%C4%B1ml%C4%B1l%C4%B1klar%C4%B1-ve-PythonPathi-Ayarlama)
-- [Medyan Alma](#Medyan-Alma)
-- [Zaman Hesaplama Sorunu](#Zaman-Hesaplama-Sorunu)
-- [Koşullu İç İçe For Döngüsü](#Ko%C5%9Fullu-%C4%B0%C3%A7-%C4%B0%C3%A7e-For-D%C3%B6ng%C3%BCs%C3%BC)
-
 ## Fonksiyonun Aldığı Vakti Hesaplama
 
 ```python

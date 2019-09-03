@@ -1,28 +1,5 @@
 # Python Döngüler ve Koşullar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [If / Else Koşul (Constraints) Yapısı](#If--Else-Ko%C5%9Ful-Constraints-Yap%C4%B1s%C4%B1)
-  - [Üçlü (Ternary) If / Else Yapısı](#%C3%9C%C3%A7l%C3%BC-Ternary-If--Else-Yap%C4%B1s%C4%B1)
-  - [Çoklu IF Yapısı](#%C3%87oklu-IF-Yap%C4%B1s%C4%B1)
-- [Döngüler (Loop)](#D%C3%B6ng%C3%BCler-Loop)
-  - [For Döngüsü](#For-D%C3%B6ng%C3%BCs%C3%BC)
-    - [Değişken içinde For Döngüsü](#De%C4%9Fi%C5%9Fken-i%C3%A7inde-For-D%C3%B6ng%C3%BCs%C3%BC)
-    - [İki Liste Üzerinde Paralel For Döngüsü](#%C4%B0ki-Liste-%C3%9Czerinde-Paralel-For-D%C3%B6ng%C3%BCs%C3%BC)
-  - [Range Fonksiyonu](#Range-Fonksiyonu)
-  - [While Döngüsü](#While-D%C3%B6ng%C3%BCs%C3%BC)
-- [Break / Continue](#Break--Continue)
-- [Operatörler](#Operat%C3%B6rler)
-  - [Aritmatik Operatörler](#Aritmatik-Operat%C3%B6rler)
-    - [Ek Aritmatik Operatörler](#Ek-Aritmatik-Operat%C3%B6rler)
-  - [Karşılaştırma Operatörleri](#Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma-Operat%C3%B6rleri)
-  - [Mantıksal Operatörler](#Mant%C4%B1ksal-Operat%C3%B6rler)
-  - [Bit Düzeyinde Operatörler](#Bit-D%C3%BCzeyinde-Operat%C3%B6rler)
-  - [Kimlik Belirleme Operatörleri](#Kimlik-Belirleme-Operat%C3%B6rleri)
-    - [Kimlik Belirleme Operatörleri Örneği](#Kimlik-Belirleme-Operat%C3%B6rleri-%C3%96rne%C4%9Fi)
-  - [Üyelik Operatörleri](#%C3%9Cyelik-Operat%C3%B6rleri)
-    - [Üyelik Operatörleri Örneği](#%C3%9Cyelik-Operat%C3%B6rleri-%C3%96rne%C4%9Fi)
-
 ## If / Else Koşul (Constraints) Yapısı
 
 If içerisine yazılan koşul otomatik olarak `bool` değişkenine dönüştürülür, değer `True` ise içindeki kodlar çalıştırılır.

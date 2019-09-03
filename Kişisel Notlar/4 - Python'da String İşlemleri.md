@@ -2,19 +2,6 @@
 
 _String_'lere kabaca **metin** diyebiliriz 🤔
 
-## İçerikler <!-- omit in toc -->
-
-- [Temel String İşlemleri](#Temel-String-%C4%B0%C5%9Flemleri)
-- [String Fonksiyonları](#String-Fonksiyonlar%C4%B1)
-  - [String Üzerinde Karakter Değiştirme](#String-%C3%9Czerinde-Karakter-De%C4%9Fi%C5%9Ftirme)
-  - [String'in Karakterleri Ters Çevirme](#Stringin-Karakterleri-Ters-%C3%87evirme)
-  - [String'in Kelimelerini Ters Çevirme](#Stringin-Kelimelerini-Ters-%C3%87evirme)
-- [String İçerisinde Metin Arama](#String-%C4%B0%C3%A7erisinde-Metin-Arama)
-- [String Üzerinde Sayma İşlemleri](#String-%C3%9Czerinde-Sayma-%C4%B0%C5%9Flemleri)
-  - [Metin karakterlerini sayma](#Metin-karakterlerini-sayma)
-  - [Dosya satırlarını a'dan başlayarak sayma](#Dosya-sat%C4%B1rlar%C4%B1n%C4%B1-adan-ba%C5%9Flayarak-sayma)
-- [Harici Fonksiyonlarla String İşlemleri](#Harici-Fonksiyonlarla-String-%C4%B0%C5%9Flemleri)
-
 ## Temel String İşlemleri
 
 String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.

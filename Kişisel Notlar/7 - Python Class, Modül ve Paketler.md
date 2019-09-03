@@ -1,31 +1,5 @@
 # Python Class, Modül ve Paketler <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Class](#Class)
-  - [Class Anahtar Kelimeleri](#Class-Anahtar-Kelimeleri)
-  - [Inheritence (Miras)](#Inheritence-Miras)
-  - [Class Örnekleri](#Class-%C3%96rnekleri)
-  - [Enumeration](#Enumeration)
-    - [Basit Kullanım](#Basit-Kullan%C4%B1m)
-    - [Fonksiyon API ile Kullanım](#Fonksiyon-API-ile-Kullan%C4%B1m)
-    - [Enum Özellikleri](#Enum-%C3%96zellikleri)
-      - [Benzersin Enum Tanımlaması](#Benzersin-Enum-Tan%C4%B1mlamas%C4%B1)
-- [Modüller](#Mod%C3%BCller)
-  - [Modül Kullanım Örnekleri](#Mod%C3%BCl-Kullan%C4%B1m-%C3%96rnekleri)
-  - [Sık Kullanılan Modüller](#S%C4%B1k-Kullan%C4%B1lan-Mod%C3%BCller)
-    - [Random Modülü](#Random-Mod%C3%BCl%C3%BC)
-  - [Python Modül Dosyaları](#Python-Mod%C3%BCl-Dosyalar%C4%B1)
-    - [Sistemin Python Modüllerine Bakma](#Sistemin-Python-Mod%C3%BCllerine-Bakma)
-  - [Modül İçinde Tanımlanan İsimleri Alma](#Mod%C3%BCl-%C4%B0%C3%A7inde-Tan%C4%B1mlanan-%C4%B0simleri-Alma)
-- [Paketler (Package)](#Paketler-Package)
-  - [Paketten ve Modül Örnekleri](#Paketten-ve-Mod%C3%BCl-%C3%96rnekleri)
-  - [Sık Kullanılan Paketler](#S%C4%B1k-Kullan%C4%B1lan-Paketler)
-    - [Windows Paketleri](#Windows-Paketleri)
-    - [Görüntü İşleme Paketleri](#G%C3%B6r%C3%BCnt%C3%BC-%C4%B0%C5%9Fleme-Paketleri)
-    - [Giriş Çıkış (I/O) Kontrol Paketleri](#Giri%C5%9F-%C3%87%C4%B1k%C4%B1%C5%9F-IO-Kontrol-Paketleri)
-  - [Paketler için Harici Bağlantıları](#Paketler-i%C3%A7in-Harici-Ba%C4%9Flant%C4%B1lar%C4%B1)
-
 ## Class
 
 ### Class Anahtar Kelimeleri

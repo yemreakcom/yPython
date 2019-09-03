@@ -1,17 +1,5 @@
 # Python Koleksiyonlar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Koleksiyonlar Nedir ? (Collection)](#Koleksiyonlar-Nedir--Collection)
-- [Namedtuple](#Namedtuple)
-  - [NamedTuple ile Üretilen Kod](#NamedTuple-ile-%C3%9Cretilen-Kod)
-- [Deque](#Deque)
-  - [Deque için Verimlilik Hesapbı](#Deque-i%C3%A7in-Verimlilik-Hesapb%C4%B1)
-- [Counter](#Counter)
-- [OrderedDict](#OrderedDict)
-- [DefaultDict](#DefaultDict)
-  - [DefaultDict Avantajı](#DefaultDict-Avantaj%C4%B1)
-
 ## Koleksiyonlar Nedir ? (Collection)
 
 Python'da hazırlarnmış verimli veri yapılarıdır.

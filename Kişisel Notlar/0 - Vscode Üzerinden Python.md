@@ -2,18 +2,6 @@
 
 Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/python/python-tutorial) bakabilirsin.
 
-## İçerikler <!-- omit in toc -->
-
-- [Python Eklentileri](#Python-Eklentileri)
-- [Python Kodlarını Formatlama](#Python-Kodlar%C4%B1n%C4%B1-Formatlama)
-- [Debug Yapılandırması](#Debug-Yap%C4%B1land%C4%B1rmas%C4%B1)
-- [Jupyter Desteği](#Jupyter-Deste%C4%9Fi)
-- [Python Derleyicisi Ayarlama](#Python-Derleyicisi-Ayarlama)
-- [PYTHONPATH Oluşturma](#PYTHONPATH-Olu%C5%9Fturma)
-- [PYTHONPATH Örneği](#PYTHONPATH-%C3%96rne%C4%9Fi)
-- [Ek Python Ayarları](#Ek-Python-Ayarlar%C4%B1)
-- [Python Kısayolları](#Python-K%C4%B1sayollar%C4%B1)
-
 ## Python Eklentileri
 
 | Eklenti                                                                               | Açıklama                                                   |

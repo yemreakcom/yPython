@@ -1,19 +1,5 @@
 # Python'da Veri Yapıları <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Veri Yapıları Nedir?](#Veri-Yap%C4%B1lar%C4%B1-Nedir)
-- [List](#List)
-- [Array](#Array)
-- [Tuple](#Tuple)
-- [Set](#Set)
-- [Dict](#Dict)
-- [Zip](#Zip)
-- [Veri Yapıları Arasında Dönüşüm](#Veri-Yap%C4%B1lar%C4%B1-Aras%C4%B1nda-D%C3%B6n%C3%BC%C5%9F%C3%BCm)
-- [Arama İşlemleri (Searcing)](#Arama-%C4%B0%C5%9Flemleri-Searcing)
-- [Sıralama İşlemleri (Sorting)](#S%C4%B1ralama-%C4%B0%C5%9Flemleri-Sorting)
-- [Comprehensions](#Comprehensions)
-
 ## Veri Yapıları Nedir?
 
 Temel değişkenlerin birleştirilmesi ile oluşturulan yapılardır.

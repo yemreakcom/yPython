@@ -1,14 +1,5 @@
 # Python Harici Linkler
 
-## İçeriklr <!-- omit in toc -->
-
-- [Python Harici Linkler](#Python-Harici-Linkler)
-  - [Örnek Kod Yapım](#%C3%96rnek-Kod-Yap%C4%B1m)
-  - [PDF İşlemleri](#PDF-%C4%B0%C5%9Flemleri)
-  - [Veri Bilimi](#Veri-Bilimi)
-  - [Karma](#Karma)
-  - [Lisans ve Teferruatlar](#Lisans-ve-Teferruatlar)
-
 ## Örnek Kod Yapım
 
 ```python

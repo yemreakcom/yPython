@@ -1,35 +1,5 @@
 # Python Fonksiyonlar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Fonksiyonlar Hakkında](#Fonksiyonlar-Hakk%C4%B1nda)
-- [Dahili Fonksiyon Kullanımları](#Dahili-Fonksiyon-Kullan%C4%B1mlar%C4%B1)
-  - [Genel Fonksiyonlar](#Genel-Fonksiyonlar)
-    - [Enumerata (Numaralandırma, Sayma) İşlemi](#Enumerata-Numaraland%C4%B1rma-Sayma-%C4%B0%C5%9Flemi)
-- [Harici Fonksiyon Kullanımları](#Harici-Fonksiyon-Kullan%C4%B1mlar%C4%B1)
-- [Fonksiyon Oluşturma](#Fonksiyon-Olu%C5%9Fturma)
-  - [Fonksiyon İskeleti](#Fonksiyon-%C4%B0skeleti)
-  - [Fonksiyon Örneği](#Fonksiyon-%C3%96rne%C4%9Fi)
-  - [Fonksyion Dökümantasyonu](#Fonksyion-D%C3%B6k%C3%BCmantasyonu)
-  - [Fonksyion Varsayılan Parametreler (Keyword Arguments)](#Fonksyion-Varsay%C4%B1lan-Parametreler-Keyword-Arguments)
-  - [Fonksiyonlarda Keyfi Parametreler](#Fonksiyonlarda-Keyfi-Parametreler)
-  - [Fonksiyonların veya Modüllerin Alt Metodlarını Listeleme](#Fonksiyonlar%C4%B1n-veya-Mod%C3%BCllerin-Alt-Metodlar%C4%B1n%C4%B1-Listeleme)
-- [Özyineleyen Fonksiyonlar](#%C3%96zyineleyen-Fonksiyonlar)
-  - [Özyineleyen Fonksiyonların Avantajları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Avantajlar%C4%B1)
-  - [Özyineleyen Fonksiyonların Zararları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Zararlar%C4%B1)
-- [Lambda Fonksiyonlar](#Lambda-Fonksiyonlar)
-  - [Filter ile Lambda Kullanımı](#Filter-ile-Lambda-Kullan%C4%B1m%C4%B1)
-  - [Map ile Lambda Kullanımı](#Map-ile-Lambda-Kullan%C4%B1m%C4%B1)
-- [İç İçe Fonksiyonlar](#%C4%B0%C3%A7-%C4%B0%C3%A7e-Fonksiyonlar)
-  - [Karmaşık İç İçe Fonksiyon](#Karma%C5%9F%C4%B1k-%C4%B0%C3%A7-%C4%B0%C3%A7e-Fonksiyon)
-- [Global, Local ve Nonlocal Kavramları](#Global-Local-ve-Nonlocal-Kavramlar%C4%B1)
-  - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#Global-Local-ve-Nonlocal-Kavramlar%C4%B1na-%C3%96rnek-Scopes-and-Namespaces)
-  - [Global Kullanımına Örnek](#Global-Kullan%C4%B1m%C4%B1na-%C3%96rnek)
-  - [Global Kullanımına Ek Örnek](#Global-Kullan%C4%B1m%C4%B1na-Ek-%C3%96rnek)
-- [Alt Fonksiyonlar](#Alt-Fonksiyonlar)
-- [Fonksiyonlarda Hız](#Fonksiyonlarda-H%C4%B1z)
-  - [Fonksiyon Hızı Ölçme Scripti](#Fonksiyon-H%C4%B1z%C4%B1-%C3%96l%C3%A7me-Scripti)
-
 ## Fonksiyonlar Hakkında
 
 - Fonksiyonlara değişken değerlerinin kopyası gönderilir

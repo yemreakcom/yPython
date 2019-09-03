@@ -1,28 +1,5 @@
 # 6 - Python İleri Seviye <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Assertion (Kural Koyma)](#assertion-kural-koyma)
-  - [Assertion Örnekleri](#assertion-%c3%96rnekleri)
-- [Zaman İşlemlemleri (Time, Datetime)](#zaman-%c4%b0%c5%9flemlemleri-time-datetime)
-- [Try / Except Yapısı](#try--except-yap%c4%b1s%c4%b1)
-- [Dosya İşlemleri](#dosya-%c4%b0%c5%9flemleri)
-  - [Dosya Okuma](#dosya-okuma)
-- [İşletim Sistemini Tespit Etme](#%c4%b0%c5%9fletim-sistemini-tespit-etme)
-- [Program Kapandığında İşlem Yapma (on Exit)](#program-kapand%c4%b1%c4%9f%c4%b1nda-%c4%b0%c5%9flem-yapma-on-exit)
-- [Thread](#thread)
-  - [Thread Yapısı](#thread-yap%c4%b1s%c4%b1)
-  - [Tekrarlayıcı Yapısı](#tekrarlay%c4%b1c%c4%b1-yap%c4%b1s%c4%b1)
-  - [Zamanlayıcı Yapısı (Timer)](#zamanlay%c4%b1c%c4%b1-yap%c4%b1s%c4%b1-timer)
-  - [Bir Plana göre Fonksiyon Çalıştırma](#bir-plana-g%c3%b6re-fonksiyon-%c3%87al%c4%b1%c5%9ft%c4%b1rma)
-- [Paralel İşlemler (Multiprocessing)](#paralel-%c4%b0%c5%9flemler-multiprocessing)
-  - [Multiprocessing Örneği](#multiprocessing-%c3%96rne%c4%9fi)
-- [Kod Parçaları (Code Snippet)](#kod-par%c3%a7alar%c4%b1-code-snippet)
-  - [PYTHONPATH Ayarlama](#pythonpath-ayarlama)
-  - [Ekran Görünüsünü Alma ve Kaydetme](#ekran-g%c3%b6r%c3%bcn%c3%bcs%c3%bcn%c3%bc-alma-ve-kaydetme)
-  - [Kısayol ile Ekran Alanı Seçme](#k%c4%b1sayol-ile-ekran-alan%c4%b1-se%c3%a7me)
-  - [Url Encode İşlemi](#url-encode-%c4%b0%c5%9flemi)
-
 ## Assertion (Kural Koyma)
 
 Boolean değeri sağlanmazsa hata verir ve programı kapatır.

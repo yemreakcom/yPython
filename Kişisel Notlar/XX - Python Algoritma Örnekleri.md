@@ -1,13 +1,5 @@
 # Python Algoritma Örnekleri <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Prime (Asal Sayı)](#Prime-Asal-Say%C4%B1)
-- [Mersenne Number](#Mersenne-Number)
-- [Lucas Lehmer](#Lucas-Lehmer)
-- [Mersenne Prime](#Mersenne-Prime)
-- [Sieve of Eratosthenes](#Sieve-of-Eratosthenes)
-
 ## Prime (Asal Sayı)
 
 The first optimization takes advantage of the fact that two is the only even prime. Thus we can check if a number is even and as long as its greater than 2, we know that it is not prime.

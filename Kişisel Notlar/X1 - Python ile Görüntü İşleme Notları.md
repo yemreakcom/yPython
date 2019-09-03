@@ -1,7 +1,5 @@
 # Python ile Görüntü İşleme Notları
 
-## İçerikler
-
 ## Median Alma
 
 ```python

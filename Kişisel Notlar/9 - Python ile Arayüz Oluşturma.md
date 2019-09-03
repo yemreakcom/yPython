@@ -1,19 +1,5 @@
 # Python CLI GUI <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Komut İsteminden Python (CLI)](#Komut-%C4%B0steminden-Python-CLI)
-  - [Argparse Modülü Detayları](#Argparse-Mod%C3%BCl%C3%BC-Detaylar%C4%B1)
-  - [Argüman Ekleme](#Arg%C3%BCman-Ekleme)
-  - [Argüman Action Özelliği](#Arg%C3%BCman-Action-%C3%96zelli%C4%9Fi)
-  - [Örnek CLI Kodu](#%C3%96rnek-CLI-Kodu)
-- [Python Görsel Programlama (GUI)](#Python-G%C3%B6rsel-Programlama-GUI)
-- [PyQT5](#PyQT5)
-  - [PyQt5 Kurulumu](#PyQt5-Kurulumu)
-  - [Basit GUI Yapımı](#Basit-GUI-Yap%C4%B1m%C4%B1)
-  - [PyQt Widgets](#PyQt-Widgets)
-- [PyInstaller ile Executable Dosya Oluşturma](#PyInstaller-ile-Executable-Dosya-Olu%C5%9Fturma)
-
 ## Komut İsteminden Python (CLI)
 
 - Komut isteminden gelen argümanları **argparse** adlı modül ile yönetmekteyiz
