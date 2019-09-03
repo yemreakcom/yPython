@@ -10,6 +10,7 @@
 - [Dizin (Dir) İşlemleri](#Dizin-Dir-%C4%B0%C5%9Flemleri)
 - [OS Modülü](#OS-Mod%C3%BCl%C3%BC)
   - [Dizin veya Dosya Yolları Listesi Döndürme](#Dizin-veya-Dosya-Yollar%C4%B1-Listesi-D%C3%B6nd%C3%BCrme)
+  - [Dizinleri Tree Yapısında Listeleme](#Dizinleri-Tree-Yap%C4%B1s%C4%B1nda-Listeleme)
   - [Python System Dizinlerine Erişme (System Enviroment)](#Python-System-Dizinlerine-Eri%C5%9Fme-System-Enviroment)
   - [Python Kullanıcı Dizinlerine Erişme](#Python-Kullan%C4%B1c%C4%B1-Dizinlerine-Eri%C5%9Fme)
 - [Dosya Yolu (Path) İşlemleri](#Dosya-Yolu-Path-%C4%B0%C5%9Flemleri)
@@ -194,6 +195,8 @@ Dizin işlemleri için `os` veya `glob` paketi kullanılır.
 | `os.path.normpath(<path>)`    | OS'lar için farklılık gösteren `/`, `\\` sorununu düzeltme |
 | `os.path.join(<path>, <str>)` | Path birleştirme (tanımlama)                               |
 | `os.mkdir(<path>)`            | Dizin oluşturma                                            |
+| `os.walk(<path>)`             | Verilen path üzerinden ilerleme                            |
+| `os.path.splittext(<path>)`   | Adı ve uzantısına göre ayırma                              |
 
 ### Dizin veya Dosya Yolları Listesi Döndürme
 
@@ -216,6 +219,19 @@ def list_files(image_dir, pattern):
     return [image for image in glob.glob(osp.join(image_dir, pattern))]
 
 list_images(r"C\Users\Picture", ".jpg")
+```
+
+### Dizinleri Tree Yapısında Listeleme
+
+```py
+def list_files(startpath):
+    for root, dirs, files in os.walk(startpath):
+        level = root.replace(startpath, '').count(os.sep)
+        indent = ' ' * 4 * (level)
+        print('{}{}/'.format(indent, os.path.basename(root)))
+        subindent = ' ' * 4 * (level + 1)
+        for f in files:
+            print('{}{}'.format(subindent, f))
 ```
 
 ### Python System Dizinlerine Erişme (System Enviroment)

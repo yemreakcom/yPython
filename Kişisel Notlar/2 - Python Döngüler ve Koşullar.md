@@ -4,6 +4,7 @@
 
 - [If / Else Koşul (Constraints) Yapısı](#If--Else-Ko%C5%9Ful-Constraints-Yap%C4%B1s%C4%B1)
   - [Üçlü (Ternary) If / Else Yapısı](#%C3%9C%C3%A7l%C3%BC-Ternary-If--Else-Yap%C4%B1s%C4%B1)
+  - [Çoklu IF Yapısı](#%C3%87oklu-IF-Yap%C4%B1s%C4%B1)
 - [Döngüler (Loop)](#D%C3%B6ng%C3%BCler-Loop)
   - [For Döngüsü](#For-D%C3%B6ng%C3%BCs%C3%BC)
     - [Değişken içinde For Döngüsü](#De%C4%9Fi%C5%9Fken-i%C3%A7inde-For-D%C3%B6ng%C3%BCs%C3%BC)
@@ -48,6 +49,12 @@ else:
 ```python
 fruit = 'Apple'
 isApple = True if fruit == 'Apple' else False
+```
+
+### Çoklu IF Yapısı
+
+```py
+if any(s in line for s in ('string1', 'string2', ...)):
 ```
 
 ## Döngüler (Loop)
@@ -144,9 +151,9 @@ Son
 
 ## Operatörler
 
-| Operatör                             | Açıklama |
-| ------------------------------------ | -------- |
-| `\` | Satır atlatmayı geçersiz kılma |
+| Operatör | Açıklama                       |
+| -------- | ------------------------------ |
+| `\`      | Satır atlatmayı geçersiz kılma |
 
 ### Aritmatik Operatörler
 
