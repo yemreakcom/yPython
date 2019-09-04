@@ -1,14 +1,14 @@
-# 🐍 YPython
+---
+description: Python 🐍 notlarım
+---
 
-Python 🐍 notlarım
+# 🐍 YPython
 
 ## 🗽 Açıklama
 
-- Hızlı notlar 🏃‍ için [Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin
-- Kişisel notlarım 👨‍🏫 [Kişisel Notlar](Ki%C5%9Fisel%20Notlar) dizinindedir
-- Ücretsiz python sunucusu için  [☁ PythonAnyWhere](https://www.pythonanywhere.com) sitesine bakabilirsin
-
-> Data Science 📊 notlarım için [YDataScience](https://github.com/yedhrab/YDataScience) _repository_'isine bakabilirsin.
+- Hızlı notlar için [🏃‍ Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin
+- Farklı bir dökümantasyon için [📕 Programmiz](https://www.programiz.com/python-programming/first-program) sitesine bakabilirsin
+- Ücretsiz python sunucusu için  [⛅ PythonAnyWhere](https://www.pythonanywhere.com) sitesine bakabilirsin
 
 ## 💖 Destek ve İletişim
 
