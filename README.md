@@ -4,7 +4,7 @@ Python 🐍 notlarım
 
 ## 🗽 Açıklama
 
-- Hızlı notlar 🏃‍♂️ için [Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin
+- Hızlı notlar 🏃‍ için [Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin
 - Kişisel notlarım 👨‍🏫 [Kişisel Notlar](Ki%C5%9Fisel%20Notlar) dizinindedir
 - Ücretsiz python sunucusu için  [☁ PythonAnyWhere](https://www.pythonanywhere.com) sitesine bakabilirsin
 
