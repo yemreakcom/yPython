@@ -1,4 +1,4 @@
-# Python'da Veri Yapıları <!-- omit in toc -->
+# Veri Yapılarına Gİriş
 
 ## Veri Yapıları Nedir?
 
