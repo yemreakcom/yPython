@@ -29,6 +29,8 @@
     - [3 - Python Algoritma Örnekleri](./X%20-%20Ek%20Notlar/3%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
     - [4 - Python CodeSnippets](./X%20-%20Ek%20Notlar/4%20-%20Python%20CodeSnippets.md)
     - [5 - Pyton Kod Notları](./X%20-%20Ek%20Notlar/5%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
+  - [Y - IPython](./Y%20-%20IPython)
+    - [IPython](./Y%20-%20IPython/IPython.md)
 
 ## ✨ Özenle Hazırladığım Diğer Dökümanlarım
 
