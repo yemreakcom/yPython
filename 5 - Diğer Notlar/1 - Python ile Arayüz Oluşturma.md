@@ -1,101 +1,4 @@
-# Python CLI GUI <!-- omit in toc -->
-
-## Komut İsteminden Python (CLI)
-
-- Komut isteminden gelen argümanları **argparse** adlı modül ile yönetmekteyiz
-- Otomatik kod tamamlaması için [buraya](https://stackoverflow.com/a/15289025/9770490) bakmanda fayda var.
-- Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
-
-> Terminali komumtları yazmak için `os.system('<komut>')`
-
-### Argparse Modülü Detayları
-
-- Argüman ekleme işlemi `parser = argparse.ArgumentParser(...)` ile yapılmaktadır.
-- Parametrelerin kullanımı `argparse.ArgumentParser(description='yok')` şeklindedir.
-
-| Parametre     | Açıklama                               |
-| ------------- | -------------------------------------- |
-| `description` | Uygulama ile alakalı açıklama metnidir |
-
-### Argüman Ekleme
-
-- Argüman ekleme işlemi `parser.add_argument(...)` ile yapılmaktadır.
-
-| Parametre    | Açıklama                                    |
-| ------------ | ------------------------------------------- |
-| 1. parametre | Kısa kullanım komutunu içerir               |
-| 2. Parametre | Orjinal kullanım komutunu içerir            |
-| `help`       | `-h` yazıldığında çıkacak olan yardım metni |
-| `action`     | Davranışı belirler                          |
-| `type`       | Tip bilgisini içerir (int, string ...)      |
-| `default`    | Varsayılan değer                            |
-| `dest`       | Verinin aktarılacağı değişken ismi          |
-
-### Argüman Action Özelliği
-
-| Parametre      | Açıklama                                                                |
-| -------------- | ----------------------------------------------------------------------- |
-| `'store_true'` | Flag\* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
-| `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                        |
-
-```python
-import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument("--verbose", help="increase output verbosity",
-                    action="store_true")
-args = parser.parse_args()
-if args.verbose:
-    print("verbosity turned on")
-```
-
-**Çıktısı:**
-
-```sh
-$ python3 prog.py --verbose
-verbosity turned on
-
-$ python3 prog.py --verbose 1
-usage: prog.py [-h] [--verbose]
-prog.py: error: unrecognized arguments: 1
-
-$ python3 prog.py --help
-usage: prog.py [-h] [--verbose]
-
-optional arguments:
-  -h, --help  show this help message and exit
-  --verbose   increase output verbosity
-```
-
-### Örnek CLI Kodu
-
-```python
-from argparse import ArgumentParser
-
-parser = ArgumentParser(description='A simple CLI.')
-parser.add_argument(
-        '--log-file',
-        '-o',
-        default=os.path.join(os.getcwd(), 'output.log'),
-        dest="logFile",
-        help='Save the output in this file.',
-        type=str,
-        )
-parser.add_argument(
-        '--clean-file',
-        action='store_true',
-        default=False,
-        help='Clear the log file on startup.Default is No',
-        )
-parser.add_argument(
-        '--cancel-key',
-        help='A single key that use as the cancel key, Default is ` (backtick)',
-        )
-
-args = parser.parse_args()
-args.logFile
-```
-
-## Python Görsel Programlama (GUI)
+# Python Görsel Programlama (GUI)
 
 Python görsel programlama araçları:
 
@@ -105,7 +8,7 @@ Python görsel programlama araçları:
 - Kivy (opensource)
 - PyForms
 
-![python_gui](../../res/python_gui.jpg)
+![python_gui](../res/python_gui.jpg)
 
 ## PyQT5
 
@@ -147,7 +50,7 @@ app.exec_()
 
 PyQt deki her bir obje widget olarak adlandırılmakta
 
-![pyqt_widgets](../images/pyqt_widgets.png)
+![pyqt_widgets](../res/pyqt_widgets.png)
 
 Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 

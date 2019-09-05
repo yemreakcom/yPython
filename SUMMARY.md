@@ -21,6 +21,7 @@
     - [3 - Yol İşlemleri](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/3%20-%20Yol%20%C4%B0%C5%9Flemleri.md)
     - [4 - Raporlama İşlemleri](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/4%20-%20Raporlama%20%C4%B0%C5%9Flemleri.md)
   - [5 - Diğer Notlar](./5%20-%20Di%C4%9Fer%20Notlar)
+    - [1 - Komut İstemin (CLI)](./5%20-%20Di%C4%9Fer%20Notlar/1%20-%20Komut%20%C4%B0stemin%20%28CLI%29.md)
     - [1 - Python ile Arayüz Oluşturma](./5%20-%20Di%C4%9Fer%20Notlar/1%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
     - [2 - Python İleri Seviye](./5%20-%20Di%C4%9Fer%20Notlar/2%20-%20Python%20%C4%B0leri%20Seviye.md)
   - [X - Ek Notlar](./X%20-%20Ek%20Notlar)
