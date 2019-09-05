@@ -28,27 +28,6 @@ Dizin işlemleri için `os` veya `glob` paketi kullanılır.
 | `os.walk(<path>)`             | Verilen path üzerinden ilerleme                            |
 | `os.path.splittext(<path>)`   | Adı ve uzantısına göre ayırma                              |
 
-### Dizin veya Dosya Yolunu Bulma
-
-#### Dosyanın Gerçek Yolu
-
-```py
-filepath = os.path.realpath(__file__)
-```
-
-#### Script Dosyasının Gerçek Dizini
-
-```py
-import os 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-```
-
-#### Çalışma Dizini Yolu
-```py
-import os
-cwd = os.getcwd()
-```
-
 ### Dizin veya Dosya Yolları Listesi Döndürme
 
 ```python

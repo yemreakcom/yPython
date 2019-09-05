@@ -16,3 +16,24 @@ Yol işlemleri için `os.path` modülü kullanılır.
   - _Örn: help.txt_
 
 [dosya erişim modları]: https://stackoverflow.com/a/1466036/9770490
+
+## Dizin veya Dosya Yolunu Bulma
+
+### Dosyanın Gerçek Yolu
+
+```py
+filepath = os.path.realpath(__file__)
+```
+
+### Script Dosyasının Gerçek Dizini
+
+```py
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+```
+
+### Çalışma Dizini Yolu
+```py
+import os
+cwd = os.getcwd()
+```
