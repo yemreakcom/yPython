@@ -29,6 +29,7 @@
 | `default`    | Varsayılan değer                            |
 | `dest`       | Verinin aktarılacağı değişken ismi          |
 | `nargs`      | Çoklu veri alma                             |
+| `required`   | Parametre girilmezse program çalışmaz       |
 
 ### Nargs Formatı
 
