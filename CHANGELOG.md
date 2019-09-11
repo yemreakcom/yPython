@@ -9,6 +9,11 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🔗 Diğer notların linkleri eklendi. [Yunus Emre]
+
+  - [Kişisel Ansiklopedim](https://wiki.yemreak.com/)
+  - [Android Notlarım](https://android.yemreak.com/)
+
 * ✨ Özenle Hazırladığım Diğer Dökümanlarım alanı eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
