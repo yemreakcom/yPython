@@ -26,6 +26,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
   📦 Pip ile Kurulabilir Python Paketi Oluşturma alanındaki linkler düzeltildi
 
+### 📡 Diğerler
+
+* ✨ Diğer dökümanların linkleri daha görsel hale getirildi. [Yunus Emre]
+
 
 ## 1.0 (2019-09-11)
 
