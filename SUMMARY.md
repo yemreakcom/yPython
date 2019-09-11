@@ -44,8 +44,9 @@
 
 ## ✨ Özenle Hazırladığım Diğer Dökümanlarım
 
-- [Kişisel Ansiklopedim](https://wiki.yemreak.com/)
-- [Yapay Zeka Notlarım](https://ai.yemreak.com/)
-- [Android Notlarım](https://android.yemreak.com/)
-- [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
+- [📖 Kişisel Ansiklopedim](https://wiki.yemreak.com/)
+- [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
+- [📊 Veri Bilimi Notlarım](https://ds.yemreak.com/)
+- [📱 Android Notlarım](https://android.yemreak.com/)
+- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
+- [⚛ React ve 🔥 Firebase projem](https://github.com/yedhrab/YReact-Firebase)
