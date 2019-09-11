@@ -1,4 +1,4 @@
-# Komut İsteminden Python (CLI)
+# 🖤 Komut İsteminden Python (CLI)
 
 Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
 

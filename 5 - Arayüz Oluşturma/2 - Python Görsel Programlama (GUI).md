@@ -1,4 +1,4 @@
-# Python Görsel Programlama (GUI)
+# 🚀 Python Görsel Programlama (GUI)
 
 Python görsel programlama araçları:
 

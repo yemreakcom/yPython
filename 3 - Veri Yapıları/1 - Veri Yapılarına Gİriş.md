@@ -1,4 +1,4 @@
-# Veri Yapılarına Gİriş
+# 🚪 Veri Yapılarına Gİriş
 
 ## Veri Yapıları Nedir?
 

@@ -1,4 +1,4 @@
-# Python İleri Seviye 
+# 🙄 Python İleri Seviye 
 
 ## Assertion (Kural Koyma)
 
