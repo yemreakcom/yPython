@@ -1,5 +1,5 @@
 ---
-description: Kategorize edilmemiş python notlarım
+description: Python için faydalı diğer notlarım
 ---
 
 # ✨ Diğer Python Notlarım
