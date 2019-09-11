@@ -8,7 +8,7 @@ Nasıl bir şey mi yapmış olacaksınız 👇
 
 > Eski adı: Pip Üzerinde Paket Yayınlama
 
-![](../../../res/pip_package_ex.png)
+![](../res/pip_package_ex.png)
 
 ## 🎟 PyPI'ya Kayıt olma
 
@@ -19,7 +19,7 @@ Nasıl bir şey mi yapmış olacaksınız 👇
 
 Açıklama metninizi **markdown** formatı ile `README.md` içerisine yazın.
 
-![](../../../res/pypi_dosya_yapisi.png)
+![](../res/pypi_dosya_yapisi.png)
 
 ### ⚙ `setup.py` kurulum dosyası
 
