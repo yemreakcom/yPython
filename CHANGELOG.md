@@ -5,6 +5,13 @@ description: Sitede neler olup bittiğinin raporudur.
 # Changelog
 
 
+## ✨ Güncel
+
+### 🌌 Değişikler
+
+* Giriş metni yenilendi 🚀 [Yunus Emre]
+
+
 ## 1.0 (2019-09-11)
 
 ### 🚀 Yenilikler
