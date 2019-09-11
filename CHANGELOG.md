@@ -20,6 +20,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Giriş metni yenilendi 🚀 [Yunus Emre]
 
+### 🗽 Düzeltmeler
+
+* 👨‍🔧 Hatalı linkler düzeltildi. [Yunus Emre]
+
+  📦 Pip ile Kurulabilir Python Paketi Oluşturma alanındaki linkler düzeltildi
+
 
 ## 1.0 (2019-09-11)
 
