@@ -7,6 +7,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ## ✨ Güncel
 
+### 🚀 Yenilikler
+
+* ✨ Özenle Hazırladığım Diğer Dökümanlarım alanı eklendi. [Yunus Emre]
+
 ### 🌌 Değişikler
 
 * Giriş metni yenilendi 🚀 [Yunus Emre]
