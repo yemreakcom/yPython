@@ -1,10 +1,23 @@
 # Komut İsteminden Python (CLI)
 
-- Komut isteminden gelen argümanları **argparse** adlı modül ile yönetmekteyiz
-- Otomatik kod tamamlaması için [buraya](https://stackoverflow.com/a/15289025/9770490) bakmanda fayda var.
-- Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
+Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
 
-> Terminali komumtları yazmak için `os.system('<komut>')`
+> Terminal (komut istemi) komutları yazmak için `os.system('<komut>')`
+
+## 🕹 Komut İstemi Paremetre Yönetimi
+
+| Modül                                               | Açıklama                                        |
+| --------------------------------------------------- | ----------------------------------------------- |
+| argparse                                            | Komut isteminden parametre alma                 |
+| [argcomplate](https://stackoverflow.com/a/15289025) | Komut istemi tamamlaması (**linux shell** için) |
+
+## ✨ Komut İsteminde Görsel Bileşenler
+
+| Modül                                                      | Açıklama                    |
+| ---------------------------------------------------------- | --------------------------- |
+| [string-color](https://gitlab.com/shindagger/string-color) | Rekli consol çıktırları     |
+| [tqdm](https://github.com/tqdm/tqdm)                       | İşlem çubuğu (progress bar) |
+
 
 ## Argparse Modülü Detayları
 
@@ -82,6 +95,13 @@ optional arguments:
 from argparse import ArgumentParser
 
 parser = ArgumentParser(description='A simple CLI.')
+# python <file> a b c için args.paths = ["a", "b", "c"]
+parser.add_argument(
+        'paths',
+        nargs="+",
+        metavar='paths',
+        help='Projelerin yolları',
+    )
 parser.add_argument(
         '--log-file',
         '-o',
@@ -103,7 +123,6 @@ parser.add_argument(
 parser.add_argument('--nargs', nargs='+')
 
 args = parser.parse_args()
-args.logFile
 ```
 
 ## Argparse ile `nargs` Detayları
