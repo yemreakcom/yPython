@@ -9,6 +9,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🚀 Görselleştimre arttırıldı. [Yunus Emre]
+
+* 🚀 Görsellik arttırıldı. [Yunus Emre]
+
+* 🚀 Görsellik arttırıldı. [Yunus Emre]
+
 * 🔗 Diğer notların linkleri eklendi. [Yunus Emre]
 
   - [Kişisel Ansiklopedim](https://wiki.yemreak.com/)
@@ -20,6 +26,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * 🚙 IPython notları aktarıldı. [Yunus Emre]
 
+* ✨ Diğer dökümanların linkleri daha görsel hale getirildi. [Yunus Emre]
+
 * Giriş metni yenilendi 🚀 [Yunus Emre]
 
 ### 🗽 Düzeltmeler
@@ -27,16 +35,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * 👨‍🔧 Hatalı linkler düzeltildi. [Yunus Emre]
 
   📦 Pip ile Kurulabilir Python Paketi Oluşturma alanındaki linkler düzeltildi
-
-### 📡 Diğerler
-
-* 🚀 Görselleştimre arttırıldı. [Yunus Emre]
-
-* 🚀 Görsellik arttırıldı. [Yunus Emre]
-
-* 🚀 Görsellik arttırıldı. [Yunus Emre]
-
-* ✨ Diğer dökümanların linkleri daha görsel hale getirildi. [Yunus Emre]
 
 
 ## 1.0 (2019-09-11)
