@@ -38,6 +38,12 @@
     - [Python Algoritma Örnekleri](./X%20-%20Ek%20Notlar/3%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
     - [Python CodeSnippets](./X%20-%20Ek%20Notlar/4%20-%20Python%20CodeSnippets.md)
     - [Python Verimli Kodlama Notlarım](./X%20-%20Ek%20Notlar/5%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
+  - [🐍 IPython](./X%20-%20IPython/README.md)
+    - [🚪 IPython Giriş](./X%20-%20IPython/1%20-%20IPython%20Giri%C5%9F.md)
+    - [🗂 IPython Drive İşlemleri](./X%20-%20IPython/2%20-%20IPython%20Drive%20%C4%B0%C5%9Flemleri.md)
+    - [🔃 IPython I/O İşlemleri](./X%20-%20IPython/3%20-%20IPython%20IO%20%C4%B0%C5%9Flemleri.md)
+    - [🔆 IPython Görsel Programlama (GUI)](./X%20-%20IPython/4%20-%20IPython%20G%C3%B6rsel%20Programlama%20%28GUI%29.md)
+    - [🔗 IPython Harici Bağlantılar](./X%20-%20IPython/X%20-%20IPython%20Harici%20Ba%C4%9Flant%C4%B1lar.md)
 
 
 <!--Index-->
