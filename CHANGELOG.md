@@ -18,6 +18,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚙 IPython notları aktarıldı. [Yunus Emre]
+
 * Giriş metni yenilendi 🚀 [Yunus Emre]
 
 ### 🗽 Düzeltmeler
