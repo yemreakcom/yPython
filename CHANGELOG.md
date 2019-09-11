@@ -32,6 +32,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * 🚀 Görsellik arttırıldı. [Yunus Emre]
 
+* 🚀 Görsellik arttırıldı. [Yunus Emre]
+
 * ✨ Diğer dökümanların linkleri daha görsel hale getirildi. [Yunus Emre]
 
 
