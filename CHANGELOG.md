@@ -25,6 +25,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 📖 YWiki'deki python notları buraya alındı. [Yunus Emre]
+
 * 📖 YWiki'ye aktarıldı. [Yunus Emre]
 
 * Update 1 - Komut İstemin (CLI).md. [Yunus Emre]
