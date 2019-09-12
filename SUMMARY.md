@@ -4,6 +4,7 @@
 
 - [🐍 Python](./README.md)
   - [👀 Neler değişti](./CHANGELOG.md)
+  - [🚀 Awesome Python](./0%20-%20Awesome/README.md)
   - [🤸‍ Cheat Sheets](./0%20-%20Cheat%20Sheets/README.md)
   - [📗 Python Notebooks](./0%20-%20Python%20Notebooks/README.md)
     - [images](./0%20-%20Python%20Notebooks/images/README.md)
