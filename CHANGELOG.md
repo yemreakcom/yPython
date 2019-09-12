@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🚀 Awesome Python alanı eklendş. [Yunus Emre]
+
 * 🚀 Görselleştimre arttırıldı. [Yunus Emre]
 
 * 🚀 Görsellik arttırıldı. [Yunus Emre]
