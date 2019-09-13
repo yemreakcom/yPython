@@ -41,6 +41,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐛 Yazım hataları giderildi. [Yunus Emre]
+
 * 👨‍🔧 Hatalı linkler düzeltildi. [Yunus Emre]
 
   📦 Pip ile Kurulabilir Python Paketi Oluşturma alanındaki linkler düzeltildi
