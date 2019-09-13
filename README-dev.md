@@ -1,5 +1,12 @@
 # Geliştiriciler için Notlar
 
+## Encoded Çözümü
+
+- `"%USERPROFILE%\appdata\local\programs\python\python37\lib\site-packages\gitchangelog\gitchangelog.py"`
+- [Encode sorunu çözümü](https://github.com/yedhrab/gitchangelog/commit/6f186595ed125b2d08d73b76ad98b572684e7506)
+
+> [Sorunsuz repo](https://github.com/yedhrab/gitchangelog)
+
 ## Changelog Yapısı
 
 | Özellik          | RegEx                                                                                                                                              |
