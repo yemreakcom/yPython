@@ -29,6 +29,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚪 Veri Yapılarına Gİriş yenilendi. [Yunus Emre]
+
 * Update 0 - Vscode Üzerinden Python.md. [Yunus Emre]
 
 * 🚙 IPython notları aktarıldı. [Yunus Emre]
