@@ -9,8 +9,8 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 | [Python][python ext]                                                                  | VsCode Dil desteği                                         |
 | [Kite][kite]                                                                          | AI destekli kod tamamlama                                  |
 | [Visual Studio IntelliCode - **Preview**][vsintellicode]                              | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
-| [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl) | Anlık çıktıları gösterme                                   |
 | [autoDocstring][autdocstring]                                                         | Dökümantasyon parçaları sağlayan eklenti                   |
+| [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl) | Anlık çıktıları gösterme                                   |
 | [Better Comment][bettercomment]                                                       | Yorum satırı renklediricisi                                |
 
 ## Python Kodlarını Formatlama
