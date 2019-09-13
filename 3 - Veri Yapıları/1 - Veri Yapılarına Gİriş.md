@@ -121,7 +121,6 @@ Verilerin anahtarlara (_key_) göre saklandığı `list` yapısıdır.
 | `json.dumps(dict)`             | `dict`'i `str`'a çevirme                        |
 | `dict( (a,1) for a in <list>)` | `<liste>`'nin her elamanı ile 1'i eşleyen dict  |
 
-|
 
 - [`Dict`'i `str`'a çevirme][dict'i str'a çevirme]
 - [`Dict`'ten hızlı bir yöntem var mı][dict'ten hızlı var mı]
@@ -138,15 +137,6 @@ zip(key_list, value_list) # <zip object at 0x7f2ae4e91508>
 list(zip(key_list, value_list)) # [('name', 'Dylan'), ('age', 28), ('height', 167.5), ('weight', 56.5), ('hair', 'brown'), ('eyes', 'brown'), ('has dog', True)]
 dict(zip(key_list, value_list)) # {'name': 'Dylan', 'age': 28, 'height': 167.5, 'weight': 56.5, 'hair': 'brown', 'eyes': 'brown', 'has dog': True}
 ```
-
-[dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
-[dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
-[dictionary]: https://www.programiz.com/python-programming/dictionary
-[tuple]: https://www.programiz.com/python-programming/tuple
-[list]: https://www.programiz.com/python-programming/list
-[set]: https://www.programiz.com/python-programming/set
-[set detaylı]: https://www.datacamp.com/community/tutorials/sets-in-python
-[set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490s
 
 ## 💱 Veri Yapıları Arasında Dönüşüm
 
@@ -165,7 +155,7 @@ print(example_list) # Set yapısından dolay tekrarlı verileri kaybederiz
 # [True, 10, 'a', 23, 'b']
 ```
 
-## 🔍 Arama İşlemleri (Searcing)
+## 🔍 Arama İşlemleri (Searching)
 
 - Arama işlemlerinin temeli `in` ile yapılmaktadır.
 - Tekrarlama işlemleri `for <key> in <yapı>:` ile yapılmaktadır
@@ -225,3 +215,13 @@ print(me_dict_dtypes)
 
 # {'name': <class 'str'>, 'age': <class 'int'>, 'height': <class 'float'>, 'weight': <class 'float'>, 'hair': <class 'str'>, 'eyes': <class 'str'>, 'has dog': <class 'bool'>, 'favorite color': <class 'str'>, 'nieces/nephews': <class 'int'>}
 ```
+
+
+[dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
+[dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
+[dictionary]: https://www.programiz.com/python-programming/dictionary
+[tuple]: https://www.programiz.com/python-programming/tuple
+[list]: https://www.programiz.com/python-programming/list
+[set]: https://www.programiz.com/python-programming/set
+[set detaylı]: https://www.datacamp.com/community/tutorials/sets-in-python
+[set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490s
