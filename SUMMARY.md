@@ -31,6 +31,7 @@
     - [🖤 Komut İsteminden Python (CLI)](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/1%20-%20Komut%20%C4%B0steminden%20Python%20%28CLI%29.md)
     - [🚀 Python Görsel Programlama (GUI)](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/2%20-%20Python%20G%C3%B6rsel%20Programlama%20%28GUI%29.md)
   - [✨ Diğer Python Notlarım](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/README.md)
+    - [🐍 Anaconda](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Anaconda.md)
     - [📦 Pip ile Kurulabilir Python Paketi Oluşturma](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Pip%20ile%20Kurulabilir%20Python%20Paketi%20Olu%C5%9Fturma.md)
     - [🙄 Python İleri Seviye](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Python%20%C4%B0leri%20Seviye.md)
   - [🥴 Karışık Python Notları](./7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/README.md)
