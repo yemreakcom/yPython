@@ -1,10 +1,11 @@
-# 🚪 Veri Yapılarına Gİriş
+---
+description: Temel değişkenlerin birleştirilmesi ile oluşturulan yapılardır 🗃
+---
 
-## Veri Yapıları Nedir?
 
-Temel değişkenlerin birleştirilmesi ile oluşturulan yapılardır.
+# 🚪 Veri Yapılarına Giriş
 
-## List
+## 🌟 List
 
 Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 
@@ -27,7 +28,7 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 - `[<değişken> for <değişken> in <dizi | liste | menzil> if <koşul>` İstenen koşullardaki elemanların listesini verir
   - Örn: `[x for x in range(0, 5) if x != 20]`
 
-### İki Listenin Farkı (Sırası Önemli ve Güvenli Yöntem)
+### 👮‍ İki Listenin Farkı (Sırası Önemli ve Güvenli Yöntem)
 
 ```py
 a = [1, 2, 20, 6, 210]
@@ -37,7 +38,7 @@ b = set([6, 20, 1])
 
 > [Converting a list to a set changes element order](https://stackoverflow.com/a/9792680)
 
-### İki Listenin Farkı (Sırası Önemsiz ve Eşsiz Veriler)
+### 🏃‍ İki Listenin Farkı (Sırası Önemsiz ve Eşsiz Veriler)
 
 ```py
 a = [1, 2, 20, 6, 210]
@@ -47,7 +48,7 @@ list3 = list(set(list1) - set(list2))
 
 > [Remove all values within one list from another list?](https://stackoverflow.com/a/30353802)
 
-## Array
+## 🗂 Array
 
 Matematiksel işlemler ve _Data Science_ için tercih edilen modüldür.
 
@@ -60,7 +61,7 @@ Matematiksel işlemler ve _Data Science_ için tercih edilen modüldür.
 
 > [List vs Array](https://medium.com/backticks-tildes/list-vs-array-python-data-type-40ac4f294551)
 
-## Tuple
+## 👝 Tuple
 
 List gibidir lakin verileri değiştirilemez. (_immutable_)
 
@@ -69,7 +70,7 @@ List gibidir lakin verileri değiştirilemez. (_immutable_)
   - İçerisine list öğresi olmaz
 - Verileri sıralıdır (_ordered_)
 
-## Set
+## 🛩 Set
 
 Küme işlemleri için kullanılır.
 
@@ -103,7 +104,7 @@ Küme işlemleri için kullanılır.
 > - [Hızlıca set açıklaması][set]
 > - [Detaylı set açıklaması][set detaylı]
 
-## Dict
+## 📕 Dict
 
 Verilerin anahtarlara (_key_) göre saklandığı `list` yapısıdır.
 
@@ -125,7 +126,7 @@ Verilerin anahtarlara (_key_) göre saklandığı `list` yapısıdır.
 - [`Dict`'i `str`'a çevirme][dict'i str'a çevirme]
 - [`Dict`'ten hızlı bir yöntem var mı][dict'ten hızlı var mı]
 
-## Zip
+## 📚 Zip
 
 Birden fazla list yada benzeri yapıları birleştirmek için kullanlır.
 
@@ -147,7 +148,7 @@ dict(zip(key_list, value_list)) # {'name': 'Dylan', 'age': 28, 'height': 167.5, 
 [set detaylı]: https://www.datacamp.com/community/tutorials/sets-in-python
 [set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490s
 
-## Veri Yapıları Arasında Dönüşüm
+## 💱 Veri Yapıları Arasında Dönüşüm
 
 ```python
 example_list = ['a', 'b', 23, 10, True, 'a', 10]
@@ -164,7 +165,7 @@ print(example_list) # Set yapısından dolay tekrarlı verileri kaybederiz
 # [True, 10, 'a', 23, 'b']
 ```
 
-## Arama İşlemleri (Searcing)
+## 🔍 Arama İşlemleri (Searcing)
 
 - Arama işlemlerinin temeli `in` ile yapılmaktadır.
 - Tekrarlama işlemleri `for <key> in <yapı>:` ile yapılmaktadır
@@ -176,7 +177,7 @@ if 'has dog' in me_dict:
     pass
 ```
 
-## Sıralama İşlemleri (Sorting)
+## 🥾 Sıralama İşlemleri (Sorting)
 
 Sırala işlemleri `sorted` metodu ile yapılmaktadır.
 
@@ -192,7 +193,7 @@ print(sorted(me_dict)) # Sadece değerleri sıralar
 sort(list) # sadece sıralar veri döndürmez
 ```
 
-## Comprehensions
+## 🤸‍ Comprehensions
 
 Tek satır ile yapı oluşturmadır.
 
