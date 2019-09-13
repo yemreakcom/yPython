@@ -1,13 +1,16 @@
 ---
 description: Sitede neler olup bittiğinin raporudur.
 ---
-
 # Changelog
 
 
 ## ✨ Güncel
 
 ### 🚀 Yenilikler
+
+* 🐍 Anaconda notları eklendi. [Yunus Emre]
+
+* 📈 Geliştirici için notlar arttırıldı. [Yunus Emre]
 
 * 🚀 Awesome Python alanı eklendş. [Yunus Emre]
 
@@ -25,6 +28,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * ✨ Özenle Hazırladığım Diğer Dökümanlarım alanı eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* Update 0 - Vscode Üzerinden Python.md. [Yunus Emre]
 
 * 🚙 IPython notları aktarıldı. [Yunus Emre]
 
@@ -53,10 +58,6 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Açıklamalar 📃 ve hızlı notlar 🏃‍♀️ eklendi. [Yunus Emre]
 
-* Python 🐍 notlarım aktarıldı. [Yunus Emre]
-
-  Artık yeni Python 🐍 notları burada derlenecek ✨
-
 ### 🌌 Değişikler
 
 * 📖 YWiki'deki python notları buraya alındı. [Yunus Emre]
@@ -68,6 +69,10 @@ description: Sitede neler olup bittiğinin raporudur.
 * 🚙 Yol notları doğru alana aktarıldı. [Yunus Emre]
 
 * IPython notları da aktarıldı 🚀 [Yunus Emre]
+
+* Python 🐍 notlarım aktarıldı. [Yunus Emre]
+
+  Artık yeni Python 🐍 notları burada derlenecek ✨
 
 ### 🗽 Düzeltmeler
 
