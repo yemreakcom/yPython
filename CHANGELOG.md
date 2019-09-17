@@ -8,6 +8,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🗽 Yapılandırma değişti yeni türkçe kaynaklar eklendi. [Yunus Emre]
+
 * 🐍 Anaconda notları eklendi. [Yunus Emre]
 
 * 📈 Geliştirici için notlar arttırıldı. [Yunus Emre]
