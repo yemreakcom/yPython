@@ -93,6 +93,12 @@ Paket kurulumları `conda` komutu yardımıyla yapılır.
 - Tüm bu işlemlerin **Anaconda Prompt** üzerinde yapıldığına emin olun!
 - Sanal ortama yükleme yapılmadan önce sanal ortamın **aktif edilmesi** gerekmektedir!
 
+### Pip Kurulumu
+
+```sh
+conda install pip
+```
+
 ### Numpy Kurulumu
 
 ```sh
