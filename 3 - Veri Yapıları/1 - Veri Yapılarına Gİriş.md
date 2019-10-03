@@ -133,9 +133,13 @@ Birden fazla list yada benzeri yapıları birleştirmek için kullanlır.
 key = ['name', 'age', 'height', 'weight', 'hair', 'eyes', 'has dog']
 value = ['Dylan', 28, 167.5, 56.5, 'brown', 'brown', True]
 
-zip(key_list, value_list) # <zip object at 0x7f2ae4e91508>
-list(zip(key_list, value_list)) # [('name', 'Dylan'), ('age', 28), ('height', 167.5), ('weight', 56.5), ('hair', 'brown'), ('eyes', 'brown'), ('has dog', True)]
-dict(zip(key_list, value_list)) # {'name': 'Dylan', 'age': 28, 'height': 167.5, 'weight': 56.5, 'hair': 'brown', 'eyes': 'brown', 'has dog': True}
+zipped = zip(key_list, value_list) # <zip object at 0x7f2ae4e91508>
+list(zipped) # [('name', 'Dylan'), ('age', 28), ('height', 167.5), ('weight', 56.5), ('hair', 'brown'), ('eyes', 'brown'), ('has dog', True)]
+dict(zipped) # {'name': 'Dylan', 'age': 28, 'height': 167.5, 'weight': 56.5, 'hair': 'brown', 'eyes': 'brown', 'has dog': True}
+
+# Zip işlemini geri alma
+key_list, value_list = zip(*zipped)
+
 ```
 
 ## 💱 Veri Yapıları Arasında Dönüşüm
