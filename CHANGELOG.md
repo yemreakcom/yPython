@@ -33,6 +33,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update Pip ile Kurulabilir Python Paketi Oluşturma.md. [Yunus Emre]
+
+* Update SUMMARY.md. [Yunus Emre]
+
+* 📦 Pip ile Kurulabilir Python Paketi Oluşturma yenilendi. [Yunus Emre]
+
 * Update 1 - Veri Yapılarına Gİriş.md. [Yunus Emre]
 
 * Update Anaconda.md. [Yunus Emre]
@@ -50,6 +56,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Giriş metni yenilendi 🚀 [Yunus Emre]
 
 ### 🗽 Düzeltmeler
+
+* 😒 Önemsiz düzeltme. [Yunus Emre]
 
 * 🐛 Yazım hataları giderildi. [Yunus Emre]
 
