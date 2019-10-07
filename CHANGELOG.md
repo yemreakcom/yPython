@@ -8,6 +8,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 📈 Python ile Grafik Çizimleri eklendi. [Yunus Emre]
+
 * 🗽 Yapılandırma değişti yeni türkçe kaynaklar eklendi. [Yunus Emre]
 
 * 🐍 Anaconda notları eklendi. [Yunus Emre]
@@ -30,6 +32,12 @@ description: Sitede neler olup bittiğinin raporudur.
 * ✨ Özenle Hazırladığım Diğer Dökümanlarım alanı eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* Update 1 - Veri Yapılarına Gİriş.md. [Yunus Emre]
+
+* Update Anaconda.md. [Yunus Emre]
+
+  Pip Kurulumu eklendi
 
 * 🚪 Veri Yapılarına Gİriş yenilendi. [Yunus Emre]
 
