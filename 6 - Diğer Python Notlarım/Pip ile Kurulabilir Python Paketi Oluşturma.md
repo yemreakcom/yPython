@@ -38,7 +38,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name='PAKET_İSMİ',         # How you named your package folder (MyLib)
-    packages=['PAKET_İSMİ'],   # Chose the same as "name"
+    packages=setuptools.find_packages(),
     # Start with a small number and increase it with every change you make
     version=VERSION,
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
@@ -50,14 +50,12 @@ setup(
     author='İsim Soyisim',                   # Adınızı soyadınız yazın
     author_email='eposta@gmail.com',      # E-posta adresiniz
     # Provide either the link to your github or to your website
-    url='https://github.com/github_hesabı/PAKET_İSMİ',
+    url='https://github.com/GITHUB_HESABI/PAKET_İSMİ',
     # I explain this later on
-    download_url=f'https://github.com/github_hesabı/PAKET_İSMİ/archive/{VERSION}.tar.gz',
+    download_url=f'https://github.com/GITHUB_HESABI/PAKET_İSMİ/archive/{VERSION}.tar.gz',
     # Keywords that define your package best
     keywords=['Alakalı', 'kelimeler'],
-    install_requires=[            # Bağımlılıklar
-
-    ],
+    # install_requires=[], # Bağımlılıklar
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
         'Development Status :: 3 - Alpha',
@@ -71,6 +69,15 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
+    # Komut isteminden kullanılacaksa, main'e verilen yol
+    # entry_points={
+    #     # Komut isteminden çalıştırma
+    #     # örndeğin: ypackage
+    #     # Kullanım: 'ypackge = ypackage.ypackage:main 
+    #     'console_scripts': [
+    #         'komut_ismi = dizin.dosya:main',
+    #     ]
+    # },
 )
 ```
 
@@ -105,15 +112,14 @@ GitHub üzeinden repository oluşturun ve projenizi oraya upload edin.
 Bu işlemleri için **python** ve **pip** araçlarının kurulu olması lazımdır.
 
 ```sh
-python -m pip install setuptools
-python -m pip install tqdm
+python -m pip install --user --upgrade setuptools wheel tqdm
 python -m pip install --user --upgrade twine # pip install twine
 ```
 
 ## 🛰 Projeyi PyPI'da Yayınlama
 
 - Proje dizininize girin ([yukarıdaki resimdeki alan](#%F0%9F%91%B7%E2%80%8D-Dosya-Yap%C4%B1s%C4%B1n%C4%B1-Olu%C5%9Fturma))
-- `python setup.py sdist` komutu ile projenizi aktarılmaya hazır hale getirin
+- `python setup.py sdist bdist_wheel` komutu ile projenizi aktarılmaya hazır hale getirin
 - `twine upload dist/*` komutu ile PyPI'ya projenizi aktarın
 
 ## 🌌 Projeyi PyPI'da Güncelleme
@@ -127,3 +133,5 @@ python -m pip install --user --upgrade twine # pip install twine
 ## Kaynak
 
 - [How to upload your python package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
+- [Pakete python dosyası harici dosya ekleme - 1](https://stackoverflow.com/a/10924965)
+- [Pakete python harici dosyalar ekleme - 2](https://stackoverflow.com/a/11848281)
