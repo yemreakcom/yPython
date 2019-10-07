@@ -32,6 +32,7 @@
   - [🔆 Arayüz Oluşturma](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/README.md)
     - [🖤 Komut İsteminden Python (CLI)](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/1%20-%20Komut%20%C4%B0steminden%20Python%20%28CLI%29.md)
     - [🚀 Python Görsel Programlama (GUI)](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/2%20-%20Python%20G%C3%B6rsel%20Programlama%20%28GUI%29.md)
+    - [📈 Python ile Grafik Çizimleri](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/3%20-%20Python%20ile%20Grafik%20%C3%87izimleri.md)
   - [✨ Diğer Python Notlarım](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/README.md)
     - [🐍 Anaconda](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Anaconda.md)
     - [📦 Pip ile Kurulabilir Python Paketi Oluşturma](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Pip%20ile%20Kurulabilir%20Python%20Paketi%20Olu%C5%9Fturma.md)
@@ -48,7 +49,6 @@
     - [🔃 IPython I/O İşlemleri](./X%20-%20IPython/3%20-%20IPython%20IO%20%C4%B0%C5%9Flemleri.md)
     - [🔆 IPython Görsel Programlama (GUI)](./X%20-%20IPython/4%20-%20IPython%20G%C3%B6rsel%20Programlama%20%28GUI%29.md)
     - [🔗 IPython Harici Bağlantılar](./X%20-%20IPython/X%20-%20IPython%20Harici%20Ba%C4%9Flant%C4%B1lar.md)
-
 
 <!--Index-->
 
