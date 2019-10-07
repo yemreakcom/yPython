@@ -135,3 +135,4 @@ python -m pip install --user --upgrade twine # pip install twine
 - [How to upload your python package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
 - [Pakete python dosyası harici dosya ekleme - 1](https://stackoverflow.com/a/10924965)
 - [Pakete python harici dosyalar ekleme - 2](https://stackoverflow.com/a/11848281)
+- [Paket için Sembolik link oluşturma](https://www.reddit.com/r/learnpython/comments/8pvne4/create_symlink_on_pip_install/)
