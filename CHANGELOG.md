@@ -63,6 +63,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐞 Emoji sorunları giderildi. [Yunus Emre]
+
 * Python notebook notları düzenlendi. [Yunus Emre]
 
   🧰 Python başlangıç kiti oluşturuldu
@@ -74,6 +76,10 @@ description: Sitede neler olup bittiğinin raporudur.
 * 👨‍🔧 Hatalı linkler düzeltildi. [Yunus Emre]
 
   📦 Pip ile Kurulabilir Python Paketi Oluşturma alanındaki linkler düzeltildi
+
+### 📡 Diğerler
+
+* ✨ Emojilendirildi. [Yunus Emre]
 
 
 ## 1.0 (2019-09-11)
