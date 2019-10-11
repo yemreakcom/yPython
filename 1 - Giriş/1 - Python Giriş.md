@@ -1,4 +1,4 @@
-# Python Giriş 
+# 🙋‍ Python Giriş 
 
 ## Python ile Programlamaya Hazırlanma
 
@@ -14,7 +14,17 @@ Python ve Javascript en popüler diller arasındadır.
 
 > Aralarındaki kıyaslama için [buraya][python vs javascript] bakabilirisin.
 
-## Ek Kaynaklar
+## 🧰 Python Başlangıç Kiti
+
+[📗 Python Notebooks](https://python.yemreak.com/0.2-python-notebooks) alanından kodları çalıştırarak öğrene bilirsin.
+
+- Notebook dosyalarını indirdikten sonra [♾ Google Colabratory](https://colab.research.google.com/) üzerinden çalıştırın
+  - [♾ Google Colabratory](https://colab.research.google.com/) online python notebook çalıştırma hizmetidir
+- `miniprojects` dizinindekiler kendini test etmen için alıştırmaları barındırır
+
+> Copyright © WQU - Data Science
+
+### Ek Kaynaklar
 
 - Ek başlangıç yazısı için [buraya][python türkçe başlangıç] bakabilirsin
 - Kod yeteneklerini test etmek için [buraya][python hackerrank] bakabilirsin

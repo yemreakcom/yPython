@@ -4,13 +4,13 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 
 ## Sık Kullanılan Anahtar Kelimeler
 
-| Anahtar | Anlamı                          |
-| ------- | ------------------------------- |
-| `is`    | Adres eşitliği (==)             |
-| `in`    | İçerisindeki elemanlar          |
-| `pass`  | Boş                             |
-| `None`  | Tanımsız (null)                 |
-| `with`  | Açık olduğu sürece anlamı taşır |
+| Anahtar | Anlamı                                  |
+| ------- | --------------------------------------- |
+| `is`    | Adres eşitliği (`==` değer eşitliğidir) |
+| `in`    | İçerisindeki elemanlar                  |
+| `pass`  | Boş                                     |
+| `None`  | Tanımsız (null)                         |
+| `with`  | Açık olduğu sürece anlamı taşır         |
 
 > Döngü veya metotların _içleri doldurulana_ kadar yer kaplayıcı olarak `pass` kullanılır.
 
