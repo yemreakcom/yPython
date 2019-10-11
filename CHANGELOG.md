@@ -8,6 +8,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 👨‍💻 Ufak Alıştırmalar eklendi. [Yunus Emre]
+
+  Dikakt çoook ufak 🙄
+
+* Shebang deyimi eklendi. [Yunus Emre]
+
 * 📈 Python ile Grafik Çizimleri eklendi. [Yunus Emre]
 
 * 🗽 Yapılandırma değişti yeni türkçe kaynaklar eklendi. [Yunus Emre]
