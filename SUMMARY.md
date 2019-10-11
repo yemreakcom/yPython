@@ -18,7 +18,7 @@
     - [🔑 Python Anahtar Kelimeler (Keywords)](./1%20-%20Giri%C5%9F/2%20-%20Python%20Anahtar%20Kelimeler.md)
     - [💫 Python Değişkenleri](./1%20-%20Giri%C5%9F/3%20-%20Python%20De%C4%9Fi%C5%9Fkenleri.md)
     - [💻 VsCode Üzerinde Python](./1%20-%20Giri%C5%9F/X%20-%20Vscode%20%C3%9Czerinden%20Python.md)
-  - [🏗 Temel Python](./2%20-%20Temel%20Python/README.md)
+  - [🧱 Temel Python](./2%20-%20Temel%20Python/README.md)
     - [💞 Python Döngüler ve Koşullar](./2%20-%20Temel%20Python/1%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
     - [🔮 Python Fonksiyonlar](./2%20-%20Temel%20Python/2%20-%20Python%20Fonksiyonlar.md)
     - [🆒 Python'da String İşlemleri](./2%20-%20Temel%20Python/3%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
