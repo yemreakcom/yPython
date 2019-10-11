@@ -33,6 +33,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🧰 Python başlangıç kiti yenilendi. [Yunus Emre]
+
 * Update integration.sh. [Yunus Emre]
 
 * Update Pip ile Kurulabilir Python Paketi Oluşturma.md. [Yunus Emre]
