@@ -65,6 +65,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐞 Yazım hataları giderildi. [Yunus Emre]
+
+* 🐞 Link sorunları giderildi. [Yunus Emre]
+
 * 🐞 Emoji sorunu giderildi. [Yunus Emre]
 
 * 🐞 Emoji sorunları giderildi. [Yunus Emre]
