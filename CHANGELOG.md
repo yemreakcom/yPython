@@ -63,6 +63,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐞 Emoji sorunu giderildi. [Yunus Emre]
+
 * 🐞 Emoji sorunları giderildi. [Yunus Emre]
 
 * Python notebook notları düzenlendi. [Yunus Emre]
