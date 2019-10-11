@@ -1,4 +1,4 @@
-# 1 - Eğitici Notebooklar
+# 👨‍🏫 Eğitici Notebooklar
 
 <!--Index-->
 

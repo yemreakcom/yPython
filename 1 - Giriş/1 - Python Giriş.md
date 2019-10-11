@@ -20,7 +20,7 @@ Python ve Javascript en popüler diller arasındadır.
 
 - Notebook dosyalarını indirdikten sonra [♾ Google Colabratory](https://colab.research.google.com/) üzerinden çalıştırın
   - [♾ Google Colabratory](https://colab.research.google.com/) online python notebook çalıştırma hizmetidir
-- `miniprojects` dizinindekiler kendini test etmen için alıştırmaları barındırır
+- [👨‍💻 Çalışma Notebookları](https://python.yemreak.com/0.2-python-notebooks/2-calisma-notebooklari) dizinindekiler kendini test etmen için alıştırmaları mevcut
 
 > Copyright © WQU - Data Science
 

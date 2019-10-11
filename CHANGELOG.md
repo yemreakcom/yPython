@@ -59,6 +59,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* Python notebook notları düzenlendi. [Yunus Emre]
+
+  🧰 Python başlangıç kiti oluşturuldu
+
 * 😒 Önemsiz düzeltme. [Yunus Emre]
 
 * 🐛 Yazım hataları giderildi. [Yunus Emre]
