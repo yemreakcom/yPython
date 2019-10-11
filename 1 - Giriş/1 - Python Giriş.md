@@ -114,10 +114,10 @@ def func(a):
 
 ## UTF-8 ve Script Bildirimleri
 
-Her python scriptinin en üstüne alttaki metni yazın
+Her python scriptinin en üstüne alttaki metni (**shebang**) yazın
 
 ```sh
-#!/usr/bin/python
+##!/usr/bin/python3
 # -*- coding: utf-8 -*-
 ```
 
