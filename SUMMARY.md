@@ -23,6 +23,7 @@
     - [🔮 Python Fonksiyonlar](./2%20-%20Temel%20Python/2%20-%20Python%20Fonksiyonlar.md)
     - [🆒 Python'da String İşlemleri](./2%20-%20Temel%20Python/3%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
     - [📦 Python Class, Modül ve Paketler](./2%20-%20Temel%20Python/4%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
+    - [👨‍💻 Ufak Alıştırmalar](./2%20-%20Temel%20Python/X%20-%20Ufak%20Al%C4%B1%C5%9Ft%C4%B1rmalar.md)
   - [💽 Veri Yapıları](./3%20-%20Veri%20Yap%C4%B1lar%C4%B1/README.md)
     - [🚪 Veri Yapılarına Giriş](./3%20-%20Veri%20Yap%C4%B1lar%C4%B1/1%20-%20Veri%20Yap%C4%B1lar%C4%B1na%20G%C4%B0ri%C5%9F.md)
     - [📰 Python Koleksiyonlar](./3%20-%20Veri%20Yap%C4%B1lar%C4%B1/2%20-%20Koleksiyonlar.md)
