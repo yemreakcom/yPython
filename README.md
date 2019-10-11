@@ -6,11 +6,17 @@ description: Python 🐍 notlarım
 
 ## 🗽 Hoş Geldin
 
-- Sağ üstteki [🔍 Arama Buton](https://python.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
-- En son gelen güncellemeleri [✨ Commits](https://github.com/yedhrab/YPython/commits/master) alanından takip edebilirsin
-- Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YPython/issues) açabilirsin
+- **Sağ üstteki [🔍 Arama Buton](https://iuce.yemreak.com/?q=)'nu kullanmayı asla ama asla ihmal etme**
+  - Arayabileceğin kelimeler: `pip`, `os.path`, `print`, `list` vs
+
+> Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YPython/issues) açabilirsin
+
+## ✨ Son Güncellemeler
+
+En son gelen güncellemeleri [👀 Neler Değişti](./CHANGELOG.md) veya [✨ Commits](https://github.com/yedhrab/IstanbulUniversity-CE/commits/master) alanından takip edebilirsin.
+
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
-- Yani hep güncel kalacak denebilir 🚀
+- Yani hep güncel kalacak denebilir 🚀 (Mezun olana kadar tabi 🙄)
 - İyi okumalar 👻
 
 ## 🗼 Açıklama
