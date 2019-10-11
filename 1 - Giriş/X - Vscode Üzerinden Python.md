@@ -1,4 +1,4 @@
-# VsCode Üzerinde Python 
+# 💻 VsCode Üzerinde Python 
 
 Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/python/python-tutorial) bakabilirsin.
 

@@ -1,4 +1,4 @@
-# 🗃 Raporlama İşlemleri (Logging)
+# 📄 Raporlama İşlemleri (Logging)
 
 Raporlama işlemleri için `logging` modülü kullanılır
 

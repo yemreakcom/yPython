@@ -1,4 +1,4 @@
-# Python Değişkenleri 
+# 💫 Python Değişkenleri 
 
 <!-- TODO: Immutabble mutable kavramını açıkla -->
 

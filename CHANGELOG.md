@@ -33,6 +33,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Linkler github üzerine alındı. [Yunus Emre]
+
 * 🧰 Python başlangıç kiti yenilendi. [Yunus Emre]
 
 * Update integration.sh. [Yunus Emre]

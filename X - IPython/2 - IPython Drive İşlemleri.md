@@ -1,4 +1,4 @@
-# 🗂 IPython Drive İşlemleri
+# 📂 IPython Drive İşlemleri
 
 ## Drive Dosyalarını Dosya Sistemine Bağlama
 

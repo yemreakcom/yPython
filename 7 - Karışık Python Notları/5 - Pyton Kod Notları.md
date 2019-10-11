@@ -1,4 +1,4 @@
-# Python Verimli Kodlama Notlarım 
+# 💡 Python Verimli Kodlama Notlarım 
 
 ## Fonksiyonun Aldığı Vakti Hesaplama
 

@@ -1,4 +1,4 @@
-# 🗄 Python Koleksiyonlar 
+# 📰 Python Koleksiyonlar 
 
 ## Koleksiyonlar Nedir ? (Collection)
 
