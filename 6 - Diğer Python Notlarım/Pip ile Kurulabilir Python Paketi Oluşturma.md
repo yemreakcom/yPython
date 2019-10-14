@@ -119,6 +119,7 @@ pip install twine
 ## 📡 Projeyi PyPI'da Yayınlama
 
 - Proje dizininize girin ([yukarıdaki resimdeki alan](#%F0%9F%91%B7%E2%80%8D-Dosya-Yap%C4%B1s%C4%B1n%C4%B1-Olu%C5%9Fturma))
+- `rm -rf build/ dist/` (`del build/ dist/` veya el) ile eski proje çalışmalarını silin
 - `python setup.py sdist bdist_wheel` komutu ile projenizi aktarılmaya hazır hale getirin
 - `twine upload dist/*` komutu ile PyPI'ya projenizi aktarın
 

@@ -73,6 +73,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐞 Hata düzeltmesi. [Yunus Emre]
+
 * 🐞 Yazım hataları giderildi. [Yunus Emre]
 
 * 🐞 Link sorunları giderildi. [Yunus Emre]
