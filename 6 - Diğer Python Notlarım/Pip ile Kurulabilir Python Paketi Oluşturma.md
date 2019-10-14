@@ -73,7 +73,7 @@ setup(
     # entry_points={
     #     # Komut isteminden çalıştırma
     #     # örndeğin: ypackage
-    #     # Kullanım: 'ypackge = ypackage.ypackage:main 
+    #     # Kullanım: 'ypackge = ypackage.ypackage:main
     #     'console_scripts': [
     #         'komut_ismi = dizin.dosya:main',
     #     ]
@@ -112,11 +112,11 @@ GitHub üzeinden repository oluşturun ve projenizi oraya upload edin.
 Bu işlemleri için **python** ve **pip** araçlarının kurulu olması lazımdır.
 
 ```sh
-python -m pip install --user --upgrade setuptools wheel tqdm
-python -m pip install --user --upgrade twine # pip install twine
+pip install --upgrade setuptools wheel tqdm
+pip install twine
 ```
 
-## 🛰 Projeyi PyPI'da Yayınlama
+## 📡 Projeyi PyPI'da Yayınlama
 
 - Proje dizininize girin ([yukarıdaki resimdeki alan](#%F0%9F%91%B7%E2%80%8D-Dosya-Yap%C4%B1s%C4%B1n%C4%B1-Olu%C5%9Fturma))
 - `python setup.py sdist bdist_wheel` komutu ile projenizi aktarılmaya hazır hale getirin
