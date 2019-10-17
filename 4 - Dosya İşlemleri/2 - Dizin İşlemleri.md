@@ -1,4 +1,4 @@
-# 🗂 Dizin İşlemleri (Dir)
+# 📂 Dizin İşlemleri (Dir)
 
 ## Dizin (Dir) İşlemleri
 

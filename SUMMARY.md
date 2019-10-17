@@ -30,7 +30,7 @@
     - [📰 Python Koleksiyonlar](./3%20-%20Veri%20Yap%C4%B1lar%C4%B1/2%20-%20Koleksiyonlar.md)
   - [📂 Dosya İşlemleri](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/README.md)
     - [📂 Dosya İşlemleri (File)](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/1%20-%20Dosya%20%C4%B0%C5%9Flemleri.md)
-    - [🗂 Dizin İşlemleri (Dir)](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/2%20-%20Dizin%20%C4%B0%C5%9Flemleri.md)
+    - [📂 Dizin İşlemleri (Dir)](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/2%20-%20Dizin%20%C4%B0%C5%9Flemleri.md)
     - [🚩 Yol İşlemleri (Path)](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/3%20-%20Yol%20%C4%B0%C5%9Flemleri.md)
     - [📄 Raporlama İşlemleri (Logging)](./4%20-%20Dosya%20%C4%B0%C5%9Flemleri/4%20-%20Raporlama%20%C4%B0%C5%9Flemleri.md)
   - [🔆 Arayüz Oluşturma](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/README.md)
