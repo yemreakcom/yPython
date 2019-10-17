@@ -101,6 +101,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* 💫 [Yunus Emre]
+
+* ✨ [Yunus Emre]
+
 * ✨ Emojilendirildi. [Yunus Emre]
 
 
