@@ -1,4 +1,4 @@
-# 🔢 Python Algoritma Örnekleri 
+# 🔢 Algoritma Örnekleri
 
 ## Prime (Asal Sayı)
 

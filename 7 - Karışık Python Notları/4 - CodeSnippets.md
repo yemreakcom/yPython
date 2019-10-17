@@ -1,4 +1,4 @@
-# 👨‍💻 Python CodeSnippets 
+# 👨‍💻 CodeSnippets
 
 <!-- TODO: Sonradan bunlara başlık ekle -->
 

@@ -8,6 +8,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* ✨ Ufak notlar eklendi. [Yunus Emre]
+
 * Histogram Germe ve Eşitleme kodları eklendi. [Yunus Emre]
 
 * 👨‍💻 Ufak Alıştırmalar eklendi. [Yunus Emre]

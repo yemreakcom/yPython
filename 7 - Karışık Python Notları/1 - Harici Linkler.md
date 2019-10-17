@@ -1,4 +1,4 @@
-# 🔗 Python Harici Linkler
+# 🔗 Harici Linkler
 
 ## Örnek Kod Yapım
 

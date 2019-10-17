@@ -1,4 +1,4 @@
-# 🖼 Python ile Görüntü İşleme Notları
+# 🎴 Görüntü İşleme Notları
 
 ## Median Alma
 
