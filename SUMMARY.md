@@ -1,6 +1,6 @@
-<!--Index-->
-
 # Summary
+
+<!--Index-->
 
 - [🐍 Python](./README.md)
   - [👀 Neler değişti](./CHANGELOG.md)
@@ -39,7 +39,7 @@
     - [📈 Python ile Grafik Çizimleri](./5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/3%20-%20Python%20ile%20Grafik%20%C3%87izimleri.md)
   - [✨ Diğer Python Notlarım](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/README.md)
     - [👨‍🔧 Sistem Yönetimi](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/0%20-%20Sistem%20Y%C3%B6netimi.md)
-    - [#Thread ve MultiProcessing](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/1%20-%20Thread%20ve%20Multiprocessing.md)
+    - [💫 Thread ve MultiProcessing](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/1%20-%20Thread%20ve%20Multiprocessing.md)
     - [🔳 Ekran Yönetimi](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/2%20-%20Ekran%20Y%C3%B6netimi.md)
     - [📦 Pip ile Kurulabilir Python Paketi Oluşturma](./6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/3%20-%20Pip%20ile%20Kurulabilir%20Python%20Paketi%20Olu%C5%9Fturma.md)
   - [🥴 Karışık Python Notları](./7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/README.md)
@@ -57,12 +57,3 @@
     - [🔗 IPython Harici Bağlantılar](./9%20-%20IPython/X%20-%20IPython%20Harici%20Ba%C4%9Flant%C4%B1lar.md)
 
 <!--Index-->
-
-## ✨ Özenle Hazırladığım Diğer Dökümanlarım
-
-- [📖 Kişisel Ansiklopedim](https://wiki.yemreak.com/)
-- [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
-- [📊 Veri Bilimi Notlarım](https://ds.yemreak.com/)
-- [📱 Android Notlarım](https://android.yemreak.com/)
-- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [⚛ React ve 🔥 Firebase projem](https://github.com/yedhrab/YReact-Firebase)
