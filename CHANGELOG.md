@@ -43,6 +43,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚀 Notlar düzenlendi ve yeniden yapılandırıldı. [Yunus Emre]
+
 * 🙋‍♂️ Karşılama yazısı yenilendi. [Yunus Emre]
 
 * Linkler github üzerine alındı. [Yunus Emre]
