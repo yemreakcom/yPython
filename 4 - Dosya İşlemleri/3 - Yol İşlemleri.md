@@ -8,6 +8,7 @@ Yol işlemleri için `os.path` modülü kullanılır.
 - Yolları birleştirmek için `\` veya `/` **kullanma**, işletim sistemlerine göre değişen `os.path.join` metodunu kullan
 - Yolun doğruluğu `os.path.exists` ile kontrol etmeden işlem yapma
 
+> [Pathlib](https://treyhunner.com/2018/12/why-you-should-be-using-pathlib/)'in daha iyi olduğu söylenmekte
 
 ## 🌟 Sık Kullanılan Metodlar
 
@@ -39,7 +40,7 @@ filepath = os.path.realpath(__file__)
 ### Script Dosyasının Gerçek Dizini
 
 ```py
-import os 
+import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
 ```
 
