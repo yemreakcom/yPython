@@ -43,6 +43,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ Emojiler yenilendi. [Yunus Emre]
+
 * 🚀 Notlar düzenlendi ve yeniden yapılandırıldı. [Yunus Emre]
 
 * 🙋‍♂️ Karşılama yazısı yenilendi. [Yunus Emre]
