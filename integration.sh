@@ -1,4 +1,4 @@
-python ../YGitBookIntegration/integrate.py . -ll 1 -l ../YWiki/Programlama\ Notları/Python/README.md -u https://python.yemreak.com
+python ../YGitBookIntegration/integrate.py . -ll 1 -l ../YWiki/1\ -\ Programlama\ Notları/1\ -\ Python/README.md -u https://python.yemreak.com
 echo "---
 description: Sitede neler olup bittiğinin raporudur.
 ---" > CHANGELOG.md
