@@ -4,6 +4,7 @@
 
 - [🐍 Python](./README.md)
   - [👀 Neler değişti](./CHANGELOG.md)
+  - [💖 Katkıda Bulunma Rehberi](./CONTRIBUTING.md)
   - [🔗 Faydalı Kaynaklar](./0%20-%20Di%C4%9Fer%20Kaynaklar/README.md)
     - [🚀 Awesome Python](./0%20-%20Di%C4%9Fer%20Kaynaklar/Awesome%20Python.md)
     - [☪ Türkçe Python Kaynakları](./0%20-%20Di%C4%9Fer%20Kaynaklar/T%C3%BCrk%C3%A7e%20Python%20Kaynaklar%C4%B1.md)
