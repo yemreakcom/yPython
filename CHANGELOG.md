@@ -8,6 +8,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 💖 Katkıda Bulunma Rehberi eklendi. [Yunus Emre]
+
+* Pathlib eklendi. [Yunus Emre]
+
 * ✨ Ufak notlar eklendi. [Yunus Emre]
 
 * Histogram Germe ve Eşitleme kodları eklendi. [Yunus Emre]
@@ -42,6 +46,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * ✨ Özenle Hazırladığım Diğer Dökümanlarım alanı eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* Update integration.sh. [Yunus Emre]
 
 * ✨ Emojiler yenilendi. [Yunus Emre]
 
