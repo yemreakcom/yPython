@@ -1,0 +1,2 @@
+# ✨ Diğer Python Notlarım
+
