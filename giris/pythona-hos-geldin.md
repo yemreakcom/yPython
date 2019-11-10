@@ -146,3 +146,5 @@ if _readline_available:                     ## Eski kodlar ##
 Bu işlemden sonra python terminalini baştan açmayı unutma
 {% endhint %}
 
+{% embed url="https://stackoverflow.com/a/57834015/9770490" %}
+
