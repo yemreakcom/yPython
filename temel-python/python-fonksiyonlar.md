@@ -1,4 +1,8 @@
-# 🔮 Python Fonksiyonlar
+---
+description: Python'da fonksiyonlar
+---
+
+# 🔮 Fonksiyonlar
 
 ## 💡 Fonksiyonlar Hakkında
 

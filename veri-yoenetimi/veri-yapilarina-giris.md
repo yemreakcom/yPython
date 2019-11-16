@@ -2,7 +2,7 @@
 description: Temel değişkenlerin birleştirilmesi ile oluşturulan yapılardır.
 ---
 
-# 💽 Veri Yapıları
+# 🧱 Veri Yapıları
 
 ## ‍👀 Veri Yapılarına Hızlı Bakış
 

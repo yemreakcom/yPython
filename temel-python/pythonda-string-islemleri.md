@@ -1,8 +1,8 @@
 ---
-description: String'lere kabaca metin diyebiliriz.
+description: Python'da string (metin) işlemleri
 ---
 
-# 🔤 Python'da String İşlemleri
+# 🔤 String İşlemleri
 
 ## 🧱 Temel String İşlemleri
 

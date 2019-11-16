@@ -1,4 +1,8 @@
-# 📦 Python Class, Modül ve Paketler
+---
+description: 'Python üzerinde sık kullanılan bir yapı olan class, modül ve paket yapısı'
+---
+
+# 📦 Class, Modül ve Paketler
 
 ## 🏰 Class
 

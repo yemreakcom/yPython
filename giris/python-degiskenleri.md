@@ -16,7 +16,7 @@ Değişkenin daha önceden tanımlandığını kontrol etme için [buraya](https
 
 ## 💽 Veri Yapıları
 
-{% page-ref page="../veri-yapilarina-giris.md" %}
+{% page-ref page="../veri-yoenetimi/veri-yapilarina-giris.md" %}
 
 ## 🎈 Değişkenlerin Özellikleri
 

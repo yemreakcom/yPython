@@ -1,4 +1,8 @@
-# 💞 Python Koşullar ve Döngüler
+---
+description: Python'da koşullar ve döngüler
+---
+
+# 💞 Koşullar ve Döngüler
 
 ## 🎌 Koşul Yapıları
 
