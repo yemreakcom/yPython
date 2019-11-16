@@ -17,7 +17,7 @@
   * [👮‍ Kurallar ve Zaman İşlemleri](temel-python/kurallar-ve-zaman-islemleri.md)
 * [👨‍💼 Veri Yönetimi](veri-yoenetimi/README.md)
   * [🧱 Veri Yapıları](veri-yoenetimi/veri-yapilarina-giris.md)
-  * [🕵️‍ İnternet'ten Veri Çekme](veri-yoenetimi/internetten-veri-cekme.md)
+  * [🧲 İnternet'ten Veri Çekme](veri-yoenetimi/internetten-veri-cekme.md)
   * [📊 Verileri Kategorize Etme](veri-yoenetimi/verileri-kategorize-etme.md)
 * [📂 Dosya İşlemleri](dosya-islemleri/README.md)
   * [📂 Dosya İşlemleri \(File\)](dosya-islemleri/dosya-islemleri-file.md)

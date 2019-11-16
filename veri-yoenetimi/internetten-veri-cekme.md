@@ -2,7 +2,7 @@
 description: "Verilerin yuvası \U0001F492 olan internet'ten verinin nasıl çekileceği"
 ---
 
-# 🕵️‍ İnternet'ten Veri Çekme
+# 🧲 İnternet'ten Veri Çekme
 
 ## 🔰 Veri Çekmeye Giriş
 
@@ -18,6 +18,15 @@ Günlük hayatta veriler istediğimiz kadar basit olmaz, bunlar üzerinde işlem
 * Makine öğrenimine sokulabilecek veriler
 * Düşük karmaşıklığa sahip
 * Yüksek boyutlu veriler için optimizasyon
+
+## 💨 Hızlıca URL'den Veri Alma
+
+Veri almanın en hızlı ve basit yolu
+
+```python
+import urllib.request
+contents = urllib.request.urlopen("http://example.com/foo/bar").read()
+```
 
 ## 🆔 Veri Çekme Sorunları Engellemek için `UserAgent` Ayarlama
 
