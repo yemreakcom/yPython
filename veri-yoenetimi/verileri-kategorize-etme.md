@@ -1,3 +1,7 @@
+---
+description: Yüksek sayıdaki verileri daha anlaşılır hale getirme
+---
+
 # 📊 Verileri Kategorize Etme
 
 ## 🔰 Bilinmesi Gerekenler
