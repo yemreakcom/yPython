@@ -1,5 +1,5 @@
 ---
-description: Python ile ilgili çalışmalarım
+description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasının dijital ortamda vücut bulmuş hali \U0001F680 Konular: sıfırdan python, türkçe kaynak, veri yapıları, dosya, arayüz, anaconda, ipython, başlangıç"
 ---
 
 # 🐍 Python

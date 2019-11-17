@@ -23,11 +23,12 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. \(array\)
 * Aynı değişken birden fazla tekrar edebilir
 * Hızlıca göz atmak için [buraya](https://www.programiz.com/python-programming/list) buraya bakabilirsin
 
-| List Metodları | Açıklama |
+| List Metotları | Açıklama |
 | :--- | :--- |
 | `len(list)` | Karakter sayısı |
 | `list.append(<value>)` | Eleman ekleme |
 | `del list[i]` | `i`. elemanı silme |
+| `list.remove(elem)` | `elem`'i silme |
 | `list[i]` veya `list.get(i)` | `i`. karakter |
 | `list[-i]` | `len-i`. karakter |
 | `list[i:]` | `i`. eleman ve sonrasındakiler |
