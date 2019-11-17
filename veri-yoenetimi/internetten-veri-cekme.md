@@ -26,6 +26,10 @@ Veri almanın en hızlı ve basit yolu
 ```python
 import urllib.request
 contents = urllib.request.urlopen("http://example.com/foo/bar").read()
+
+# Encoding işlemi için (https://stackoverflow.com/a/17615424/9770490)
+encoding = "utf-8"
+contents = contents.decode(encoding)
 ```
 
 ## 🆔 Veri Çekme Sorunları Engellemek için `UserAgent` Ayarlama

@@ -170,7 +170,11 @@ ForwardX11 = no
 {% tab title="✍ Yazma" %}
 ```python
 import configparser
+
 config = configparser.ConfigParser()
+# Yorum satırlarını okumadan
+# config = configparser.ConfigParser(inline_comment_prefixes="#")
+
 config['DEFAULT'] = {'ServerAliveInterval': '45',
                      'Compression': 'yes',
                      'CompressionLevel': '9'}
