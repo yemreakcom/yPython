@@ -4,7 +4,7 @@ description: Python'da string (metin) işlemleri
 
 # 🔤 String İşlemleri
 
-## 🧱 Temel String İşlemleri
+## 🧱 Temel İşlemler
 
 String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 
@@ -25,7 +25,7 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirsin.
 {% endhint %}
 
-## 💠 String Fonksiyonları
+## 💠 Fonksiyonlar
 
 Çok önemli ve ileride kullanılacak bir konudur. 🌟
 
@@ -100,7 +100,7 @@ def reverse_word(sentence):
 {% endtab %}
 {% endtabs %}
 
-## 🔍 String İçerisinde Metin Arama
+## 🔍 Metin Arama
 
 Alttaki yöntem ile tek bir karakteri string içerisinde bulabilirsiniz.
 
@@ -123,7 +123,17 @@ if any(metin in string for metin in metinler):
 
 > Kaynak için [buraya](https://stackoverflow.com/a/3389611/9770490) bakabilirsin.
 
-## 🔢 String Üzerinde Sayma İşlemleri
+## ️‍🕵️‍♂️ Metinlerin Konumunu Bulma
+
+```python
+import re
+[m.start() for m in re.finditer('test', 'test test test test')]
+#[0, 5, 10, 15]
+```
+
+> [How to find all occurrences of a substring?](https://stackoverflow.com/a/4664889/9770490)
+
+## 🔢 Sayma İşlemleri
 
 {% tabs %}
 {% tab title="🅰 Karakter Sayma" %}
@@ -152,7 +162,7 @@ with open(FILE, "r") as file:
 {% endtab %}
 {% endtabs %}
 
-## 📦 String İşlemleri Sunan Paketler
+## 📦 Faydalı Paketler
 
 | Paket | Fonksiyon | Açıklama |
 | :--- | :--- | :--- |
