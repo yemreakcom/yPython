@@ -151,7 +151,7 @@ file.close() # Dosyayı kapatır
 
 {% tabs %}
 {% tab title="📑 Dosya Formatı" %}
-```yaml
+```elixir
 [DEFAULT]
 ServerAliveInterval = 45
 Compression = yes
