@@ -2,7 +2,7 @@
 description: Anaconda için ek / diğer notlar
 ---
 
-# 🎪 Diğer Notlar
+# 🎪 Anaconda Diğer Notlar
 
 ## 🌄 PyCharm Üzerinden Anaconda
 

@@ -2,7 +2,7 @@
 description: Anaconda'ya giriş
 ---
 
-# 🔰 Giriş
+# 🔰 Anaconda'ya Giriş
 
 ## ❔ Nedir
 

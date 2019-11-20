@@ -1,4 +1,8 @@
-# 💫 Python Değişkenleri
+---
+description: Python değişkenleri
+---
+
+# 💫 Değişkenler
 
 ## 🧱 Temel Değişkenler
 

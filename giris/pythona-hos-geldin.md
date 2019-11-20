@@ -1,8 +1,8 @@
 ---
-description: Python kuralları ve geleneklerini tanıyalım
+description: 'Python''a hoş geldin, kuralları ve gelenekleri tanıyalım'
 ---
 
-# 🙋‍♂️ Python'a Hoş Geldin
+# 🙋‍♂️ Hoş Geldin
 
 ## 🚧 Python ile Programlamaya Hazırlanma
 

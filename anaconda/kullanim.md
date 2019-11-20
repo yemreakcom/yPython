@@ -2,7 +2,7 @@
 description: Anaconda Kullanımı
 ---
 
-# ✨ Kullanım
+# ✨ Anaconda Kullanımı
 
 ## 🧰 Temel Condo Kullanımı
 

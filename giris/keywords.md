@@ -2,7 +2,7 @@
 description: Python'da özelleştirilmiş terimler
 ---
 
-# 🔑 Python Anahtar Kelimeler \(Keywords\)
+# 🔑 Anahtar Kelimeler \(Keywords\)
 
 ## 🌟 Sık Kullanılan Anahtar Kelimeler
 

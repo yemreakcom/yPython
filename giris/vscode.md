@@ -1,4 +1,8 @@
-# 💻 VsCode Üzerinde Python
+---
+description: VsCode üzerinde python kullanımı
+---
+
+# 💻 Python için VsCode
 
 ## 🧩 Python Eklentileri
 
