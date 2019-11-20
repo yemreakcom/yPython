@@ -4,7 +4,7 @@
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [🔰 Python'a Giriş](giris/README.md)
-  * [🙋‍♂️ Hoş Geldin](giris/pythona-hos-geldin.md)
+  * [🙋‍♂️ Hoş Geldin](giris/hos-geldin.md)
   * [🔑 Anahtar Kelimeler \(Keywords\)](giris/keywords.md)
   * [💫 Değişkenler](giris/degiskenler.md)
   * [💻 Python için VsCode](giris/vscode.md)
