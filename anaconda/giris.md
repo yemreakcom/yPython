@@ -1,4 +1,8 @@
-# 🔰 Anaconda'ya Giriş
+---
+description: Anaconda'ya giriş
+---
+
+# 🔰 Giriş
 
 ## ❔ Nedir
 

@@ -1,4 +1,8 @@
-# 🔃 IPython I/O İşlemleri
+---
+description: IPython I/O İşlemleri
+---
+
+# 🔃 I/O İşlemleri
 
 ## 📂 IPython Drive Erişimi
 

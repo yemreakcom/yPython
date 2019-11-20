@@ -1,4 +1,4 @@
-# 📈 Python ile Grafik Çizimleri
+# 📈 Grafik Çizimleri
 
 ## 💹 Lineer Eşitsizlik Çizimi
 

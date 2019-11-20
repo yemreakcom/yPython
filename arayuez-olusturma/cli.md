@@ -1,4 +1,4 @@
-# 🖤 Komut İsteminden Python \(CLI\)
+# 🖤 Komut İstemi \(CLI\)
 
 ## 🎮 Komut İstemi Yönetimi
 

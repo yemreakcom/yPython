@@ -1,4 +1,8 @@
-# 🔗 IPython Harici Bağlantılar
+---
+description: IPython Harici Bağlantılar
+---
+
+# 🔗 Harici Bağlantılar
 
 * [Overview of Colaboratory Features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 * [External data: Drive, Sheets, and Cloud Storage](https://colab.research.google.com/notebooks/io.ipynb)

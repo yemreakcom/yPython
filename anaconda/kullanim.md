@@ -1,4 +1,8 @@
-# ✨ Anaconda Kullanımı
+---
+description: Anaconda Kullanımı
+---
+
+# ✨ Kullanım
 
 ## 🧰 Temel Condo Kullanımı
 

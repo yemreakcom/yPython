@@ -1,4 +1,8 @@
-# 🎪 Ek Anaconda Notları
+---
+description: Anaconda için ek / diğer notlar
+---
+
+# 🎪 Diğer Notlar
 
 ## 🌄 PyCharm Üzerinden Anaconda
 

@@ -1,4 +1,8 @@
-# 🔆 IPython Görsel Programlama \(GUI\)
+---
+description: IPython Görsel Programlama (GUI)
+---
+
+# 🔆 Görsel Arayüz \(GUI\)
 
 ## 📃 Form Oluşturma İşlemleri \(GUI\)
 

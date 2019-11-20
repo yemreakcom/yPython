@@ -1,2 +1,0 @@
-# 🥴 Karışık Python Notları
-

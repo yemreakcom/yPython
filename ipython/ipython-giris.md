@@ -1,4 +1,8 @@
-# 🔰 IPython Giriş
+---
+description: IPython Giriş
+---
+
+# 🔰 Giriş
 
 ## ❔ Nedir
 
