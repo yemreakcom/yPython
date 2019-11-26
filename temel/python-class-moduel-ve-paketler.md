@@ -504,6 +504,10 @@ from Game.Level.start import select_difficulty
 | pytesseract | Görüntüdeki yazıyı bulma | [🌐](https://pypi.org/project/pytesseract/) |
 {% endtab %}
 
+{% tab title="" %}
+
+{% endtab %}
+
 {% tab title="🔄 IO Paketleri" %}
 | Paket | Odaklanığı İşlemler | Dökümanlar |
 | :--- | :--- | :--- |

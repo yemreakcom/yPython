@@ -1,2 +1,0 @@
-# 🔆 Arayüz Oluşturma
-
