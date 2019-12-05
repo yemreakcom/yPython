@@ -13,6 +13,7 @@
   * [💎 Operatörler](temel/operatoerler.md)
   * [🔮 Fonksiyonlar](temel/python-fonksiyonlar.md)
   * [🔤 String İşlemleri](temel/pythonda-string-islemleri.md)
+  * [💎 Regex İşlemleri](temel/regex.md)
   * [📦 Class, Modül ve Paketler](temel/python-class-moduel-ve-paketler.md)
   * [👮‍ Kurallar ve Zaman İşlemleri](temel/kurallar-ve-zaman-islemleri.md)
 * [👨‍💼 Veri Yönetimi](veri-yoenetimi/README.md)

@@ -162,16 +162,3 @@ with open(FILE, "r") as file:
 {% endtab %}
 {% endtabs %}
 
-## 📦 Faydalı Paketler
-
-| Paket | Fonksiyon | Açıklama |
-| :--- | :--- | :--- |
-| `re` | `split(<ayırıcı_karakterler>, <string>)` | Birden fazla karaktere göre parçalama |
-
-* `<ayırıcı_karakterler>` Metni hangi karakterlere göre böleceğimizi ifade eder
-  * Birden fazla olacaksa `|` ile birbirinden ayrılır
-  * Ayırma sırasında `boşluk karakteri`nin kullanılması sorun oluşturur
-  * _Örn:_ `'\n|\t|\*'`
-* `<string>` Ayrıştırılacak metin
-  * _Örn:_ `'yemreak.com'`
-
