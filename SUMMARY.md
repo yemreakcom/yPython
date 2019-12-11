@@ -43,7 +43,7 @@
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
 * [✍ Yazılarım](yazilar/README.md)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](yazilar/pip-ile-kurulabilir-python-paketi-olusturma.md)
-  * [🔢 Algoritma Örnekleri](yazilar/algoritma-oernekleri.md)
+  * [🔢 Algoritma Örnekleri](yazilar/algoritma-ornekleri.md)
   * [📈 Verimli Kodlama](yazilar/verimli-kodlama.md)
 * [🥴 Karışık Notlar](karisik/README.md)
   * [🔗 Harici Linkler](karisik/harici-linkler.md)
