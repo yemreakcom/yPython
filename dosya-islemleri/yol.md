@@ -1,4 +1,8 @@
-# 🚩 Yol İşlemleri \(Path\)
+---
+description: Yol (path) işlemleri
+---
+
+# 🚩 Yol İşlemleri
 
 ## 💡 Önemli Hususlar
 

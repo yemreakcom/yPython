@@ -1,4 +1,8 @@
-# 📂 Dizin İşlemleri \(Dir\)
+---
+description: Dizin (folder) işlemleri
+---
+
+# 🗂️ Dizin İşlemleri
 
 ## 🧱 Temel İşlemler
 

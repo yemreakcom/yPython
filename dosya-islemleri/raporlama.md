@@ -1,4 +1,8 @@
-# 📄 Raporlama İşlemleri \(Logging\)
+---
+description: Raporlama (logging) işlemleri
+---
+
+# 📄 Raporlama İşlemleri
 
 ## ✨ Raporlama Kullanımı
 
