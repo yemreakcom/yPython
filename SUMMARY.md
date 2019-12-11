@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🐍 Python](README.md)
+* [🐍 Python Notlarım](README.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [🔰 Python'a Giriş](giris/README.md)
