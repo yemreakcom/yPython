@@ -14,6 +14,7 @@ Python ve JavaScript en popüler diller arasındadır.
   * `python.exe`'nin yolunu
   * `pip` ile indirilen terminal üzerinden derlenebilir komutlar için de _Scripts_ yolunu
   * `pip install` komutu ile indirilen script'ler scripts dizinine gider
+  * `pip3 freeze --local | xargs pip3 uninstall -y` komutu ile tüm pip ile kurulanları silebilirsin
   * Python'ı `exe` yapmak için [auto-py-exe](https://github.com/brentvollebregt/auto-py-to-exe) aracını kullanabilirsin
 
 {% hint style="info" %}
