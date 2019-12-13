@@ -131,9 +131,11 @@ Verilerin anahtarlara \(_key_\) göre saklandığı `list` yapısıdır.
 | `<key> in dict` | Anahtar `dict`'e var mı kontrolü |
 | `json.dumps(dict)` | `dict`'i `str`'a çevirme |
 | `dict( (a,1) for a in <list>)` | `<liste>`'nin her elamanı ile 1'i eşleyen dict |
+| `copy_dict ? {**dict}` | `dict` kopyalama |
 
 * [`Dict`'i `str`'a çevirme](https://stackoverflow.com/a/4547331/9770490)
 * [`Dict`'ten hızlı bir yöntem var mı](https://stackoverflow.com/a/40694623/9770490)
+* [`Dict` kopyalama](https://stackoverflow.com/a/53413487/9770490)
 {% endtab %}
 
 {% tab title="📚 Zip" %}
