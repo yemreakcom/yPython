@@ -130,6 +130,7 @@ Verilerin anahtarlara \(_key_\) göre saklandığı `list` yapısıdır.
 | `dict[<key>] = <değer>` | Belirli anahtara değer atama |
 | `<key> in dict` | Anahtar `dict`'e var mı kontrolü |
 | `json.dumps(dict)` | `dict`'i `str`'a çevirme |
+| `json.loads(re.sub("//.*","",str,flags=re.MULTILINE))` | JSON'u yorum satırlarını atarak okuma |
 | `dict( (a,1) for a in <list>)` | `<liste>`'nin her elamanı ile 1'i eşleyen dict |
 | `copy_dict ? {**dict}` | `dict` kopyalama |
 

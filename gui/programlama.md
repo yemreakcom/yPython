@@ -8,7 +8,7 @@
 * Kivy \(opensource\)
 * PyForms
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image.png)
 
 ## 📦 PyQT5
 
@@ -50,7 +50,7 @@ app.exec_()
 {% tab title="💠 Widgets" %}
 PyQT deki her bir obje widget olarak adlandırılmakta
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 
