@@ -20,6 +20,8 @@ Değişkenin daha önceden tanımlandığını kontrol etme için [buraya](https
 
 ## 💽 Veri Yapıları
 
+{% page-ref page="../veri-yoenetimi/veri-yapilari.md" %}
+
 ## 🎈 Değişkenlerin Özellikleri
 
 * Bellekte ayrıldıkları alanda, üzerine atanan değerleri tutan objelerdir
