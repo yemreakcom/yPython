@@ -50,6 +50,8 @@
 * [🔆 Grafiksel Arayüzler](gui/README.md)
   * [👨‍💻 Görsel Programlama](gui/programlama.md)
   * [📈 Grafik Çizimleri](gui/grafik-cizimleri.md)
+* [💞 Eş Zamanlı İşlemler](es-zamanli-islemler.md)
+* [🎌 Komut Çalıştırma](komut-calistirma.md)
 * [✨ Diğer Notlarım](diger/README.md)
   * [👨‍🔧 Sistem Yönetimi](diger/sistem-yonetimi.md)
   * [💫 Thread ve MultiProcessing](diger/thread-ve-multiprocessing.md)
