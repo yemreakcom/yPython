@@ -113,7 +113,7 @@ s.run()
 {% endtabs %}
 
 {% hint style="warning" %}
-Python'da eş zamanlı işler `thread` ile yapılamaz \([kaynak](https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel/7207336#7207336)\)
+Python'da eş zamanlı işler `thread` ile yapılamaz \([kaynak](https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel/7207336#7207336)\) \([kwargs](https://stackoverflow.com/a/32717920/9770490)\)
 {% endhint %}
 
 ## 🌃 Paralel İşlemler \(MultiProcessing\)
@@ -153,4 +153,20 @@ if __name__ == '__main__':
 ```
 {% endtab %}
 {% endtabs %}
+
+## 🆚 Multiprocessing vs Thread
+
+* 🕐 Thread eski bir yapıdır
+* 🙄 Thread işlemlerinde aynı alana erişim sırasında verilerde sorun olabilir
+  * Func1 ile Fun2 A dosyasına erişsin
+  * Func1 A'dan 5 değerini çeker
+  * Func2 de A'dan 5 değerini çeker \(çünkü func1 A dosyasını erişime kapatmaz\)
+  * Func1 değeri 1 artırır, A'ya 6 yazar
+  * Func2 de değeri 1 artırır, A'ya 6 yazar
+  * Sonuç olarak A değerinin 7 olması beklenirken, 6 olduğu görülür
+  * 👨‍🔧 Çözüm: `Multiprocessing`
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Multiprocessing vs. Threading in Python](https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/) yazısına bakabilirsin
+{% endhint %}
 
