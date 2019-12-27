@@ -143,7 +143,7 @@ if __name__ == '__main__':
     p1.start()
     p2 = Process(target=func2)
     p2.start()
-    p1.join() # Threadi çalıştırma (gecikmesini engellemek için)
+    p1.join() # Process1'in tamamlanmasını beklemek için kullanılır
     p2.join()
 
 # func1: starting
