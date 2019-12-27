@@ -111,5 +111,5 @@ s.run()
 ## 🔗 Faydalı Bağlantılar
 
 * \*\*\*\*[Python: How can I run python functions in parallel?](https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel)
-* [Pass keyword arguments to target function in Python threading.Thread](https://stackoverflow.com/questions/30913201/pass-keyword-arguments-to-target-function-in-python-threading-thread)
+* [Keyword argument verilerini threading ile kullanma](https://stackoverflow.com/a/32717920/9770490)
 
