@@ -2,7 +2,7 @@
 description: 'Python ile HTTP istekleri, get, push request'
 ---
 
-# 📶 HTTP İşlemleri
+# 📶 HTTP İstekleri
 
 ## 🔸 HTTP Durum Kodları
 

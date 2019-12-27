@@ -55,7 +55,7 @@
   * [🧵 Multithreading](es-zamanli-islemler/multithreading.md)
   * [🎎 Multiprocessing](es-zamanli-islemler/multiprocessing.md)
 * [✨ Diğer Notlarım](diger/README.md)
-  * [📶 HTTP İşlemleri](diger/http-islemleri.md)
+  * [📶 HTTP İstekleri](diger/http-istekleri.md)
   * [👨‍🔧 Sistem Yönetimi](diger/sistem-yonetimi.md)
   * [🔳 Ekran Yönetimi](diger/ekran-yonetimi.md)
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
