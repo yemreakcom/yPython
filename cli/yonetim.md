@@ -17,6 +17,7 @@ Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla p
 
 | Modül | Açıklama |
 | :--- | :--- |
+| [coloroma](https://pypi.org/project/colorama/) | Terminal üzerinde renkli çıktılar |
 | [string-color](https://gitlab.com/shindagger/string-color) | Renkli terminal çıktıları |
 | [tqdm](https://github.com/tqdm/tqdm) | İşlem çubuğu \(progress bar\)`📦` |
 
