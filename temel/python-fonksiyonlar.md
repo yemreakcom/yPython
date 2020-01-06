@@ -455,5 +455,17 @@ Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yava�
 {% endtab %}
 {% endtabs %}
 
+## 🐥 Fonksiyon Parametre Tipleri
 
+```python
+from type import Tuple, List
+from pathlib import Path
+def foo(root: Path, privates=[], exbool=False, msg: str) -> Tuple[List, List]:
+    ...
+    return ["temp"], ["temp"]
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Function Parameter Types in Python](https://stackoverflow.com/a/21384492/9770490) yazısına bakabilirsin.
+{% endhint %}
 
