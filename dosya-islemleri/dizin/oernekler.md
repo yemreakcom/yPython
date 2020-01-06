@@ -1,41 +1,7 @@
----
-description: Dizin (folder) işlemleri
----
+# ⭐ Örnekler
 
-# 🗂️ Dizin İşlemleri
+## 📋 Dizin ve Dosya Yolları Listesi Döndürme
 
-## 🧱 Temel İşlemler
-
-Dizin işlemleri için `os` veya `glob` paketi kullanılır.
-
-| Paket | Fonksiyon | Açıklama |
-| :--- | :--- | :--- |
-| `os` | `listdir(<yol>)` | Dizinin içindekileri listeler |
-| `os` | `rename(<eski_ad>, <yeni_ad>)` | Dosya veya dizin adlandırma |
-| `glob` | `glob(<yol_şablonu>)` | Dosya ve dizinleri döndürür |
-| `glob` | `iglob(<yol_şablonu>)` | Dosya ve dizinleri generator yapısı ile döndürür |
-
-* `<yol_şablonu>` Özel dizin sorguları
-  * _Örn: \`_.txt`,`../help\`\*
-
-## 📦 OS Modülü
-
-{% tabs %}
-{% tab title="✨ Kullanım" %}
-| Metod | Açıklama |
-| :--- | :--- |
-| `os.path.dirname(<path>)` | Bulunduğu dizinin adını alma |
-| `os.path.basename(<path>)` | Dosya \(uzantı ile\) veya dizin adını alma |
-| `os.path.normpath(<path>)` | OS'lar için farklılık gösteren `/`, `\\` sorununu düzeltme |
-| `os.path.join(<path>, <str>)` | Path birleştirme \(tanımlama\) |
-| `os.path.relpath(<path>)` | Relative path'e çevirir \(`.` `..` ile \) |
-| `os.path.realpath(<path>)` | Tam path değerini verir |
-| `os.mkdir(<path>)` | Dizin oluşturma |
-| `os.walk(<path>)` | Verilen path üzerinden ilerleme |
-| `os.path.splittext(<path>)` | Adı ve uzantısına göre ayırma |
-{% endtab %}
-
-{% tab title="📋 Dizin ve Dosya Yolları Listesi Döndürme" %}
 ```python
 def listfolderpaths(path=os.getcwd()):
         folderlist = []
@@ -56,9 +22,9 @@ def list_files(image_dir, pattern):
 
 list_images(r"C\Users\Picture", ".jpg")
 ```
-{% endtab %}
 
-{% tab title="🌳 Dizinleri Ağaç Yapısında Listeleme" %}
+## 🌳 Dizinleri Ağaç Yapısında Listeleme
+
 ```python
 def list_files(startpath):
     for root, dirs, files in os.walk(startpath):
@@ -71,6 +37,10 @@ def list_files(startpath):
             
 # Gizli dosaları atlayarak listeleme
 for root, dirs, files in os.walk(path):
+    # İşletim sistemleri göre farklı sırada hareket etmesini engelleme
+    dirs.sort()
+    files.sort()
+    
     print root
 
     dirs[:] = [d for d in dirs if not d.startswith('.')]
@@ -86,13 +56,11 @@ for root, dirs, files in os.walk(path):
         dirs[:] = []
         files[:] = []
 ```
-{% endtab %}
-{% endtabs %}
 
 ## 👮‍♂️ Özel Dizinlere Erişim
 
-{% tabs %}
-{% tab title="⭐ Sistem Dizinlerine Erişme \(System Environment\)" %}
+### ⭐ Sistem Dizinlerine Erişme \(System Environment\)
+
 ```python
 import os, sys, site
 ENVIROMENT_VAR = "WINDIR" # Sistem değişkeni isimleri
@@ -103,15 +71,13 @@ varname = os.environ[ENVIROMENT_VAR] # Sistem değişkenini değeri
 userpath = site.getuserbase() # Kullanıcı seviyesindeki python yolu
 modul_init_path = os.__file__ # Os modülünün init dosyasının yolu
 ```
-{% endtab %}
 
-{% tab title="📦 Paket Dizinlerine Erişme" %}
+### 📦 Paket Dizinlerine Erişme
+
 ```python
 import module # Herhangi bir pip ile indirilen modülü temsil eder, örn: pynput
 
 path = module.__file__
 site_packages_path = os.path.join(path, "..", "..")
 ```
-{% endtab %}
-{% endtabs %}
 
