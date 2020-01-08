@@ -19,15 +19,15 @@ description: >-
 
 ## 👷‍ Dosya Yapısını Oluşturma
 
-### 📂 Dizin Yapısı
-
-* 🔸 Açıklama metninizi **markdown** formatı ile `README.md` içerisine yazın.
+{% tabs %}
+{% tab title="📂 Dizin Yapısı" %}
+Açıklama metninizi **markdown** formatı ile `README.md` içerisine yazın.
 
 ![](../.gitbook/assets/image%20%288%29.png)
+{% endtab %}
 
-### 👨‍🔧 setup.py kurulum dosyası
-
-* 🔨 Kurulum yapılandırma dosyasıdır.
+{% tab title="👨‍🔧 setup.py kurulum dosyası" %}
+Kurulum yapılandırma dosyasıdır.
 
 ```python
 from distutils.core import setup
@@ -84,21 +84,19 @@ setup(
     # },
 )
 ```
+{% endtab %}
 
-### 🏹 `__init__` ile modülleri dışa aktarma
-
-* ⤴️ Dosyanın amacı içerisindeki her paketleri dışarı aktarmaktır
+{% tab title="🏹 \_\_init\_\_ ile modülleri dışa aktarma" %}
+Dosyanın amacı içerisindeki her paketleri dışarı aktarmaktır
 
 ```python
-from . import filesystem
-from . import common
-from . import gitbook
-from . import markdown
+from ypackage import filesystem
+from ypackage import common
+from ypackage import gitbook
+from ypackage import markdown
 ```
-
-{% hint style="warning" %}
-📢 Bu dosya olmazsa diğer paketleri pip aracı algılayamaz
-{% endhint %}
+{% endtab %}
+{% endtabs %}
 
 ## 📡 GitHub'da Yayınlama
 

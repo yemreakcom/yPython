@@ -51,6 +51,7 @@ Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirs
 | `split` | Yeniden formatlama | `"Selam ben".split(" ")` | `["Selam", "Ben"]` |
 | `find` | Karakter indeksini bulma | `"yemreak".find('e')` | `1` \(yoksa `-1`\) |
 | `replace` | Metin değiştirme | `"yemreak".replace("ak", "")` | `'yemre'` |
+| `count` | Metin sayma | `"yeymey".count("y")` | `3` |
 | `strip` | Metin düzeltme | `' abc '.strip()` | `'abc'` |
 | `ltrip` | Metnin solunu düzeltme | `' abc '.ltrip()` | `'abc '` |
 | `rtrip` | Metnin sağını düzeltme | `' abc '.rtrip()` | `' abc'` |
