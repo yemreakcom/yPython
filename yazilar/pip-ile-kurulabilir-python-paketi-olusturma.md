@@ -90,10 +90,10 @@ setup(
 Dosyanın amacı içerisindeki her paketleri dışarı aktarmaktır
 
 ```python
-from ypackage import filesystem
-from ypackage import common
-from ypackage import gitbook
-from ypackage import markdown
+from . import filesystem
+from . import common
+from . import gitbook
+from . import markdown
 ```
 {% endtab %}
 {% endtabs %}
