@@ -18,6 +18,20 @@ datetime.now().strftime('%d-%b-%Y-%H:%M:%S')
 ## ➖ Zaman Farkı Hesaplama
 
 ```python
+a = datetime.datetime.now() # datetime.datetime(2013, 8, 25, 2, 5, 1, 879000)
+b = datetime.datetime.now() # datetime.datetime(2013, 8, 25, 2, 5, 8, 984000)
+
+a - b # datetime.timedelta(-1, 86392, 895000)
+b - a # datetime.timedelta(0, 7, 105000)
+
+(b - a).microseconds # 105000
+(b - a).seconds # 7
+(b - a).microseconds / 1000 # 105
+```
+
+## ⭐ Fark Metodlarım
+
+```python
 def get_time_remain(time: datetime.time) -> datetime.timedelta:
 	"""Yerel saat ile verilen time arasındaki farkı bulma
 
