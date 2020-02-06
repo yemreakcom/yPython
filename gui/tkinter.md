@@ -15,9 +15,9 @@ def on_start_clicked(): pass
 window = Tk()
 
 window.title("YClicker")
-window.resizable(False, False)
+window.resizable(False, False) # Yeniden boyutlandırmayı engeller
 
-centerilaze(window, 360, 180)
+centerilaze(window, 360, 180) # Mekeze verilen boyutla konumalar
 
 frame_main = Frame(window)
 frame_main.pack()
