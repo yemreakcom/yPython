@@ -29,7 +29,7 @@ b - a # datetime.timedelta(0, 7, 105000)
 (b - a).microseconds / 1000 # 105
 ```
 
-## ⭐ Fark Metodlarım
+## ⭐ Fark Metotlarım
 
 ```python
 def get_time_remain(time: datetime.time) -> datetime.timedelta:
