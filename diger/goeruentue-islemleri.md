@@ -1,3 +1,7 @@
+---
+description: 'Python ile görüntü işlemleri, histogram algoritmaları'
+---
+
 # 🎴 Görüntü İşlemleri
 
 ## 🔂 Resmi np.array Yapmak
