@@ -66,6 +66,7 @@
   * [💌 HTTP İstekleri](diger/http-istekleri.md)
   * [👨‍🔧 Sistem Yönetimi](diger/sistem-yonetimi.md)
   * [🔳 Ekran Yönetimi](diger/ekran-yonetimi.md)
+  * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
 * [🥴 Karışık Notlar](karisik/README.md)
   * [🔗 Harici Linkler](karisik/harici-linkler.md)
