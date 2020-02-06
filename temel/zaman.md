@@ -29,6 +29,10 @@ b - a # datetime.timedelta(0, 7, 105000)
 (b - a).microseconds / 1000 # 105
 ```
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Python - time difference in milliseconds not working for me](https://stackoverflow.com/questions/18426882/python-time-difference-in-milliseconds-not-working-for-me) alanına bakabilirsin.
+{% endhint %}
+
 ## ⭐ Fark Metotlarım
 
 ```python
