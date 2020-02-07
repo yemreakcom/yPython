@@ -8,7 +8,7 @@ description: Yunus Emre Ak ~ YEmreAk (@yedhrab) 'ın python ve python programlam
 
 🤓 Burada kaybolmaman için bilmen gerekenler:
 
-* **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
+* Sağ üstteki **🔍 arama butonunu** kullanmayı asla ama asla ihmal etme
   * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
   * Arayabileceğin kelimeler: `pip`, `os.path`, `print`, `list` vs
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
