@@ -13,26 +13,18 @@ Anaconda paket yönetim aracı `conda`'dır.
 
 ### ✨ Güncelleme İşlemleri
 
-{% tabs %}
-{% tab title="✨ Conda\'yı Güncelleme" %}
 ```bash
+# ✨ Conda'yı Güncelleme
 conda update -n base -c defaults conda
-```
-{% endtab %}
 
-{% tab title="📋 Tüm Paketleri Güncelleme" %}
-```bash
+# 📋 Tüm Paketleri Güncelleme
 conda update --all
-```
-{% endtab %}
-
-{% tab title="📦 Paket Sürümlerini Gösterme" %}
-```bash
+ 
+# 📦 Paket Sürümlerini Gösterme
 conda search <paket> --info
 conda search tensorflow-gpu --info # Örnek
+
 ```
-{% endtab %}
-{% endtabs %}
 
 ### ⏬ Yükleme İşlemleri
 
