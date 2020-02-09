@@ -1,4 +1,4 @@
-# 🔗 Harici Linkler
+# 🔗 Faydalı Bağlantılar
 
 ## 🔗 Numpy Bağlantıları
 

@@ -63,13 +63,12 @@
   * [🧵 Multithreading](es-zamanli-islemler/multithreading.md)
   * [🎎 Multiprocessing](es-zamanli-islemler/multiprocessing.md)
 * [✨ Diğer Notlarım](diger/README.md)
+  * [🌇 Sanal Ortam Oluşturma](diger/sanal-ortam-olusturma.md)
   * [💌 HTTP İstekleri](diger/http-istekleri.md)
   * [👨‍🔧 Sistem Yönetimi](diger/sistem-yonetimi.md)
   * [🔳 Ekran Yönetimi](diger/ekran-yonetimi.md)
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
   * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
-* [🥴 Karışık Notlar](karisik/README.md)
-  * [🔗 Harici Linkler](karisik/harici-linkler.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🔰 Anaconda'ya Giriş](anaconda/giris.md)
   * [✨ Anaconda Kullanımı](anaconda/kullanim.md)
@@ -79,6 +78,7 @@
   * [🔃 I/O İşlemleri](ipython/ipython-i-o-islemleri.md)
   * [🔆 Görsel Arayüz \(GUI\)](ipython/ipython-goersel-programlama-gui.md)
   * [🔗 Harici Bağlantılar](ipython/harici-baglantilar.md)
+* [🔗 Faydalı Bağlantılar](harici-linkler.md)
 
 ## Derlenmiş Çalışmalarım
 
