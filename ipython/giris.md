@@ -10,7 +10,7 @@ description: IPython Giriş
   * Bash, SQL, hız ölçümleri vs ...
 * _Jupyter Notebook_ ve Google Collaboratory gibi platformlarda kullanılır
 
-> Bu yazı Google Collaboratory temel almıştır.
-
-
+{% hint style="warning" %}
+📢 Bu yazı [Google Colab](https://colab.research.google.com/) teknolojisini temel almıştır.
+{% endhint %}
 
