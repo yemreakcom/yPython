@@ -2,7 +2,7 @@
 description: IPython I/O İşlemleri
 ---
 
-# 🔃 I/O İşlemleri
+# 🔃 I/O İşlemleri \| IPython
 
 ## 📂 IPython Drive Erişimi
 

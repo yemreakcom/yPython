@@ -2,7 +2,7 @@
 description: IPython Giriş
 ---
 
-# 🔰 Giriş
+# 🚴‍♂️ IPython'a Giriş
 
 ## ❔ Nedir
 

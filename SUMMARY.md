@@ -77,10 +77,10 @@
   * [🌇 Sanal Ortamlar \| Conda](anaconda/sanal-ortamlar.md)
   * [🎪 Diğer Notlar \| Conda](anaconda/diger.md)
 * [📗 IPython](ipython/README.md)
-  * [🔰 Giriş](ipython/ipython-giris.md)
-  * [🔃 I/O İşlemleri](ipython/ipython-i-o-islemleri.md)
-  * [🔆 Görsel Arayüz \(GUI\)](ipython/ipython-goersel-programlama-gui.md)
-  * [🔗 Harici Bağlantılar](ipython/harici-baglantilar.md)
+  * [🚴‍♂️ IPython'a Giriş](ipython/giris.md)
+  * [🔃 I/O İşlemleri \| IPython](ipython/io-islemleri.md)
+  * [🔆 Görsel Arayüz \(GUI\) \| IPython](ipython/gui.md)
+  * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
 * [🔗 Faydalı Bağlantılar](harici-linkler.md)
 
 ## Derlenmiş Çalışmalarım

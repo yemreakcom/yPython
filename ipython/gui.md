@@ -2,7 +2,7 @@
 description: IPython Görsel Programlama (GUI)
 ---
 
-# 🔆 Görsel Arayüz \(GUI\)
+# 🔆 Görsel Arayüz \(GUI\) \| IPython
 
 ## 📃 Form Oluşturma İşlemleri \(GUI\)
 
