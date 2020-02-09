@@ -1,4 +1,4 @@
-# 🌇 Sanal Ortam \| Conda
+# 🌇 Sanal Ortamlar \| Conda
 
 ## 🚴‍♂️ Giriş 
 

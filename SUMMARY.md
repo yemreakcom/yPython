@@ -70,19 +70,18 @@
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
   * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
 * [💚 Anaconda](anaconda/README.md)
-  * [🔰 Anaconda'ya Giriş](anaconda/giris.md)
-  * [✨ Anaconda Kullanımı](anaconda/kullanim.md)
+  * [🏂 Anaconda'ya Giriş](anaconda/giris.md)
   * [🧱Temel Kullanım \| Conda](anaconda/condo-kullanimi.md)
   * [📦 Paket Kurulumları \| Conda](anaconda/paket-kurulumlari-or-conda.md)
   * [🧠 Yapay Zeka Paketleri \| Conda](anaconda/yapay-zeka-paketleri-or-conda.md)
-  * [🌇 Sanal Ortam \| Conda](anaconda/sanal-ortam-or-conda.md)
+  * [🌇 Sanal Ortamlar \| Conda](anaconda/sanal-ortam-or-conda.md)
   * [🎪 Anaconda Diğer Notlar](anaconda/diger.md)
 * [📗 IPython](ipython/README.md)
   * [🔰 Giriş](ipython/ipython-giris.md)
   * [🔃 I/O İşlemleri](ipython/ipython-i-o-islemleri.md)
   * [🔆 Görsel Arayüz \(GUI\)](ipython/ipython-goersel-programlama-gui.md)
   * [🔗 Harici Bağlantılar](ipython/harici-baglantilar.md)
-* [🔗 Faydalı Bağlantılar](karisik/harici-linkler.md)
+* [🔗 Faydalı Bağlantılar](harici-linkler.md)
 
 ## Derlenmiş Çalışmalarım
 

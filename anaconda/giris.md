@@ -2,7 +2,7 @@
 description: Anaconda'ya giriş
 ---
 
-# 🔰 Anaconda'ya Giriş
+# 🏂 Anaconda'ya Giriş
 
 ## ❔ Nedir
 
@@ -18,8 +18,6 @@ description: Anaconda'ya giriş
 
 ## 👷‍ Kurulumlar
 
-{% tabs %}
-{% tab title="🐍 Anaconda " %}
 Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşamasındakiler için önerilir.
 
 * İndirmek için [buraya](https://hub.docker.com/r/continuumio/anaconda3/) tıklayabilirsin.
@@ -32,6 +30,4 @@ Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşa
 {% hint style="success" %}
 Ne yaptığımı biliyorum diyorsan _Anaconda_ yerine **Miniconda** tavsiye edilir, minimalist bir yükleme sunar.
 {% endhint %}
-{% endtab %}
-{% endtabs %}
 
