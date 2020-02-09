@@ -102,6 +102,12 @@ Python resim kütüphanesi resim işlemleri için kullanılır.
 conda install -c anaconda pillow
 ```
 {% endtab %}
+
+{% tab title="🐍 Python" %}
+```bash
+conda create -n $PYTHON36_ENV_NAME python=3.6 anaconda  # set custom env name
+```
+{% endtab %}
 {% endtabs %}
 
 ### 🧠 Yapay Zeka Paketleri Kurulumu
