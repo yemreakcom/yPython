@@ -11,8 +11,23 @@ description: Python ile virtual environment oluşturma (venv)
 * 📈 Verimliliği artırır
 
 ```bash
+# Sanal ortamı kurma
 python3 -m venv tutorial-env
 ```
 
+## 🐣 Sanal Ortamı Aktif Etme
 
+{% tabs %}
+{% tab title="✴️ Windows" %}
+```text
+tutorial-env\Scripts\activate.bat
+```
+{% endtab %}
+
+{% tab title="🐧 Linux / MacOS" %}
+```text
+source tutorial-env/bin/activate
+```
+{% endtab %}
+{% endtabs %}
 

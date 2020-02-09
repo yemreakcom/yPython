@@ -78,7 +78,7 @@
   * [🔃 I/O İşlemleri](ipython/ipython-i-o-islemleri.md)
   * [🔆 Görsel Arayüz \(GUI\)](ipython/ipython-goersel-programlama-gui.md)
   * [🔗 Harici Bağlantılar](ipython/harici-baglantilar.md)
-* [🔗 Faydalı Bağlantılar](harici-linkler.md)
+* [🔗 Faydalı Bağlantılar](karisik/harici-linkler.md)
 
 ## Derlenmiş Çalışmalarım
 
