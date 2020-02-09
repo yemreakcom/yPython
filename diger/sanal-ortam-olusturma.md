@@ -31,3 +31,9 @@ source tutorial-env/bin/activate
 {% endtab %}
 {% endtabs %}
 
+## 🔗 Faydalı Bağlantılar
+
+{% embed url="https://docs.python.org/3/tutorial/venv.html" %}
+
+
+
