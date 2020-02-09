@@ -75,7 +75,7 @@
   * [📦 Paket Kurulumları \| Conda](anaconda/paket-kurulumlari-or-conda.md)
   * [🧠 Yapay Zeka Paketleri \| Conda](anaconda/yapay-zeka-paketleri-or-conda.md)
   * [🌇 Sanal Ortamlar \| Conda](anaconda/sanal-ortam-or-conda.md)
-  * [🎪 Anaconda Diğer Notlar](anaconda/diger.md)
+  * [🎪 Diğer Notlar \| Conda](anaconda/diger.md)
 * [📗 IPython](ipython/README.md)
   * [🔰 Giriş](ipython/ipython-giris.md)
   * [🔃 I/O İşlemleri](ipython/ipython-i-o-islemleri.md)
