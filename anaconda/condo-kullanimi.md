@@ -2,7 +2,7 @@
 description: Anaconda paket yöneticisi olan conda'nın kullanımı
 ---
 
-# 🧰 Condo Kullanımı
+# 🧱Temel Kullanım \| Conda
 
 ## 🚴‍♂️ Conda'ya Giriş
 
