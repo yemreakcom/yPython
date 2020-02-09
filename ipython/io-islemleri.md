@@ -4,6 +4,12 @@ description: IPython I/O İşlemleri
 
 # 🔃 I/O İşlemleri \| IPython
 
+## 📚 Zip İşlemleri
+
+```python
+!tar -xvzf # Zipi çıkartma
+```
+
 ## 📂 IPython Drive Erişimi
 
 {% tabs %}
