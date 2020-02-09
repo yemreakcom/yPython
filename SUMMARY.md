@@ -78,6 +78,8 @@
   * [🎪 Diğer Notlar \| Conda](anaconda/diger.md)
 * [📗 IPython](ipython/README.md)
   * [🚴‍♂️ IPython'a Giriş](ipython/giris.md)
+  * [🧱 Temel İşlemler \| IPython](ipython/temel-islemler-or-ipython.md)
+  * [🖤 Terminal İşlemleri \| IPython](ipython/terminal-islemleri-or-ipython.md)
   * [🔃 I/O İşlemleri \| IPython](ipython/io-islemleri.md)
   * [🔆 Görsel Arayüz \(GUI\) \| IPython](ipython/gui.md)
   * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
