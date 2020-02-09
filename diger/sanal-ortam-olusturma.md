@@ -17,6 +17,8 @@ python3 -m venv tutorial-env
 
 ## 🐣 Sanal Ortamı Aktif Etme
 
+* 💁‍♂️ Eğer [VS Code](https://code.visualstudio.com/) kullanıyorsanız, otomatik olarak aktif edilecektir
+
 {% tabs %}
 {% tab title="✴️ Windows" %}
 ```text
