@@ -31,7 +31,7 @@ Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşa
   * _Aksi halde değişik sorunlarla karşılaşırsınız. \(SSL error vs.\)_
 * Dokümantasyon için [buraya](https://docs.anaconda.com/) tıklayabilirsin.
 
-{% hint style="success" %}
-Ne yaptığımı biliyorum diyorsan _Anaconda_ yerine **Miniconda** tavsiye edilir, minimalist bir yükleme sunar.
+{% hint style="info" %}
+💁‍♂️ Ne yaptığımı biliyorum diyorsan _Anaconda_ yerine **Miniconda** tavsiye edilir, minimalist bir yükleme sunar.
 {% endhint %}
 
