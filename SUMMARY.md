@@ -71,6 +71,7 @@
   * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🏂 Anaconda'ya Giriş](anaconda/giris.md)
+  * [👷‍♂️ Anaconda & Miniconda Kurulumu](anaconda/anaconda-and-miniconda-kurulumu.md)
   * [🧱Temel Kullanım \| Conda](anaconda/temel-kullanim.md)
   * [📦 Paket Kurulumları \| Conda](anaconda/paket-kurulumlari.md)
   * [🧠 Yapay Zeka Paketleri \| Conda](anaconda/yapay-zeka-paketleri.md)
