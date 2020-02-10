@@ -20,7 +20,7 @@ Anaconda ile yerel PC üzerinden çalışmak yerine, kurulumlarla uğraşmamak a
 * Veri bilimi ve yapay zeka konuları için sık kullanılan kütüphaneler ön yüklenmiş olarak gelir.
   * Tekrar indirmeye normal şartlar altında gerek kalmaz.
 
-## 👷‍ Kurulumlar
+## 👷‍ Anaconda Kurulumu
 
 Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşamasındakiler için önerilir.
 
