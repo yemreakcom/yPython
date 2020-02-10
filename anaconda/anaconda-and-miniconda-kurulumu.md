@@ -26,3 +26,5 @@ Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşa
 * `~./bashrc` dosyasında değişiklikler yapılacaktır
 * Kaynak için [buraya](https://docs.anaconda.com/anaconda/install/silent-mode/#linux-macos) bakabilirsin.
 
+
+
