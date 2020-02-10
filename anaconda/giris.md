@@ -6,8 +6,12 @@ description: Anaconda'ya giriş
 
 ## ❔ Nedir
 
-* Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan paketleri hazır halde sunan ve onları yöneten bir uygulamadır.
-* Anaconda ile yerel PC üzerinden çalışmak yerine, kurulumlarla uğraşmamak adına [Google Colab](https://colab.research.google.com/) hizmetini kullanabilirsin.
+* 🧠 Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan paketleri hazır halde sunar
+* 👨‍💼 Paket yönetimi `conda` ile onları yönetir
+
+{% hint style="success" %}
+Anaconda ile yerel PC üzerinden çalışmak yerine, kurulumlarla uğraşmamak adına [Google Colab](https://colab.research.google.com/) hizmetini kullanabilirsin.
+{% endhint %}
 
 ## 📈 Faydaları
 
