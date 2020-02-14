@@ -1,20 +1,5 @@
 # 📈 Verimli Kodlama
 
-## 💎 Değişken Adlandırma
-
-* 👮‍♂️ Her farklı obje için farklı isimlendirme yapılmalı
-* 🙄 Aynı değişkene birden fazla obje atılması verimliliği artırmıyor
-
-```python
-items = 'a b c d'  # This is a string...
-items = items.split(' ')  # ...becoming a list
-items = set(items)  # ...and then a set
-```
-
-{% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Dynamic Typing](https://docs.python-guide.org/writing/structure/#dynamic-typing) alanına bakabilirsin.
-{% endhint %}
-
 ## ⏱ Fonksiyonun Aldığı Vakti Hesaplama
 
 ```python

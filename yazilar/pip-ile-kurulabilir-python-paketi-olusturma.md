@@ -88,6 +88,7 @@ setup(
 ### 🏹 `__init__` ile modülleri dışa aktarma
 
 * ⤴️ Dosyanın amacı içerisindeki her paketleri dışarı aktarmaktır
+* 💁‍♂️ Dosyanın içi boş olursa, tüm dizini ele alır
 
 ```python
 from . import filesystem
