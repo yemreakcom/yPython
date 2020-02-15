@@ -36,4 +36,9 @@ logger = logging.getLogger(__name__)
 ## 🔗 Faydalı Bağlantılar
 
 * [📖 Logging HowTo](https://docs.python.org/3/howto/logging.html)
+* [📖 Logging facility for Python](https://docs.python.org/3/library/logging.html)
+
+{% hint style="success" %}
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar)  yapısına uygundur
+{% endhint %}
 
