@@ -24,6 +24,7 @@
   * [📦 Class, Modül ve Paketler](temel/class-modul-paket.md)
   * [👮‍ Kural Koyma](temel/kurallar.md)
   * [🕐 Zaman İşlemleri](temel/zaman.md)
+  * [📜 Raporlama İşlemleri](temel/raporlama.md)
 * [🏗️ Veri Yapıları](veri-yapilari/README.md)
   * [📋 List](veri-yapilari/list.md)
   * [👝 Tuple](veri-yapilari/tuple.md)
