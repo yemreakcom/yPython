@@ -36,6 +36,10 @@ description: Dosya işlemlerinde erişim işlemleri
 | `utf-8` | UTF-8 | Özel karakterler içeren dosya |
 | `utf-8-sig` | UTF-8 with BOM | Özel karakterler + BOM değeri içeren \(emoji js\) |
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [u'\ufeff' in Python string](https://stackoverflow.com/questions/17912307/u-ufeff-in-python-string)  alanına bakabilirsin.
+{% endhint %}
+
 ## 👨‍💻 Sistem Kodlamaları
 
 | Komut | Açıklama |
