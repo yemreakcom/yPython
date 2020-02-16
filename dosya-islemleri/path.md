@@ -2,7 +2,7 @@
 description: Yol (path) işlemleri
 ---
 
-# 🚩 Yol İşlemleri
+# 🚩 Yol İşlemleri \| Dosya
 
 ## 💡 Önemli Hususlar
 

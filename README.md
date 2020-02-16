@@ -29,7 +29,6 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ![](https://drive.google.com/uc?id=1LZoJzZyY_uYbl3zCxk6ZtZPaDiMHglMv)
 
-
 ## 💖 Destek ve İletişim
 
 ​[​![Github](.gitbook/assets/github_32px.png)​](https://github.com/yedhrab) [​![LinkedIn](.gitbook/assets/linkedin_32px.png)​](https://www.linkedin.com/in/yemreak/) [​![Website](.gitbook/assets/geography_32px.png)​](https://yemreak.com/) [​![Mail](.gitbook/assets/gmail_32px.png)​](mailto:yemreak.com@gmail.com?subject=YPython%20%7C%20GitHub)​

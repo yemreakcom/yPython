@@ -33,6 +33,27 @@ logger = logging.getLogger(__name__)
 📢 `logging` modülü globaldir, her dosya için ortak login yapısı kullanılır
 {% endhint %}
 
+## 📂 Dosyaya Raporlama
+
+```python
+import logging
+
+message = "Raporlanacak"
+LOG_DIR = "dosya/dizini"
+LOG_FILE = "dosya.log"
+FLAG = "w" # a+, r
+ENCODING = "utf-8"
+
+# Rapolamayı tanımlama
+logging.basicConfig(
+    handlers=[logging.FileHandler(LOG_DIR + LOG_FILE, FLAG, ENCODING)], 
+    level=logging.DEBUG,
+    format='%(asctime)s: %(message)s'
+)
+
+logging.info("mesaj") # Raporu yazma
+```
+
 ## 🔗 Faydalı Bağlantılar
 
 * [📖 Logging HowTo](https://docs.python.org/3/howto/logging.html)

@@ -2,7 +2,7 @@
 description: Özelliklerin saklandığı yapılandırma veya configuration dosyası oluşturma
 ---
 
-# 🔨 Properties Dosyası
+# 🔨 Properties \| Dosya
 
 ## 🔨 Okuma
 

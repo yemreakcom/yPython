@@ -1,4 +1,4 @@
-# 🌟 Sık Kullanılan İşlemler
+# 🌟 Sık Kullanılanlar \| Dosya
 
 ## 🧱 Temel İşlemler
 

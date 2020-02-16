@@ -2,7 +2,7 @@
 description: Dosya işlemlerinde erişim işlemleri
 ---
 
-# 👮‍♂️ Dosyaya Erişim
+# 👮‍♂️ Erişim Yöntemleri \| Dosya
 
 ## ✨ Kullanım
 
@@ -35,6 +35,16 @@ description: Dosya işlemlerinde erişim işlemleri
 | :--- | :--- | :--- |
 | `utf-8` | UTF-8 | Özel karakterler içeren dosya |
 | `utf-8-sig` | UTF-8 with BOM | Özel karakterler + BOM değeri içeren \(emoji js\) |
+
+## 👨‍💻 Sistem Kodlamaları
+
+| Komut | Açıklama |
+| :--- | :--- |
+| `sys.stdout.reconfigure(encoding='utf-8')` | 🚀 Emoji gibi farklı formattaki metinler üzerinde çalışırken kullanılır \(Terminal bunları algılayamaz\) |
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [How to set sys.stdout encoding in Python 3?](https://stackoverflow.com/a/52372390/9770490) alanına bakabilirsin.
+{% endhint %}
 
 ## 💠 İşlem Metodları
 
