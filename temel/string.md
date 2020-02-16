@@ -41,7 +41,7 @@ Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirs
 | `format` | Formatlama | `"X: {}, Y: {}".format(1, 2)` | `'X: 1, Y: 2'` |
 | `lower`, `upper` | Küçük / büyük harf | `"As".lower()`, `"As".upper()` | `"as"`, `AS` |
 | `%` | Operatör ile formatlama | `'new(%s %d)' % ('help', 5)` | `'new(help 5)'` |
-| `f` | Format string ön eki | `f'X: {a}'` | `'X: 2'` |
+| `f` | Format string ön eki | `f"X={X}"`  veya `f"{X=}"`  | `'X=2'` |
 | `r` | Raw String ön eki | `r"C:\Users"` | `C:\\Users` |
 | `u` | Unicode string ön eki |  |  |
 | `"""` | Çok satırlı string |  |  |
