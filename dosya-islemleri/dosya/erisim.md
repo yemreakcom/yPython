@@ -27,6 +27,15 @@ description: Dosya işlemlerinde erişim işlemleri
 
 > Ek bilgiler için [buraya](https://stackoverflow.com/a/1466036/9770490) bakabilirsin.
 
+## 👨‍💻 Dosya Kodlamaları
+
+* 📑 Dosya formatları `encoding` ile ifade edilir
+
+| 💎 Kod | ⭐ Karşılığı | 📝 Açıklama |
+| :--- | :--- | :--- |
+| `utf-8` | UTF-8 | Özel karakterler içeren dosya |
+| `utf-8-sig` | UTF-8 with BOM | Özel karakterler + BOM değeri içeren \(emoji js\) |
+
 ## 💠 İşlem Metodları
 
 | Mod | Açıklama |
