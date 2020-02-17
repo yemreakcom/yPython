@@ -21,10 +21,16 @@ description: Python ile raporlama (logging) işlemleri ve logging modülünün k
 ```python
 import logging
 
-logformat = r"%(levelname)s:%(filename)s %(message)s"
-loglevel = logging.DEBUG
+log_format = (
+        '%(asctime)s - '
+        '%(name)s - '
+        '%(funcName)s - '
+        '%(levelname)s - '
+        '%(message)s'
+)
+log_level = logging.DEBUG
 
-logging.basicConfig(format=logformat, level=loglevel)
+logging.basicConfig(format=log_format , level=log_level )
 
 logger = logging.getLogger(__name__)
 ```
@@ -53,6 +59,48 @@ logging.basicConfig(
 
 logging.info("mesaj") # Raporu yazma
 ```
+
+## 🎨 Renkli Raporlama
+
+* 📦 Renkli raporlama için `coloredlogs` modülü kullanılır
+* ⏬ Yüklemek için `pip install coloredlogs` komutunu kullanın
+* 💡 Renklendirme için standart konsol renk komutlarını kullanır
+* 👨‍🔧 Renklendirme çalışmazsa`colorama` modülünü yükleyin
+* ⏬ Yüklemek için `pip install colorama` komutunu kullanın3
+
+```python
+import coloredlogs
+import logging
+
+# Logger objesi oluşturma
+logger = logging.getLogger(__name__)
+
+# Tüm raporlama işlemlerinin renkli olmasını sağlar
+coloredlogs.install(level='DEBUG')
+
+# Sadece verilen logger'ın renkli olmasını sağlar
+coloredlogs.install(level='DEBUG', logger=logger)
+
+# Formatı değiştirme
+log_format = ""
+    + "%(asctime)s,%(msecs)03d %(hostname)s %(name)s[%(process)d] "
+    + "%(levelname)s %(message)s"
+coloredlogs.install(level='DEBUG', fmt=log_format)
+
+# Örnekler
+logger.debug("this is a debugging message")
+logger.info("this is an informational message")
+logger.warning("this is a warning message")
+logger.error("this is an error message")
+logger.critical("this is a critical message")
+
+```
+
+![](../.gitbook/assets/coloredlogs_example.png)
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [coloredlogs](https://coloredlogs.readthedocs.io/en/latest/readme.html) alanına bakabilirsin.
+{% endhint %}
 
 ## 🔗 Faydalı Bağlantılar
 
