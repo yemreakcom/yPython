@@ -106,6 +106,8 @@ logger.critical("this is a critical message")
 
 * [📖 Logging HowTo](https://docs.python.org/3/howto/logging.html)
 * [📖 Logging facility for Python](https://docs.python.org/3/library/logging.html)
+* [📖 coloredlogs: Colored terminal output for Python’s logging module](https://coloredlogs.readthedocs.io/en/latest/readme.html)
+* [📖 Format of log message ~ coloredlogs](https://coloredlogs.readthedocs.io/en/latest/readme.html#format-of-log-messages)
 
 {% hint style="success" %}
 🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
