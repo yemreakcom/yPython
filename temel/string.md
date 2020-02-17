@@ -22,7 +22,7 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 | `'{:i}'.format('test')` | `i` karakter ayırır metni sola sağlar |
 
 {% hint style="info" %}
-Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirsin.
+🧙‍♂️ Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirsin.
 {% endhint %}
 
 ## 💠 Fonksiyonlar
@@ -136,8 +136,8 @@ import re
 
 ## 🔢 Sayma İşlemleri
 
-{% tabs %}
-{% tab title="🅰 Karakter Sayma" %}
+### 🅰️ Karakter Sayma
+
 ```python
 string = "Yemreak"
 for i, char in enumerate(string):
@@ -148,9 +148,9 @@ for i, char in enumerate(string):
 # 2 m
 # ...
 ```
-{% endtab %}
 
-{% tab title="📂 Dosya Satırlarını A\'dan Başlayıp Sayma" %}
+### 📂 Dosya satırlarını `a`'dan başlayıp sayma
+
 ```python
 with open(FILE, "r") as file:
   for i, line in enumerate(file, a):
@@ -160,6 +160,14 @@ with open(FILE, "r") as file:
 # (a+1). satır
 # ...
 ```
+
+{% tabs %}
+{% tab title="🅰 Karakter Sayma" %}
+
+{% endtab %}
+
+{% tab title="📂 Dosya Satırlarını A\'dan Başlayıp Sayma" %}
+
 {% endtab %}
 {% endtabs %}
 

@@ -2,8 +2,6 @@
 
 ## 🔢 Aritmetik Operatörler
 
-{% tabs %}
-{% tab title="🧱 Temel" %}
 | Operatör | Açıklama |
 | :--- | :--- |
 | `+, -, /, *` | 4 işlem |
@@ -11,19 +9,14 @@
 | `a, b = c, d` | Tek satırda çoklu atama |
 | `+=, -=, /=, *=` | Kendisiyle işleme sokup kendisine atama |
 | `<operatör>=` | Kendisiyle işleme sokup kendisine atama |
-| `( )` | Parantej ile öncelik belirleme |
+| `( )` | Parantez ile öncelik belirleme |
+| `%` | Mod alma işlemi |
+| `**` | Kuvvet alma |
+| `//` | Kalansız bölümü alma |
 
-> `<operatör>` herhangi bir operatörü temsil eder.
-{% endtab %}
-
-{% tab title="🌍 Diğerleri" %}
-| Operatör | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `%` | Mod alma işlemi | `6 % 2` | `0` |
-| `**` | Kuvvet alma | `6 ** 2` | `36` |
-| `//` | Kalansız bölümü alma | `13 // 2` | `6` |
-{% endtab %}
-{% endtabs %}
+{% hint style="warning" %}
+‍📢 `<operatör>` herhangi bir operatörü temsil eder.
+{% endhint %}
 
 ## 🔛 Karşılaştırma Operatörleri
 
@@ -38,16 +31,16 @@
 
 ## 🤔 Mantıksal Operatörler
 
-{% tabs %}
-{% tab title="🧱 Temel" %}
+### 🧱 Temel
+
 | Operatör | Açıklama | Örnek | Çıktı |
 | :--- | :--- | :--- | :--- |
 | `and` | Ve işlemi | `True and False` | `False` |
 | `or` | Veya işlemi | `False or True` | `True` |
 | `not` | Değili | `not False` | `True` |
-{% endtab %}
 
-{% tab title="🅾 Bit Düzeyinde" %}
+### 💞 Bit düzeyinde
+
 | Operatör | Açıklama | Örnek |  |  |
 | :--- | :--- | :--- | :--- | :--- |
 | `&` | Ve | `x & y = 0 (0000 0000)` |  |  |
@@ -56,8 +49,6 @@
 | `^` | XOR | `x ^ y = 14 (0000 1110)` |  |  |
 | `>>` | Sağa kaydırma | `x >> 2 = 2 (0000 0010)` |  |  |
 | `<<` | Sola kaydırma | `x << 2 = 40 (0010 1000)` |  |  |
-{% endtab %}
-{% endtabs %}
 
 ## 🆔 Kimlik Belirleme
 

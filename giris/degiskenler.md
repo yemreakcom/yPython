@@ -28,16 +28,16 @@ Değişkenin daha önceden tanımlandığını kontrol etme için [buraya](https
   * `list` için `b = list(a)` ya da `b = a[:]` yapısı ile değer kopyalanır
   * `b = a` yapısı adresi kopyalar, `a.append(1)` yapıldığında `b`'ye de eklenir
 
-## ✨ Değişken İşlemleri
+## ✨ Değişken Tanımlama
 
-{% tabs %}
-{% tab title="Değersiz Değişken Tanımlama" %}
+### 🐥 Değersizler
+
 ```python
 degersiz = None
 ```
-{% endtab %}
 
-{% tab title="Sabit Değer Tanımlama" %}
+### ⚡ Sabit Değerler
+
 * Python'da **constant** yoktur. 
 * Sabit değerler büyük harfler ile belirtilir.
 
@@ -45,39 +45,39 @@ degersiz = None
 Aynı dosya içerisinde büyük harflerle yazılsa bile değiştirilebilir.
 {% endhint %}
 
-**`sabitler.py` dosyası**
-
+{% code title="sabitler.py" %}
 ```python
 PI = 3.14
 YER_CEKIMI = 9.8
 ```
+{% endcode %}
 
-**`main.py` dosyası**
-
+{% code title="main.py" %}
 ```python
 import sabitler
 
 print(sabitler.PI) # 3.14
 print(sabitler.GRAVITY) # 9.8
 ```
-{% endtab %}
+{% endcode %}
 
-{% tab title="Tanımlı Değişken Kontrolü" %}
+## 👮‍♂️ Tanımlı Değişken Kontrolü
+
 ```python
 if 'myVar' in locals():
   # myVar exists.
+  
 if 'myVar' in globals():
   # myVar exists.
+  
 if hasattr(obj, 'attr_name'):
   # obj.attr_name exists.
 ```
-{% endtab %}
-{% endtabs %}
 
-## 🔂 Değişken Dönüşümleri
+## 💱 Değişken Dönüşümleri
 
-{% tabs %}
-{% tab title="Değişkenler Arası Dönüşüm" %}
+### 🔄 Değişkenler arası
+
 ```python
 ondalikli = 5.8
 type(ondalikli) #  <class 'float'>
@@ -93,27 +93,27 @@ value = "False"
 print(bool(value)) # True verir, bool'a takılama string içeriğine bakmaz.
 print(bool("")) # False
 ```
-{% endtab %}
 
-{% tab title="Taban ve Tavan İşlemleri" %}
+### 🏠 Taban ve Tavan
+
 ```python
 import math
 
 tam = math.ceil(5.8) # 6 atanır
 tam = math.floor(5.8) # 5 atanır
 ```
-{% endtab %}
 
-{% tab title="Eval Fonksiyonu ile Dönüştürme" %}
+### 🧮 String Hesaplama
+
 ```python
 value = "5"
 print(type(value)) # <class 'str'>
 print(type(eval(value))) # <class 'int'>
 print(type(value)) # <class 'str'>
 ```
-{% endtab %}
 
-{% tab title="Diğer Dönüşümler" %}
+### 🌁 Diğer dönüşümler
+
 ```python
 value1 = "5"
 value2 = 3
@@ -126,21 +126,19 @@ value3 = type(value2)(value1) # Value1'i value2'nin tipine dönüştürme
 print(value3) # 5
 print(type(value3)) # <class 'int'>
 ```
-{% endtab %}
-{% endtabs %}
 
-## 🧮 Sayılar, Sayılar Arası Dönüşüm ve Matematik
+## 🧮 Sayılar Arası İşlemler
 
-{% tabs %}
-{% tab title="Tabanlı Sayılar" %}
+### 👨‍💻 Tabanlı Sayılar
+
 | Taban | Ön ek | Örnek | Çıktı |
 | :--- | :--- | :--- | :--- |
 | 2'lik | `0b` ya da `0B` | `print(0b1101011)` | 107 |
 | 8'lik | `0o` ya da `0O` | `print(0xFB + 0b10)` | 253 \(251 + 2\) |
 | 16'lık | `0x` ya da `0X` | `print(0o15)` | 13 |
-{% endtab %}
 
-{% tab title="Ondalıklı Sayılar" %}
+### 😵 Ondalıklı Sayılar
+
 ```python
 >>> (1.1 + 2.2) == 3.3
 False
@@ -152,7 +150,8 @@ False
 import decimal
 
 print(0.1) # 0.1
-print(decimal.Decimal(0.1)) # Decimal('0.1000000000000000055511151231257827021181583404541015625')
+print(decimal.Decimal(0.1)) 
+# Decimal('0.1000000000000000055511151231257827021181583404541015625')
 ```
 
 ```python
@@ -161,9 +160,9 @@ from decimal import Decimal as D
 print(D('1.1') + D('2.2')) #  Decimal('3.3')
 print(D('1.2') * D('2.50')) # Decimal('3.000')
 ```
-{% endtab %}
 
-{% tab title="Kesirli Sayılar \(Fractions\)" %}
+### 🔪 Kesirli Sayılar \(Fractions\)
+
 ```python
 import fractions
 
@@ -188,9 +187,9 @@ print(1 / F(5,6)) # 6/5
 print(F(-3,10) > 0) # False
 print(F(-3,10) < 0) # True
 ```
-{% endtab %}
 
-{% tab title="Matematik İşlemleri" %}
+### 🧮 Matematiksel
+
 ```python
 import math
 
@@ -201,9 +200,9 @@ print(math.log10(1000)) # .0
 print(math.sinh(1)) # 1.1752011936438014
 print(math.factorial(6)) # 720
 ```
-{% endtab %}
 
-{% tab title="Rastgelelik" %}
+### 🎲 Rastgelelik
+
 ```python
 import random
 
@@ -215,6 +214,4 @@ random.shuffle(x) # Karıştrma
 print(x) # Karışım sonucunu yazma
 print(random.random()) # Rastgele eleman yazma
 ```
-{% endtab %}
-{% endtabs %}
 
