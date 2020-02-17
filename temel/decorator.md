@@ -53,5 +53,11 @@ if __name__ == "__main__":
 # 10 11 12 13 14 20 21 22 15 16 17 18 19 23 24 25 26 27 28 29
 ```
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [👨‍💻 Decorators with Parameters](https://stackoverflow.com/a/25827070/9770490) alanına bakabilirsin.
+{% endhint %}
 
+## 🔗 Faydalı Bağlantılar
+
+* [👨‍💻 Decorators with Parameters](https://stackoverflow.com/a/25827070/9770490)
 
