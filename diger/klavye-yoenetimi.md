@@ -90,3 +90,7 @@ for line in fileinput.input():
     keyboard.write(line)
 ```
 
+## 🔗 Faydalı Bağlantılar
+
+{% embed url="https://github.com/boppreh/keyboard" %}
+
