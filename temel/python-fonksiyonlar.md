@@ -16,6 +16,7 @@ description: Python'da fonksiyonlar
 | Fonksiyon | Açıklama | Örnek | Çıktı |
 | :--- | :--- | :--- | :--- |
 | `print(<string>)` | Ekrana yazma | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}` |
+| `print('\r' + <string>, end='')` | Satır başına yazı yazma |  |  |
 | `sum, len` | Toplama, uzunluk, ortalama | `sum([1, 2, 3])` | `5` |
 | `eval(<string>)` | Verilen stringi hesaplama | `eval("x + 5")` | `6` |
 | `type(<obje>)` | Objenin türünü bulma | `type(x)` | `<class 'number'>` |

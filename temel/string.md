@@ -25,6 +25,17 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 🧙‍♂️ Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirsin.
 {% endhint %}
 
+## 💎 Özel Karakterler
+
+* 💁‍♂️ Escape chars olarak da tanımlanırlar
+* ⌨️ print gibi yazdırma metotlarında kullanılır
+
+| 🦄 Karakter | 📝 Açıklama |
+| :--- | :--- |
+| `\n` | Yeni satır |
+| `\r` | Satır başı |
+| `\t` | Tab \(4 boşluk |
+
 ## 💠 Fonksiyonlar
 
 Çok önemli ve ileride kullanılacak bir konudur. 🌟
@@ -160,14 +171,4 @@ with open(FILE, "r") as file:
 # (a+1). satır
 # ...
 ```
-
-{% tabs %}
-{% tab title="🅰 Karakter Sayma" %}
-
-{% endtab %}
-
-{% tab title="📂 Dosya Satırlarını A\'dan Başlayıp Sayma" %}
-
-{% endtab %}
-{% endtabs %}
 
