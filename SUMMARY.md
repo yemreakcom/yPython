@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🐍 Python Notlarım](README.md)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](changelog.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](yazilar/README.md)
@@ -67,7 +67,7 @@
   * [🔳 Ekran Yönetimi](diger/ekran-yonetimi.md)
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
   * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
-  * [⌨️ Input Yönetimi](diger/input-yoenetimi.md)
+  * [⌨️ Input Yönetimi](diger/input-yonetimi.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🏂 Anaconda'ya Giriş](anaconda/giris.md)
   * [👷‍♂️ Anaconda & Miniconda Kurulumu](anaconda/anaconda-and-miniconda-kurulumu.md)
