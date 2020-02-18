@@ -67,6 +67,7 @@
   * [🔳 Ekran Yönetimi](diger/ekran-yonetimi.md)
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
   * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
+  * [⌨️ Input Yönetimi](diger/input-yoenetimi.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🏂 Anaconda'ya Giriş](anaconda/giris.md)
   * [👷‍♂️ Anaconda & Miniconda Kurulumu](anaconda/anaconda-and-miniconda-kurulumu.md)
