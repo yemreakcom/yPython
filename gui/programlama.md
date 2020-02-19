@@ -75,17 +75,7 @@ Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 
 {% embed url="https://www.qt.io/qt-for-python" %}
 
-
-
 ## ✨ Executable Dosya Oluşturma
 
-{% tabs %}
-{% tab title="💫 Autopy To Exe" %}
 {% embed url="https://github.com/brentvollebregt/auto-py-to-exe" %}
-{% endtab %}
-
-{% tab title="📦 PyInstaller" %}
-{% embed url="https://www.youtube.com/watch?v=lOIJIk\_maO4" %}
-{% endtab %}
-{% endtabs %}
 
