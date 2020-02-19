@@ -22,8 +22,8 @@ Python görsel programlama **PyQt API**'ı ile yapılmaktadır.
 {% tab title="🚧 Kurulum" %}
 GUI için _cross development_ desteği olan **pyqt** kullanılmaktadır.
 
-* `pip install pyqt5`
-* `conda install pyqt`
+* `pip install pyside2`
+* `conda install pyside2`
 
 > 💡 _Cross development_: Birden çok işletiim sisteminde çalışabilen yazılım geliştirmesi: PC, Mac, linux vs..
 {% endtab %}

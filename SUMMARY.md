@@ -55,6 +55,7 @@
 * [🔆 Grafiksel Arayüzler](gui/README.md)
   * [👨‍🎨 Tkinter](gui/tkinter.md)
   * [👨‍💻 Görsel Programlama](gui/programlama.md)
+  * [🍢 System Tray App](gui/system-tray-app.md)
   * [📈 Grafik Çizimleri](gui/grafik-cizimleri.md)
 * [💞 Eş Zamanlı İşlemler](es-zamanli-islemler/README.md)
   * [🎌 Komut Çalıştırma](es-zamanli-islemler/komut-calistirma.md)
