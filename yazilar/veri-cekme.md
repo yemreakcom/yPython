@@ -63,7 +63,7 @@ fortune_500 = json.loads(df.to_json(orient="records"))
 df
 ```
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/data_crowling_csv.png)
 
 ```python
 df_list = pd.read_html("https://en.wikipedia.org/w/index.php?title=Automotive_industry&oldid=875776152", header=0)
@@ -71,5 +71,5 @@ car_totals = json.loads(df_list[1].to_json(orient="records"))
 car_by_man = json.loads(df_list[3].to_json(orient='records'))
 ```
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/data_crowling_csv2.png)
 

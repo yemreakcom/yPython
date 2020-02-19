@@ -2,13 +2,14 @@
 
 ## 💠 Python görsel programlama araçları
 
+* PySide2
 * PyQt5
 * Tkintrer \(zaten yüklü olarak gelir\)
 * WxPython
 * Kivy \(opensource\)
 * PyForms
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/python_gui_table.png)
 
 ## 📦 PyQT5
 
@@ -50,7 +51,7 @@ app.exec_()
 {% tab title="💠 Widgets" %}
 PyQT deki her bir obje widget olarak adlandırılmakta
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/pyqt_widgets.png)
 
 Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 
@@ -78,8 +79,6 @@ Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 ## ✨ Executable Dosya Oluşturma
 
 {% tabs %}
-
-
 
 {% embed url="https://github.com/brentvollebregt/auto-py-to-exe" caption="" %}
 

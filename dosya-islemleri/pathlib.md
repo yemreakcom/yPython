@@ -2,7 +2,7 @@
 description: Nesneye yönelik dosya sistemi yolları işlemleri
 ---
 
-# 🛍 Pathlib \| Dosya
+# 🛍️ Pathlib \| Dosya
 
 ## 🎈 Neden Tercih Edilmeli
 

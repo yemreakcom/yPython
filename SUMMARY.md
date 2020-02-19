@@ -45,7 +45,7 @@
   * [🌟 Sık Kullanılanlar \| Dosya](dosya-islemleri/sik-kullanilanlar.md)
   * [⭐ Örnekler \| Dosya](dosya-islemleri/ornekler.md)
   * [🚩 Yol İşlemleri \| Dosya](dosya-islemleri/path.md)
-  * [🛍 Pathlib \| Dosya](dosya-islemleri/pathlib.md)
+  * [🛍️ Pathlib \| Dosya](dosya-islemleri/pathlib.md)
 * [🖤 Komut İstemi](cli/README.md)
   * [👨‍💼 Komut İstemi Yönetim](cli/yonetim.md)
   * [✨ Argparse](cli/argparse.md)

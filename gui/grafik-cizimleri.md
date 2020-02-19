@@ -49,7 +49,7 @@ plt.show()
 {% endtab %}
 
 {% tab title="📋 Çıktı" %}
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/gui_triangle.png)
 {% endtab %}
 {% endtabs %}
 

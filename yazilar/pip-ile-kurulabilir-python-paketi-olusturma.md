@@ -10,7 +10,7 @@ description: >-
 
 > Eski adı: Pip Üzerinde Paket Yayınlama
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/python_pypi.png)
 
 ## 🧾 PyPI'ya Kayıt olma
 
@@ -23,7 +23,7 @@ description: >-
 
 * 🔸 Açıklama metninizi **markdown** formatı ile `README.md` içerisine yazın.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](https://github.com/YEmreAk/YPython/tree/242e99657e53eccf56e956980a7baf4dcda43744/.gitbook/assets/image%20%289%29.png)
 
 ### 👨‍🔧 setup.py kurulum dosyası
 
