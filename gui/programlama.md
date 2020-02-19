@@ -22,8 +22,8 @@ Python görsel programlama **PyQt API**'ı ile yapılmaktadır.
 {% tab title="🚧 Kurulum" %}
 GUI için _cross development_ desteği olan **pyqt** kullanılmaktadır.
 
-* `pip install pyside2`
-* `conda install pyside2`
+* `pip install pyqt5`
+* `conda install pyqt5`
 
 > 💡 _Cross development_: Birden çok işletiim sisteminde çalışabilen yazılım geliştirmesi: PC, Mac, linux vs..
 {% endtab %}
@@ -67,6 +67,15 @@ Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 > Ekran görüntüsündeki kodu [buraya](https://build-system.fman.io/static/public/files/widgets_example.py) tıklayarak indirebilirsin.
 {% endtab %}
 {% endtabs %}
+
+## 🟢 QT \(PySide2\)
+
+* 💰 Ticari kullanımlar için paralıdır
+* 👨‍💻 OpenSource ve GPL lisanslı kodlar için ücretsizdir
+
+{% embed url="https://www.qt.io/qt-for-python" %}
+
+
 
 ## ✨ Executable Dosya Oluşturma
 
