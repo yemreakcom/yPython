@@ -8,6 +8,8 @@ description: >-
 
 ## 💞 Kısayol Ekleme
 
+* 👮‍♂️ `suppress` deyimi ile hotkey tetiklendiğinde tuş basımlarını göndermezsin
+
 ```python
 print('Press and release your desired shortcut: ')
 shortcut = keyboard.read_hotkey()
@@ -18,7 +20,7 @@ def on_triggered():
     print("Triggered!")
 
 
-keyboard.add_hotkey(shortcut, on_triggered)
+keyboard.add_hotkey(shortcut, on_triggered, suppress=True)
 
 print("Press ESC to stop.")
 keyboard.wait('esc')
@@ -35,7 +37,9 @@ import keyboard
 import time
 
 keyboard.start_recording()
+
 time.sleep(10)
+
 events = keyboard.stop_recording()
 keyboard.replay(events)
 

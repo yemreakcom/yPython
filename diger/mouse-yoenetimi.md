@@ -13,3 +13,19 @@ events = mouse.record(button=mouse.RIGHT)
 mouse.play(events)
 ```
 
+## 👨‍💻 Gelişmiş Kaydetme
+
+```python
+import mouse
+import time
+
+mouse_events = []
+mouse.hook(mouse_events.append)
+
+time.sleep(5)
+
+mouse.unhook(mouse_events.append)
+mouse.play(mouse_events)
+
+```
+
