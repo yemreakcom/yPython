@@ -73,9 +73,15 @@ Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 * 💰 Ticari kullanımlar için paralıdır
 * 👨‍💻 OpenSource ve GPL lisanslı kodlar için ücretsizdir
 
-{% embed url="https://www.qt.io/qt-for-python" %}
+{% embed url="https://www.qt.io/qt-for-python" caption="" %}
 
 ## ✨ Executable Dosya Oluşturma
 
-{% embed url="https://github.com/brentvollebregt/auto-py-to-exe" %}
+{% tabs %}
+
+
+
+{% embed url="https://github.com/brentvollebregt/auto-py-to-exe" caption="" %}
+
+{% embed url="https://www.youtube.com/watch?v=lOIJIk\_maO4" caption="" %}
 

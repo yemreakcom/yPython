@@ -4,7 +4,7 @@ description: >-
   oluşturma, tuş basımı ve mouse tıklamaları
 ---
 
-# ⌨️ Input Yönetimi
+# ⌨️ Input Yönetimi \| pynput
 
 ## 👀 Hızlı Bakış
 

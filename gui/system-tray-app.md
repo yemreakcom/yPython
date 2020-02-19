@@ -8,6 +8,8 @@ description: QT ile pythonla system tray uygulaması oluşturma
 
 * 👮‍♂️ Uygulamanın çalışması için, kod ile aynı dizinde olan `icon.png` gerekir
 
+![](../.gitbook/assets/image%20%287%29.png)
+
 ## ⭐ Örnek
 
 ```python
