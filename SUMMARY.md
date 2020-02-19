@@ -68,6 +68,7 @@
   * [✨ Faydalı İşlemler](diger/faydali-islemler.md)
   * [🎴 Görüntü İşlemleri](diger/goeruentue-islemleri.md)
   * [⌨️ Klavye Yönetimi](diger/klavye-yoenetimi.md)
+  * [🖱️ Mouse Yönetimi](diger/mouse-yoenetimi.md)
   * [⌨️ Input Yönetimi \| pynput](diger/input-yonetimi.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🏂 Anaconda'ya Giriş](anaconda/giris.md)

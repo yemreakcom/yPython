@@ -25,7 +25,10 @@ keyboard.wait('esc')
 
 ```
 
-## 🔴 Tuş Basımını Tekrarlama
+## 🔴 Tekrarlama
+
+* 👂 Klavye eylemlerini dinler
+* 🔄 Dinleme işlemi bittiği zaman tüm eylemleri aynı sırayla tekrarlar
 
 ```python
 import keyboard
