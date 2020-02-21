@@ -83,7 +83,7 @@ World
 
 
 
-### 💠 Metotlar ile düzenleme
+### 💠 Metotlar ile
 
 | 💠 Metot | 📝 Açıklama |
 | :--- | :--- |
@@ -124,7 +124,7 @@ len("yemreak") # 7
 
 ```
 
-### 💎 Özel karakterler ile düzenleme
+### 💎 Özel karakterler ile
 
 * 💁‍♂️ Escape chars olarak da tanımlanırlar
 * ⌨️ print gibi yazdırma metotlarında kullanılır
@@ -135,7 +135,7 @@ len("yemreak") # 7
 | `\r` | Satır başı |
 | `\t` | Tab \(4 boşluk |
 
-### 💯 Operatörler ile düzenleme
+### 💯 Operatörler ile
 
 | 💎 Operatör | 📝 Açıklama |
 | :--- | :--- |
@@ -224,8 +224,6 @@ import re
 
 > [How to find all occurrences of a substring?](https://stackoverflow.com/a/4664889/9770490)
 
-## 🔢 Sayma İşlemleri
-
 ### 🅰️ Karakter Sayma
 
 ```python
@@ -236,18 +234,6 @@ for i, char in enumerate(string):
 # 0 Y
 # 1 e
 # 2 m
-# ...
-```
-
-### 📂 Dosya satırlarını `a`'dan başlayıp sayma
-
-```python
-with open(FILE, "r") as file:
-  for i, line in enumerate(file, a):
-    print(f"{i}. {line}")
-
-# a. satır
-# (a+1). satır
 # ...
 ```
 
