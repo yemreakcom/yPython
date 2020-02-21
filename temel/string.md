@@ -4,6 +4,12 @@ description: Python'da string (metin) işlemleri
 
 # 🔤 String İşlemleri
 
+## 👀 Hızlı Bakış
+
+* 🌟 Programlama dillerindeki en önemli konulardandır
+* 💁‍♂️ Diğer önemli konu **Arama İşlemleri** olarak söylenir
+* 📈 Verimliliği artırma adına bu konunun bilinmesi mühimdir
+
 ## 🧱 Temel İşlemler
 
 String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
