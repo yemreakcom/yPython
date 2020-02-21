@@ -61,6 +61,7 @@
   * [🎌 Komut Çalıştırma](es-zamanli-islemler/komut-calistirma.md)
   * [🧵 Multithreading](es-zamanli-islemler/multithreading.md)
   * [🎎 Multiprocessing](es-zamanli-islemler/multiprocessing.md)
+* [🕹 Oyun Programlama](oyun-programlama.md)
 * [✨ Diğer Notlarım](diger/README.md)
   * [🌇 Sanal Ortam Oluşturma](diger/sanal-ortam-olusturma.md)
   * [💌 HTTP İstekleri](diger/http-istekleri.md)
