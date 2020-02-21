@@ -133,7 +133,6 @@ len("yemreak") # 7
 
 ### 💎 Özel karakterler ile
 
-* 💁‍♂️ Escape chars olarak da tanımlanırlar
 * ⌨️ print gibi yazdırma metotlarında kullanılır
 
 | 🦄 Karakter | 📝 Açıklama |
@@ -141,6 +140,7 @@ len("yemreak") # 7
 | `\n` | Yeni satır |
 | `\r` | Satır başı |
 | `\t` | Tab \(4 boşluk |
+| `\` | Escape chars |
 
 ### 💯 Operatörler ile
 
