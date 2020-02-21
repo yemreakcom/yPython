@@ -78,9 +78,9 @@ Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 
 ## ✨ Executable Dosya Oluşturma
 
-{% tabs %}
-
 {% embed url="https://github.com/brentvollebregt/auto-py-to-exe" caption="" %}
 
-{% embed url="https://www.youtube.com/watch?v=lOIJIk\_maO4" caption="" %}
+{% embed url="https://aka.ms/vs/16/release/VC\_redist.x64.exe" %}
+
+
 
