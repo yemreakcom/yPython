@@ -6,7 +6,5 @@ description: Python ve pygame ile oyun programlama
 
 ## 📗 Faydalı Kitaplar
 
-{% embed url="https://inventwithpython.com/makinggames.pdf" %}
-
-
+* [👷‍♂️ Making Game with Python & PyGame](https://inventwithpython.com/makinggames.pdf)
 
