@@ -6,7 +6,7 @@ description: "Python üzerindeki popüler paketler (en azından benim kullandık
 
 ## 🌟 Sık Kullanılanlar
 
-| Paket | Odaklantığı İşlemler |
+| Paket | Odaklandığı İşlemler |
 | :--- | :--- |
 | [os](https://www.pythonforbeginners.com/os/pythons-os-module) | İşletim sistemi |
 | time | Zaman |
