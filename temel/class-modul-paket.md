@@ -37,7 +37,7 @@ class Window(object):
         script = self._render_template('window/win_is_always_on_top.ahk')
         resp = self.engine.run_script(script)
         return bool(ast.literal_eval(resp))
-    
+
     @always_on_top.setter
     def always_on_top(self, value):
         if value in ('on', 'On', True, 1):
@@ -53,6 +53,19 @@ class Window(object):
 window = Window()
 window.always_on_top = "on"
 print(window.always_on_top) # "on"
+```
+
+## ⚡ Static Metotlar
+
+```python
+class Window(object):
+    @classmethod
+    def from_mouse_position(cls, engine: ScriptEngine, **kwargs):
+        script = engine.render_template('window/from_mouse.ahk')
+        ahk_id = engine.run_script(script)
+        return cls(engine=engine, ahk_id=ahk_id, **kwargs)
+        
+Window.from_mouse_position(...)
 ```
 
 ### 🍏 Inheritance \(Miras\)
@@ -310,7 +323,7 @@ class DataFrame(NDFrame):
 {% endtab %}
 {% endtabs %}
 
-##  🧱 Enumeration
+## 🧱 Enumeration
 
 Resmi dokümantasyon için [buraya](https://docs.python.org/3/library/enum.html) bakabilirsin.
 
@@ -366,7 +379,7 @@ class Mistake(Enum):
 {% endtab %}
 {% endtabs %}
 
-##  📂 Modüller
+## 📂 Modüller
 
 Her python dosyasına modül denir.
 
