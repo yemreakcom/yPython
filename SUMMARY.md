@@ -23,6 +23,7 @@
   * [🔤 String İşlemleri](temel/string.md)
   * [💎 Regex İşlemleri](temel/regex.md)
   * [📦 Class, Modül ve Paketler](temel/class-modul-paket.md)
+  * [🌟 Popüler Paketler](temel/popueler-paketler.md)
   * [📜 Raporlama İşlemleri](temel/raporlama.md)
   * [🏗️ Decorator](temel/decorator.md)
   * [👮‍ Kural Koyma](temel/kurallar.md)
