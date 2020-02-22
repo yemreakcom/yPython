@@ -9,7 +9,7 @@ description: 'Python üzerinde sık kullanılan bir yapı olan class, modül ve 
 * Nesneye yönelik programlama \(OOP\) temelini oluşturur
 * Veri ve metotları gruplandırmamızı ve verimli kodlamamızı sağlar
 
-## 💎 Class Anahtar Kelimeleri
+## 🍎 Class Anahtar Kelimeleri
 
 * Tip işlemleri yapmak için `print(dir(<tip>))` yazıp çıkan metotlardan kullanacaklarımızı tanımlamamız gerekir
   * Örn: `int` işlemlerini yapmak için `print(dir(int))`
@@ -55,7 +55,7 @@ window.always_on_top = "on"
 print(window.always_on_top) # "on"
 ```
 
-### 💒 Inheritance \(Miras\)
+### 🍏 Inheritance \(Miras\)
 
 Miras işlemlerinde `object` yerine miras alınacak **class** adı yazılır.
 
