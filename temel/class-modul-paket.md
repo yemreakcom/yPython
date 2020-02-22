@@ -457,22 +457,14 @@ Modül dosyalarının aranma yerleri:
 
 ### ⭐Paket Örnekleri
 
-{% tabs %}
-{% tab title="✨ Kullanım" %}
 ```python
 import Game.Level.start
-```
-
-```python
 from Game.Level import start
-```
-
-```python
 from Game.Level.start import select_difficulty
 ```
-{% endtab %}
 
-{% tab title="🌟 Sık Kullanılanlar" %}
+### 🌟 Sık Kullanılanlar
+
 | Paket | Odaklantığı İşlemler |
 | :--- | :--- |
 | [os](https://www.pythonforbeginners.com/os/pythons-os-module) | İşletim sistemi |
@@ -485,31 +477,33 @@ from Game.Level.start import select_difficulty
 | [PyHook](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook) | Klavye dinleme işlemleri |
 | [PyGame](https://pypi.org/project/pygame/) | Klavye dinlemek için pipeline oluşturma |
 | [Colorama](https://pypi.org/project/colorama/) | Ekrana renkli yazı bastırma |
-{% endtab %}
+| ColoredLogs | Ekrana renki raporlama \(loglama\) |
+| [Jinja2](https://github.com/pallets/jinja) | Template \(taslak\) derleyici |
 
-{% tab title="🎇 Windows Paketleri" %}
+### 🎇 Windows Paketleri
+
 | Modül | Odaklandığı İşlemler | Dokümanlar |
 | :--- | :--- | :--- |
 | pywinauto ☆ | Ön planda olmasalar dahi windows uygulamaları \(pywin32'i barındırır\) | [🌐](https://pywinauto.readthedocs.io/en/latest/index.html) [📺](https://www.youtube.com/watch?v=mhNIHgJPP3g) [📥](https://pywinauto.readthedocs.io/en/latest/#installation) |
 | pygetwindow | Windows pencereleri \(basit\) | [🌐](https://github.com/asweigart/PyGetWindow) |
 | pywin32 | Resmi windows API \(pencere dahil\) | [🌐](http://timgolden.me.uk/pywin32-docs/contents.html) [📺](https://www.youtube.com/watch?v=o-k6l6ea3Lg) [📥](https://pypi.org/project/pywin32/) |
 | pyautogui | Arayüz, fare, klavye ... | [📃](https://media.readthedocs.org/pdf/pyautogui/latest/pyautogui.pdf) [📺](https://www.youtube.com/watch?v=xOfBezEDZ24) |
-{% endtab %}
 
-{% tab title="🎴 Görüntü İşleme" %}
+### 🎴 Görüntü İşleme
+
 | Modül | Açılkama | Dökümanlar |
 | :--- | :--- | :--- |
 | pillow | Python resim kütüphanesi |  |
 | opencv | Görüntü işleme | [📃](https://docs.opencv.org/3.0-last-rst/opencv_cheatsheet.pdf) |
 | pytesseract | Görüntüdeki yazıyı bulma | [🌐](https://pypi.org/project/pytesseract/) |
-{% endtab %}
 
-{% tab title="🔄 IO Paketleri" %}
+### 🔄 IO Paketleri
+
 | Paket | Odaklanığı İşlemler | Dökümanlar |
 | :--- | :--- | :--- |
 | pynput | Fare, klavye vs... | [🌐](https://pynput.readthedocs.io/en/latest/index.html) [📃](https://media.readthedocs.org/pdf/pynput/latest/pynput.pdf) [📺](https://www.youtube.com/watch?v=kJshtCfqCsY) |
-{% endtab %}
-{% endtabs %}
+| keyboard | Klavye yönetimi \(pure python\) |  |
+| mouse | Mouse yönetimi \(pure python\) |  |
 
 ### 🔗 Paketler için Faydalı Bağlantılar
 
