@@ -99,6 +99,52 @@ type(s) == Rectangle # True
 isinstance(s, Rectangle) # True
 ```
 
+### 🍍 Meta Class
+
+```python
+class DirectiveMeta(type):
+    """
+    Overrides __str__ so directives with no arguments can be used without instantiation
+    Overrides __hash__ to make objects 'unique' based upon a hash of the str representation
+    """
+    def __str__(cls):
+        return f"#{cls.__name__}"
+
+    def __hash__(self):
+        return hash(str(self))
+
+    def __eq__(cls, other):
+        return str(cls) == other
+
+
+class Directive(SimpleNamespace, metaclass=DirectiveMeta):
+    """
+    Simple directive class
+    They are designed to be hashable and comparable with string equivalent of AHK directive.
+    Directives that don't require arguments do not need to be instantiated.
+    """
+    def __init__(self, **kwargs):
+        super().__init__(name=self.name, **kwargs)
+        self._kwargs = kwargs
+
+    @property
+    def name(self):
+        return self.__class__.__name__
+
+    def __str__(self):
+        if self._kwargs:
+            arguments = ' '.join(str(value) for key, value in self._kwargs.items())
+        else:
+            arguments = ''
+        return f"#{self.name} {arguments}".rstrip()
+
+    def __eq__(self, other):
+        return str(self) == other
+
+    def __hash__(self):
+        return hash(str(self))
+```
+
 ### ⭐ Class Örnekleri
 
 {% tabs %}
