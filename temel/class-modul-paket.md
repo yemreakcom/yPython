@@ -28,6 +28,33 @@ description: 'Python üzerinde sık kullanılan bir yapı olan class, modül ve 
 | `def function(param):` | Fonksiyon tanımlama | Metotlu Class Örneği |
 | `del p1.age`, `del p1` | Obje ya da class silme |  |
 
+### 💎 Properties
+
+```python
+class Window(object):
+    @property
+    def always_on_top(self):
+        script = self._render_template('window/win_is_always_on_top.ahk')
+        resp = self.engine.run_script(script)
+        return bool(ast.literal_eval(resp))
+    
+    @always_on_top.setter
+    def always_on_top(self, value):
+        if value in ('on', 'On', True, 1):
+            self.win_set('AlwaysOnTop', 'On')
+        elif value in ('off', 'Off', False, 0):
+            self.win_set('AlwaysOnTop', 'Off')
+        elif value in ('toggle', 'Toggle', -1):
+            self.win_set('AlwaysOnTop', 'Toggle')
+        else:
+            raise ValueError(
+                f'"{value}" not a valid option')
+
+window = Window()
+window.always_on_top = "on"
+print(window.always_on_top) # "on"
+```
+
 ### 💒 Inheritance \(Miras\)
 
 Miras işlemlerinde `object` yerine miras alınacak **class** adı yazılır.
@@ -455,59 +482,9 @@ Modül dosyalarının aranma yerleri:
 * `.` ile modüllere erişilir
   * Tekrar `.` atılırsa modülün içindekilere erişilir
 
-### ⭐Paket Örnekleri
-
 ```python
 import Game.Level.start
 from Game.Level import start
 from Game.Level.start import select_difficulty
 ```
-
-### 🌟 Sık Kullanılanlar
-
-| Paket | Odaklantığı İşlemler |
-| :--- | :--- |
-| [os](https://www.pythonforbeginners.com/os/pythons-os-module) | İşletim sistemi |
-| time | Zaman |
-| [datetime](https://www.pythonforbeginners.com/basics/python-datetime-timedelta) | Tarih |
-| [numpy](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf) | Matematiksel |
-| [openCV](https://docs.opencv.org/3.0-last-rst/opencv_cheatsheet.pdf) | Görüntü |
-| [pillow](https://pillow.readthedocs.io/en/stable/) | Resim |
-| [Tensorflow](https://pypi.org/project/tensorflow/) | Makine öğrenimi |
-| [PyHook](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook) | Klavye dinleme işlemleri |
-| [PyGame](https://pypi.org/project/pygame/) | Klavye dinlemek için pipeline oluşturma |
-| [Colorama](https://pypi.org/project/colorama/) | Ekrana renkli yazı bastırma |
-| ColoredLogs | Ekrana renki raporlama \(loglama\) |
-| [Jinja2](https://github.com/pallets/jinja) | Template \(taslak\) derleyici |
-
-### 🎇 Windows Paketleri
-
-| Modül | Odaklandığı İşlemler | Dokümanlar |
-| :--- | :--- | :--- |
-| pywinauto ☆ | Ön planda olmasalar dahi windows uygulamaları \(pywin32'i barındırır\) | [🌐](https://pywinauto.readthedocs.io/en/latest/index.html) [📺](https://www.youtube.com/watch?v=mhNIHgJPP3g) [📥](https://pywinauto.readthedocs.io/en/latest/#installation) |
-| pygetwindow | Windows pencereleri \(basit\) | [🌐](https://github.com/asweigart/PyGetWindow) |
-| pywin32 | Resmi windows API \(pencere dahil\) | [🌐](http://timgolden.me.uk/pywin32-docs/contents.html) [📺](https://www.youtube.com/watch?v=o-k6l6ea3Lg) [📥](https://pypi.org/project/pywin32/) |
-| pyautogui | Arayüz, fare, klavye ... | [📃](https://media.readthedocs.org/pdf/pyautogui/latest/pyautogui.pdf) [📺](https://www.youtube.com/watch?v=xOfBezEDZ24) |
-
-### 🎴 Görüntü İşleme
-
-| Modül | Açılkama | Dökümanlar |
-| :--- | :--- | :--- |
-| pillow | Python resim kütüphanesi |  |
-| opencv | Görüntü işleme | [📃](https://docs.opencv.org/3.0-last-rst/opencv_cheatsheet.pdf) |
-| pytesseract | Görüntüdeki yazıyı bulma | [🌐](https://pypi.org/project/pytesseract/) |
-
-### 🔄 IO Paketleri
-
-| Paket | Odaklanığı İşlemler | Dökümanlar |
-| :--- | :--- | :--- |
-| pynput | Fare, klavye vs... | [🌐](https://pynput.readthedocs.io/en/latest/index.html) [📃](https://media.readthedocs.org/pdf/pynput/latest/pynput.pdf) [📺](https://www.youtube.com/watch?v=kJshtCfqCsY) |
-| keyboard | Klavye yönetimi \(pure python\) |  |
-| mouse | Mouse yönetimi \(pure python\) |  |
-
-### 🔗 Paketler için Faydalı Bağlantılar
-
-* [Python Kütüphaneleri](https://docs.python.org/3/library/)
-* [Argparse Tutorial](https://docs.python.org/3/howto/argparse.html)
-* [PyAutoGUI vs Pywinauto](https://www.reddit.com/r/Python/comments/8bymeo/pyautogui_vs_pywinauto/)
 
