@@ -6,6 +6,8 @@ description: Yunus Emre Ak ~ YEmreAk (@yedhrab) 'ın python ve python programlam
 
 ## 🙋‍♂️ Hoş Geldin
 
+![💫 YGitBook Integration](https://github.com/YEmreAk/YPython/workflows/%F0%9F%92%AB%20YGitBook%20Integration/badge.svg)
+
 🤓 Burada kaybolmaman için bilmen gerekenler:
 
 * Sağ üstteki **🔍 arama butonunu** kullanmayı asla ama asla ihmal etme
