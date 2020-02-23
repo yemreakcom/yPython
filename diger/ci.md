@@ -157,45 +157,67 @@ twine upload dist/*
 
 {% code title=".github/workflows/pythonpackage.yml" %}
 ```yaml
-name: 🕵️‍♂️ Continuous integration
-on: [push]
+name: 🕵️‍♂️ Continuous integration
+
+on: [pull_request]
+
 jobs:
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      max-parallel: 4
-      
-      matrix:
-        python-version: [3.8]
-        os: [macos-latest, ubuntu-latest, windows-latest]
-        include:
-          - os: windows-latest
-            INSTALL: .\ci\install.bat
-            TEST: .\ci\test.bat
-            QUALITY_TEST: .\ci\quality_test.bat
-          - os: macos-latest
-            INSTALL: .\ci\install.sh
-            TEST: .\ci\test.sh
-            QUALITY_TEST: .\ci\quality_test.sh
-          - os: ubuntu-latest
-            INSTALL: .\ci\install.sh
-            TEST: .\ci\test.sh
-            QUALITY_TEST: .\ci\quality_test.sh
-    steps:
-      - uses: actions/checkout@v1
-      - name: 🏗️ Python ${{ matrix.python-version }} setup
-        uses: actions/setup-python@v1
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: 📦 Installing dependencies
-        run: |
-          ${{matrix.INSTALL}}
-      - name: ⚗️ Functional testing
-        run: |
-          ${{matrix.TEST}}
-      - name: 🧐 Python code style testing
-        run: |
-          ${{matrix.QUALITY_TEST}}
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      max-parallel: 4
+      fail-fast: false # 1 test başarısız olursa diğerleri kapanmaz
+      matrix:
+        python-version: [3.8]
+        os: [windows-latest, ubuntu-latest, macos-latest]
+        include:
+          - os: windows-latest
+            INSTALL: .\ci\install.bat
+            TEST: .\ci\test.bat
+            QUALITY_TEST: .\ci\quality_test.bat
+
+          - os: macos-latest
+            INSTALL: |
+              chmod u+x ./ci/install.sh &&
+              ./ci/install.sh
+            TEST: |
+              chmod u+x ./ci/test.sh &&
+              ./ci/test.sh
+            QUALITY_TEST: |
+              chmod u+x ./ci/quality_test.sh &&
+              ./ci/quality_test.sh
+
+          - os: ubuntu-latest
+            INSTALL: |
+              chmod u+x ./ci/install.sh &&
+              ./ci/install.sh
+            TEST: |
+              chmod u+x ./ci/test.sh &&
+              ./ci/test.sh
+            QUALITY_TEST: |
+              chmod u+x ./ci/quality_test.sh &&
+              ./ci/quality_test.sh
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: 🏗️ Python ${{ matrix.python-version }} setup
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: 📦 Installing dependencies
+        run: |
+          ${{matrix.INSTALL}}
+
+      - name: ⚗️ Functional testing
+        run: |
+          ${{matrix.TEST}}
+
+      - name: 🧐 Python code style testing
+        run: |
+          ${{matrix.QUALITY_TEST}}
+
 ```
 {% endcode %}
 
