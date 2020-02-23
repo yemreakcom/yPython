@@ -8,6 +8,8 @@ description: >-
 
 ## 👀 Hızlı Bakış
 
+![](../.gitbook/assets/github_ci_example.png)
+
 ![](../.gitbook/assets/ci_fast_notes.png)
 
 ## 📂 CI Dizini Oluşturma
