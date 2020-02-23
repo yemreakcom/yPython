@@ -30,8 +30,7 @@ description: >-
 * 🔨 Kurulum yapılandırma dosyasıdır.
 
 ```python
-from distutils.core import setup
-import setuptools
+from setuptools import setup
 
 VERSION = "1.0.0" # BURAYI AKLINIZDA TUTUN (Değiştirebilirsiniz)
 
@@ -42,7 +41,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name='PAKET_İSMİ',         # How you named your package folder (MyLib)
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(), # veya packages=['paket_ismi"]
     # Start with a small number and increase it with every change you make
     version=VERSION,
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
@@ -82,6 +81,9 @@ setup(
     #         'komut_ismi = dizin.dosya:main',
     #     ]
     # },
+    # tests_require=test_requirements,
+    # include_package_data=True,
+    # zip_safe=False
 )
 ```
 
