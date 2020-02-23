@@ -101,6 +101,22 @@ from . import markdown
 📢 Bu dosya olmazsa diğer paketleri pip aracı algılayamaz
 {% endhint %}
 
+## 📑 Manifest Dosyası
+
+* 🕵️‍♂️ Manifest dosyası ile paket içerisindeki dosyaların projeye dahil olması sağlanır
+* 📌 Bu dosya proje dizininde bulunmalıdır
+* ➕ `include` komutu ile harici dosyalar dahil edilir
+* 🗃️ `recursive-include` komutu ile dizin ve içerisindeki tüm dosyalar dahil edilir
+
+{% code title="MANIFEST.in" %}
+```elixir
+include LICENSE
+include README.md
+recursive-include ahk/templates *
+
+```
+{% endcode %}
+
 ## 📡 GitHub'da Yayınlama
 
 GitHub üzeinden repository oluşturun ve projenizi oraya upload edin.
