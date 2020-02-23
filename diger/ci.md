@@ -30,7 +30,9 @@ flake8
 
 ### 🏗️ Kurulum işlemlerini tanımlama
 
-{% code title="ci/install.bat" %}
+{% tabs %}
+{% tab title="✴️ Windows" %}
+{% code title="ci\\install.bat" %}
 ```bash
 python -m venv venv
 call venv\Scripts\activate.bat
@@ -41,10 +43,25 @@ call deactivate
 
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="🐧 Linux" %}
+{% code title="ci/install.sh" %}
+```bash
+python3 -m pip install --upgrade pip 
+python3 -m pip install --upgrade -r ./ci/requirements.txt
+python3 -m pip install --upgrade .
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### ⚗️ Test işlemlerini tanımlama
 
-{% code title="ci/test.bat" %}
+{% tabs %}
+{% tab title="✴️ Windows" %}
+{% code title="ci\\test.bat" %}
 ```text
 call venv\Scripts\activate.bat
 pytest
@@ -52,9 +69,22 @@ call deactivate
 
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="🐧 Linux" %}
+{% code title="ci/test.sh" %}
+```
+pytest
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### 🧪 Kod kalitesini test etme
 
+{% tabs %}
+{% tab title="✴️ Windows" %}
 {% code title="ci/quality\_test.bat" %}
 ```text
 call venv\Scripts\activate.bat
@@ -63,9 +93,22 @@ call deactivate
 
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="🐧 Linux" %}
+{% code title="ci/quality\_test.sh" %}
+```
+flake8 --exclude=venv* --statistics
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### 👷‍♂️ Derleme işlemleri
 
+{% tabs %}
+{% tab title="✴️ Windows" %}
 {% code title="ci/build.bat" %}
 ```text
 call venv\Scripts\activate.bat
@@ -74,14 +117,41 @@ call deactivate
 
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="🐧 Linux" %}
+{% code title="ci/build.sh" %}
+```
+python3 setup.py sdist bdist_wheel
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### 🛰️ Yayınlama işlemleri
 
+{% tabs %}
+{% tab title="✴️ Windows" %}
 {% code title="ci/upload.bat" %}
 ```text
-twine upload dist/*
+call venv\Scripts\activate.bat
+twine upload dist/*
+call deactivate
+
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="🐧 Linux" %}
+{% code title="ci/upload.sh" %}
+```
+twine upload dist/*
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ## 🔀 GitHub Workflow Oluşturma
 
