@@ -75,7 +75,7 @@
   * [⌨️ Input Yönetimi \| pynput](diger/input-yonetimi.md)
   * [🏗️ Kod içi Yapılar](diger/kod-ici-yapilar.md)
   * [🔄 Continuous İntegration \(CI\)](diger/ci.md)
-  * [⚗️ Test İşlemleri](diger/test-islemleri.md)
+  * [⚗️ Test İşlemleri \(pytest\)](diger/pytest.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🏂 Anaconda'ya Giriş](anaconda/giris.md)
   * [👷‍♂️ Anaconda & Miniconda Kurulumu](anaconda/anaconda-and-miniconda-kurulumu.md)

@@ -2,7 +2,7 @@
 description: Python üzerinde pytest ve modülleri ile test işlemleri
 ---
 
-# ⚗️ Test İşlemleri
+# ⚗️ Test İşlemleri \(pytest\)
 
 ## 📂 Test için Proje Yapılandırması
 
