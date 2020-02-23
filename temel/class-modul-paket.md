@@ -55,7 +55,22 @@ window.always_on_top = "on"
 print(window.always_on_top) # "on"
 ```
 
-## ⚡ Static Metotlar
+### ⚡ Static Metotlar
+
+* 📢 Static metotlarda `self` parametresi olmaz
+
+```python
+class Laptop:
+
+	@staticmethod
+	def details():
+		print('Hello! I am a laptop.')
+
+laptop1 = Laptop()
+laptop1.details()
+```
+
+### ❔ Class Metotları
 
 ```python
 class Window(object):
