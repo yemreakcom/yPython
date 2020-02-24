@@ -2,7 +2,7 @@
 description: Python üzerinde pytest ve modülleri ile test işlemleri
 ---
 
-# ⚗️ Test İşlemleri \(pytest\)
+# ⚗️ Test İşlemler
 
 ## 📂 Test için Proje Yapılandırması
 
@@ -22,7 +22,6 @@ tests/
     bar/
         __init__.py
         test_view.py
-
 ```
 
 {% hint style="info" %}
@@ -116,7 +115,6 @@ addopts =
 testpaths =
     src/ypackage
     tests/
-
 ```
 
 ## ⚗️ Test İşlemini Yapma
@@ -124,6 +122,37 @@ testpaths =
 * 🖤 Test komutu `pytest` olarak bilinir
 * 🕵️‍♂️ `pytest` tüm test paketlerini `setup.cfg` dosyasında belirtildiği şekilde bulacaktır
 * 🧐 `flake8 --exclude=venv* --statistics` komutu ile kod kalitesini ölçebilirsiniz
+
+## 🔸 Unit Test İşlemleri
+
+* 📦 Unit test için `unittest` paketi kullanılır
+
+```python
+from unittest import TestCase
+
+class TestStringMethods(TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
+        # check that s.split fails when the separator is not a string
+        with self.assertRaises(TypeError):
+            s.split(2)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [`unittest`](https://docs.python.org/3/library/unittest.html) paketine bakabilirsin.
+{% endhint %}
 
 ## 🔗 Faydalı Bağlantılar
 
