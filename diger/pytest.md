@@ -119,18 +119,28 @@ testpaths =
 
 ## ⚗️ Test İşlemini Yapma
 
-* 🖤 Test komutu `pytest` olarak bilinir
+* 🖤 Test komutu `python -m pytest` olarak bilinir
 * 🕵️‍♂️ `pytest` tüm test paketlerini `setup.cfg` dosyasında belirtildiği şekilde bulacaktır
 * 🧐 `flake8 --exclude=venv* --statistics` komutu ile kod kalitesini ölçebilirsiniz
+
+{% hint style="warning" %}
+📢 Sadece `pytest`komutu hatalara sebebiyet vermekte
+{% endhint %}
 
 ## 🔸 Unit Test İşlemleri
 
 * 📦 Unit test için `unittest` paketi kullanılır
+* 💠 `setUp`  metodu ile her test öncesi işlemler tanımlanır
+* 💦 `tearDown` metodu ile de her test sonrası işlemler tanımlanır
+* 👨‍💼 `python -m pytest` komutu ile çalıştırılabilirler
 
 ```python
 from unittest import TestCase
 
 class TestStringMethods(TestCase):
+
+    def setUp(self):
+        self.p = subprocess.Popen('notepad')
 
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
@@ -145,6 +155,9 @@ class TestStringMethods(TestCase):
         # check that s.split fails when the separator is not a string
         with self.assertRaises(TypeError):
             s.split(2)
+            
+    def tearDown(self):
+        self.p.terminate()
 
 if __name__ == '__main__':
     unittest.main()
