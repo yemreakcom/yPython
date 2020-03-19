@@ -66,10 +66,10 @@ print(sabitler.GRAVITY) # 9.8
 ```python
 if 'myVar' in locals():
   # myVar exists.
-  
+
 if 'myVar' in globals():
   # myVar exists.
-  
+
 if hasattr(obj, 'attr_name'):
   # obj.attr_name exists.
 ```

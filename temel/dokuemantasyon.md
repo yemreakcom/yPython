@@ -9,6 +9,7 @@ description: Python ile dokümantasyon oluşturma kuralları ve bilgileri
 * `'''` ile fonksiyonların üstüne dokümantasyon \(açıklama\) eklenir
 * `#` ile koda yorum eklenir
 * 🖨 Dokümantasyonlar [sphinx](https://www.sphinx-doc.org/en/master/) aracılığıyla dışarı aktarılabilir
+* [📖 Getting started with sphinx](https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html)
 
 ```python
 def func(a):
