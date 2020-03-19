@@ -1,4 +1,4 @@
-# 💎 Operatörler
+# 💠 Operatörler
 
 ## 🔢 Aritmetik Operatörler
 

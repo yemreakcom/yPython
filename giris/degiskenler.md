@@ -2,7 +2,7 @@
 description: Python değişkenleri
 ---
 
-# 💫 Değişkenler
+# 💎 Değişkenler
 
 ## 🧱 Temel Değişkenler
 
