@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🐍 Python Notlarım](README.md)
-* [👀 Neler değişti](changelog.md)
+* [👀 Neler değişti](CHANGELOG.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](yazilar/README.md)
