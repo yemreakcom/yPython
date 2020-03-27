@@ -2,7 +2,7 @@
 description: Python üzerinde pytest ve modülleri ile test işlemleri
 ---
 
-# ⚗️ Test İşlemler
+# ⚗️ Test İşlemleri
 
 ## 📂 Test için Proje Yapılandırması
 
@@ -166,6 +166,20 @@ if __name__ == '__main__':
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [`unittest`](https://docs.python.org/3/library/unittest.html) paketine bakabilirsin.
 {% endhint %}
+
+## 🐛 Hata Mesajları Bekleme
+
+* 👮‍♂️ Beklenen hata mesajları için `with` yapısı kullanılır
+* 🧐 Beklediğin hata tipini `with` içerisinde yazıp, alt scope'una kodlarını yazın
+* 💁‍♂️ Eğer içeride hata fırlatılmazsa `pytest` test başarısız olarak gösterecektir
+
+```python
+with pytest.raises(subprocess.SubprocessError):
+    subprocess.check_output(
+        "ygitbookintegration {}".format(args),
+        universal_newlines=True
+    )
+```
 
 ## 🔗 Faydalı Bağlantılar
 

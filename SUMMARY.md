@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🐍 Python Notlarım](README.md)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](changelog.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](yazilar/README.md)
@@ -76,7 +76,7 @@
   * [⌨️ Input Yönetimi \| pynput](diger/input-yonetimi.md)
   * [🏗️ Kod içi Yapılar](diger/kod-ici-yapilar.md)
   * [🔄 Continuous İntegration \(CI\)](diger/ci.md)
-  * [⚗️ Test İşlemler](diger/pytest.md)
+  * [⚗️ Test İşlemleri](diger/pytest.md)
   * [👨‍🔧 Hata Notları](diger/hata-notlari.md)
 * [💚 Anaconda](anaconda/README.md)
   * [🏂 Anaconda'ya Giriş](anaconda/giris.md)
