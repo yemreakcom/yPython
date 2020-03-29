@@ -27,6 +27,15 @@ def my_method(content):
 content = color_regex.sub(my_method, content)
 ```
 
+## 🔍 Arama İşlemleri
+
+```python
+result = re.search(r"\[([^\[]+)\]\((.*)\)", "- [name](url)")
+result[0] # '[name](url)'
+result[1] # 'name'
+result[2] # 'url'
+```
+
 ## 👨‍💻 Renkleri Tersine Çevirme
 
 ```python

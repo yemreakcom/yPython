@@ -181,6 +181,75 @@ with pytest.raises(subprocess.SubprocessError):
     )
 ```
 
+## 📃 Dokümantasyon ile Test İşlemleri
+
+* 📑 PyDoc alanında `>>>` karakterleri ile kod yazabiliriz
+* 👁️ Kod çıktılarını hemen alt satıra yazılır
+* 👮‍♂️ String çıktıları için `'` karakteri arasına yazmanız gerekir
+* 🚀 Harici fonksiyonlar da kullansa, doküman ile test edilebilir
+
+{% hint style="warning" %}
+📢 Whitespace karakterleri, örneğin `\n`  için `'` karakteri arasında `\\n` olarak belirtilir
+{% endhint %}
+
+```python
+def find_level(root: Path, startpath: Path) -> int:
+    """Dizin seviyesini bulma
+
+    Arguments:
+        root {Path} -- Dizin yolu
+        startpath {Path} -- Ana dizin yolu
+
+    Returns:
+        int -- Derinlik seviyesi
+
+    Examples:
+        >>> find_level(Path("./Documents/Configuration"), Path("."))
+        2
+    """
+    return len(root.relative_to(startpath).parts)
+
+
+find_level(Path("./Documents/Configuration"), Path(".")) # 2
+```
+
+```python
+def generate_custom_link_string(
+    name: str,
+    path: str,
+    indent: Indent = None,
+    is_list: bool = False,
+    single_line: bool = False
+) -> str:
+    """Özel link metni oluşturma
+
+    Arguments:
+        name {str} -- Link'in ismi
+        path {str} -- Link'in adresi
+
+    Keyword Arguments:
+        intent {Indent} -- Varsa girinti objesi (default: {None})
+        is_list {bool} -- Liste elamanı olarak tanımlama '- ' ekler (default: {False})
+        single_line {bool} -- Tek satırda yer alan link '\n' ekler (default: {False})
+
+
+    Returns:
+        {str} -- Oluşturulan link metni
+
+    Examples:
+        >>> generate_custom_link_string(\
+            'YPackage',\
+            'https://ypackage.yemreak.com',\
+            indent=Indent(2),\
+            is_list=True,\
+            single_line=True\
+        )
+        '    - [YPackage](https://ypackage.yemreak.com)\\n'
+
+    """
+    return Link(name, path).to_str(indent=indent, is_list=is_list, single_line=single_line)
+```
+
 ## 🔗 Faydalı Bağlantılar
 
 * [📖 Choosing a test layout / import rules](https://docs.pytest.org/en/latest/goodpractices.html#choosing-a-test-layout-import-rules)
