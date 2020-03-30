@@ -127,6 +127,26 @@ type(s) == Rectangle # True
 isinstance(s, Rectangle) # True
 ```
 
+```python
+class InputData:
+    def read(self):
+        raise NotImplementedError
+
+class PathInputData(InputData):
+    def __init__(self, path):
+        super().__init__()
+        self.path = path
+        
+    # read tanımlanmazsa hata verir
+    def read(self):
+        with open(self.path) as f:
+        return f.read()
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Use @classmethod Polymorphism to Construct Objects Generically](https://thepythonguru.com/python-classes-and-interfaces/#item-39-use-classmethod-polymorphism-to-construct-objects-generically) alanına bakabilirsin.
+{% endhint %}
+
 ### 🍍 Meta Class
 
 ```python
