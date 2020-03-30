@@ -29,6 +29,14 @@ description: 'Python üzerinde sık kullanılan bir yapı olan class, modül ve 
 | `def function(param):` | Fonksiyon tanımlama |
 | `del p1.age`, `del p1` | Obje ya da class silme |
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için 
+
+* 📖 [Emulating container types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types)
+
+alanlarına bakabilirsin.
+{% endhint %}
+
 ### 💎 Properties
 
 ```python
