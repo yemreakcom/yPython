@@ -18,15 +18,16 @@ description: 'Python üzerinde sık kullanılan bir yapı olan class, modül ve 
 
 > [Python Operator Overloading](https://www.programiz.com/python-programming/operator-overloading)
 
-| Anahtar | Açıklama | Örnek |
-| :--- | :--- | :--- |
-| `self` | Diğer dillerdeki `this` anlamına gelir | Basit Class Örneği |
-| `__init__` | Constructor fonksiyonudur | Basit Class Örneği |
-| `__repr__` | Ekrana ne yazılacağı \(`print`\) | `return "a"` |
-| `__rmul__` | Ters `*` işlemi | [Ters işlemler](https://stackoverflow.com/a/39029175) |
-| `__contains__` | Dahiliye işlemi |  |
-| `def function(param):` | Fonksiyon tanımlama | Metotlu Class Örneği |
-| `del p1.age`, `del p1` | Obje ya da class silme |  |
+| Anahtar | Açıklama |
+| :--- | :--- |
+| `self` | Diğer dillerdeki `this` anlamına gelir |
+| `__init__` | Constructor fonksiyonudur |
+| `__repr__` | Ekrana ne yazılacağı \(`print`\) |
+| `__str__` | `str()` içerisine alındığında yapılacaklar |
+| `__rmul__` | Ters `*` işlemi |
+| `__contains__` | Dahiliye işlemi |
+| `def function(param):` | Fonksiyon tanımlama |
+| `del p1.age`, `del p1` | Obje ya da class silme |
 
 ### 💎 Properties
 
@@ -55,22 +56,10 @@ window.always_on_top = "on"
 print(window.always_on_top) # "on"
 ```
 
-### ⚡ Static Metotlar
-
-* 📢 Static metotlarda `self` parametresi olmaz
-
-```python
-class Laptop:
-
-	@staticmethod
-	def details():
-		print('Hello! I am a laptop.')
-
-laptop1 = Laptop()
-laptop1.details()
-```
-
 ### ❔ Class Metotları
+
+* 🔳 Class metotları sadece class objesine erişir
+* ⚡ Class objesi de kullanılmayacaksa Static metotları tercih ediniz
 
 ```python
 class Window(object):
@@ -81,6 +70,22 @@ class Window(object):
         return cls(engine=engine, ahk_id=ahk_id, **kwargs)
         
 Window.from_mouse_position(...)
+```
+
+### ⚡ Static Metotlar
+
+* 📢 Static metotlarda `self` parametresi olmaz
+* 🕊️ Class içeriklerinden bağımsızdır
+
+```python
+class Laptop:
+
+	@staticmethod
+	def details():
+		print('Hello! I am a laptop.')
+
+laptop1 = Laptop()
+laptop1.details()
 ```
 
 ### 🍏 Inheritance \(Miras\)
