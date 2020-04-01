@@ -111,7 +111,7 @@ Window.from_mouse_position(...)
 
 ### ⚡ Static Metotlar
 
-* 📢 Static metotlarda `self` parametresi olmaz
+* 📢 Static metotlarda `self` veya `cls` parametresi olmaz
 * 🕊️ Class içeriklerinden bağımsızdır
 
 ```python
