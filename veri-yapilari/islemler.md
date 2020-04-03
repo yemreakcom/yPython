@@ -103,12 +103,17 @@ li3 = copy.deepcopy(li1)
 li4 = li1[:]
 ```
 
-{% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için:
+{% hint style="warning" %}
+📢 Objenin kopyalama davranışlarını değiştirmek için `__copy__`, `__deepcopy__` metotları override edilir
+{% endhint %}
 
-*  [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) 
-* [How do I copy an object in Python?](http://effbot.org/pyfaq/how-do-i-copy-an-object-in-python.htm)
-* [Emulating pass-by-value behavior in python](https://stackoverflow.com/a/9762918/9770490)
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* 📃  [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) 
+* 📃 [How do I copy an object in Python?](http://effbot.org/pyfaq/how-do-i-copy-an-object-in-python.htm)
+* 👪 [Emulating pass-by-value behavior in python](https://stackoverflow.com/a/9762918/9770490)
+* 📖 [copy  — Shallow and deep copy operations](https://docs.python.org/3/library/copy.html)
 
 alanlarına bakabilirsin.
 {% endhint %}
