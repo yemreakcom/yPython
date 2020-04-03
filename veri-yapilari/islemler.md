@@ -84,6 +84,7 @@ Kopyalama işlemleri için **shallow copy** ya da **deep copy** seçenekleri mev
 
 | 🌫️ Shallow Copy | 🕳 Deep Copy |
 | :--- | :--- |
+| Referans kopyalar | Değer kopyalar |
 | Obje yeniden oluşturulur | Obje yeniden oluşturulur |
 | Objenin her bir **referansı kopyalanır** ve yeniye aktarılır | Objenin her bir **değeri tek tek kopyalanır** ve yeniye aktarılır |
 | Kopyalanan objenin referansı alındığından orijinal ile **bağlantılıdır** | Her bilgi tek tek kopyalandığından orijinal ile **bağlantısı yoktur** |
