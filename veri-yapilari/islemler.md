@@ -76,6 +76,34 @@ print(sorted(me_dict)) # Sadece değerleri sıralar
 sort(list) # sadece sıralar veri döndürmez
 ```
 
+## 👬 Kopyalama İşlemleri
+
+Kopyalama işlemleri için **shallow copy** ya da **deep copy** seçenekleri mevcuttur.
+
+> 💁‍♂️ Özetle objelerin birbirinden bağımsız olmasını istiyorsanız, deep copy kullanın
+
+| 🌫️ Shallow Copy | 🕳 Deep Copy |
+| :--- | :--- |
+| Obje yeniden oluşturulur | Obje yeniden oluşturulur |
+| Objenin her bir **referansı kopyalanır** ve yeniye aktarılır | Objenin her bir **değeri tek tek kopyalanır** ve yeniye aktarılır |
+| Kopyalanan objenin referansı alındığından orijinal ile **bağlantılıdır** | Her bilgi tek tek kopyalandığından orijinal ile **bağlantısı yoktur** |
+| Herhangi bir değişiklik diğerini de **etkiler** | Herhangi bir değişiklik diğerini **etkilemez** |
+
+```python
+import copy
+li1 = [1, 2, [3,5], 4]
+
+# Shallow copy
+li2 = copy.copy(li1)
+
+# Deep copy
+li3 = copy.deepcopy(li1)
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) alanına bakabilirsin.
+{% endhint %}
+
 ## 🤸‍ Comprehensions
 
 Tek satır ile yapı oluşturmadır.

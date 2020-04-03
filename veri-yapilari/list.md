@@ -24,6 +24,7 @@ description: Python liste yapısı (list)
 | `list[i:]` | `i`. eleman ve sonrasındakiler |
 | `list[:i]` | `i`. elemana kadar \(`i` dahil değil\) olanlar |
 | `list[i:j]` | `i`. eleman ve `j`. elemana kadar \(`j` dahil değil\) olanlar |
+| list\[:\] |  |
 | `[5] * i` | `i` tane 5 sayısı \(`i=3` için `[5, 5, 5]`\) |
 
 ## 🍢 Tek Satır List Yapısı
