@@ -507,7 +507,39 @@ class Mistake(Enum):
 Her python dosyasına modül denir.
 
 * `import` ile dahil edilirler
-* `.` ile içlerindekilere erişilir
+* `.` ile içindekilere erişilir
+* Modül barındıran dizinler `__init__.py` dosyası içermelidir
+* `__init__.py` dosyası . yapısının kullanılmasına ve `__all__=['']` yapısı ile hangi objelerin aktarılacağını belirler
+
+{% code title="\_\_init\_\_.py" %}
+```python
+"""GitBook yönetim paketi
+"""
+# aynı dizinde core.py isimli dosyaya erişme
+from .core import (check_summary, create_changelog,
+                   generate_description_section, generate_filelink_string,
+                   get_summary_url_from_repo_url, read_summary_from_url)
+                   
+# aynı dizinde entity.py isimli dosyaya erişme
+from .entity import (ConfigOptions, IntegrationOptions, OptionParser, Options,
+                     SubmoduleOptions)
+
+# Sadece alttaki objeler dışarı aktarılır
+__all__ = [
+    'IntegrationOptions',
+    'SubmoduleOptions',
+    'ConfigOptions',
+    'OptionParser',
+    'Options',
+    'generate_description_section',
+    'generate_filelink_string',
+    'get_summary_url_from_repo_url',
+    'read_summary_from_url',
+    'check_summary',
+    'create_changelog'
+]
+```
+{% endcode %}
 
 ### ⭐ Modül Kullanım Örnekleri
 
