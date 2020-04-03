@@ -9,14 +9,16 @@ description: Python ile raporlama (logging) işlemleri ve logging modülünün k
 * 📦 Raporlama işlemleri için `logging` modülü kullanır
 * 🍱 Python içerisinde hazır olarak bulunan bir modüldür, indirmeye gerek yok
 * 📜 `logging` modülü print yapısından daha kullanışlıdır
-* 👮‍♂️ Raporlama seviyeleri ile isteğe bağlı çıktılar verilir
+* 👨‍💼 Raporlama seviyeleri ile isteğe bağlı çıktılar verilir
 * 🙄 `print` metodu olsaydı if koşulları ile yapmamız gerekirdi
 
-## 🎌 Temel Kullanım
+## 🏗️ Oluşturma İşlemleri
 
 * 🔨 Yapılandırma ayarları `logging.basicConfig` metodu ile düzenlenir
 * 💎 `format` ile çıktıların yapısı, `level` ile çıktıların sınırı belirlenir
 * 🚀 `logging.getLogger` metodu `__name__` ile kullanıldığında, dosya ismine ait bir raporlayıcı oluşturur
+* 👨‍💼 Oluşturulan yeni raporlayıcılar `setLogger` metodu ile sınırlandırılabilir
+* 💁‍♂️ Bu sınırlandırmalar diğer raporlayıcıları etkilemez
 
 ```python
 import logging
@@ -30,14 +32,49 @@ log_format = (
 )
 log_level = logging.DEBUG
 
-logging.basicConfig(format=log_format , level=log_level )
+# Tüm raporlayıcıları tanımlama
+logging.basicConfig(format=log_format , level=log_level)
 
 logger = logging.getLogger(__name__)
+
+# Belirli bir raporlayıcı sınırlama
+logger.setLevel(logging.ERROR) 
 ```
 
 {% hint style="warning" %}
-📢 `logging` modülü globaldir, her dosya için ortak login yapısı kullanılır
+📢 `logging` modülü globaldir, her dosya için ortak log yapısı kullanılır
 {% endhint %}
+
+## 🎌 Temel Kullanım
+
+Raporlayıcı objenizin debug, info, warn, error, exception, fatal metotları ile raporlama yapabilirsiniz
+
+* 👮‍♂️ Her metot karşılığı olan raporlama seviyesine göre raporlama yapar
+
+| 💎 Metot | 📝 Açıklama |
+| :--- | :--- |
+| fatal | CRITICAL seviyesinde raporlama |
+| exception | ERROR seviyesinde **hata mesajı ile** raporlama |
+| error | ERROR seviyesinde raporlama |
+| warn | WARN seviyesinde raporlama |
+| info | INFO seviyesinde raporlama |
+| debug | DEBUG seviyesinde raporlama |
+
+## 👮‍♂️ Raporlama Seviyeleri
+
+Raporlama seviyeli yukarıdan aşağıya doğru daha da sınırlı hale gelir.
+
+* `DEBUG` işlemi `ERROR` çıktılarını da raporlar
+* `ERROR` çıktıları kendinden daha düşük çıktıları raporlarmaz
+
+| ⭐ Seviye | 📝 Açıklama |
+| :--- | :--- |
+| CRITICAL \(50\) | Exception veya en yüksek seviyeli durumları raporlayan seviyedir |
+| ERROR \(40\) | Hata durumunda kullanılan raporlama seviyesidir |
+| WARNING \(30\) | Uyarılar amaçlı kullanılan raporlama seviyesidir |
+| INFO \(20\) | Ön planda çalışan işlemleri kontrol etmek için kullanılır. Dosya güncelleme, sunucuya bağlanma işlemleri raporlarmak için kullanılır |
+| DEBUG \(10\) | Arkaplanda yapılan işlemleri kontrol etmek için kullanılır, objeleri oluşturma güncelleme gibi çıktılarınızı bunun ile raporlayabilirinisiz |
+| NOTSET \(0\) | 🤷‍♂️ |
 
 ## 📂 Dosyaya Raporlama
 
@@ -66,7 +103,7 @@ logging.info("mesaj") # Raporu yazma
 * ⏬ Yüklemek için `pip install coloredlogs` komutunu kullanın
 * 💡 Renklendirme için standart konsol renk komutlarını kullanır
 * 👨‍🔧 Renklendirme çalışmazsa`colorama` modülünü yükleyin
-* ⏬ Yüklemek için `pip install colorama` komutunu kullanın3
+* ⏬ Yüklemek için `pip install colorama` komutunu kullanın
 
 ```python
 import coloredlogs

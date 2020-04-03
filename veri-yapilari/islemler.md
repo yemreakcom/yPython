@@ -65,7 +65,7 @@ Arama işlemi `KeyError` \(_tanımsız değişkenler ile işlem yapma_\) sorunu 
 Sırala işlemleri `sorted` metodu ile yapılmaktadır.
 
 * Eğer yapıda farklı elemanlar var ise `map(<type>, <yapı>)` ile `sorted` fonksiyonu kullanılır
-* Eğer `dict` verilerinde anahtar-veri \(_key-value_\) olarak sıralamk istersek `dict.items()` yapısı kullanılır
+* Eğer `dict` verilerinde anahtar-veri \(_key-value_\) olarak sıralamak istersek `dict.items()` yapısı kullanılır
 
 ```python
 print(sorted(map(str, example_tuple)))
