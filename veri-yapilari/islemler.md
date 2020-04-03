@@ -98,10 +98,19 @@ li2 = copy.copy(li1)
 
 # Deep copy
 li3 = copy.deepcopy(li1)
+
+# Slice ile deep copy
+li4 = li1[:]
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için:
+
+*  [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) 
+* [How do I copy an object in Python?](http://effbot.org/pyfaq/how-do-i-copy-an-object-in-python.htm)
+* [Emulating pass-by-value behavior in python](https://stackoverflow.com/a/9762918/9770490)
+
+alanlarına bakabilirsin.
 {% endhint %}
 
 ## 🤸‍ Comprehensions
