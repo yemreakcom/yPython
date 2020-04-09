@@ -366,4 +366,5 @@ if __name__ == '__main__':
 * [📖 Choosing a test layout / import rules](https://docs.pytest.org/en/latest/goodpractices.html#choosing-a-test-layout-import-rules)
 * [📖 Doctest integration for modules and test files](https://docs.python.org/3/library/doctest.html)
 * 👪 [How do I correctly setup and teardown my pytest class with tests?](https://stackoverflow.com/questions/26405380/how-do-i-correctly-setup-and-teardown-my-pytest-class-with-tests)
+* [✍ Yazıyı Medium sitesinde oku](https://medium.com/@yemreak/%EF%B8%8Fpython-pytest-ile-test-i%CC%87%C5%9Flemleri-d53c2cc4f791?sk=510e7c5c6b2ec6e733f82bf966233b0c) \(eski olabilir\)
 
