@@ -30,7 +30,7 @@
   * [👮‍ Kural Koyma](temel/kurallar.md)
   * [🕐 Zaman İşlemleri](temel/zaman.md)
   * [📑 Dokümantasyon](temel/dokuemantasyon.md)
-  * [⚗️ Test İşlemleri](temel/pytest.md)
+  * [⚗️ Test İşlemleri](temel/test-islemleri.md)
 * [🏗️ Veri Yapıları](veri-yapilari/README.md)
   * [📋 List](veri-yapilari/list.md)
   * [👝 Tuple](veri-yapilari/tuple.md)
