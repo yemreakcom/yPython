@@ -16,7 +16,7 @@ description: >-
 
 ## 🌟 Görsel Örnekler
 
-> 💡 Ne yapacağınızı yapmadan önce görmeniz gerekir ki, bakmak için motivasyonunuz olsun.
+> 💡 Neye erişeceğinizi yapmadan önce görmeniz gerekir ki, bakmak için motivasyonunuz olsun.
 
 * 👇 Test komutunu çalıştırdıktan sonra, çıktı aşağıdaki gibi olacaktır
 
