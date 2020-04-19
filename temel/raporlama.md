@@ -97,6 +97,39 @@ logging.basicConfig(
 logging.info("mesaj") # Raporu yazma
 ```
 
+## 👨‍🎨 Detaylı Renkli Raporlama
+
+* 🧐 Detaylarla ilgilenenler için `colorlog` modülü önerilir
+* 🖌 Metinleri  `%(log_color)` ve `%(reset)s` değişkenleri arasına alarak renklendirebilirsin
+* 🙄 İşlemin çalışması için `colorlog.ColorFormatter` objesini `logger` objesine alttaki gibi eklemen lazım
+
+```python
+import logging
+LOG_LEVEL = logging.DEBUG
+LOGFORMAT = (
+    " %(log_color)s%(levelname)-8s%(reset)s |"
+    " %(log_color)s%(message)s%(reset)s")
+from colorlog import ColoredFormatter
+logging.root.setLevel(LOG_LEVEL)
+formatter = ColoredFormatter(LOGFORMAT)
+stream = logging.StreamHandler()
+stream.setLevel(LOG_LEVEL)
+stream.setFormatter(formatter)
+log = logging.getLogger('pythonConfig')
+log.setLevel(LOG_LEVEL)
+log.addHandler(stream)
+
+log.debug("A quirky message only developers care about")
+log.info("Curious users might want to know this")
+log.warn("Something is wrong and any user should be informed")
+log.error("Serious stuff, this is red for a reason")
+log.critical("OH NO everything is on fire")
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [How can I color Python logging output?](https://stackoverflow.com/a/23964880/9770490)  alanına bakabilirsin.
+{% endhint %}
+
 ## 🎨 Renkli Raporlama
 
 * 📦 Renkli raporlama için `coloredlogs` modülü kullanılır
@@ -104,6 +137,8 @@ logging.info("mesaj") # Raporu yazma
 * 💡 Renklendirme için standart konsol renk komutlarını kullanır
 * 👨‍🔧 Renklendirme çalışmazsa`colorama` modülünü yükleyin
 * ⏬ Yüklemek için `pip install colorama` komutunu kullanın
+
+> 💁‍♂️ Alternatif olarak, en kolay kullanımı sağlayan [`zenglog`](https://github.com/ManufacturaInd/python-zenlog) modülüne bakmanda fayda var
 
 ```python
 import coloredlogs
@@ -136,8 +171,96 @@ logger.critical("this is a critical message")
 ![](../.gitbook/assets/coloredlogs_example.png)
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [coloredlogs](https://coloredlogs.readthedocs.io/en/latest/readme.html) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [`coloredlogs`](https://coloredlogs.readthedocs.io/en/latest/readme.html) alanına bakabilirsin.
 {% endhint %}
+
+## 🔨 Yapılandırma Dosyası
+
+```javascript
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "simple": {
+            "class": "colorlog.ColoredFormatter",
+            "format": "%(asctime)s %(log_color)s%(message)s%(reset)s",
+            "datefmt": "%H:%M:%S"
+        },
+        "detailed": {
+            "class": "logging.Formatter",
+            "format": "%(asctime)s.%(msecs)03d [%(threadName)s] %(levelname)-7s %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "stream": "ext://sys.stdout"
+        },
+        "debug_file_handler": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "DEBUG",
+            "formatter": "detailed",
+            "filename": "log/debug/{filename}.log",
+            "maxBytes": 10485760,
+            "backupCount": 20,
+            "mode": "w",
+            "encoding": "utf8"
+        },
+        "info_file_handler": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "INFO",
+            "formatter": "detailed",
+            "filename": "log/info/{filename}.log",
+            "maxBytes": 10485760,
+            "backupCount": 20,
+            "mode": "w",
+            "encoding": "utf8"
+        },
+        "warn_file_handler": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "WARNING",
+            "formatter": "detailed",
+            "filename": "log/warning/{filename}.log",
+            "maxBytes": 10485760,
+            "backupCount": 20,
+            "mode": "w",
+            "encoding": "utf8"
+        },
+        "error_file_handler": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "ERROR",
+            "formatter": "detailed",
+            "filename": "log/error/{filename}.log",
+            "maxBytes": 10485760,
+            "backupCount": 20,
+            "mode": "w",
+            "encoding": "utf8"
+        }
+    },
+    "loggers": {
+        "urllib3.connectionpool": {
+            "level": "ERROR",
+            "handlers": [
+                "console"
+            ],
+            "propagate": false
+        }
+    },
+    "root": {
+        "level": "DEBUG",
+        "handlers": [
+            "console",
+            "debug_file_handler",
+            "info_file_handler",
+            "warn_file_handler",
+            "error_file_handler"
+        ]
+    }
+}
+```
 
 ## 🔗 Faydalı Bağlantılar
 
