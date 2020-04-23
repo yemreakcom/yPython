@@ -1,11 +1,13 @@
+---
+description: Assert ile kural koyma yapısı
+---
+
 # 👮‍ Kural Koyma
 
 ## 📏 Assertion
 
 Boolean değeri sağlanmazsa hata verir ve programı kapatır.
 
-{% tabs %}
-{% tab title="✨ Kullanım" %}
 ```python
 assert <bool>, <açıklama>
 ```
@@ -14,9 +16,9 @@ assert <bool>, <açıklama>
   * _Örn: 0 &gt; 5_
 * `<açıklama>` Hatanın neden verildiğine dair metin
   * _Örn: Küçük bir değer girildi_
-{% endtab %}
 
-{% tab title="⭐ Örnek" %}
+**⭐ Örnek**
+
 ```python
 def KelvinToFahrenheit(Temperature):
    assert (Temperature >= 0),"Colder than absolute zero!"
@@ -25,9 +27,9 @@ def KelvinToFahrenheit(Temperature):
 print (int(KelvinToFahrenheit(505.78)))
 print (KelvinToFahrenheit(-5))
 ```
-{% endtab %}
 
-{% tab title="📋 Örnek Çıktısı" %}
+**📋 Sonuç**
+
 ```python
 451
 Traceback (most recent call last):
@@ -37,8 +39,6 @@ Traceback (most recent call last):
     assert (Temperature >= 0),"Colder than absolute zero!"
 AssertionError: Colder than absolute zero!
 ```
-{% endtab %}
-{% endtabs %}
 
 ## 
 
