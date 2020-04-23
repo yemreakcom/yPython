@@ -40,16 +40,5 @@ AssertionError: Colder than absolute zero!
 {% endtab %}
 {% endtabs %}
 
-## 🐛 Try / Except Yapısı
-
-Olası hatalarda programın kapanmasını engelleyerek hata kontrolü sağlar.
-
-```python
-try:
-    a = float("Ben sayı değilim")
-except ValueError as err:
-    print("Bu sayı değil", err)
-```
-
 ## 
 

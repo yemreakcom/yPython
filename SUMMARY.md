@@ -28,6 +28,7 @@
   * [📜 Raporlama İşlemleri](temel/raporlama.md)
   * [🏗️ Decorator](temel/decorator.md)
   * [👮‍ Kural Koyma](temel/kurallar.md)
+  * [🐛 Hata Yönetimi](temel/hata-yoenetimi.md)
   * [🕐 Zaman İşlemleri](temel/zaman.md)
   * [📑 Dokümantasyon](temel/dokuemantasyon.md)
   * [⚗️ Test İşlemleri](temel/test-islemleri.md)
