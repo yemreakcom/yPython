@@ -4,7 +4,7 @@ description: Assert ile kural koyma yapısı
 
 # 👮‍ Kural Koyma
 
-## 📏 Assertion
+## 🧱 Temel Kullanım
 
 Boolean değeri sağlanmazsa hata verir ve programı kapatır.
 
