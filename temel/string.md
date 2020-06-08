@@ -153,10 +153,19 @@ len("yemreak") # 7
 
 ```python
 var = "YEmreAk"
-
-f"{var=}"     # var='YEmreAk'
+f"{var=}"     # "var='YEmreAk'"
 f"{var: <10}" # 'YEmreAk   '
 f"{var: >10}" # '   YEmreAk'
+f"{var: ^10}" # ' YEmreAk '
+
+num = 1234.56789
+f"{num=}"      # 'num=1234.56789'
+f"{str(num)=}" # "str(num)='1234.56789'"
+f"{num:.7f}"   # '1234.5678900'
+f"{num:.7g}"   # '1234.568'
+
+num = 1234.5672
+f"{num:.7g}"   # '1234.567'
 
 'new(%s %d)' % ('help', 5) # 'new(help 5)'
 ```
