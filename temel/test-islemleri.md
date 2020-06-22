@@ -146,6 +146,7 @@ class TestClassSecond:
 * 💁‍♂️ `pytest` ile `assert` anahtar kelimesi ile testin sonucunun, beklenen sonuca eşit olmasını kontrol edin
 * 👨‍💻 `assert test_result() == 2`
 * ✨ `pytest` modülü çıktılarınızı anlaşılır bir şekilde size sunacaktır
+* 📜 Print çıktılarını da görmek isterseniz   `pytest.exe <python_dosyası> -s` komutunu kullanın
 
 ```python
 def foo():
