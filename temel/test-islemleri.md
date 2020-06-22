@@ -146,7 +146,6 @@ class TestClassSecond:
 * 💁‍♂️ `pytest` ile `assert` anahtar kelimesi ile testin sonucunun, beklenen sonuca eşit olmasını kontrol edin
 * 👨‍💻 `assert test_result() == 2`
 * ✨ `pytest` modülü çıktılarınızı anlaşılır bir şekilde size sunacaktır
-* 📜 Print çıktılarını da görmek isterseniz   `pytest.exe <python_dosyası> -s` komutunu kullanın
 
 ```python
 def foo():
@@ -185,6 +184,7 @@ def test_custom_subprocess():
 * 🕵️‍♂️ `pytest` test işlemleri için isminin başında `test` içeren metot ve sınıflar kullanır
 * 🔨 `pytest` tüm test paketlerini **varsa** `setup.cfg` dosyasında belirtildiği şekilde bulacaktır
 * 🧐 `flake8 --exclude=venv* --statistics` komutu ile kod kalitesini ölçebilirsiniz
+* 📜 `print` çıktılarını da görmek isterseniz   `pytest <python_dosyası> -s` komutunu kullanın
 
 {% hint style="warning" %}
 📢 Sadece `pytest`komutu hatalara sebebiyet vermekte
