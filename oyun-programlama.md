@@ -2,7 +2,7 @@
 description: Python ve pygame ile oyun programlama
 ---
 
-# 🕹 Oyun Programlama
+# 🎮 Oyun Programlama
 
 ## 📗 Faydalı Kitaplar
 
