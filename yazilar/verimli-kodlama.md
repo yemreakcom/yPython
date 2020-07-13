@@ -154,6 +154,8 @@ Alttaki yapı yerine, bir sonraki yapıyı kullanarak daha **verimli ve anlaşı
 * Döngüde fazladan kontrolü engelleriz
 * Her seferin tüm değişkenlere bakmak yerine, ihtiyacımız olanlara bakarız
 
+> Kendi üretimimdir 😅
+
 ```python
 KOSUL1 = 1
 KOSUL2 = 1
