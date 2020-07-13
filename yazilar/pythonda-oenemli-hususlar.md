@@ -394,6 +394,15 @@ class DataBase:
 name, birthdate = DataBase("👮‍♂️").get_user(7)
 ```
 
+## 📜 `print`'ten Vazgeç `logger` ile Raporlama Yap
+
+* 🎨 Öncelikle `colorlog` ile renkli raporlama yapabilirsin
+* 📦 import logging ile log paketini indirin
+
+> Buraya detaylı bilgi sonradan eklenecek
+
+{% page-ref page="../temel/raporlama.md" %}
+
 ## 🔗 Faydalı Bağlantılar
 
 * [📃 Python Best Practice](https://data-flair.training/blogs/python-best-practices/)
