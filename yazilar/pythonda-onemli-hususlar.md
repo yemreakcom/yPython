@@ -1,7 +1,7 @@
 ---
 description: >-
-  Python için bilmeniz, öğrenmeniz, faydalı olacak konular ve derlediğim
-  bilgiler
+  Python için bilmeniz ve öğrenmeniz gereken, faydalı olacak konular ve
+  derlediğim bilgiler
 ---
 
 # 🌟 Python'da Önemli Hususlar
