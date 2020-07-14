@@ -23,6 +23,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 * Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
 
+{% page-ref page="yazilar/pythonda-oenemli-hususlar.md" %}
+
 {% embed url="https://learn.yemreak.com/icerikler/python" caption="" %}
 
 ## 🌍 Tüm YEmreAk İçerikleri
