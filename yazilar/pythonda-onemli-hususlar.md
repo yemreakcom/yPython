@@ -31,6 +31,14 @@ description: >-
 ‍🧙‍♂ Detaylı bilgi için [Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
 {% endhint %}
 
+## 🖤 Komut İsteminden `ipython` Kullan
+
+* 💁‍♂️ `python` ile terminalden hızlıca işlemler yapmak havalı geliyor ama kendine eziyet etme
+* 📈 `ipython` sayesinde gelen kod tamamlamaları ve ekstra özelliklerle efektif ilerle
+* 📦 `pip install ipython` komutu ile indir ve `ipython` komutu ile kullan
+
+![](../.gitbook/assets/ipython_terminal.png)
+
 ## 📝 Değişken Tiplerini de Belirt
 
 * 🙄 Değişken tipleri ile de mi uğraşacağım demeyin, tipler gereksiz uğraş değil avantajdır
