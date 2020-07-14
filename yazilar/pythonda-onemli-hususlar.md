@@ -408,4 +408,5 @@ name, birthdate = DataBase("👮‍♂️").get_user(7)
 * [📃 Python Best Practice](https://data-flair.training/blogs/python-best-practices/)
 * [📃 30 Python Best Practice Tips and Tricks](https://towardsdatascience.com/30-python-best-practices-tips-and-tricks-caefb9f8c5f5)
 * [📃 Top Python Projects](https://data-flair.training/blogs/python-projects-with-source-code/)
+* [📃 Python Tutorial](https://data-flair.training/blogs/python-tutorial/)
 
