@@ -5,7 +5,7 @@
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](yazilar/README.md)
-  * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-oenemli-hususlar.md)
+  * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-onemli-hususlar.md)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](yazilar/pip-ile-kurulabilir-python-paketi-olusturma.md)
   * [🧲 İnternet'ten Veri Çekme](yazilar/veri-cekme.md)
   * [🔢 Algoritma Örnekleri](yazilar/algoritma-ornekleri.md)
