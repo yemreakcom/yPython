@@ -4,6 +4,7 @@
 * [👀 Neler değişti](changelog.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
+* [🙋‍♂️ Hoş Geldin](hos-geldin.md)
 * [✍ Yazılarım](yazilar/README.md)
   * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-onemli-hususlar.md)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](yazilar/pip-ile-kurulabilir-python-paketi-olusturma.md)
