@@ -1,3 +1,7 @@
+---
+description: Sitede olup biten tüm değişiklikler ve tarihleri
+---
+
 # 👀 Neler değişti
 
 ## 📋 Tüm Değişiklikler
