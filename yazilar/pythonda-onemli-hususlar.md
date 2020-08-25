@@ -6,6 +6,14 @@ description: >-
 
 # 🌟 Python'da Önemli Hususlar
 
+## 🧐 Aceleci Olma Temel Kavramları Öğren
+
+* 🤿  Python temellerini öğrenmeden proje işlerine girmeyin
+* 📖 Terminolojiyi ve yazım kurallarını az da olsa bil
+* 🪓 Eğer ağaç kesmen söylenirse, vaktinin çoğunu baltanı bilemek için kullan
+* 😊 Sabırlı ol ve bu yazıyı sonuna kadar oku
+* 👀 Python ile tüm kavramlara [Getting Started with Python Programming](https://data-flair.training/blogs/python-tutorials-home/) alanından bakabilirsin
+
 ## 📂 Proje Yapını ve Ortamını Belirle
 
 * 🏗️ Alttaki tüm dosya & dizinler `root` yani proje dizininde olmalıdır
