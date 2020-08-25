@@ -463,6 +463,7 @@ Resmi dokümantasyon için [buraya](https://docs.python.org/3/library/enum.html)
 {% tab title="🧱 Temel Kullanım" %}
 ```python
 from enum import Enum
+from typing import Union  # Tip belirtme amaçlı eklenmiştir
 
 class Color(Enum):
     RED = 1
@@ -478,9 +479,9 @@ Color(1)           # <Color.RED: 1>
 Color(Color.BLUE)  # <Color.BLUE: 3>
 
 # Enum tanımlama
-color_var: Union[str, Color]
-color: Color = Color(color_var)
-color: Color = Color.RED
+color_var: Union[str, Color]     # str veya Color tipinde bir obje
+color: Color = Color(color_var)  # Enum ile enum objesi oluşturabilirz
+color: Color = Color.RED         # Direkt olarak enum atama
 
 # Enum değerlerine erişme
 color = Color.RED
