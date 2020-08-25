@@ -448,7 +448,7 @@ class DataFrame(NDFrame):
 {% endtab %}
 {% endtabs %}
 
-## 🧱 Enumeration
+## 💎 Enumeration
 
 Resmi dokümantasyon için [buraya](https://docs.python.org/3/library/enum.html) bakabilirsin.
 

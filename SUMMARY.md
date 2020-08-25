@@ -18,7 +18,7 @@
   * [💠 Operatörler](giris/operatorler.md)
   * [⚖️ Koşullar](giris/kosullar.md)
   * [💫 Döngüler](giris/donguler.md)
-* [🧱 Temel Python](temel/README.md)
+* [🧱 Temel](temel/README.md)
   * [🔮 Fonksiyonlar](temel/python-fonksiyonlar.md)
   * [🔤 String İşlemleri](temel/string.md)
   * [💎 Regex İşlemleri](temel/regex.md)

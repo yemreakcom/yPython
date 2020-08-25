@@ -1,2 +1,2 @@
-# 🧱 Temel Python
+# 🧱 Temel
 
