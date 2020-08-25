@@ -454,6 +454,10 @@ Resmi dokümantasyon için [buraya](https://docs.python.org/3/library/enum.html)
 
 * Sıralı ve sabit veriler oluşturmak için kullanılır
 * `from enum import Enum` ile projeye dahil edilir
+* Enumlarda değer eşitliği için `<enum>.value == <value>` kullanın
+* Enumları değerler ile oluşturmak için `<Enum>(<value>)` yapısını kullanın
+  * Enum ile enum oluşturabilirsiniz `<Enum>(<enum>)`
+  * Değişkenin enum veya değer tuttuğundan emin olmadığınız durumlarda üstteki yapıyı kullanın
 
 {% tabs %}
 {% tab title="🧱 Temel Kullanım" %}
@@ -465,19 +469,27 @@ class Color(Enum):
     GREEN = 2
     BLUE = 3
 
-# Erişim şekli
-Color # <enum 'Color'>
-Color.RED.value # 1
-Color.RED.name # RED
-type(Color.RED) # <enum 'Color'>
-Color(1) # <Color.RED: 1>
-Color(3) # <Color.BLUE: 3>
-isinstance(Color.GREEN, Color) # True
+# Temel erişimler
+Color              # <enum 'Color'>
+Color.RED.value    # 1
+Color.RED.name     # RED
+type(Color.RED)    # <enum 'Color'>
+Color(1)           # <Color.RED: 1>
+Color(Color.BLUE)  # <Color.BLUE: 3>
 
-# Obje olarka kullanımı
+# Enum tanımlama
+color_var: Union[str, Color]
+color: Color = Color(color_var)
+color: Color = Color.RED
+
+# Enum değerlerine erişme
 color = Color.RED
-color.value # 1
-color.name # RED
+color.value == 1  # True
+color == 1        # False
+color.name == "RED"  # True
+color == "RED"       # False
+
+isinstance(Color.GREEN, Color) # True
 ```
 {% endtab %}
 
