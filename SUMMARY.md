@@ -10,7 +10,7 @@
   * [🔢 Algoritma Örnekleri](yazilar/algoritma-ornekleri.md)
   * [📊 Verileri Kategorize Etme](yazilar/kategorizasyon.md)
   * [📈 Verimli Kodlama](yazilar/verimli-kodlama.md)
-* [🔰 Python'a Giriş](giris/README.md)
+* [🔰 Giriş](giris/README.md)
   * [🙋‍♂️ Hoş Geldin](giris/hos-geldin.md)
   * [💻 Python için VsCode](giris/vscode.md)
   * [🔑 Anahtar Kelimeler \(Keywords\)](giris/keywords.md)
