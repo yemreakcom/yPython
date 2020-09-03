@@ -2,7 +2,7 @@
 description: Python ile veri veya objeleri sıralama yani sorting işlemi
 ---
 
-# 🥾 Sıralama İşlemleri
+# 🚄 Sıralama
 
 ## 💠 Sıralama Metotları
 

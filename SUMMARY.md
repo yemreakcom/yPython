@@ -40,7 +40,7 @@
   * [📁 Array](veri-yapilari/array.md)
   * [🍎 Data Classes](veri-yapilari/data-classes.md)
 * [🚧 Veri Yapılarında İşlemler](veri-yapilarinda-islemler/README.md)
-  * [🥾 Sıralama İşlemleri](veri-yapilarinda-islemler/siralama-islemleri.md)
+  * [🚄 Sıralama](veri-yapilarinda-islemler/siralama.md)
 * [📰 Koleksiyonlar](koleksiyonlar/README.md)
   * [💎 Namedtuple](koleksiyonlar/namedtuple.md)
   * [🌠 Deque](koleksiyonlar/deque.md)
