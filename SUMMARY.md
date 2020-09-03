@@ -38,6 +38,7 @@
   * [⭕ Set](veri-yapilari/set.md)
   * [📙 Dict](veri-yapilari/dict.md)
   * [📁 Array](veri-yapilari/array.md)
+  * [🍎 Data Classes](veri-yapilari/data-classes.md)
   * [🚧 Veri Yapılarında İşlemler](veri-yapilari/islemler.md)
 * [📰 Koleksiyonlar](koleksiyonlar/README.md)
   * [💎 Namedtuple](koleksiyonlar/namedtuple.md)

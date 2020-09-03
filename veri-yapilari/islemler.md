@@ -116,7 +116,7 @@ li4 = li1[:]
 * 👪 [Emulating pass-by-value behavior in python](https://stackoverflow.com/a/9762918/9770490)
 * 📖 [copy  — Shallow and deep copy operations](https://docs.python.org/3/library/copy.html)
 
-alanlarına bakabilirsin.
+bağlantılarına bakabilirsin.
 {% endhint %}
 
 ## 🤸‍ Comprehensions
