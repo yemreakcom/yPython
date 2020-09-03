@@ -4,14 +4,10 @@
 
 Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
 
-| Modül | Açıklama |
-| :--- | :--- |
-| argparse | Komut isteminden parametre alma |
-| [argcomplate](https://stackoverflow.com/a/15289025) | Komut istemi tamamlaması \(L**inux shell** için\) |
+* 👨‍💻️ Terminal \(komut istemi\) komutları yazmak için`os.system('<komut>')`
+* 🐧 Komut istemi tab ile tamamlamalar için [argcomplate](https://stackoverflow.com/a/15289025) paketine bakabilirsin
 
-{% hint style="info" %}
-🧙‍♂️ Terminal \(komut istemi\) komutları yazmak için`os.system('<komut>')`
-{% endhint %}
+{% page-ref page="argparse.md" %}
 
 ## ✨ Görsel Yönetim
 
