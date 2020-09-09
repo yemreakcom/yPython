@@ -1,7 +1,32 @@
-# ✨ Değişiklikler
+# 👀 Neler değişti
 
 ## 📋 Tüm Değişiklikler
 
+- 10/09/2020 - 01:23:57 - [🔄✨ GitBook senkronizasyonu güncellendi](https://github.com/YEmreAk/YPython/commit/1c28b540f8c789ab93a501dcb52c5452b73d099c?diff=split) ~ Yunus Emre
+- 03/09/2020 - 11:07:19 - [GitBook: [master] 102 pages modified](https://github.com/YEmreAk/YPython/commit/29042cf1771f6fae7cc7b98e13e7dab9aecad178?diff=split) ~ Yunus Emre
+- 03/09/2020 - 10:26:27 - [GitBook: [master] 3 pages modified](https://github.com/YEmreAk/YPython/commit/c1e9271747623e10ae6c69ab575f352e13b8bb0c?diff=split) ~ Yunus Emre
+- 03/09/2020 - 10:25:47 - [GitBook: [master] 103 pages modified](https://github.com/YEmreAk/YPython/commit/25a0e3c8bf5741f8cbb8669c5830315912b23141?diff=split) ~ Yunus Emre
+- 03/09/2020 - 09:31:10 - [GitBook: [master] 102 pages modified](https://github.com/YEmreAk/YPython/commit/c13d5cdebd61221e5085be350b5b2eacb8f7e41c?diff=split) ~ Yunus Emre
+- 25/08/2020 - 19:25:35 - [GitBook: [master] 100 pages modified](https://github.com/YEmreAk/YPython/commit/555f3aeae98fa3a3969f0d33dc294e8ee2d3cbaa?diff=split) ~ Yunus Emre
+- 25/08/2020 - 19:18:34 - [GitBook: [master] 100 pages modified](https://github.com/YEmreAk/YPython/commit/28f6817c2ee90cc79e2022b912f97872fd18e4cb?diff=split) ~ Yunus Emre
+- 25/08/2020 - 19:13:19 - [GitBook: [master] 2 pages modified](https://github.com/YEmreAk/YPython/commit/7cadfd763994abf0ab3851cf056690f20e023dae?diff=split) ~ Yunus Emre
+- 25/08/2020 - 19:12:59 - [GitBook: [master] 3 pages modified](https://github.com/YEmreAk/YPython/commit/39f3860609cd26fec42c42fcb66e525e8a638723?diff=split) ~ Yunus Emre
+- 25/08/2020 - 18:47:13 - [GitBook: [master] 100 pages modified](https://github.com/YEmreAk/YPython/commit/0d8b53edcbe5e7e765de39ea937827f4c5ca8310?diff=split) ~ Yunus Emre
+- 25/07/2020 - 00:54:16 - [GitBook: [master] 101 pages modified](https://github.com/YEmreAk/YPython/commit/ac05298d613321d56990aa34fb7ffccaf4b723b5?diff=split) ~ Yunus Emre
+- 25/07/2020 - 00:52:34 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/56ee48c49eb7f87ae331a3974d625c759e1cc4cb?diff=split) ~ Yunus Emre
+- 25/07/2020 - 00:52:05 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/f0efa64e8aea375d59ee75cb60aec11618f533d3?diff=split) ~ Yunus Emre
+- 25/07/2020 - 00:51:31 - [GitBook: [master] 101 pages and 6 assets modified](https://github.com/YEmreAk/YPython/commit/c2d5ba70e35c3f182afd849fb2073d806920f22a?diff=split) ~ Yunus Emre
+- 14/07/2020 - 19:46:37 - [GitBook: [master] 99 pages and one asset modified](https://github.com/YEmreAk/YPython/commit/7ba1bacf05e45bcaccc07912337428f26333e166?diff=split) ~ Yunus Emre
+- 14/07/2020 - 08:06:33 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/df365643e1260c350dd73f9be2444e7a8458798f?diff=split) ~ Yunus Emre
+- 14/07/2020 - 08:03:01 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/ae8c88911159b3b6238e60a4627c7fe9372e0c7e?diff=split) ~ Yunus Emre
+- 14/07/2020 - 07:56:52 - [GitBook: [master] 4 pages modified](https://github.com/YEmreAk/YPython/commit/c38b55f7bcea33c2c6eeec8d361dc3857c1c6da8?diff=split) ~ Yunus Emre
+- 14/07/2020 - 07:56:35 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/8f1dbe96b9449c90381c9a008aa681f61ad48085?diff=split) ~ Yunus Emre
+- 13/07/2020 - 20:59:08 - [GitBook: [master] 99 pages modified](https://github.com/YEmreAk/YPython/commit/7922ae05f78718ce6c922f12202d11c13da916e2?diff=split) ~ Yunus Emre
+- 13/07/2020 - 20:51:17 - [GitBook: [master] 100 pages and one asset modified](https://github.com/YEmreAk/YPython/commit/ad7d12d30ee029eb0dcb5441b09dccd89aceddae?diff=split) ~ Yunus Emre
+- 23/06/2020 - 16:59:53 - [GitBook: [master] 99 pages modified](https://github.com/YEmreAk/YPython/commit/77033e23c9c0155e06cab25ed6d79101b1faaad5?diff=split) ~ Yunus Emre
+- 22/06/2020 - 14:42:20 - [GitBook: [master] 94 pages modified](https://github.com/YEmreAk/YPython/commit/7ee34dc959fe8e56c23345b0cf568f674b77f205?diff=split) ~ Yunus Emre
+- 22/06/2020 - 14:41:29 - [GitBook: [master] 94 pages modified](https://github.com/YEmreAk/YPython/commit/3768a071036e6b328b323ed39ecd869493a23148?diff=split) ~ Yunus Emre
+- 08/06/2020 - 18:37:07 - [GitBook: [master] 94 pages modified](https://github.com/YEmreAk/YPython/commit/3325b5b29f551e32cde3b9818e84a70c0886c6f2?diff=split) ~ Yunus Emre
 - 23/04/2020 - 15:16:24 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/750bde91b2383cf22093348b0b652221c8043e86?diff=split) ~ Yunus Emre
 - 23/04/2020 - 15:15:59 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/e5b1684cf2822085d7ac36b7601b16d4c1c6680e?diff=split) ~ Yunus Emre
 - 23/04/2020 - 15:13:34 - [GitBook: [master] 3 pages modified](https://github.com/YEmreAk/YPython/commit/5955511f62fa3bcd7b66f1c5908d83339a5a9ab0?diff=split) ~ Yunus Emre
@@ -221,7 +246,7 @@
 - 07/10/2019 - 21:06:49 - [Update SUMMARY.md](https://github.com/YEmreAk/YPython/commit/74c4f73405733eaf824b8d409d865c64fd1af496?diff=split) ~ Yunus Emre
 - 07/10/2019 - 21:06:46 - [📦 Pip ile Kurulabilir Python Paketi Oluşturma yenilendi](https://github.com/YEmreAk/YPython/commit/7c06f39a902c8d80126932b8556d6e9fc1173c0c?diff=split) ~ Yunus Emre
 - 07/10/2019 - 21:06:31 - [😒 Önemsiz düzeltme](https://github.com/YEmreAk/YPython/commit/ac4d2648959f93e1cb31444932b7f2cccd8f6860?diff=split) ~ Yunus Emre
-- 03/10/2019 - 09:21:32 - [Update 1 Veri Yapılarına Gİriş.md](https://github.com/YEmreAk/YPython/commit/cd4d125fc4427e97e4cf11ba096043a195222926?diff=split) ~ Yunus Emre
+- 03/10/2019 - 09:21:32 - [Update 1 - Veri Yapılarına Gİriş.md](https://github.com/YEmreAk/YPython/commit/cd4d125fc4427e97e4cf11ba096043a195222926?diff=split) ~ Yunus Emre
 - 03/10/2019 - 09:21:29 - [📈 Python ile Grafik Çizimleri eklendi](https://github.com/YEmreAk/YPython/commit/039850f0022e0c2134f205b5a3a821e3c4fa76a2?diff=split) ~ Yunus Emre
 - 21/09/2019 - 10:10:43 - [Update Anaconda.md](https://github.com/YEmreAk/YPython/commit/14193bdc911494db4f62a784949b792c8e46d31c?diff=split) ~ Yunus Emre
 - 17/09/2019 - 23:20:23 - [Update CHANGELOG.md](https://github.com/YEmreAk/YPython/commit/50eddf4c1b65652aeb5de6e18e5071dfc639e5bf?diff=split) ~ Yunus Emre
@@ -232,7 +257,7 @@
 - 13/09/2019 - 22:49:58 - [🚪 Veri Yapılarına Gİriş yenilendi](https://github.com/YEmreAk/YPython/commit/88f97a18b06ab409111474d99358190566d6cd90?diff=split) ~ Yunus Emre
 - 13/09/2019 - 22:38:02 - [Update CHANGELOG.md](https://github.com/YEmreAk/YPython/commit/882f6f16b5e3bb404784bc0f316ab4c0e301ff80?diff=split) ~ Yunus Emre
 - 13/09/2019 - 22:37:53 - [🐍 Anaconda notları eklendi](https://github.com/YEmreAk/YPython/commit/3265877663390e958dd3b4a1c5a6d1ef612567e2?diff=split) ~ Yunus Emre
-- 13/09/2019 - 22:37:32 - [Update 0 Vscode Üzerinden Python.md](https://github.com/YEmreAk/YPython/commit/ed041abf5626f0d1c23d7dbfec9ec736c2e0b931?diff=split) ~ Yunus Emre
+- 13/09/2019 - 22:37:32 - [Update 0 - Vscode Üzerinden Python.md](https://github.com/YEmreAk/YPython/commit/ed041abf5626f0d1c23d7dbfec9ec736c2e0b931?diff=split) ~ Yunus Emre
 - 13/09/2019 - 22:37:23 - [📈 Geliştirici için notlar arttırıldı](https://github.com/YEmreAk/YPython/commit/caa103aae919176cf1d89bc8974a9974aaf65af4?diff=split) ~ Yunus Emre
 - 12/09/2019 - 11:34:22 - [Update CHANGELOG.md](https://github.com/YEmreAk/YPython/commit/3e4f521b74bcbdd9ebdb38f05201d7c1d9caa6b5?diff=split) ~ Yunus Emre
 - 12/09/2019 - 11:34:15 - [🚀 Awesome Python alanı eklendş](https://github.com/YEmreAk/YPython/commit/e8d983b8c1155cc38fb208c0139eab545f659908?diff=split) ~ Yunus Emre
@@ -259,7 +284,7 @@
 - 11/09/2019 - 22:39:15 - [Update CHANGELOG.md](https://github.com/YEmreAk/YPython/commit/98f9587412bd7d916761e07093e37f2b258f26b5?diff=split) ~ Yunus Emre
 - 11/09/2019 - 22:39:01 - [📖 YWiki'deki python notları buraya alındı](https://github.com/YEmreAk/YPython/commit/1923931cd996b026379f9b4cbecb0ef4cf7a5308?diff=split) ~ Yunus Emre
 - 08/09/2019 - 14:21:03 - [📖 YWiki'ye aktarıldı](https://github.com/YEmreAk/YPython/commit/856df0e4ac8d6d48196d6b95ff76cc1ba41576d1?diff=split) ~ Yunus Emre
-- 05/09/2019 - 19:09:40 - [Update 1 Komut İstemin (CLI).md](https://github.com/YEmreAk/YPython/commit/4cd5b5742ab2bbbad467144647e7b68d6390747c?diff=split) ~ Yunus Emre
+- 05/09/2019 - 19:09:40 - [Update 1 - Komut İstemin (CLI).md](https://github.com/YEmreAk/YPython/commit/4cd5b5742ab2bbbad467144647e7b68d6390747c?diff=split) ~ Yunus Emre
 - 05/09/2019 - 15:50:50 - [🚙 Yol notları doğru alana aktarıldı](https://github.com/YEmreAk/YPython/commit/9769c8a99b6feb9eb7cc4a8d459378f718be9bfc?diff=split) ~ Yunus Emre
 - 05/09/2019 - 15:49:52 - [🎌 Yol işlemleri hakkında detaylar](https://github.com/YEmreAk/YPython/commit/d7a543bf3477113aa58d1eded3e40d04224faef0?diff=split) ~ Yunus Emre
 - 05/09/2019 - 15:47:06 - [Ek notlar eklendi 🚀](https://github.com/YEmreAk/YPython/commit/1d1b20b56be8ea55f8cb3723610076b683da7160?diff=split) ~ Yunus Emre
