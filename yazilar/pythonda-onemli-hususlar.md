@@ -426,3 +426,7 @@ name, birthdate = DataBase("👮‍♂️").get_user(7)
 * [📃 Top Python Projects](https://data-flair.training/blogs/python-projects-with-source-code/)
 * [📃 Python Tutorial](https://data-flair.training/blogs/python-tutorial/)
 
+{% hint style="success" %}
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+{% endhint %}
+
