@@ -36,7 +36,7 @@ description: >-
 * 🎯 Sadece tek bir yapıyı kullan, çok sık değiştirme
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [📃 Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
 {% endhint %}
 
 ## 🖤 Komut İsteminden `ipython` Kullan
@@ -88,7 +88,7 @@ item_set = set(item_list)
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Dynamic Typing](https://docs.python-guide.org/writing/structure/#dynamic-typing) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [📖 Dynamic Typing](https://docs.python-guide.org/writing/structure/#dynamic-typing) alanına bakabilirsin.
 {% endhint %}
 
 ## 📦 Kütüphanelerden İşine Yarayanları Dahil Et
@@ -121,7 +121,7 @@ handlers.get(response, smile)()
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [📃 Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
 {% endhint %}
 
 ## 🆔 `==` ile `is` aynı değildir
@@ -145,7 +145,7 @@ a == b # True
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [📃 Python Pro Tips](https://dev.to/jmau111/python-pro-tips-27cb) alanına bakabilirsin.
 {% endhint %}
 
 ##  👮‍♂️ If - Else Yapılarını Kısaltın
@@ -193,7 +193,7 @@ handlers.get(response, smile)()
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Switch Case Kullanmadan Kod Yazabilmek](https://www.buraksenyurt.com/post/switch-case-kullanmadan-kod-yazabilmek) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [📃 Switch Case Kullanmadan Kod Yazabilmek](https://www.buraksenyurt.com/post/switch-case-kullanmadan-kod-yazabilmek) alanına bakabilirsin.
 {% endhint %}
 
 ## 🍢 Tek Satır Yapılarını Kullan
