@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 09/09/2020 - 23:37:20 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/7530e67e190c57f99042f9f7d300e2140e575c10?diff=split) ~ Yunus Emre
 - 09/09/2020 - 23:27:26 - [GitBook: [master] 5 pages modified](https://github.com/YEmreAk/YPython/commit/b6e846ea96f659309fbd6483df4821dc786695cb?diff=split) ~ Yunus Emre
 - 10/09/2020 - 01:37:58 - [🔄👨‍🔧 Entegrasyon sorunları giderildi](https://github.com/YEmreAk/YPython/commit/366744c652f0e517828588e8e85ef931b83ac9b0?diff=split) ~ Yedhrab
 - 10/09/2020 - 01:30:40 - [🐞👨‍🔧 Değişiklik dosyası sorunu gideriliyor](https://github.com/YEmreAk/YPython/commit/c62ef61170f75a830e02a57da587f3b02ff053b0?diff=split) ~ Yedhrab
