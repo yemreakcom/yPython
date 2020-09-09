@@ -2,7 +2,7 @@
 
 * [🐍 Python Notlarım](README.md)
 * [🙋‍♂️ Hoş Geldin](hos-geldin.md)
-* [👀 Neler değişti](changelog.md)
+* [👀 Neler değişti](CHANGELOG.md)
 * [📋 Tüm İçerikler](SUMMARY.md)
 * [✍ Yazılarım](yazilar/README.md)
   * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-onemli-hususlar.md)
@@ -131,4 +131,3 @@
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-
