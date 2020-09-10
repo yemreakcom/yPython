@@ -1,7 +1,6 @@
 # 📋 Tüm İçerikler
 
 * [🐍 Python Notlarım](./)
-* [🙋‍♂️ Hoş Geldin]()
 * [👀 Neler değişti](https://github.com/YEmreAk/YPython/blob/master/CHANGELOG.md)
 * [📋 Tüm İçerikler](summary.md)
 * [✍ Yazılarım](yazilar/)
