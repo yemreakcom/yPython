@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 10/09/2020 - 15:08:55 - [🐞👨‍🔧 GitBook indeksleme sorunları çözüldü](https://github.com/YEmreAk/YPython/commit/02c2fdb0f34b2cc25c21a13412c76db0805d1a83?diff=split) ~ Yedhrab
 - 10/09/2020 - 15:03:36 - [🔄👨‍🔧 GitBook entegrasyon sorunları çözüldü](https://github.com/YEmreAk/YPython/commit/d629c3f5c00c7b499e6fa301c2ff85400731342c?diff=split) ~ Yedhrab
 - 09/09/2020 - 23:37:20 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/7530e67e190c57f99042f9f7d300e2140e575c10?diff=split) ~ Yunus Emre
 - 09/09/2020 - 23:27:26 - [GitBook: [master] 5 pages modified](https://github.com/YEmreAk/YPython/commit/b6e846ea96f659309fbd6483df4821dc786695cb?diff=split) ~ Yunus Emre
