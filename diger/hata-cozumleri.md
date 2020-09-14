@@ -41,12 +41,14 @@ Bu işlemden sonra python terminalini baştan açmayı unutma
 * Ardından yüklemek istediğiniz paketi `pip install -U <paket_adi>` şeklinde baştan yükleyin
   * `-U` bayrağı,  `--upgrade` anlamına gelmektedir
 
+> 😩 Her ne kadar Visual Studio kurulmadan kurulsa da, dosya boyutu hala çok yüksektir
+
 ```python
 error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual
 C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
 ```
 
-{% hint style="warning" %}
-😩 Her ne kadar Visual Studio kurulmadan kurulsa da, dosya boyutu hala çok yüksektir
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Pip error: Microsoft Visual C++ 14.0](https://stackoverflow.com/a/44953739/9770490) is required alanına bakabilirsin.
 {% endhint %}
 
