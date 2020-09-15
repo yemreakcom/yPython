@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 15/09/2020 - 09:31:23 - [GitBook: [master] 102 pages modified](https://github.com/YEmreAk/YPython/commit/edaef75cfcba7b43a24f9f677ed64991604269bc?diff=split) ~ Yunus Emre
 - 14/09/2020 - 12:32:39 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/c0115499c1400b5b0a20c4a235573bcabc439139?diff=split) ~ Yunus Emre
 - 14/09/2020 - 12:31:19 - [GitBook: [master] 102 pages modified](https://github.com/YEmreAk/YPython/commit/308bff0d97c15d3cc9e3836e8248a077128099bb?diff=split) ~ Yunus Emre
 - 10/09/2020 - 12:21:19 - [GitBook: [master] one page modified](https://github.com/YEmreAk/YPython/commit/a92cff6aee9e4bff99d162a5864703a9037d1dc3?diff=split) ~ Yunus Emre
