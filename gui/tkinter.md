@@ -4,6 +4,12 @@ description: Tkinter ile temel görsek tasarım işlemleri
 
 # 👨‍🎨 Tkinter
 
+## 👀 Hızlı Bakış
+
+* 📦 Tkinter python ile gömülü olarak gelen GUI yapım paketidir
+* 🕊️ Hafif bir araçtır
+* 🌟 [YClicker](https://github.com/YEmreAk/YClicker) üzerinden örnek projeye bakabilirsin
+
 ## 🧱 Temel GUI Yapımı
 
 ![](../.gitbook/assets/tkinter_example.png)
@@ -17,7 +23,8 @@ window = Tk()
 window.title("YClicker")
 window.resizable(False, False) # Yeniden boyutlandırmayı engeller
 
-centerilaze(window, 360, 180) # Mekeze verilen boyutla konumalar
+# Pencereyi Merkeze Alma fonksiyonuna bakınız
+# centerilaze(window, 360, 180) # Mekeze verilen boyutla konumalar
 
 frame_main = Frame(window)
 frame_main.pack()
