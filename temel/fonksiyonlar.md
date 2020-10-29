@@ -4,16 +4,87 @@ description: Python üzerinde fonksiyonlar ve metotlar
 
 # 🔮 Fonksiyonlar
 
-## 💡 Fonksiyonlar Hakkında
+## 👀 Hızlı Bakış
 
-* Fonksiyonlara değişken değerlerinin kopyası gönderilir
-* Parametre olarak aldıkları değişkenleri değiştiremezler
-* `__` ile başlayan fonksiyonlar private olarak algılanır, sınıf dışında önerilerde gözükmezler
+* 👬 Fonksiyonlara değişken değerlerinin **kopyası** gönderilir
+* 💁‍♂️ Parametre olarak aldıkları objelerin içeriğini **değiştirebilirler**, ama kendisini **değiştiremezler**
+* ✨ Parametre değerleri tanımlandıkları anda atanır, her çağırıldığında değil
+* ⚡ Varsayılan parametre değerleri değiştirilemez değerler olmalıdır, aksi halde sorunlar oluşur
 
-## 🏠 Dahili Fonksiyonlar
+{% hint style="info" %}
+ ‍‍🧙‍♂ Detaylı bilgi için [📖 Mutable Default Arguments](https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments) alanına bakabilirsin.
+{% endhint %}
 
 {% tabs %}
-{% tab title="🌟 Sık Kullanılanlar" %}
+{% tab title="👬 Değişkenlerin Kopyasının Gönderilmesi" %}
+```python
+# Değerlerin kopyalanması
+def increase(a):
+	return a + 2
+
+a = 5
+b = increase(a)  # 7
+print(a)  # 5
+```
+{% endtab %}
+
+{% tab title="✨ Değişken İçeriğinin Güncellenmesi" %}
+```python
+class Home:
+    name: str
+    age: int
+
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+            
+def make_older(home: Home):
+    home.age += 1
+
+def new_home(home: Home):
+    home = Home(home.name, home.age + 1)
+
+myhome = Home("Any", 10)
+
+# Değişkenlerin kopyası aktarılsa dahi içerikleri aynı olduğu için 
+# değiştirilebilirler
+make_older(myhome)
+myhome.age  # 11
+
+# Değişkenlerin kopyası aktarıldığı için home değerininin kopyası değiştirilmekte, 
+# aslı kalmaktadır
+new_home(myhome)
+myhome.age  # 11
+```
+{% endtab %}
+
+{% tab title="💎 Varsayılan Parametrelerdeki Değişken Sorunu" %}
+```python
+# Parametre varsayılan değeri olarak list atanıyor
+def append_to(element, to=[]):
+    to.append(element)
+    return to
+
+# list içerisine 12 değeri ekleniyor
+my_list = append_to(12)
+print(my_list)  # [12]
+
+# Yine aynı list içerisine 42 ekleniyor ve artık 12,42 değeri oluşuyor
+# Parametre değerleri tek seferlik atandığından [] objesinin adresi to 
+# değişkenine atanır, list her değiştiğinde to içeriği de değişir halde 
+# olacaktır
+my_other_list = append_to(42)
+print(my_other_list)  # [12, 42]
+```
+{% endtab %}
+{% endtabs %}
+
+## 💠 Dahili ve Harici Fonksiyonlar
+
+* Dahili fonksiyonlar, python ile gelen hazır fonksiyonlardır ve direkt olarak kullanılabilirler
+* Harici fonksiyonları kullanmadan önce `import <paket>` ile paketi dahil etmeniz lazım
+* Fonksiyonların kullanımı `<paket>.<fonksiyon>` şeklindedir
+
 | Fonksiyon | Açıklama | Örnek | Çıktı |
 | :--- | :--- | :--- | :--- |
 | `print(<string>)` | Ekrana yazma | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}` |
@@ -22,8 +93,8 @@ description: Python üzerinde fonksiyonlar ve metotlar
 | `eval(<string>)` | Verilen stringi hesaplama | `eval("x + 5")` | `6` |
 | `type(<obje>)` | Objenin türünü bulma | `type(x)` | `<class 'number'>` |
 | `enumerate(<obje>, <si>)` | Numaralandırma | `i, line in enumerate(file, 0)` |  |
-{% endtab %}
 
+{% tabs %}
 {% tab title="Metin Karakterlerini Sayma" %}
 ```python
 string = "Yemreak"
@@ -56,14 +127,16 @@ dir(<func | modul>)
 {% endtab %}
 {% endtabs %}
 
-## 🌃 Harici Fonksiyonlar
+## ✨ Oluşturma
 
-* Fonksiyonları kullanmadan önce `import <paket>` ile paketi dahil etmeniz lazım
-* Fonksiyonların kullanımı `<paket>.<fonksiyon>` şeklindedir
+* 🆔 Fonksiyon ismi eşsiz olmalıdır, override yapısını python desteklemez
+* 💎 Parametreler tip belirtmeden de yazılabilir
+* 📝 Dokümantasyon için fonksiyonun tanımlandığı satırın altına `"""` karakterleri arasına içerik yazılır
+* ⏩ `return` yapısı ile sonuçlarını döndürürler
 
-## ✨ Fonksiyon İşlemleri
-
-Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar, **yukarıda \(önceden\) tanımlanmadan** kullanılamaz.
+{% hint style="warning" %}
+📢 Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar, **yukarıda \(önceden\) tanımlanmadan** kullanılamaz.
+{% endhint %}
 
 {% tabs %}
 {% tab title="🧱 Fonksiyon Temeli" %}
@@ -76,11 +149,11 @@ def function_name(parameters):
 
 {% tab title="⭐ Örnek" %}
 ```python
-def greet(name):
+def greet(name: str) -> str:
   """This function greets to
   the person passed in as
   parameter"""
-  print("Hello, " + name + ". Good morning!")
+  return "Hello, " + name + ". Good morning!"
 ```
 {% endtab %}
 
@@ -94,9 +167,11 @@ This function greets to
 {% endtab %}
 {% endtabs %}
 
-## 💎 Fonksiyon Parametreleri
+## 💎 Parametreler
 
-Fonksiyonlar tanımlandığı vakit varsayılan atamalar yapılır.
+* ⚡ Fonksiyonlar tanımlandığı vakit varsayılan atamalar yapılır.
+* 🆔 Parametre tipler `param: type` şeklinde belirtiliebilir ama zorunlu değildir
+* 🚄 `*args`, `**kwargs` şeklinde `list` ve `dict` elemanları alan parametreler tanımlanabilir
 
 {% hint style="warning" %}
 Bu yüzden **zaman hesaplama** gibi işlemleri burada yapmanız **mantıklı olmayacak**, zaman farkı **0** olarak gelecektir.
@@ -138,7 +213,33 @@ def greet(*names):
 greet("Monica","Luke","Steve","John")
 ```
 {% endtab %}
+
+{% tab title="💎 Varsayılan Parametrelerdeki Değişken Sorunu" %}
+```python
+# Parametre varsayılan değeri olarak list atanıyor
+def append_to(element, to=[]):
+    to.append(element)
+    return to
+
+# list içerisine 12 değeri ekleniyor
+my_list = append_to(12)
+print(my_list)  # [12]
+
+# Yine aynı list içerisine 42 ekleniyor ve artık 12,42 değeri oluşuyor
+# Parametre değerleri tek seferlik atandığından [] objesinin adresi to 
+# değişkenine atanır, list her değiştiğinde to içeriği de değişir halde olacaktır
+my_other_list = append_to(42)
+print(my_other_list)  # [12, 42]
+```
+{% endtab %}
 {% endtabs %}
+
+## ♿ Erişebilirlirlik
+
+* 🙄 Python üzerinde private ve public yapısı derleyici tarafından kontrol edilmez
+* ⚖️ Kodun anlaşılabilirliği artırmak için programcılar tarafından belirlenen kurallardır
+* 🌫️ `__` ile başlayan fonksiyonlar `private` olarak algılanır, sınıf dışında önerilerde gözükmezler
+* 🌃 `_` ile başlayan fonksiyonlar dosya içinde `public` dosya dışında `private` olarak ifade edilir \(`interval`\)
 
 ## 🧱 Fonksiyon Türleri
 
@@ -462,7 +563,7 @@ Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yava�
 ```python
 from type import Tuple, List
 from pathlib import Path
-def foo(root: Path, privates=[], exbool=False, msg: str) -> Tuple[List, List]:
+def foo(root: Path, exbool=False, msg: str) -> Tuple[List, List]:
     ...
     return ["temp"], ["temp"]
 ```
