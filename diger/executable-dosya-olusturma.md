@@ -16,8 +16,9 @@ description: Python ile windows için exe dosyası oluşturma
 
 ## 👷‍♂️ Exe Haline Çevirme
 
-* 🧰 `pip install -r requirements.txt` ile gereksinimleri indirin
+* 📦 `pip install -r requirements.txt` ile gereksinimleri indirin
 * ⏬ `pip install auto-py-exe` komutu ile paketi indirin
+* 🌍  Terminal üzerinden `auto-py-exe` komutu ile arayüzü çalıştırın
 * ⭐ One file ile tek dosya içerisinde sıkıştırılmış bir exe oluşturulur
 * 🖤 Window based ile konsolu açmadan pencere yapısında çalıştırır
 * 🖼️ Icon yolu olarak exe dosyasında olmasını istediğiniz `ico` uzantılı dosya yolunu verin
