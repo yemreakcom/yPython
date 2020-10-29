@@ -234,7 +234,7 @@ print(my_other_list)  # [12, 42]
 {% endtab %}
 {% endtabs %}
 
-## ♿ Erişebilirlirlik
+## ♿ Erişebilirlik
 
 * 🙄 Python üzerinde private ve public yapısı derleyici tarafından kontrol edilmez
 * ⚖️ Kodun anlaşılabilirliği artırmak için programcılar tarafından belirlenen kurallardır
