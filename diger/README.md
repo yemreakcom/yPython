@@ -1,2 +1,2 @@
-# ✨ Diğer Notlarım
+# 📚 Diğer Notlarım
 

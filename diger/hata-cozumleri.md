@@ -36,17 +36,18 @@ Bu işlemden sonra python terminalini baştan açmayı unutma
 
 ## 🧰 Pip error: Microsoft Visual C++ 14.0 is required
 
-* Eğer aşağıdaki gibi bir hata mesajı alıyorsanız
-*  [Visual C++ 2015 Build Tools](http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.) bağlantısından Microsoft Visual C++ 14.0'ı Visual Studio indirmeden kurabilirsiniz
-* Ardından yüklemek istediğiniz paketi `pip install -U <paket_adi>` şeklinde baştan yükleyin
-  * `-U` bayrağı,  `--upgrade` anlamına gelmektedir
-
-> 😩 Her ne kadar Visual Studio kurulmadan kurulsa da, dosya boyutu hala çok yüksektir
-
 ```python
 error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual
 C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
 ```
+
+* 🧐 Bu hatanın alınmasının temel sebebi kullandığınız python sürümü için indirdiğiniz paketin daha önceden derlenmiş olmamasıdır
+* 💁‍♂️ Uğraşmak istemiyorsanız direkt olarak alt python sürümlerine geçebilirsiniz
+* 🧰  [Visual C++ 2015 Build Tools](http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.) bağlantısından Microsoft Visual C++ 14.0'ı Visual Studio indirmeden kurabilirsiniz
+* 👷‍♂️ Ardından yüklemek istediğiniz paketi `pip install -U <paket_adi>` şeklinde baştan yükleyin
+  * `-U` bayrağı,  `--upgrade` anlamına gelmektedir
+
+> 😩 Her ne kadar Visual Studio kurulmadan kurulsa da, dosya boyutu hala çok yüksektir
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [Pip error: Microsoft Visual C++ 14.0](https://stackoverflow.com/a/44953739/9770490) is required alanına bakabilirsin.
