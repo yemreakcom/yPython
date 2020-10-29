@@ -15,6 +15,104 @@ description: Python üzerinde fonksiyonlar ve metotlar
  ‍‍🧙‍♂ Detaylı bilgi için [📖 Mutable Default Arguments](https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments) alanına bakabilirsin.
 {% endhint %}
 
+## ✨ Oluşturma
+
+* 🆔 Fonksiyon ismi eşsiz olmalıdır, override yapısını python desteklemez
+* 💎 Parametreler tip belirtmeden de yazılabilir
+* 📝 Dokümantasyon için fonksiyonun tanımlandığı satırın altına `"""` karakterleri arasına içerik yazılır
+* ⏩ `return` yapısı ile sonuçlarını döndürürler
+
+{% hint style="warning" %}
+📢 Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar, **yukarıda \(önceden\) tanımlanmadan** kullanılamaz.
+{% endhint %}
+
+{% tabs %}
+{% tab title="🧱 Fonksiyon Temeli" %}
+```python
+def function_name(parameters):
+  """docstring"""
+  statement(s)
+```
+{% endtab %}
+
+{% tab title="⭐ Örnek" %}
+```python
+def greet(name: str) -> str:
+  """This function greets to
+  the person passed in as
+  parameter"""
+  return "Hello, " + name + ". Good morning!"
+```
+{% endtab %}
+
+{% tab title="📜 Dökümantasyon" %}
+```python
+>>> print(greet.__doc__)
+This function greets to
+  the person passed into the
+  name paramete
+```
+{% endtab %}
+{% endtabs %}
+
+## 💎 Parametreler
+
+* ⚡ Fonksiyonlar tanımlandığı vakit varsayılan atamalar yapılır.
+* 🚄 `*args`, `**kwargs` şeklinde `list` ve `dict` elemanları alan parametreler tanımlanabilir
+* 🆔 Parametre tipler `param: type` şeklinde belirtiliebilir ama zorunlu değildir
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Function Parameter Types in Python](https://stackoverflow.com/a/21384492/9770490) yazısına bakabilirsin.
+{% endhint %}
+
+{% tabs %}
+{% tab title="🎌 Varsayılan Parametre" %}
+```python
+def greet(name, msg = "Good morning!"):
+   """
+   This function greets to
+   the person with the
+   provided message.
+
+   If message is not provided,
+   it defaults to "Good
+   morning!"
+   """
+
+   print("Hello",name + ', ' + msg)
+
+greet("Kate") # Varsayılan parametreyi kullanma
+greet("Bruce","How do you do?") # Sıralı parametre verme
+greet("Bruce", msg="Naber") # İşaretleyerek paremetre verme
+```
+{% endtab %}
+
+{% tab title="🏳‍🌈 Keyfi Parametre" %}
+```python
+# * ön eki ile ile kaç tane isim gelirse o kadar kullanıyoruz.
+def greet(*names):
+   """This function greets all
+   the person in the names tuple."""
+
+   # names is a tuple with arguments
+   for name in names:
+       print("Hello",name)
+
+greet("Monica","Luke","Steve","John")
+```
+{% endtab %}
+
+{% tab title="🐥 Tip Tanımlama" %}
+```python
+from type import Tuple, List
+from pathlib import Path
+def foo(root: Path, exbool=False, msg: str) -> Tuple[List, List]:
+    ...
+    return ["temp"], ["temp"]
+```
+{% endtab %}
+{% endtabs %}
+
 {% tabs %}
 {% tab title="👬 Değişkenlerin Kopyasının Gönderilmesi" %}
 ```python
@@ -79,161 +177,6 @@ print(my_other_list)  # [12, 42]
 {% endtab %}
 {% endtabs %}
 
-## 💠 Dahili ve Harici Fonksiyonlar
-
-* Dahili fonksiyonlar, python ile gelen hazır fonksiyonlardır ve direkt olarak kullanılabilirler
-* Harici fonksiyonları kullanmadan önce `import <paket>` ile paketi dahil etmeniz lazım
-* Fonksiyonların kullanımı `<paket>.<fonksiyon>` şeklindedir
-
-| Fonksiyon | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `print(<string>)` | Ekrana yazma | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}` |
-| `print('\r' + <string>, end='')` | Satır başına yazı yazma |  |  |
-| `sum, len` | Toplama, uzunluk, ortalama | `sum([1, 2, 3])` | `5` |
-| `eval(<string>)` | Verilen stringi hesaplama | `eval("x + 5")` | `6` |
-| `type(<obje>)` | Objenin türünü bulma | `type(x)` | `<class 'number'>` |
-| `enumerate(<obje>, <si>)` | Numaralandırma | `i, line in enumerate(file, 0)` |  |
-
-{% tabs %}
-{% tab title="Metin Karakterlerini Sayma" %}
-```python
-string = "Yemreak"
-for i, char in enumerate(string):
-  print(i, char)
-
-# 0 Y
-# 1 e
-# 2 m
-# ...
-```
-{% endtab %}
-
-{% tab title="Dosya Satırlarını a\'dan Başlayıp Sayma" %}
-```python
-with open(FILE, "r") as file:
-  for i, line in enumerate(file, a):
-    print(f"{i}. {line}")
-
-# a. satır
-# (a+1). satır
-# ...
-```
-{% endtab %}
-
-{% tab title="Alt Fonksiyonları Listeleme" %}
-```python
-dir(<func | modul>)
-```
-{% endtab %}
-{% endtabs %}
-
-## ✨ Oluşturma
-
-* 🆔 Fonksiyon ismi eşsiz olmalıdır, override yapısını python desteklemez
-* 💎 Parametreler tip belirtmeden de yazılabilir
-* 📝 Dokümantasyon için fonksiyonun tanımlandığı satırın altına `"""` karakterleri arasına içerik yazılır
-* ⏩ `return` yapısı ile sonuçlarını döndürürler
-
-{% hint style="warning" %}
-📢 Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar, **yukarıda \(önceden\) tanımlanmadan** kullanılamaz.
-{% endhint %}
-
-{% tabs %}
-{% tab title="🧱 Fonksiyon Temeli" %}
-```python
-def function_name(parameters):
-  """docstring"""
-  statement(s)
-```
-{% endtab %}
-
-{% tab title="⭐ Örnek" %}
-```python
-def greet(name: str) -> str:
-  """This function greets to
-  the person passed in as
-  parameter"""
-  return "Hello, " + name + ". Good morning!"
-```
-{% endtab %}
-
-{% tab title="📜 Dökümantasyon" %}
-```python
->>> print(greet.__doc__)
-This function greets to
-  the person passed into the
-  name paramete
-```
-{% endtab %}
-{% endtabs %}
-
-## 💎 Parametreler
-
-* ⚡ Fonksiyonlar tanımlandığı vakit varsayılan atamalar yapılır.
-* 🆔 Parametre tipler `param: type` şeklinde belirtiliebilir ama zorunlu değildir
-* 🚄 `*args`, `**kwargs` şeklinde `list` ve `dict` elemanları alan parametreler tanımlanabilir
-
-{% hint style="warning" %}
-Bu yüzden **zaman hesaplama** gibi işlemleri burada yapmanız **mantıklı olmayacak**, zaman farkı **0** olarak gelecektir.
-{% endhint %}
-
-{% tabs %}
-{% tab title="🎌 Varsayılan Parametre" %}
-```python
-def greet(name, msg = "Good morning!"):
-   """
-   This function greets to
-   the person with the
-   provided message.
-
-   If message is not provided,
-   it defaults to "Good
-   morning!"
-   """
-
-   print("Hello",name + ', ' + msg)
-
-greet("Kate") # Varsayılan parametreyi kullanma
-greet("Bruce","How do you do?") # Sıralı parametre verme
-greet("Bruce", msg="Naber") # İşaretleyerek paremetre verme
-```
-{% endtab %}
-
-{% tab title="🏳‍🌈 Keyfi Parametre" %}
-```python
-# * ön eki ile ile kaç tane isim gelirse o kadar kullanıyoruz.
-def greet(*names):
-   """This function greets all
-   the person in the names tuple."""
-
-   # names is a tuple with arguments
-   for name in names:
-       print("Hello",name)
-
-greet("Monica","Luke","Steve","John")
-```
-{% endtab %}
-
-{% tab title="💎 Varsayılan Parametrelerdeki Değişken Sorunu" %}
-```python
-# Parametre varsayılan değeri olarak list atanıyor
-def append_to(element, to=[]):
-    to.append(element)
-    return to
-
-# list içerisine 12 değeri ekleniyor
-my_list = append_to(12)
-print(my_list)  # [12]
-
-# Yine aynı list içerisine 42 ekleniyor ve artık 12,42 değeri oluşuyor
-# Parametre değerleri tek seferlik atandığından [] objesinin adresi to 
-# değişkenine atanır, list her değiştiğinde to içeriği de değişir halde olacaktır
-my_other_list = append_to(42)
-print(my_other_list)  # [12, 42]
-```
-{% endtab %}
-{% endtabs %}
-
 ## ♿ Erişebilirlik
 
 * 🙄 Python üzerinde private ve public yapısı derleyici tarafından kontrol edilmez
@@ -241,7 +184,7 @@ print(my_other_list)  # [12, 42]
 * 🌫️ `__` ile başlayan fonksiyonlar `private` olarak algılanır, sınıf dışında önerilerde gözükmezler
 * 🌃 `_` ile başlayan fonksiyonlar dosya içinde `public` dosya dışında `private` olarak ifade edilir \(`interval`\)
 
-## 🧱 Fonksiyon Türleri
+## 🧱 Türler
 
 {% tabs %}
 {% tab title="💫 Özyineleyen \(recursion\)" %}
@@ -361,7 +304,7 @@ dir(<class>) # Class metodlarını listeler
 {% endtab %}
 {% endtabs %}
 
-## 🤯 Global, Local ve Nonlocal Kavramları
+## 🌇 Global, Local ve Nonlocal
 
 {% tabs %}
 {% tab title="❔ Nedir" %}
@@ -455,10 +398,9 @@ print("In global scope:", spam)
 {% endtab %}
 {% endtabs %}
 
-## 🏃‍♂️ Fonksiyonlarda Hız
+## 🏃‍♂️ Hız Hakkında
 
-Fonksiyonlarda işlem yapılma hızı, manuel \(kod satırı olarak\) işlem yapılmasından daha hızlıdır.
-
+* Fonksiyonlarda işlem yapılma hızı, manuel \(kod satırı olarak\) işlem yapılmasından daha hızlıdır.
 * ~%80 daha hızlı çalıştığını script üzerinden görebilirsiniz
 * Bu değer bilgisayar **donanımınıza göre değişiklik** gösterecektir
 * Hafızayı \(_memorial_\) kullanan fonksiyonlar tekrarlı \(_recursive_\) fonksiyonlardan daha **hızlıdır**.
@@ -553,22 +495,56 @@ Fonksiyon işlemi normalden %46.28 daha hızlı, testlerde %1.90 ihtimalle yava�
 Fonksiyon işlemi normalden %46.94 daha hızlı, testlerde %2.11 ihtimalle yavaş kalmıştır.
 Fonksiyon işlemi normalden %46.21 daha hızlı, testlerde %2.25 ihtimalle yavaş kalmıştır.
 Fonksiyon işlemi normalden %46.50 daha hızlı, testlerde %2.39 ihtimalle yavaş kalmıştır.
-Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yavaş kalmıştır..
 ```
 {% endtab %}
 {% endtabs %}
 
-## 🐥 Fonksiyon Parametre Tipleri
+## 💠 Dahili ve Harici Fonksiyonlar
 
+* Dahili fonksiyonlar, python ile gelen hazır fonksiyonlardır ve direkt olarak kullanılabilirler
+* Harici fonksiyonları kullanmadan önce `import <paket>` ile paketi dahil etmeniz lazım
+* Fonksiyonların kullanımı `<paket>.<fonksiyon>` şeklindedir
+
+| Fonksiyon | Açıklama | Örnek | Çıktı |
+| :--- | :--- | :--- | :--- |
+| `print(<string>)` | Ekrana yazma | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}` |
+| `print('\r' + <string>, end='')` | Satır başına yazı yazma |  |  |
+| `sum, len` | Toplama, uzunluk, ortalama | `sum([1, 2, 3])` | `5` |
+| `eval(<string>)` | Verilen stringi hesaplama | `eval("x + 5")` | `6` |
+| `type(<obje>)` | Objenin türünü bulma | `type(x)` | `<class 'number'>` |
+| `enumerate(<obje>, <si>)` | Numaralandırma | `i, line in enumerate(file, 0)` |  |
+
+{% tabs %}
+{% tab title="Metin Karakterlerini Sayma" %}
 ```python
-from type import Tuple, List
-from pathlib import Path
-def foo(root: Path, exbool=False, msg: str) -> Tuple[List, List]:
-    ...
-    return ["temp"], ["temp"]
-```
+string = "Yemreak"
+for i, char in enumerate(string):
+  print(i, char)
 
-{% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Function Parameter Types in Python](https://stackoverflow.com/a/21384492/9770490) yazısına bakabilirsin.
-{% endhint %}
+# 0 Y
+# 1 e
+# 2 m
+# ...
+```
+{% endtab %}
+
+{% tab title="Dosya Satırlarını a\'dan Başlayıp Sayma" %}
+```python
+with open(FILE, "r") as file:
+  for i, line in enumerate(file, a):
+    print(f"{i}. {line}")
+
+# a. satır
+# (a+1). satır
+# ...
+```
+{% endtab %}
+
+{% tab title="Alt Fonksiyonları Listeleme" %}
+```python
+dir(<func | modul>)
+```
+{% endtab %}
+{% endtabs %}
 
