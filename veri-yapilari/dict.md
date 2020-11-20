@@ -12,7 +12,7 @@ description: 'Python obje, json veya anahtar-değer (key-value) çifti yapısı 
 * Anahtar değerleri primitive değişkenler dışında seçilemez \(`list`, `tuple` olamaz\)
 
 {% hint style="warning" %}
-📢 Dict içerisinde yer almayan anahtarlar kullanıldığında hata oluşur, bu sebeple `defaultdict` yapısını kullanmanız önerilir
+📢 `dict` içerisinde yer almayan anahtarlar kullanıldığında hata oluşur, bu sebeple `defaultdict` yapısını kullanmanız önerilir
 {% endhint %}
 
 > ## ⭐ Basit Örnekler
@@ -30,7 +30,7 @@ my_dict = dict({1:'apple', 2:'ball'})
 my_dict = dict([(1,'apple'), (2,'ball')])
 ```
 
-## 📜 Json Kullanımı
+## 📜 `json` Kullanımı
 
 ```python
 import json
@@ -87,7 +87,7 @@ pycon  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel', 20
 📢 Detaylı bilgi için [Simpler Updating of Dictionaries](https://realpython.com/python39-new-features/#simpler-updating-of-dictionaries) alanına bakabilirsin
 {% endhint %}
 
-## 🌟 `DefaultDict` ile Varsayılan Değer
+## 🌟 `DefaultDict`
 
 * Dict içerisinde olmayan bir anahtar kullanılması durumunda `KeyError` verilir, `defaultdict` yapısında önceden tanımlanan fonksiyon çalıştırılır
 * Basit bir olaymış gibi gözükse de, `dict` yapısı büyük projelerde çok fazla hatalara sebep olmaktadır
