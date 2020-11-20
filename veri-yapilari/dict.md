@@ -4,28 +4,18 @@ description: 'Python obje, json veya anahtar-değer (key-value) çifti yapısı 
 
 # 📙 Dict
 
-## 👀 Hızlıca Göz Atalım
+## 🔰 Ne Amaçla Kullanılır
 
-Verilerin anahtarlara \(_key_\) göre saklandığı `list` yapısıdır.
+* Verilerin anahtar - değer yapısına göre saklandığı `list` yapısıdır
+* Her anahtar değeri eşsiz olmak zorundadır
+* Aynı anahtar değerine sahip yeni bir anahtar oluşturulamayacağından veriler, anahtarın üzerine yazılır
+* Anahtar değerleri primitive değişkenler dışında seçilemez \(`list`, `tuple` olamaz\)
 
-* Her _key_ değeri eşsiz \(_unique_\) olmalıdır
-* _Key_ değerleri **ana değişkenleri** olabilir, `list`, `tuple` gibi listeler olamaz
+{% hint style="warning" %}
+📢 Dict içerisinde yer almayan anahtarlar kullanıldığında hata oluşur, bu sebeple `defaultdict` yapısını kullanmanız önerilir
+{% endhint %}
 
-> Alttaki işlemlerin her biri `dict` objesinin alt işlemidir.
-
-## 💠 Dict İşlemleri
-
-| İşlem | Açıklama |
-| :--- | :--- |
-| `dict[<key>]` & `get(<key>)` | Anahtar ile veri alma, veri yoksa hata fırlatır |
-| `dict[<key>] = <değer>` | Belirli anahtara değer atama |
-| `<key> in dict` | Anahtar `dict`'e var mı kontrolü |
-| `json.dumps(dict)` | `dict`'i `str`'a çevirme |
-| `json.loads(re.sub("//.*","",str,flags=re.MULTILINE))` | JSON'u yorum satırlarını atarak okuma |
-| `dict( (a,1) for a in <list>)` | `<liste>`'nin her elamanı ile 1'i eşleyen dict |
-| `copy_dict ? {**dict}` | `dict` kopyalama |
-
-## 🏗 Obje Tanımlama
+> ## ⭐ Basit Örnekler
 
 ```python
 # empty dictionary
@@ -40,7 +30,7 @@ my_dict = dict({1:'apple', 2:'ball'})
 my_dict = dict([(1,'apple'), (2,'ball')])
 ```
 
-## 📜 JSON İşlemleri
+## 📜 Json Kullanımı
 
 ```python
 import json
@@ -56,35 +46,74 @@ with ("new.json", "w", encoding="utf-8") as file:
     file.write(json.dumb(my_dict, indent=4))
 ```
 
-## 🐣 Verilere Erişim
+## ✨ Verileri Güncelleme
 
 ```python
-my_dict = {'name':'Jack', 'age': 26}
+# Dict objelerini tanımlama
+pycon = {2016: "Portland", 2018: "Cleveland"}
+europython = {2017: "Rimini", 2018: "Edinburgh", 2019: "Basel"}
 
-# Output: Jack
-print(my_dict['name'])
+# 2 Dict objesini pointer ile birleştirme
+{**pycon, **europython}  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel'}
 
-# Output: 26
-print(my_dict.get('age'))
+# 2 Dict objesini döngü yapısı ile birleştirme
+merged = pycon.copy()
+for key, value in europython.items():
+    merged[key] = value
+merged  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel'}
 
-search_age = 26
+# Update metodu ile birleştirme
+pycon.update(europython)  # None
+pycon  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel'}
 
-for name in my_dict.keys():
-    print(name) # Jack
-    
-for age in my_dict.values():
-    print(age) # 26
+# Walrus operatörü ile güncelleme
+(merged := pycon.copy()).update(europython)  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel'}
 
-# Anahtar ve değerlere erişme
-for name, age in my_dict .items():
-    if age == search_age:
-        print(name) # Jack
-        
+# Union operatörü ile
+
+# Güncel dict yapısı en sağdaki dict değerlerini referans alır, 2018 değerleri farklıdır
+pycon | europython  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel'}
+europython | pycon  # {2016: 'Portland', 2018: 'Cleveland', 2017: 'Rimini', 2019: 'Basel'}
+
+pycon |= europython
+pycon  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel'}
+
+# Union operatörü ile farklı veri tipini ekleme
+pycon |= [(2020: "USA")]  # Tuple listesi olsa bile dict yapısına uygun hale alınıp eklenir
+pycon  # {2016: 'Portland', 2018: 'Edinburgh', 2017: 'Rimini', 2019: 'Basel', 2020: 'USA'}
 ```
 
-## 🔗 Dict için Faydalı Bağlantılar
+{% hint style="warning" %}
+📢 Detaylı bilgi için [Simpler Updating of Dictionaries](https://realpython.com/python39-new-features/#simpler-updating-of-dictionaries) alanına bakabilirsin
+{% endhint %}
 
-* [`Dict`'i `str`'a çevirme](https://stackoverflow.com/a/4547331/9770490)
-* [`Dict`'ten hızlı bir yöntem var mı](https://stackoverflow.com/a/40694623/9770490)
-* [`Dict` kopyalama](https://stackoverflow.com/a/53413487/9770490)
+## 🌟 `DefaultDict` ile Varsayılan Değer
+
+* Dict içerisinde olmayan bir anahtar kullanılması durumunda `KeyError` verilir, `defaultdict` yapısında önceden tanımlanan fonksiyon çalıştırılır
+* Basit bir olaymış gibi gözükse de, `dict` yapısı büyük projelerde çok fazla hatalara sebep olmaktadır
+
+```python
+from collections import defaultdict
+europe = defaultdict(lambda: "", {"Norway": "Oslo", "Spain": "Madrid"})
+africa = defaultdict(lambda: "", {"Egypt": "Cairo", "Zimbabwe": "Harare"})
+
+# Union ile defaultdict birleştirme
+europe | africa
+# defaultdict(<function <lambda> at 0x7f0cb42a6700>,
+#   {'Norway': 'Oslo', 'Spain': 'Madrid', 'Egypt': 'Cairo', 'Zimbabwe': 'Harare'})
+
+# Pointer ile defaultdict'ten dict oluşturma
+{**europe, **africa}  # {'Norway': 'Oslo', 'Spain': 'Madrid', 'Egypt': 'Cairo', 'Zimbabwe': 'Harare'}
+
+libraries = { "collections": "Container datatypes", "math": "Mathematical functions" }
+libraries |= {"zoneinfo": "IANA time zone support"}
+libraries  # {'collections': 'Container datatypes', 'math': 'Mathematical functions', ': 'IANA time zone support'}
+
+# Defaultdict'e tuple objesini ekleme
+libraries |= [("graphlib", "Functionality for graph-like structures")]
+libraries
+{'collections': 'Container datatypes', 'math': 'Mathematical functions',
+ 'zoneinfo': 'IANA time zone support',
+ 'graphlib': 'Functionality for graph-like structures'}
+```
 
