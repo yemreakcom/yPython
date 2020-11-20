@@ -2,7 +2,7 @@
 description: Python ile asenkron programlama
 ---
 
-# 💫 Asenkron İşlemler
+# 💫 Asyncio
 
 ## 🔰 Ne Amaçla Kullanılır
 
