@@ -68,7 +68,7 @@
   * [🎌 Komut Çalıştırma](es-zamanli-islemler/komut-calistirma.md)
   * [🧵 Multithreading](es-zamanli-islemler/multithreading.md)
   * [🎎 Multiprocessing](es-zamanli-islemler/multiprocessing.md)
-  * [💫 Asenkron İşlemler](es-zamanli-islemler/asenkron-islemler.md)
+  * [💫 Asyncio](es-zamanli-islemler/asyncio.md)
 * [🕸️ Web Programlama](web-programlama/README.md)
   * [💌 HTTP İstekleri](web-programlama/http-istekleri.md)
   * [🌶️ Flask](web-programlama/flask.md)
