@@ -105,6 +105,7 @@
   * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
 * [📦 Faydalı Paketler](faydali-paketler/README.md)
   * [🕐 Schedule](faydali-paketler/schedule.md)
+  * [🧐 FileType](faydali-paketler/filetype.md)
 * [🔗 Faydalı Bağlantılar](harici-linkler.md)
 
 ## Alakalı Bağlantılar
