@@ -103,6 +103,8 @@
   * [🔃 I/O İşlemleri \| IPython](ipython/io-islemleri.md)
   * [🔆 Görsel Arayüz \(GUI\) \| IPython](ipython/gui.md)
   * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
+* [📦 Faydalı Paketler](faydali-paketler/README.md)
+  * [🕐 Schedule](faydali-paketler/schedule.md)
 * [🔗 Faydalı Bağlantılar](harici-linkler.md)
 
 ## Alakalı Bağlantılar
