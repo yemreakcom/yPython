@@ -28,9 +28,10 @@ description: Python liste yapısı (list)
 | `list[i:j:k]` | For döngüsü ile elemanları alma |
 | `[5] * i` | `i` tane 5 sayısı \(`i=3` için `[5, 5, 5]`\) |
 
-## 🍢 Tek Satır List Yapısı
+## 🍢 List C**omprehension**
 
-*  İstenen koşullardaki elemanların listesini verir
+* Tek satırlı liste yapısına verilen isimdir 
+* İstenen koşullardaki elemanların listesini verir
 
 ```python
 [<değişken> for <değişken> in <dizi | liste | menzil> if <koşul>]
