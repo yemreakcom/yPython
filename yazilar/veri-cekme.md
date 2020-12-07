@@ -36,7 +36,9 @@ req = Request(url=reg_url, headers=headers)
 html = urlopen(req).read() # Pandas için kullanılacak html objesi
 ```
 
-> ["\[Python\]\[Crawler\]“HTTP Error 403: Forbidden”](https://medium.com/@speedforcerun/python-crawler-http-error-403-forbidden-1623ae9ba0f)
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için  ["\[Python\]\[Crawler\]“HTTP Error 403: Forbidden”](https://medium.com/@speedforcerun/python-crawler-http-error-403-forbidden-1623ae9ba0f) alanına bakabilirsin.
+{% endhint %}
 
 ## 🧐 Tarayıcı Üzerinden Veriyi Bulma
 
@@ -44,9 +46,9 @@ html = urlopen(req).read() # Pandas için kullanılacak html objesi
 * Elements ekranından açılan satıra sağ tıklayın ve Copy → Copy selector deyin
 * Gelen metni bir notepad gibi bir yere kaydedin
 
-![](../.gitbook/assets/temel-veri-cekme-islemi1.png)
+![](../.gitbook/assets/temel-veri-cekme-islemi1%20%281%29.png)
 
-![](../.gitbook/assets/temel-veri-cekme-islemi2.png)
+![](../.gitbook/assets/temel-veri-cekme-islemi2%20%281%29.png)
 
 ## 🐍 Python Kodu ile Veriyi Çekme
 
