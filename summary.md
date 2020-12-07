@@ -6,7 +6,7 @@
 * [✍ Yazılarım](yazilar/)
   * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-onemli-hususlar.md)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](yazilar/pip-ile-kurulabilir-python-paketi-olusturma.md)
-  * [🧲 İnternet'ten Veri Çekme](yazilar/veri-cekme.md)
+  * [🧲 İnternet'ten Veri Çekme](yazilar/internet-uzerinden-veri-cekme.md)
   * [🔢 Algoritma Örnekleri](yazilar/algoritma-ornekleri.md)
   * [📊 Verileri Kategorize Etme](yazilar/kategorizasyon.md)
   * [📈 Verimli Kodlama](yazilar/verimli-kodlama.md)
