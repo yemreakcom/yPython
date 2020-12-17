@@ -24,6 +24,7 @@
   * [💎 Regex İşlemleri](temel/regex-islemleri.md)
   * [🍎 Sınıflar ve Miras Alma](temel/siniflar-ve-miras-alma.md)
   * [📦 Modül ve Paketler](temel/modul-ve-paketler.md)
+  * [🎲 Rastgelelik](temel/rastgelelik.md)
   * [🌟 Popüler Paketler](temel/popueler-paketler.md)
   * [📜 Raporlama İşlemleri](temel/raporlama.md)
   * [🏗️ Decorator](temel/decorator.md)
