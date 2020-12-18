@@ -2,7 +2,7 @@
 description: Python ile raporlama (logging) işlemleri ve logging modülünün kullanımı
 ---
 
-# 📜 Raporlama İşlemleri
+# 📜 Raporlama
 
 ## 🏂 Raporlamaya Giriş
 
