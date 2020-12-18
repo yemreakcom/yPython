@@ -1,3 +1,7 @@
+---
+description: Python ile compréhensions (tek satırlı yapı) işlemleri
+---
+
 # 🤸‍ Comprehensions
 
 ## 👀 Hızlı Bakış
