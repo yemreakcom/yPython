@@ -60,6 +60,7 @@ class3 = AnyClass(class1.x, class2.y)
 
 ## 🔗 Faydalı Bağlantılar
 
+* 📃 [Python Shallow Copy and Deep Copy](https://www.programiz.com/python-programming/shallow-deep-copy)
 * 👪 [deepcopy override clarification](https://stackoverflow.com/questions/57181829/deepcopy-override-clarification)
 * 📃  [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) 
 * 📃 [How do I copy an object in Python?](http://effbot.org/pyfaq/how-do-i-copy-an-object-in-python.htm)
