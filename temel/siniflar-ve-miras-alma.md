@@ -174,6 +174,20 @@ class PathInputData(InputData):
         return f.read()
 ```
 
+```python
+# Miras kontrolü
+
+class BaseClass: pass
+class SubClass(BaseClass): pass
+
+issubclass(SubClass, BaseClass)
+True
+issubclass(SubClass, object)
+True
+issubclass(BaseClass, SubClass)
+False
+```
+
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [Use @classmethod Polymorphism to Construct Objects Generically](https://thepythonguru.com/python-classes-and-interfaces/#item-39-use-classmethod-polymorphism-to-construct-objects-generically) alanına bakabilirsin.
 {% endhint %}
