@@ -531,5 +531,30 @@ class Mistake(Enum):
 {% endtab %}
 {% endtabs %}
 
-## 
+## 🔶 Multi Value Enum
+
+* Birden fazla değere sahip enum sınıfı tanımlamaya olanak sağlar
+* `pip install aenum` ile gerekli paket yüklenmelidir
+
+```python
+from aenum import MultiValueEnum
+
+class DType(MultiValueEnum):
+    float32 = "f", 8
+    double64 = "d", 9
+
+>>> DType("f")
+<DType.float32: 'f'>
+
+>>> DType(9)
+<DType.double64: 'd'>
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* 👪 [Get Enum name from multiple values python](https://stackoverflow.com/a/43210118/9770490)
+
+alanlarına bakabilirsin.
+{% endhint %}
 
