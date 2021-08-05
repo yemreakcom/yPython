@@ -2,7 +2,7 @@
 description: 'Paratic sitesi üzerinden dolar fiyatını websocket işlemleri ile alma, çekme'
 ---
 
-# 💲 Paratic Üzerinden Anlık Dolar Fiyatı Alma
+# 💲 Anlık Dolar Fiyatı Alma
 
 ## 🔗 WS URL Bilgisini Alma
 

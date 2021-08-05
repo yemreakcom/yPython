@@ -111,7 +111,7 @@
   * [🔆 Görsel Arayüz \(GUI\) \| IPython](ipython/gui.md)
   * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
 * [⭐️ Proje Örnekler](proje-oernekler/README.md)
-  * [💲 Paratic Üzerinden Anlık Dolar Fiyatı Alma](proje-oernekler/paratic-uezerinden-anlik-dolar-fiyati-alma.md)
+  * [💲 Anlık Dolar Fiyatı Alma](proje-oernekler/paratic-uezerinden-anlik-dolar-fiyati-alma.md)
 * [📦 Faydalı Paketler](faydali-paketler/README.md)
   * [🕐 Schedule](faydali-paketler/schedule.md)
   * [🧐 FileType](faydali-paketler/filetype.md)
