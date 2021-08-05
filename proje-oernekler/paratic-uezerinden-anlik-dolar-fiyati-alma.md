@@ -18,7 +18,7 @@ description: 'Paratic sitesi üzerinden dolar fiyatını websocket işlemleri il
 * 📩 Kırmızı istekler gelen mesajlar, yeşil istekler ise gönderilen mesajlardır
 * 🐾 Alttaki kod örneğinde olduğu gibi aynısını taklit ediyoruz
 
-> 😥 Dolar 8.52 olmuş
+> 😥 Dolar 8.52 olmuş, bu işlemleri yaparken de 8.53 oldu
 
 ![](../.gitbook/assets/screen-shot-2021-08-05-at-14.38.23.png)
 
