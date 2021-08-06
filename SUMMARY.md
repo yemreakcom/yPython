@@ -110,7 +110,7 @@
   * [🔃 I/O İşlemleri \| IPython](ipython/io-islemleri.md)
   * [🔆 Görsel Arayüz \(GUI\) \| IPython](ipython/gui.md)
   * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
-* [⭐️ Proje Örnekler](proje-ornekleri/README.md)
+* [⭐️ Proje Örnekleri](proje-ornekleri/README.md)
   * [💲 Anlık Dolar Fiyatı Alma](proje-ornekleri/anlik-dolar-fiyati-alma.md)
   * [📑 Google Sheet Düzenleme](proje-ornekleri/google-sheet-duzenleme.md)
 * [📦 Faydalı Paketler](faydali-paketler/README.md)
