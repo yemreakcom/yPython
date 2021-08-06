@@ -112,6 +112,7 @@
   * [🔗 Faydalı Bağlantılar \| IPython](ipython/faydali-baglantilar.md)
 * [⭐️ Proje Örnekler](proje-ornekleri/README.md)
   * [💲 Anlık Dolar Fiyatı Alma](proje-ornekleri/anlik-dolar-fiyati-alma.md)
+  * [📑 Google Sheet Düzenleme](proje-ornekleri/google-sheet-duzenleme.md)
 * [📦 Faydalı Paketler](faydali-paketler/README.md)
   * [🕐 Schedule](faydali-paketler/schedule.md)
   * [🧐 FileType](faydali-paketler/filetype.md)
