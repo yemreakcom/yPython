@@ -113,6 +113,7 @@
 * [⭐️ Proje Örnekleri](proje-ornekleri/README.md)
   * [💲 Anlık Dolar Fiyatı Alma](proje-ornekleri/anlik-dolar-fiyati-alma.md)
   * [📑 Google Sheet Düzenleme](proje-ornekleri/google-sheet-duzenleme.md)
+  * [🤖 Telegram Botu Oluşturma](proje-ornekleri/telegram-botu-olusturma.md)
 * [📦 Faydalı Paketler](faydali-paketler/README.md)
   * [🕐 Schedule](faydali-paketler/schedule.md)
   * [🧐 FileType](faydali-paketler/filetype.md)
