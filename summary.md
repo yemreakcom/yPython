@@ -22,7 +22,7 @@
   * [🔮 Fonksiyonlar](temel/fonksiyonlar.md)
   * [🔤 String İşlemleri](temel/string-islemleri.md)
   * [💎 Regex İşlemleri](temel/regex-islemleri.md)
-  * [🍎 Sınıflar ve Miras Alma](temel/siniflar-ve-miras-alma.md)
+  * [🍎 Sınıflar ve Miras Alma](temel/siniflar-ve-miras-alma/)
   * [📦 Modül ve Paketler](temel/modul-ve-paketler.md)
   * [🌟 Popüler Paketler](temel/popueler-paketler.md)
   * [📜 Raporlama İşlemleri](temel/raporlama.md)
