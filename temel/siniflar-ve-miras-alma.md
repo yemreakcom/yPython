@@ -74,12 +74,12 @@ alanlarına bakabilirsin.
 
 ```python
 def __eq__(self, o: object) -> bool:
-	if isinstance(o, Account):
-	    for key, value in vars(self).items():
-	        if not getattr(o, key) == value:
-	            return False
-	    return True
-	return False
+    if isinstance(o,Account):
+        for key, value in vars(self).items():
+            if not getattr(o, key) == value:
+                return False
+        return True
+    return False
 ```
 
 ### 💎 Properties
