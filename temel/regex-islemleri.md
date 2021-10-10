@@ -1,16 +1,15 @@
 ---
 description: Python regex kütüphanelerini kullanma
 ---
-
 # 💎 Regex İşlemleri
 
 ## 📦 Regex Paketi `re` Kullanımı
 
-| Fonksiyon | Açıklama |
-| :--- | :--- |
-| `split(<regex>, <string>)` | Birden fazla karaktere göre parçalama |
-| `sub(<regex>, <replace | metot>, <string>)` | Regex'e göre metinleri değiştirme |
-| `compile(<regex>, <?flag>)` | Regex objesi oluşturma |
+| Fonksiyon                                    | Açıklama                              |
+| -------------------------------------------- | ------------------------------------- |
+| `split(<regex>, <string>)`                   | Birden fazla karaktere göre parçalama |
+| `sub(<regex>, <replace \| metot>, <string>)` | Regex'e göre metinleri değiştirme     |
+| `compile(<regex>, <?flag>)`                  | Regex objesi oluşturma                |
 
 {% hint style="info" %}
 ‍🧙‍♂ Regex objesi oluşturulduğunda tekrar tekrar `regex` tanımlaya gerek yoktur
@@ -85,4 +84,3 @@ with open(FILE_PATH, "r", encoding="utf-8") as file:
 
 invertedFile = re.sub('#([0-9a-fA-F]{6,8})', replaceHex, filestr)
 ```
-

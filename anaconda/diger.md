@@ -1,14 +1,13 @@
 ---
 description: Anaconda için ek / diğer notlar
 ---
-
-# 🎪 Diğer Notlar \| Conda
+# 🎪 Diğer Notlar | Conda
 
 ## 🌄 PyCharm Üzerinden Anaconda
 
 {% tabs %}
 {% tab title="🔨 Derleyici Ayarları" %}
-Çalıştırma butonu üzerinden \(⇧ Shift + `F9`\) projeyi çalıştırmak için:
+Çalıştırma butonu üzerinden (⇧ Shift + `F9`) projeyi çalıştırmak için:
 
 * Derleme butonu yanındaki `seçme kutusuna` tıklayın
 * `Edit Configuration`
@@ -26,7 +25,7 @@ description: Anaconda için ek / diğer notlar
   * `Add`
   * `Conda Enviroment`
   * `OK`
-* `+` butonu ile ek paket kurulumu yapabilirsiniz \(_İsteğe Bağlı_\)
+* `+` butonu ile ek paket kurulumu yapabilirsiniz (_İsteğe Bağlı_)
 {% endtab %}
 {% endtabs %}
 
@@ -36,11 +35,11 @@ description: Anaconda için ek / diğer notlar
 {% tab title="👨‍🔧 Windows Üzerinden Ağ Sıfırlama" %}
 Windows 10'daki `Ağı Sıfırla` ayarını deneyin
 
-* Ayarlar \(_Options_\)
-* Ağ ve İnternet \(_Network & Internet_\)
-* Durum sekmesi \(_Status tab_\)
-* Sayfanın en altına bakın \(_Ağı Sıfırla / Network Reset_\)
-* Şimdi Sıfırla \(_Reset Now_\)
+* Ayarlar (_Options_)
+* Ağ ve İnternet (_Network & Internet_)
+* Durum sekmesi (_Status tab_)
+* Sayfanın en altına bakın (_Ağı Sıfırla / Network Reset_)
+* Şimdi Sıfırla (_Reset Now_)
 
 > Bu işlem kaydedilmiş WI-FI şifrelerini de silecektir.
 {% endtab %}
@@ -59,8 +58,7 @@ conda install -c anaconda networkx
 
 {% tab title="🔗 Diğerleri" %}
 * [How to install the most recent version of OpenSSL on Windows 10 in 64 Bit](https://www.cloudinsidr.com/content/how-to-install-the-most-recent-version-of-openssl-on-windows-10-in-64-bit/)
-* [Conda update failed: SSL error: \[SSL: CERTIFICATE\_VERIFY\_FAILED\] certificate verify failed](https://stackoverflow.com/a/35804869/9770490)
+* [Conda update failed: SSL error: \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed](https://stackoverflow.com/a/35804869/9770490)
 * [Setting SSL Verify](https://github.com/ContinuumIO/anaconda-issues/issues/494#issuecomment-155097614)
 {% endtab %}
 {% endtabs %}
-

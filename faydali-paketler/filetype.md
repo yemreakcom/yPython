@@ -1,9 +1,6 @@
 ---
-description: >-
-  Dosyaların MIME tiplerini belirleyerek hangi dosyanın ne olduğunu python ile
-  anlamanızı sağlar
+description: Dosyaların MIME tiplerini belirleyerek hangi dosyanın ne olduğunu python ile anlamanızı sağlar
 ---
-
 # 🧐 FileType
 
 ## 👀 Hızlı Kullanım
@@ -27,4 +24,3 @@ if __name__ == '__main__':
 {% hint style="info" %}
 [👨‍💻 FileType](https://github.com/h2non/filetype.py)
 {% endhint %}
-

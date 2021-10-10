@@ -1,7 +1,6 @@
 ---
-description: 'Python ile internet, web üzerinden veri alma, çekme (data grab, web grab)'
+description: Python ile internet, web üzerinden veri alma, çekme (data grab, web grab)
 ---
-
 # 🧲 İnternet Üzerinden Veri Çekme
 
 ## 💨 URL'den Veri Alma
@@ -46,9 +45,9 @@ html = urlopen(req).read() # Pandas için kullanılacak html objesi
 * Elements ekranından açılan satıra sağ tıklayın ve Copy → Copy selector deyin
 * Gelen metni bir notepad gibi bir yere kaydedin
 
-![](../.gitbook/assets/temel-veri-cekme-islemi1%20%281%29%20%281%29.png)
+![](<../.gitbook/assets/temel-veri-cekme-islemi1 (1) (1) (1).png>)
 
-![](../.gitbook/assets/temel-veri-cekme-islemi2%20%281%29.png)
+![](<../.gitbook/assets/temel-veri-cekme-islemi2 (1) (1).png>)
 
 ## 🐍 Python Kodu ile Veriyi Çekme
 
@@ -107,4 +106,3 @@ car_by_man = json.loads(df_list[3].to_json(orient='records'))
 * Makine öğrenimine sokulabilecek veriler
 * Düşük karmaşıklığa sahip
 * Yüksek boyutlu veriler için optimizasyon
-

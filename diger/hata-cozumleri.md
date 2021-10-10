@@ -1,7 +1,6 @@
 ---
 description: Python ile alakalı hata çözümlerim
 ---
-
 # 👨‍🔧 Hata Çözümleri
 
 ## 🧪 Python Terminalinde Kod Tamamlama
@@ -13,10 +12,10 @@ Pyreadline modülünü kurarak `pip install pyreadline` bu işlemi yapabilirsin.
 * 📋 Hata metninde en sonda verilen dosya yolunu kopyala 
   * Örnek dosya yolu: `...\Python\3.6.1\Lib\rlcompleter.py`
 * Dosyayı herhangi bir metin düzenleyicisi ile aç 📑
-  * VsCode kullanıyorsan alttaki komutu \(**kendi dosya yolunla**\) cmd'ye kopyalayabilirsin 👇 
+  * VsCode kullanıyorsan alttaki komutu (**kendi dosya yolunla**) cmd'ye kopyalayabilirsin 👇 
   * `code ...\Python\3.6.1\Lib\rlcompleter.py`
 * 👀 Açılan dosyada hata notunda yer alan `line 80`'e, yani 80. satıra bak 
-* Oradaki satırları \(`79`'dan başlıyor\) alttaki gibi değiştirdikten sonra sorunsuz çalışacak 🚀
+* Oradaki satırları (`79`'dan başlıyor) alttaki gibi değiştirdikten sonra sorunsuz çalışacak 🚀
 
 ```python
 ...
@@ -43,7 +42,7 @@ C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
 
 * 🧐 Bu hatanın alınmasının temel sebebi kullandığınız python sürümü için indirdiğiniz paketin daha önceden derlenmiş olmamasıdır
 * 💁‍♂️ Uğraşmak istemiyorsanız direkt olarak alt python sürümlerine geçebilirsiniz
-* 🧰  [Visual C++ 2015 Build Tools](http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.) bağlantısından Microsoft Visual C++ 14.0'ı Visual Studio indirmeden kurabilirsiniz
+* 🧰  [Visual C++ 2015 Build Tools](http://go.microsoft.com/fwlink/?LinkId=691126\&fixForIE=.exe.) bağlantısından Microsoft Visual C++ 14.0'ı Visual Studio indirmeden kurabilirsiniz
 * 👷‍♂️ Ardından yüklemek istediğiniz paketi `pip install -U <paket_adi>` şeklinde baştan yükleyin
   * `-U` bayrağı,  `--upgrade` anlamına gelmektedir
 
@@ -52,4 +51,3 @@ C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [Pip error: Microsoft Visual C++ 14.0](https://stackoverflow.com/a/44953739/9770490) is required alanına bakabilirsin.
 {% endhint %}
-

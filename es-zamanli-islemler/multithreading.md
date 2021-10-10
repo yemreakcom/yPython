@@ -1,7 +1,6 @@
 ---
 description: Python üzerinde threadler
 ---
-
 # 🧵 Multithreading
 
 ##  ❔ Nedir
@@ -9,11 +8,11 @@ description: Python üzerinde threadler
 * 🚶‍♂️ Thread ile satır satır ilerleyen kod yerine karma ilerleyen kodlar yazılabilir.
 * 📦 `threading` paketi kullanılır
 
-| Class | Açıklama |
-| :--- | :--- |
-| Thread | Sırasız olarak bir fonksiyonu çalıştırma |
-| Timer | Belirli saniyelerde fonksiyonu çalıştırma |
-| Scheduler | Bir plana göre fonksiyonu çalıştırma |
+| Class     | Açıklama                                  |
+| --------- | ----------------------------------------- |
+| Thread    | Sırasız olarak bir fonksiyonu çalıştırma  |
+| Timer     | Belirli saniyelerde fonksiyonu çalıştırma |
+| Scheduler | Bir plana göre fonksiyonu çalıştırma      |
 
 {% hint style="warning" %}
 📢 Python'da eş zamanlı işler multi-threading değil [🎎 Multiprocessing](multiprocessing.md) yapısı kullanılır.
@@ -110,6 +109,5 @@ s.run()
 
 ## 🔗 Faydalı Bağlantılar
 
-* \*\*\*\*[Python: How can I run python functions in parallel?](https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel)
+* ****[Python: How can I run python functions in parallel?](https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel)
 * [Keyword argument verilerini threading ile kullanma](https://stackoverflow.com/a/32717920/9770490)
-

@@ -1,7 +1,6 @@
 ---
 description: Python'da string (metin) işlemleri
 ---
-
 # 🔤 String İşlemleri
 
 ## 👀 Hızlı Bakış
@@ -15,31 +14,31 @@ description: Python'da string (metin) işlemleri
 
 String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 
-| İşlem | Açıklama |
-| :--- | :--- |
-| `+`, `=-` ... | Aritmetik operatörleri destekler |
-| `len(string)` | Karakter sayısı |
-| `string[i]` | `i`. karakter |
-| `string[-i]` | `len-i`. karakter \(Sondan `i` kadar önceki\) |
-| `string[i:]` | `i`. eleman ve sonrasındakiler |
-| `string[:i]` | `i`. elemana kadar \(`i` dahil değil\) olanlar |
-| `string[i:j]` | `i`. eleman ve `j`. elemana kadar \(`j` dahil değil\) olanlar |
-| `string[-j:-i]` | `len-j`. eleman ve `len-i`. elemana kadar \(`len-i` dahil değil\) olanlar |
-| `'{:>i}'.format('test')` | `i` karakter ayırır metni sağa yaslar |
-| `'{:i}'.format('test')` | `i` karakter ayırır metni sola sağlar |
+| İşlem                    | Açıklama                                                                |
+| ------------------------ | ----------------------------------------------------------------------- |
+| `+`, `=-` ...            | Aritmetik operatörleri destekler                                        |
+| `len(string)`            | Karakter sayısı                                                         |
+| `string[i]`              | `i`. karakter                                                           |
+| `string[-i]`             | `len-i`. karakter (Sondan `i` kadar önceki)                             |
+| `string[i:]`             | `i`. eleman ve sonrasındakiler                                          |
+| `string[:i]`             | `i`. elemana kadar (`i` dahil değil) olanlar                            |
+| `string[i:j]`            | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar             |
+| `string[-j:-i]`          | `len-j`. eleman ve `len-i`. elemana kadar (`len-i` dahil değil) olanlar |
+| `'{:>i}'.format('test')` | `i` karakter ayırır metni sağa yaslar                                   |
+| `'{:i}'.format('test')`  | `i` karakter ayırır metni sola sağlar                                   |
 
 {% hint style="info" %}
-🧙‍♂️ Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirsin.
+🧙‍♂️ Detaylar için [string formatlama](https://pyformat.info) sayfasına bakabilirsin.
 {% endhint %}
 
 ## 🔌 String Ön Ekleri
 
-| 💠 Metot | 📝 Açıklama |
-| :--- | :--- |
-| `f` | Format string ön eki |
-| `r` | Raw String ön eki |
-| `u` | Unicode string ön eki |
-| `"""` | Çok satırlı string |
+| 💠 Metot | 📝 Açıklama           |
+| -------- | --------------------- |
+| `f`      | Format string ön eki  |
+| `r`      | Raw String ön eki     |
+| `u`      | Unicode string ön eki |
+| `"""`    | Çok satırlı string    |
 
 ```python
 x = 10
@@ -92,21 +91,21 @@ World
 
 ### 💠 Metotlar ile
 
-| 💠 Metot | 📝 Açıklama |
-| :--- | :--- |
-| `len` | Uzunluk |
-| `strip` | Temizleme, düzeltme |
-| `ltrip` | Metnin solunu temizleme, düzeltme |
-| `rtrip` | Metnin sağını temizleme, düzeltme |
-| `format` | Formatlama |
-| `lower`, `upper` | Küçük / büyük harf |
-| `split` | Parçalama |
-| `[<başlangıç>:<bitiş>]` | Kesme |
-| `join` | Birleştirme |
-| `find` | Karakter indeksini bulma |
-| `replace` | Metin değiştirme |
-| `count` | Metin sayma |
-| `sort` | Metni sıralama |
+| 💠 Metot                | 📝 Açıklama                       |
+| ----------------------- | --------------------------------- |
+| `len`                   | Uzunluk                           |
+| `strip`                 | Temizleme, düzeltme               |
+| `ltrip`                 | Metnin solunu temizleme, düzeltme |
+| `rtrip`                 | Metnin sağını temizleme, düzeltme |
+| `format`                | Formatlama                        |
+| `lower`, `upper`        | Küçük / büyük harf                |
+| `split`                 | Parçalama                         |
+| `[<başlangıç>:<bitiş>]` | Kesme                             |
+| `join`                  | Birleştirme                       |
+| `find`                  | Karakter indeksini bulma          |
+| `replace`               | Metin değiştirme                  |
+| `count`                 | Metin sayma                       |
+| `sort`                  | Metni sıralama                    |
 
 ```python
 len("yemreak") # 7
@@ -135,21 +134,21 @@ len("yemreak") # 7
 
 * ⌨️ print gibi yazdırma metotlarında kullanılır
 
-| 🦄 Karakter | 📝 Açıklama |
-| :--- | :--- |
-| `\n` | Yeni satır |
-| `\r` | Satır başı |
-| `\t` | Tab \(4 boşluk |
-| `\` | Escape chars |
+| 🦄 Karakter | 📝 Açıklama   |
+| ----------- | ------------- |
+| `\n`        | Yeni satır    |
+| `\r`        | Satır başı    |
+| `\t`        | Tab (4 boşluk |
+| `\`         | Escape chars  |
 
 ### 💯 Operatörler ile
 
-| 💎 Operatör | 📝 Açıklama |
-| :--- | :--- |
-| `: <10` | 10 karakterlik alana sola dayalı yazma |
-| `: >10` | 10 karakterlik alana sağ dayalı yazma |
-| `=` | F-string |
-| `%` | Operatör ile formatlama |
+| 💎 Operatör | 📝 Açıklama                            |
+| ----------- | -------------------------------------- |
+| `: <10`     | 10 karakterlik alana sola dayalı yazma |
+| `: >10`     | 10 karakterlik alana sağ dayalı yazma  |
+| `=`         | F-string                               |
+| `%`         | Operatör ile formatlama                |
 
 ```python
 var = "YEmreAk"
@@ -252,4 +251,3 @@ for i, char in enumerate(string):
 # 2 m
 # ...
 ```
-

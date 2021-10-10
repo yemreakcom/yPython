@@ -2,17 +2,17 @@
 
 ## 🔢 Aritmetik Operatörler
 
-| Operatör | Açıklama |
-| :--- | :--- |
-| `+, -, /, *` | 4 işlem |
-| `=` | Atama işlemi |
-| `a, b = c, d` | Tek satırda çoklu atama |
+| Operatör         | Açıklama                                |
+| ---------------- | --------------------------------------- |
+| `+, -, /, *`     | 4 işlem                                 |
+| `=`              | Atama işlemi                            |
+| `a, b = c, d`    | Tek satırda çoklu atama                 |
 | `+=, -=, /=, *=` | Kendisiyle işleme sokup kendisine atama |
-| `<operatör>=` | Kendisiyle işleme sokup kendisine atama |
-| `( )` | Parantez ile öncelik belirleme |
-| `%` | Mod alma işlemi |
-| `**` | Kuvvet alma |
-| `//` | Kalansız bölümü alma |
+| `<operatör>=`    | Kendisiyle işleme sokup kendisine atama |
+| `( )`            | Parantez ile öncelik belirleme          |
+| `%`              | Mod alma işlemi                         |
+| `**`             | Kuvvet alma                             |
+| `//`             | Kalansız bölümü alma                    |
 
 {% hint style="warning" %}
 ‍📢 `<operatör>` herhangi bir operatörü temsil eder.
@@ -20,44 +20,44 @@
 
 ## 🔛 Karşılaştırma Operatörleri
 
-| Operatör | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `>` | Büyük | `3 > 2` | `True` |
-| `<` | Küçük | `3 < 2` | `False` |
-| `==` | Eşit | `3 == 3` | `True` |
-| `!=` | Eşit değil | `2 != 2` | `False` |
-| `>=` | Büyük eşit | `2 >= 5` | `False` |
-| `<=` | Küçük eşit | `2 <= 2` | `True` |
+| Operatör | Açıklama   | Örnek    | Çıktı   |
+| -------- | ---------- | -------- | ------- |
+| `>`      | Büyük      | `3 > 2`  | `True`  |
+| `<`      | Küçük      | `3 < 2`  | `False` |
+| `==`     | Eşit       | `3 == 3` | `True`  |
+| `!=`     | Eşit değil | `2 != 2` | `False` |
+| `>=`     | Büyük eşit | `2 >= 5` | `False` |
+| `<=`     | Küçük eşit | `2 <= 2` | `True`  |
 
 ## 🤔 Mantıksal Operatörler
 
 ### 🧱 Temel
 
-| Operatör | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `and` | Ve işlemi | `True and False` | `False` |
-| `or` | Veya işlemi | `False or True` | `True` |
-| `not` | Değili | `not False` | `True` |
+| Operatör | Açıklama    | Örnek            | Çıktı   |
+| -------- | ----------- | ---------------- | ------- |
+| `and`    | Ve işlemi   | `True and False` | `False` |
+| `or`     | Veya işlemi | `False or True`  | `True`  |
+| `not`    | Değili      | `not False`      | `True`  |
 
 ### 💞 Bit düzeyinde
 
-| Operatör | Açıklama | Örnek |  |  |
-| :--- | :--- | :--- | :--- | :--- |
-| `&` | Ve | `x & y = 0 (0000 0000)` |  |  |
-| \` | \` | Veya | \`x | y = 14 \(0000 1110\)\` |
-| `~` | Değili | `~ x = -11 (1111 0101)` |  |  |
-| `^` | XOR | `x ^ y = 14 (0000 1110)` |  |  |
-| `>>` | Sağa kaydırma | `x >> 2 = 2 (0000 0010)` |  |  |
-| `<<` | Sola kaydırma | `x << 2 = 40 (0010 1000)` |  |  |
+| Operatör | Açıklama      | Örnek                     |     |                      |
+| -------- | ------------- | ------------------------- | --- | -------------------- |
+| `&`      | Ve            | `x & y = 0 (0000 0000)`   |     |                      |
+| \`       | \`            | Veya                      | \`x | y = 14 (0000 1110)\` |
+| `~`      | Değili        | `~ x = -11 (1111 0101)`   |     |                      |
+| `^`      | XOR           | `x ^ y = 14 (0000 1110)`  |     |                      |
+| `>>`     | Sağa kaydırma | `x >> 2 = 2 (0000 0010)`  |     |                      |
+| `<<`     | Sola kaydırma | `x << 2 = 40 (0010 1000)` |     |                      |
 
 ## 🆔 Kimlik Belirleme
 
 {% tabs %}
 {% tab title="💎 Operatörler" %}
-| Operatör | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `is` | Aynı objeye işaret etme | `[1, 2, 3] and [1, 2, 3]` | `False` |
-| `is not` | Farklı objeye işaret etme | `1 is not 1` | `False` |
+| Operatör | Açıklama                  | Örnek                     | Çıktı   |
+| -------- | ------------------------- | ------------------------- | ------- |
+| `is`     | Aynı objeye işaret etme   | `[1, 2, 3] and [1, 2, 3]` | `False` |
+| `is not` | Farklı objeye işaret etme | `1 is not 1`              | `False` |
 
 {% hint style="warning" %}
 Ek değişkenlerde objelerin adresleri farklı olduğunda ilk çıktı `False` olur.
@@ -89,9 +89,9 @@ print(x3 is y3)
 
 {% tabs %}
 {% tab title="💎 Operatörler" %}
-| Operatör | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `in` | Anahtar var | `5 in x` | `False` |
+| Operatör | Açıklama    | Örnek        | Çıktı   |
+| -------- | ----------- | ------------ | ------- |
+| `in`     | Anahtar var | `5 in x`     | `False` |
 | `not in` | Anahtar yok | `1 not in x` | `False` |
 
 > `x = [1, 2, 3, 4]`
@@ -109,4 +109,3 @@ print('a' in y) # False ('a' bir değerdir anahtar değildir)
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -1,10 +1,9 @@
 ---
 description: IPython Görsel Programlama (GUI)
 ---
+# 🔆 Görsel Arayüz (GUI) | IPython
 
-# 🔆 Görsel Arayüz \(GUI\) \| IPython
-
-## 📃 Form Oluşturma İşlemleri \(GUI\)
+## 📃 Form Oluşturma İşlemleri (GUI)
 
 * Form komutları `#@` ile başlar
 
@@ -45,4 +44,3 @@ for ii in range(101):
     time.sleep(0.02)
     out.update(progress(ii, 100))
 ```
-

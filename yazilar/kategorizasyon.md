@@ -1,7 +1,6 @@
 ---
 description: Yüksek sayıdaki verileri daha anlaşılır hale getirme
 ---
-
 # 📊 Verileri Kategorize Etme
 
 ## 🔰 Bilinmesi Gerekenler
@@ -29,4 +28,3 @@ for i in petro_companies:
     print("matched {} to {}".format(i, match))
     market_share[i] = shares[match]
 ```
-

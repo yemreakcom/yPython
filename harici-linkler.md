@@ -5,7 +5,7 @@
 * [Numpy aynı boyutta ndarray oluşturma](https://numpy.org/devdocs/reference/generated/numpy.full_like.html#numpy.full_like)
 * [How to round to 2 decimals with Python?](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python)
 * [Python: intersection indices numpy array](https://stackoverflow.com/a/11483958/9770490)
-* [Find the index of value in Numpy Array using numpy.where\(\)](https://thispointer.com/find-the-index-of-a-value-in-numpy-array/)
+* [Find the index of value in Numpy Array using numpy.where()](https://thispointer.com/find-the-index-of-a-value-in-numpy-array/)
 
 ## 📊 Veri Bilimi
 
@@ -39,4 +39,3 @@
 * [Python keylogger](https://nitratine.net/blog/post/python-keylogger/)
 * [Exe'ye çevirme işlemi](https://nitratine.net/blog/post/convert-py-to-exe/)
 * [Python setuptools'un Olayı](https://stackoverflow.com/a/41217568/9770490)
-

@@ -1,12 +1,11 @@
 ---
 description: Python Django ile web servis programlama
 ---
-
 # 🔥 Django
 
 ## 👀 Hızlı Bakış
 
-* 🐍 Yüksek seviyeli Python dilini kullanan "batteries included" \(her şey dahil denebilir\) back-end framework'üdür
+* 🐍 Yüksek seviyeli Python dilini kullanan "batteries included" (her şey dahil denebilir) back-end framework'üdür
 * 👨‍💻 Geliştiricilerin işine yarayacak araçlar da dahil edilmiştir
 * 🧩 Üçüncü parti eklentilere ihtiyaç duymaz, kendi paketleri yeterlidir
 
@@ -22,7 +21,7 @@ description: Python Django ile web servis programlama
 
 ## 💔 Dezavantajları
 
-* 🕊️ Küçük çaplı projeler için tavsiye edilmez \(flask kullanılır\)
+* 🕊️ Küçük çaplı projeler için tavsiye edilmez (flask kullanılır)
 * 🦄 Monolithic yapısı vardır
 * 🧱 Her şey Django ORM üzerine kurulmuştur
 * 🍱 Bileşenler topluca aktarılırlar
@@ -37,4 +36,3 @@ description: Python Django ile web servis programlama
 
 * [📃 Top 8 Best Backend Frameworks](https://www.keycdn.com/blog/best-backend-frameworks)
 * [📃 Advantages and Disadvantages of Django](https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5)
-

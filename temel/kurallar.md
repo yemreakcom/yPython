@@ -1,7 +1,6 @@
 ---
 description: Assert ile kural koyma yapısı
 ---
-
 # 👮‍ Kural Koyma
 
 ## 🧱 Temel Kullanım
@@ -13,7 +12,7 @@ assert <bool>, <açıklama>
 ```
 
 * `<bool>` Kontrol değişkeni
-  * _Örn: 0 &gt; 5_
+  * _Örn: 0 > 5_
 * `<açıklama>` Hatanın neden verildiğine dair metin
   * _Örn: Küçük bir değer girildi_
 
@@ -40,5 +39,4 @@ Traceback (most recent call last):
 AssertionError: Colder than absolute zero!
 ```
 
-## 
-
+##

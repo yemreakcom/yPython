@@ -46,4 +46,3 @@ transition_table = {
         ('allowed',    KEY_DOWN, 'other'):    (False, True,  'allowed'),
     }
 ```
-

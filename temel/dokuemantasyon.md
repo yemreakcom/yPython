@@ -1,12 +1,11 @@
 ---
 description: Python ile dokümantasyon oluşturma kuralları ve bilgileri
 ---
-
 # 📑 Dokümantasyon
 
 ## 📜 Dokümantasyon PyDoc
 
-* `'''` ile fonksiyonların üstüne dokümantasyon \(açıklama\) eklenir
+* `'''` ile fonksiyonların üstüne dokümantasyon (açıklama) eklenir
 * `#` ile koda yorum eklenir
 * 🖨 Dokümantasyonlar [sphinx](https://www.sphinx-doc.org/en/master/) aracılığıyla dışarı aktarılabilir
 * [📖 Getting started with sphinx](https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html)
@@ -49,4 +48,3 @@ Unofficial Windows Binaries for Python Extension Packages: http://www.lfd.uci.ed
 NOTE: YOU ARE FREE TO COPY,MODIFY,REUSE THE SOURCE CODE FOR EDUCATIONAL PURPOSE ONLY.
 '''
 ```
-

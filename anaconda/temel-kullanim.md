@@ -1,15 +1,14 @@
 ---
 description: Anaconda paket yöneticisi olan conda'nın kullanımı
 ---
-
-# 🧱Temel Kullanım \| Conda
+# 🧱Temel Kullanım | Conda
 
 ## 🚴‍♂️ Conda'ya Giriş
 
 Anaconda paket yönetim aracı `conda`'dır.
 
 * `requirements.txt` dosyası sayesinde projeyi farklı ortamlara aktarmak istediğimizde, gerekli kurulumları hızlıca yapabiliriz.
-* \*\*\*\*[Difference between pip freeze and conda list](https://stackoverflow.com/questions/41249401/difference-between-pip-freeze-and-conda-list)
+* ****[Difference between pip freeze and conda list](https://stackoverflow.com/questions/41249401/difference-between-pip-freeze-and-conda-list)
 
 ## ✨ Güncelleme İşlemleri
 
@@ -50,5 +49,4 @@ conda list --export > requirements.txt
 conda create --name <envname> --file requirements.txt # Dosyadan ortam oluşturma
 ```
 
-## 
-
+##

@@ -1,7 +1,6 @@
 ---
 description: Python üzerinde fonksiyonlar ve metotlar
 ---
-
 # 🔮 Fonksiyonlar
 
 ## 👀 Hızlı Bakış
@@ -23,7 +22,7 @@ description: Python üzerinde fonksiyonlar ve metotlar
 * ⏩ `return` yapısı ile sonuçlarını döndürürler
 
 {% hint style="warning" %}
-📢 Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar, **yukarıda \(önceden\) tanımlanmadan** kullanılamaz.
+📢 Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar, **yukarıda (önceden) tanımlanmadan** kullanılamaz.
 {% endhint %}
 
 {% tabs %}
@@ -182,12 +181,12 @@ print(my_other_list)  # [12, 42]
 * 🙄 Python üzerinde private ve public yapısı derleyici tarafından kontrol edilmez
 * ⚖️ Kodun anlaşılabilirliği artırmak için programcılar tarafından belirlenen kurallardır
 * 🌫️ `__` ile başlayan fonksiyonlar `private` olarak algılanır, sınıf dışında önerilerde gözükmezler
-* 🌃 `_` ile başlayan fonksiyonlar dosya içinde `public` dosya dışında `private` olarak ifade edilir \(`interval`\)
+* 🌃 `_` ile başlayan fonksiyonlar dosya içinde `public` dosya dışında `private` olarak ifade edilir (`interval`)
 
 ## 🧱 Türler
 
 {% tabs %}
-{% tab title="💫 Özyineleyen \(recursion\)" %}
+{% tab title="💫 Özyineleyen (recursion)" %}
 ```python
 def calc_factorial(x):
     """This is a recursive function
@@ -263,7 +262,7 @@ print(katlanmis_listem) # Output: [2, 10, 8, 12, 16, 22, 6, 24]
 * İç içe fonksiyonlarda parametreler ortak kullanılır
 
 {% hint style="warning" %}
-Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yukarıda \(önceden\) tanımlanmadan** kullanılamaz.
+Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yukarıda (önceden) tanımlanmadan** kullanılamaz.
 {% endhint %}
 
 ```python
@@ -308,11 +307,11 @@ dir(<class>) # Class metodlarını listeler
 
 {% tabs %}
 {% tab title="❔ Nedir" %}
-| Kavram | Açıklama | Erişim |
-| :--- | :--- | :--- |
-| `global` | Tüm modülde geçerli değişkenler | Okuma |
-| `local` | Fonksiyonların içerisindeki yerel değişkenler | Okuma ve Yazma |
-| `nonlocal` | Modül ile fonksiyon arasında kalan, genellikle iç içe fonksiyonlarda kullanılan değişkenler |  |
+| Kavram     | Açıklama                                                                                    | Erişim         |
+| ---------- | ------------------------------------------------------------------------------------------- | -------------- |
+| `global`   | Tüm modülde geçerli değişkenler                                                             | Okuma          |
+| `local`    | Fonksiyonların içerisindeki yerel değişkenler                                               | Okuma ve Yazma |
+| `nonlocal` | Modül ile fonksiyon arasında kalan, genellikle iç içe fonksiyonlarda kullanılan değişkenler |                |
 {% endtab %}
 
 {% tab title="⭐ Örnek" %}
@@ -400,16 +399,16 @@ print("In global scope:", spam)
 
 ## 🏃‍♂️ Hız Hakkında
 
-* Fonksiyonlarda işlem yapılma hızı, manuel \(kod satırı olarak\) işlem yapılmasından daha hızlıdır.
-* ~%80 daha hızlı çalıştığını script üzerinden görebilirsiniz
+* Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapılmasından daha hızlıdır.
+* \~%80 daha hızlı çalıştığını script üzerinden görebilirsiniz
 * Bu değer bilgisayar **donanımınıza göre değişiklik** gösterecektir
-* Hafızayı \(_memorial_\) kullanan fonksiyonlar tekrarlı \(_recursive_\) fonksiyonlardan daha **hızlıdır**.
+* Hafızayı (_memorial_) kullanan fonksiyonlar tekrarlı (_recursive_) fonksiyonlardan daha **hızlıdır**.
 
 > **Ek kaynaklar:**
 >
 > * [Fonksiyonların CPU ve Memory kullanımını ölçme](http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage)
 > * [Fonksiyonun CPU kullanımını bulma - StackOverflow](https://stackoverflow.com/a/8957968/9770490)
-> * [Colab Hız Ölçme Scriptim](https://colab.research.google.com/drive/1zD_AFxZSqhcY8MVp2nsCl_9ftDIytVGS)
+> * [Colab Hız Ölçme Scriptim](https://colab.research.google.com/drive/1zD_AFxZSqhcY8MVp2nsCl\_9ftDIytVGS)
 
 {% tabs %}
 {% tab title="⏱ Hız Ölçme" %}
@@ -506,14 +505,14 @@ Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yava�
 * Harici fonksiyonları kullanmadan önce `import <paket>` ile paketi dahil etmeniz lazım
 * Fonksiyonların kullanımı `<paket>.<fonksiyon>` şeklindedir
 
-| Fonksiyon | Açıklama | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| `print(<string>)` | Ekrana yazma | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}` |
-| `print('\r' + <string>, end='')` | Satır başına yazı yazma |  |  |
-| `sum, len` | Toplama, uzunluk, ortalama | `sum([1, 2, 3])` | `5` |
-| `eval(<string>)` | Verilen stringi hesaplama | `eval("x + 5")` | `6` |
-| `type(<obje>)` | Objenin türünü bulma | `type(x)` | `<class 'number'>` |
-| `enumerate(<obje>, <si>)` | Numaralandırma | `i, line in enumerate(file, 0)` |  |
+| Fonksiyon                        | Açıklama                   | Örnek                           | Çıktı              |
+| -------------------------------- | -------------------------- | ------------------------------- | ------------------ |
+| `print(<string>)`                | Ekrana yazma               | `print("X: {1}, Y: {2}")`       | `X: {1}, Y: {2}`   |
+| `print('\r' + <string>, end='')` | Satır başına yazı yazma    |                                 |                    |
+| `sum, len`                       | Toplama, uzunluk, ortalama | `sum([1, 2, 3])`                | `5`                |
+| `eval(<string>)`                 | Verilen stringi hesaplama  | `eval("x + 5")`                 | `6`                |
+| `type(<obje>)`                   | Objenin türünü bulma       | `type(x)`                       | `<class 'number'>` |
+| `enumerate(<obje>, <si>)`        | Numaralandırma             | `i, line in enumerate(file, 0)` |                    |
 
 {% tabs %}
 {% tab title="Metin Karakterlerini Sayma" %}
@@ -529,7 +528,7 @@ for i, char in enumerate(string):
 ```
 {% endtab %}
 
-{% tab title="Dosya Satırlarını a\'dan Başlayıp Sayma" %}
+{% tab title="Dosya Satırlarını a'dan Başlayıp Sayma" %}
 ```python
 with open(FILE, "r") as file:
   for i, line in enumerate(file, a):
@@ -547,4 +546,3 @@ dir(<func | modul>)
 ```
 {% endtab %}
 {% endtabs %}
-

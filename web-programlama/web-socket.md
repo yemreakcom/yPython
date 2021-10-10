@@ -1,7 +1,6 @@
 ---
 description: Python ile websocket işlemleri (okuma yazma vs)
 ---
-
 # 🕳️ Web Socket
 
 ## 👀 Hızlıca Tanıyalım
@@ -76,7 +75,6 @@ if __name__ == "__main__":
 ## 🔗 Faydalı Bağlantılar
 
 * [👪 Difference between a web-service and web-socket](https://stackoverflow.com/questions/25024685/difference-between-a-web-service-and-web-socket)
-* [📺 WebSockets vs HTTP \(REST\)](https://www.youtube.com/watch?v=NJn9QW1t6pI)
+* [📺 WebSockets vs HTTP (REST)](https://www.youtube.com/watch?v=NJn9QW1t6pI)
 * [📝 WebSocket vs REST](https://www.educba.com/websocket-vs-rest/s)
 * [📦 Python - Websocket Client](https://pypi.org/project/websocket_client/)
-

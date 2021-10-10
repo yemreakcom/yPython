@@ -1,13 +1,12 @@
 ---
 description: Python ile module ve package kodlama veya oluşturma
 ---
-
 # 📦 Modül ve Paketler
 
 ## 🚶‍♂️ Dosyalar Arasında Gezinme
 
 * 💡 Python ile dizinlerde bulunan kaynak kodları `__init__.py` dosyası ile belirtilir
-* 📢 Eğer dizinde `__init__.py` **olmazsa** kaynak kod dosyaları arasında **import işlemi yapılmaz** 
+* 📢 Eğer dizinde `__init__.py` **olmazsa **kaynak kod dosyaları arasında **import işlemi yapılmaz** 
 * 👨‍💻 Kaynak kodlardan import işlemleri için `.` karakteri kullanılır
   * `.` ile aynı dizindeki dosyaya
   * `..` ile üst dizindeki dosyaya
@@ -22,7 +21,7 @@ Her python dosyasına modül denir.
 * Modül barındıran dizinler `__init__.py` dosyası içermelidir
 * `__init__.py` dosyası . yapısının kullanılmasına ve `__all__=['']` yapısı ile hangi objelerin aktarılacağını belirler
 
-{% code title="\_\_init\_\_.py" %}
+{% code title="__init__.py" %}
 ```python
 """GitBook yönetim paketi
 """
@@ -82,27 +81,27 @@ print("Pi: ", pi) # Pi: 3.141592653589793
 {% endtab %}
 
 {% tab title="🌟 Sık Kullanılanlar" %}
-| Modül | Odaklantığı İşlemler |
-| :--- | :--- |
-| math | Matematiksel |
-| random | Rastgele |
-| Numpy | Vektör işlemleri ve üst seviye matematik |
-| Pandas | Veri işlemleri |
-| Scipy |  |
-| Scikit-Learn |  |
-| Matplotlib | Grafik, çizim ve tablo işlemleri |
-| Seaborn |  |
-| TensorFlow | Makine Öğrenimi ve Deep Learning |
-| [tqdm](https://tqdm.github.io/) | Progress Bar \(Yüklenyior vs gibi işlemler için\) |
-| [colorama](https://www.geeksforgeeks.org/print-colors-python-terminal/) | Terminal renklendirme |
+| Modül                                                                   | Odaklantığı İşlemler                            |
+| ----------------------------------------------------------------------- | ----------------------------------------------- |
+| math                                                                    | Matematiksel                                    |
+| random                                                                  | Rastgele                                        |
+| Numpy                                                                   | Vektör işlemleri ve üst seviye matematik        |
+| Pandas                                                                  | Veri işlemleri                                  |
+| Scipy                                                                   |                                                 |
+| Scikit-Learn                                                            |                                                 |
+| Matplotlib                                                              | Grafik, çizim ve tablo işlemleri                |
+| Seaborn                                                                 |                                                 |
+| TensorFlow                                                              | Makine Öğrenimi ve Deep Learning                |
+| [tqdm](https://tqdm.github.io)                                          | Progress Bar (Yüklenyior vs gibi işlemler için) |
+| [colorama](https://www.geeksforgeeks.org/print-colors-python-terminal/) | Terminal renklendirme                           |
 {% endtab %}
 
 {% tab title="🎲 Random" %}
-| Fonksiyon | Açıklama |
-| :--- | :--- |
-| `random()` | 0 &lt;= sayı &lt;= 1 kesirli sayı |
-| `randrange(<max>)` | sayı &lt;= `max` |
-| `randrange(<min>, <max>, <adım>)` | `min` &lt;= sayı &lt;= `max` \(`adım` kadar artar\) |
+| Fonksiyon                         | Açıklama                                    |
+| --------------------------------- | ------------------------------------------- |
+| `random()`                        | 0 <= sayı <= 1 kesirli sayı                 |
+| `randrange(<max>)`                | sayı <= `max`                               |
+| `randrange(<min>, <max>, <adım>)` | `min` <= sayı <= `max` (`adım` kadar artar) |
 {% endtab %}
 {% endtabs %}
 
@@ -155,7 +154,7 @@ Modül dosyalarının aranma yerleri:
 {% endtab %}
 {% endtabs %}
 
-## 📦 Paketler \(Package\)
+## 📦 Paketler (Package)
 
 * Birden fazla modülü içinde barındırır
 * `.` ile modüllere erişilir
@@ -166,4 +165,3 @@ import Game.Level.start
 from Game.Level import start
 from Game.Level.start import select_difficulty
 ```
-

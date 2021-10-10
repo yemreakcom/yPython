@@ -21,4 +21,3 @@ c.most_common(5) # [('b', 3), ('a', 2), ('c', 1), ('d', 1)]
 {% hint style="info" %}
 ‍🧙‍♂ En fazla tekrar eden anahtarlar için `most_common(<gösterilecek_anahtar_sayısı>)` fonksiyonu kullanılır
 {% endhint %}
-

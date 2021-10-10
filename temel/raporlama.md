@@ -1,7 +1,6 @@
 ---
 description: Python ile raporlama (logging) işlemleri ve logging modülünün kullanımı
 ---
-
 # 📜 Raporlama
 
 ## 🏂 Raporlamaya Giriş
@@ -51,14 +50,14 @@ Raporlayıcı objenizin debug, info, warn, error, exception, fatal metotları il
 
 * 👮‍♂️ Her metot karşılığı olan raporlama seviyesine göre raporlama yapar
 
-| 💎 Metot | 📝 Açıklama |
-| :--- | :--- |
-| fatal | CRITICAL seviyesinde raporlama |
+| 💎 Metot  | 📝 Açıklama                                     |
+| --------- | ----------------------------------------------- |
+| fatal     | CRITICAL seviyesinde raporlama                  |
 | exception | ERROR seviyesinde **hata mesajı ile** raporlama |
-| error | ERROR seviyesinde raporlama |
-| warn | WARN seviyesinde raporlama |
-| info | INFO seviyesinde raporlama |
-| debug | DEBUG seviyesinde raporlama |
+| error     | ERROR seviyesinde raporlama                     |
+| warn      | WARN seviyesinde raporlama                      |
+| info      | INFO seviyesinde raporlama                      |
+| debug     | DEBUG seviyesinde raporlama                     |
 
 ## 👮‍♂️ Raporlama Seviyeleri
 
@@ -67,14 +66,14 @@ Raporlama seviyeli yukarıdan aşağıya doğru daha da sınırlı hale gelir.
 * `DEBUG` işlemi `ERROR` çıktılarını da raporlar
 * `ERROR` çıktıları kendinden daha düşük çıktıları raporlarmaz
 
-| ⭐ Seviye | 📝 Açıklama |
-| :--- | :--- |
-| CRITICAL \(50\) | Exception veya en yüksek seviyeli durumları raporlayan seviyedir |
-| ERROR \(40\) | Hata durumunda kullanılan raporlama seviyesidir |
-| WARNING \(30\) | Uyarılar amaçlı kullanılan raporlama seviyesidir |
-| INFO \(20\) | Ön planda çalışan işlemleri kontrol etmek için kullanılır. Dosya güncelleme, sunucuya bağlanma işlemleri raporlarmak için kullanılır |
-| DEBUG \(10\) | Arkaplanda yapılan işlemleri kontrol etmek için kullanılır, objeleri oluşturma güncelleme gibi çıktılarınızı bunun ile raporlayabilirinisiz |
-| NOTSET \(0\) | 🤷‍♂️ |
+| ⭐ Seviye      | 📝 Açıklama                                                                                                                                 |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| CRITICAL (50) | Exception veya en yüksek seviyeli durumları raporlayan seviyedir                                                                            |
+| ERROR (40)    | Hata durumunda kullanılan raporlama seviyesidir                                                                                             |
+| WARNING (30)  | Uyarılar amaçlı kullanılan raporlama seviyesidir                                                                                            |
+| INFO (20)     | Ön planda çalışan işlemleri kontrol etmek için kullanılır. Dosya güncelleme, sunucuya bağlanma işlemleri raporlarmak için kullanılır        |
+| DEBUG (10)    | Arkaplanda yapılan işlemleri kontrol etmek için kullanılır, objeleri oluşturma güncelleme gibi çıktılarınızı bunun ile raporlayabilirinisiz |
+| NOTSET (0)    | 🤷‍♂️                                                                                                                                       |
 
 ## 📂 Dosyaya Raporlama
 
@@ -100,7 +99,7 @@ logging.info("mesaj") # Raporu yazma
 ## 👨‍🎨 Detaylı Renkli Raporlama
 
 * 🧐 Detaylarla ilgilenenler için `colorlog` modülü önerilir
-* 🖌 Metinleri  `%(log_color)` ve `%(reset)s` değişkenleri arasına alarak renklendirebilirsin
+* 🖌 Metinleri ` %(log_color)` ve `%(reset)s` değişkenleri arasına alarak renklendirebilirsin
 * 🙄 İşlemin çalışması için `colorlog.ColorFormatter` objesini `logger` objesine alttaki gibi eklemen lazım
 
 ```python
@@ -267,9 +266,8 @@ logger.critical("this is a critical message")
 * [📖 Logging HowTo](https://docs.python.org/3/howto/logging.html)
 * [📖 Logging facility for Python](https://docs.python.org/3/library/logging.html)
 * [📖 coloredlogs: Colored terminal output for Python’s logging module](https://coloredlogs.readthedocs.io/en/latest/readme.html)
-* [📖 Format of log message ~ coloredlogs](https://coloredlogs.readthedocs.io/en/latest/readme.html#format-of-log-messages)
+* [📖 Format of log message \~ coloredlogs](https://coloredlogs.readthedocs.io/en/latest/readme.html#format-of-log-messages)
 
 {% hint style="success" %}
-🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+🚀 Bu alandaki bağlantılar [YEmoji \~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
 {% endhint %}
-

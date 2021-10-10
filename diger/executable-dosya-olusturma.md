@@ -1,7 +1,6 @@
 ---
 description: Python ile windows için exe dosyası oluşturma
 ---
-
 # 🖤 Executable Dosya Oluşturma
 
 ## 👀 Hızlı Notlar
@@ -29,7 +28,7 @@ description: Python ile windows için exe dosyası oluşturma
 ![](../.gitbook/assets/auto-py-to-exe.png)
 
 {% hint style="warning" %}
-👨‍🔧 Sorun oluşması durumunda **python 3.7 veya alt sürümlerini** indirip, deneyiniz
+👨‍🔧 Sorun oluşması durumunda **python 3.7 veya alt sürümlerini **indirip, deneyiniz
 {% endhint %}
 
 ## 📂 `PyInstaller` Dizinini Kullanma
@@ -54,7 +53,7 @@ self.window.iconphoto(True, PhotoImage(file = resource_path('images/icon.png')))
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [👪 Bundling data files with PyInstaller \(--onefile\)](https://stackoverflow.com/a/13790741/9770490) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [👪 Bundling data files with PyInstaller (--onefile)](https://stackoverflow.com/a/13790741/9770490) alanına bakabilirsin.
 {% endhint %}
 
 ## 🐞 Failed to execute main script `pyinstaller`
@@ -67,10 +66,8 @@ self.window.iconphoto(True, PhotoImage(file = resource_path('images/icon.png')))
 
 ## 🔗 Faydalı Bağlantılar
 
-* [👪 Bundling data files with PyInstaller \(--onefile\)](https://stackoverflow.com/a/13790741/9770490)
+* [👪 Bundling data files with PyInstaller (--onefile)](https://stackoverflow.com/a/13790741/9770490)
 * [👨‍💻 YClicker](https://github.com/YEmreAk/YClicker)
 * [📦 auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/)
 * [👨‍💻 auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe)
-
-
 

@@ -1,8 +1,7 @@
 ---
 description: Anaconda & miniconda üzerinde conda ile paket kurulumları
 ---
-
-# 📦 Paket Kurulumları \| Conda
+# 📦 Paket Kurulumları | Conda
 
 ## 🚴‍♂️ Kurulumlara Giriş
 
@@ -40,5 +39,4 @@ conda install -c anaconda pillow
 conda create -n $PYTHON36_ENV_NAME python=3.6 anaconda  # set custom env name
 ```
 
-## 
-
+##

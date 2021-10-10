@@ -1,7 +1,6 @@
 ---
-description: 'Python ile birleştirme, zip işlemleri'
+description: Python ile birleştirme, zip işlemleri
 ---
-
 # 📚 Birleştirme
 
 ## 🗃 Zip
@@ -84,4 +83,3 @@ pycon
 ## 🔗 Faydalı Bağlantılar
 
 * [Simpler Updating of Dictionaries](https://realpython.com/python39-new-features/#simpler-updating-of-dictionaries)
-

@@ -1,7 +1,6 @@
 ---
 description: Python ile telegram botu oluşturma ve otomatik olarak mesaj cevaplama
 ---
-
 # 🤖 Telegram Botu Oluşturma
 
 ## 👀 Hızlı Bakış
@@ -155,4 +154,3 @@ if __name__ == '__main__':
     main()
 
 ```
-

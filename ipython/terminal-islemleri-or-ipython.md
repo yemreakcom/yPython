@@ -1,8 +1,7 @@
 ---
 description: IPython ile terminal komutları ve kullanım örnekleri
 ---
-
-# 🖤 Terminal İşlemleri \| IPython
+# 🖤 Terminal İşlemleri | IPython
 
 ## 🚴‍♂️ Komutları Tanıyalım
 
@@ -12,16 +11,16 @@ description: IPython ile terminal komutları ve kullanım örnekleri
   * `{<python_kodu>}` Arasına python komutu yazılır, return değeri kullanılır
   * `$` tek kelimelik değişkenlerin kullanımı 
 
-| İşlem | Açıklama |
-| :--- | :--- |
-| `!echo {<python_kodu>}` | Python kodunun return değerini kullanma |
-| `!echo $<py_degiskeni>` | Tek kelimelik değişken \(veya ortam değişkeni\) kullanma |
-| `!cd` | Sadece o satır için terminal dizini değiştirme |
-| `%cd` | Terminalin dizinini değiştirme |
-| `!kill -9 -1` | Sistemi sıfırlama |
+| İşlem                   | Açıklama                                               |
+| ----------------------- | ------------------------------------------------------ |
+| `!echo {<python_kodu>}` | Python kodunun return değerini kullanma                |
+| `!echo $<py_degiskeni>` | Tek kelimelik değişken (veya ortam değişkeni) kullanma |
+| `!cd`                   | Sadece o satır için terminal dizini değiştirme         |
+| `%cd`                   | Terminalin dizinini değiştirme                         |
+| `!kill -9 -1`           | Sistemi sıfırlama                                      |
 
 {% hint style="warning" %}
-📢 Terminal \(`!`\) komutların en ufak yazım hatası, `{}` gibi operatörler ile python komutlarının alınmasını engeller.
+📢 Terminal (`!`) komutların en ufak yazım hatası, `{}` gibi operatörler ile python komutlarının alınmasını engeller.
 {% endhint %}
 
 ## ⭐ Kod Örneği
@@ -33,6 +32,4 @@ TEMP = 'gecici'
 
 !echo $PYTHONPATH # Ortam değşkenini kullanma
 ```
-
-
 

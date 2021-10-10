@@ -1,10 +1,7 @@
 ---
-description: >-
-  Python ile klavye ve mouse yönetimi (keyboard and mouse hooks), kısayol
-  oluşturma, tuş basımı ve mouse tıklamaları
+description: Python ile klavye ve mouse yönetimi (keyboard and mouse hooks), kısayol oluşturma, tuş basımı ve mouse tıklamaları
 ---
-
-# ⌨️ Input Yönetimi \| pynput
+# ⌨️ Input Yönetimi | pynput
 
 ## 👀 Hızlı Bakış
 
@@ -48,7 +45,7 @@ listener.start()
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Keyboard ~ pynput](https://pynput.readthedocs.io/en/latest/keyboard.html) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [Keyboard \~ pynput](https://pynput.readthedocs.io/en/latest/keyboard.html) alanına bakabilirsin.
 {% endhint %}
 
 ## 💞 Hotkey Tanımlama
@@ -76,7 +73,7 @@ with keyboard.Listener(
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Keyboard ~ pynput](https://pynput.readthedocs.io/en/latest/keyboard.html) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [Keyboard \~ pynput](https://pynput.readthedocs.io/en/latest/keyboard.html) alanına bakabilirsin.
 {% endhint %}
 
 ## 🖱 Mouse Yönetimi
@@ -114,10 +111,9 @@ mouse.scroll(0, 2)
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Mouse ~ pynput](https://pynput.readthedocs.io/en/latest/mouse.html) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [Mouse \~ pynput](https://pynput.readthedocs.io/en/latest/mouse.html) alanına bakabilirsin.
 {% endhint %}
 
 ## 🔗 Faydalı Bağlantılar
 
 * [📖 pynput](https://pynput.readthedocs.io/en/latest/index.html)
-

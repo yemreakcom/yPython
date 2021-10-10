@@ -1,18 +1,17 @@
 ---
 description: Python değişkenleri
 ---
-
 # 💎 Değişkenler
 
 ## 🧱 Temel Değişkenler
 
-| Tip | Açıklama | Örnek |
-| :--- | :--- | :--- |
-| bool | 2'li değer, bit | `True` |
-| int | Sayı | `1` |
-| float | Virgüllü sayı | `1.2`, `round(3.12312, 2) # 3.12` |
+| Tip     | Açıklama         | Örnek                                           |
+| ------- | ---------------- | ----------------------------------------------- |
+| bool    | 2'li değer, bit  | `True`                                          |
+| int     | Sayı             | `1`                                             |
+| float   | Virgüllü sayı    | `1.2`, `round(3.12312, 2) # 3.12`               |
 | complex | Karmaşık sayılar | `2+3j`, `x = complex(5, 3)`, `x.real`, `x.imag` |
-| str | String, metin | `"Hello"` / `'Hello'` |
+| str     | String, metin    | `"Hello"` / `'Hello'`                           |
 
 {% hint style="info" %}
 Değişkenin daha önceden tanımlandığını kontrol etme için [buraya](https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists) bakabilirsin.
@@ -23,8 +22,8 @@ Değişkenin daha önceden tanımlandığını kontrol etme için [buraya](https
 ## 🎈 Değişkenlerin Özellikleri
 
 * Bellekte ayrıldıkları alanda, üzerine atanan değerleri tutan objelerdir
-* Temel değişkenlerde atama `=` işlemlerinde değer \(_"value"_\) aktarımı yapılır
-* Diğer değişkenlerde adres \(_"reference"_\) aktarımı yapılır
+* Temel değişkenlerde atama `=` işlemlerinde değer (_"value"_) aktarımı yapılır
+* Diğer değişkenlerde adres (_"reference"_) aktarımı yapılır
   * `list` için `b = list(a)` ya da `b = a[:]` yapısı ile değer kopyalanır
   * `b = a` yapısı adresi kopyalar, `a.append(1)` yapıldığında `b`'ye de eklenir
 
@@ -131,11 +130,11 @@ print(type(value3)) # <class 'int'>
 
 ### 👨‍💻 Tabanlı Sayılar
 
-| Taban | Ön ek | Örnek | Çıktı |
-| :--- | :--- | :--- | :--- |
-| 2'lik | `0b` ya da `0B` | `print(0b1101011)` | 107 |
-| 8'lik | `0o` ya da `0O` | `print(0xFB + 0b10)` | 253 \(251 + 2\) |
-| 16'lık | `0x` ya da `0X` | `print(0o15)` | 13 |
+| Taban  | Ön ek           | Örnek                | Çıktı         |
+| ------ | --------------- | -------------------- | ------------- |
+| 2'lik  | `0b` ya da `0B` | `print(0b1101011)`   | 107           |
+| 8'lik  | `0o` ya da `0O` | `print(0xFB + 0b10)` | 253 (251 + 2) |
+| 16'lık | `0x` ya da `0X` | `print(0o15)`        | 13            |
 
 ### 😵 Ondalıklı Sayılar
 
@@ -161,7 +160,7 @@ print(D('1.1') + D('2.2')) #  Decimal('3.3')
 print(D('1.2') * D('2.50')) # Decimal('3.000')
 ```
 
-### 🔪 Kesirli Sayılar \(Fractions\)
+### 🔪 Kesirli Sayılar (Fractions)
 
 ```python
 import fractions
@@ -214,4 +213,3 @@ random.shuffle(x) # Karıştrma
 print(x) # Karışım sonucunu yazma
 print(random.random()) # Rastgele eleman yazma
 ```
-

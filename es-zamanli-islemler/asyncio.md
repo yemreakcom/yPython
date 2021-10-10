@@ -1,7 +1,6 @@
 ---
 description: Python ile asenkron programlama
 ---
-
 # 💫 Asyncio
 
 ## 🔰 Ne Amaçla Kullanılır
@@ -99,4 +98,3 @@ ADRESS = ""
 task = _create_task(ADRESS, callback_func)
 asyncio.get_event_loop().run_until_complete(asyncio.gather(task))
 ```
-

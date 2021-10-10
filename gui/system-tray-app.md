@@ -1,7 +1,6 @@
 ---
 description: QT ile pythonla system tray uygulaması oluşturma
 ---
-
 # 🍢 System Tray App
 
 ## 💡 Önemli Hususlar
@@ -82,4 +81,3 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-

@@ -1,8 +1,7 @@
 ---
 description: IPython I/O İşlemleri
 ---
-
-# 🔃 I/O İşlemleri \| IPython
+# 🔃 I/O İşlemleri | IPython
 
 ## 📚 Zip İşlemleri
 
@@ -165,4 +164,3 @@ def take_photo(filename='photo.jpg', quality=0.8):
 ```
 {% endtab %}
 {% endtabs %}
-

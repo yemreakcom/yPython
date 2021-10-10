@@ -1,7 +1,6 @@
 ---
 description: Python üzerinde işletim sistemi komutlarını çalıştırma
 ---
-
 # 🎌 Komut Çalıştırma
 
 ## 🧆 Komutların çalıştırılması
@@ -32,5 +31,4 @@ lines = output.decode('utf-8').splitlines()
 ## 🔗 Faydalı Bağlantılar
 
 * [Get the current git hash in a Python script](https://stackoverflow.com/a/57683700/9770490)
-* [Python popen\(\) - communicate\( str.encode\(encoding=“utf-8”, errors=“ignore”\) \) crashes](https://stackoverflow.com/a/33291200/9770490)
-
+* [Python popen() - communicate( str.encode(encoding=“utf-8”, errors=“ignore”) ) crashes](https://stackoverflow.com/a/33291200/9770490)

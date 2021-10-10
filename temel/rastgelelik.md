@@ -1,7 +1,6 @@
 ---
 description: Python üzerinde rastgelelik işlemleri ve random paketi
 ---
-
 # 🎲 Rastgelelik
 
 ## 👀 Hızlı Bakış
@@ -46,5 +45,4 @@ random.choice(numbers)  # 4
 
 ## 🔗 Faydalı Bağlantılar
 
-* [Python Random Modülü](https://medium.com/python/python-random-modülü-a0de3ec02ff)
-
+* [Python Random Modülü](https://medium.com/python/python-random-mod%C3%BCl%C3%BC-a0de3ec02ff)

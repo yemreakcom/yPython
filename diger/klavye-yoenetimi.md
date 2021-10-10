@@ -1,9 +1,6 @@
 ---
-description: >-
-  Python ile klavye ve mouse yönetimi (keyboard and mouse hooks), kısayol
-  oluşturma, tuş basımı ve mouse tıklamaları
+description: Python ile klavye ve mouse yönetimi (keyboard and mouse hooks), kısayol oluşturma, tuş basımı ve mouse tıklamaları
 ---
-
 # ⌨️ Klavye Yönetimi
 
 ## 💞 Kısayol Ekleme
@@ -100,4 +97,3 @@ for line in fileinput.input():
 ## 🔗 Faydalı Bağlantılar
 
 {% embed url="https://github.com/boppreh/keyboard" %}
-

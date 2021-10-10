@@ -1,4 +1,4 @@
-# 🌇 Sanal Ortamlar \| Conda
+# 🌇 Sanal Ortamlar | Conda
 
 ## 🚴‍♂️ Giriş 
 
@@ -37,7 +37,7 @@ conda activate <ortam_ismi>
 conda activate myenv # Örnek
 ```
 
-> Ortam seçildiğinde \(base\) yazan kısımda \(`<ortam_ismi>`\) yazar.
+> Ortam seçildiğinde (base) yazan kısımda (`<ortam_ismi>`) yazar.
 
 ## 🐥 Pasif Etme
 
@@ -55,6 +55,4 @@ conda env remove -n myenv # Örnek
 {% hint style="info" %}
 Anaconda Prompt `base` ortamına geri döner.
 {% endhint %}
-
-
 

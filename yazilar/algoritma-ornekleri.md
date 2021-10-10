@@ -1,6 +1,6 @@
 # 🔢 Algoritma Örnekleri
 
-## 🎈 Asal Sayı Hesaplama \(Prime\)
+## 🎈 Asal Sayı Hesaplama (Prime)
 
 {% tabs %}
 {% tab title="📜 Açıklama" %}
@@ -57,7 +57,7 @@ is_prime_fast(67867967) # 578 µs ± 12.4 µs per loop (mean ± std. dev. of 7 r
 
 {% tabs %}
 {% tab title="📜 Açıklama" %}
-A Mersenne number is any number that can be written as $$2^p - 1$$ for some $$p$$ . For example, 3 is a Mersenne number \( $$2^2 - 1$$ \) as is 31 \( $$2^5 - 1$$ \). We will see later on that it is easy to test if Mersenne numbers are prime.
+A Mersenne number is any number that can be written as $$2^p - 1$$ for some $$p$$ . For example, 3 is a Mersenne number ( $$2^2 - 1$$ ) as is 31 ( $$2^5 - 1$$ ). We will see later on that it is easy to test if Mersenne numbers are prime.
 {% endtab %}
 
 {% tab title="👨‍💻 Kod" %}
@@ -115,7 +115,7 @@ ll_result = lucas_lehmer(17)
 
 {% tabs %}
 {% tab title="📜 Açıklama" %}
- For a given Mersenne number with exponent $$p$$ , the number is prime if the Lucas-Lehmer series is 0 at position $$p-2$$ . Write a function that tests if a Mersenne number with exponent $$p$$ is prime. Test if the Mersenne numbers with prime $$p$$ between 3 and 65 \(i.e. 3, 5, 7, ..., 61\) are prime. Your final answer should be a list of tuples consisting of `(Mersenne exponent, 0)` \(or `1`\) for each Mersenne number you test, where `0` and `1` are replacements for `False` and `True` respectively.
+ For a given Mersenne number with exponent $$p$$ , the number is prime if the Lucas-Lehmer series is 0 at position $$p-2$$ . Write a function that tests if a Mersenne number with exponent $$p$$ is prime. Test if the Mersenne numbers with prime $$p$$ between 3 and 65 (i.e. 3, 5, 7, ..., 61) are prime. Your final answer should be a list of tuples consisting of `(Mersenne exponent, 0)` (or `1`) for each Mersenne number you test, where `0` and `1` are replacements for `False` and `True` respectively.
 {% endtab %}
 
 {% tab title="👨‍💻 Kod" %}
@@ -133,19 +133,19 @@ mersenne_primes = [(x, int(ll_prime(x))) for x in get_primes(3, 65)]
 
 {% tabs %}
 {% tab title="📜 Açıklama" %}
-The method works as follows \(see [here](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) for more details\)
+The method works as follows (see [here](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) for more details)
 
 1. Generate a list of all numbers between 0 and N; mark the numbers 0 and 1 to be not prime
-2. Starting with $p=2$ \(the first prime\) mark all numbers of the form $np$ where $n&gt;1$ and $np &lt;= N$ to be not prime \(they can't be prime since they are multiples of 2!\)
+2. Starting with $p=2$ (the first prime) mark all numbers of the form $np$ where $n>1$ and $np <= N$ to be not prime (they can't be prime since they are multiples of 2!)
 3. Find the smallest number greater than $p$ which is not marked and set that equal to $p$, then go back to step 2. Stop if there is no unmarked number greater than $p$ and less than $N+1$
 
 We will break this up into a few functions, our general strategy will be to use a Python `list` as our container although we could use other data structures. The index of this list will represent numbers.
 
 We have implemented a `sieve` function which will find all the prime numbers up to $n$. You will need to implement the functions which it calls. They are as follows
 
-* `list_true` Make a list of true values of length $n+1$ where the first two values are false \(this corresponds with step 1 of the algorithm above\)
-* `mark_false` takes a list of booleans and a number $p$. Mark all elements $2p,3p,...n$ false \(this corresponds with step 2 of the algorithm above\)
-* `find_next` Find the smallest `True` element in a list which is greater than some $p$ \(has index greater than $p$ \(this corresponds with step 3 of the algorithm above\)
+* `list_true` Make a list of true values of length $n+1$ where the first two values are false (this corresponds with step 1 of the algorithm above)
+* `mark_false` takes a list of booleans and a number $p$. Mark all elements $2p,3p,...n$ false (this corresponds with step 2 of the algorithm above)
+* `find_next` Find the smallest `True` element in a list which is greater than some $p$ (has index greater than $p$ (this corresponds with step 3 of the algorithm above)
 * `prime_from_list` Return indices of True values
 
 Remember that python lists are zero indexed. We have provided assertions below to help you assess whether your functions are functioning properly.
@@ -362,4 +362,3 @@ def get_max_item(groups, attribute):
 ```
 {% endtab %}
 {% endtabs %}
-

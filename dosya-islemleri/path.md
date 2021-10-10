@@ -1,8 +1,7 @@
 ---
 description: Yol (path) işlemleri
 ---
-
-# 🚩 Yol İşlemleri \| Dosya
+# 🚩 Yol İşlemleri | Dosya
 
 ## 💡 Önemli Hususlar
 
@@ -20,15 +19,15 @@ Yol işlemleri için `os.path` modülü kullanılır.
 
 > Metodların kulalnımı `os.path.<metod>` şeklindedir
 
-| Metod | Açıklama |
-| :--- | :--- |
-| `exists(<yol>)` | Yolun doğruluğu kontrol etme |
-| `isfile(<yol>)` | Dosya mı kontrolü |
-| `isdir(<yol>)` | Dizin mi kontrolü |
-| `join(<yol1>, <dosya_adı>)` | Yolları birleştirme |
-| `normpath<yol>` | Yoldaki fazladan `\` `/` gibi karakterleri kaldırma |
-| `basename(<yol>)` | Dosyanın adını ve uzantısını bulma |
-| `splitext(<dosya_adı>)` | Dosyanın yolunu ve uzantısını döndürür \(path, ext\) |
+| Metod                       | Açıklama                                            |
+| --------------------------- | --------------------------------------------------- |
+| `exists(<yol>)`             | Yolun doğruluğu kontrol etme                        |
+| `isfile(<yol>)`             | Dosya mı kontrolü                                   |
+| `isdir(<yol>)`              | Dizin mi kontrolü                                   |
+| `join(<yol1>, <dosya_adı>)` | Yolları birleştirme                                 |
+| `normpath<yol>`             | Yoldaki fazladan `\` `/` gibi karakterleri kaldırma |
+| `basename(<yol>)`           | Dosyanın adını ve uzantısını bulma                  |
+| `splitext(<dosya_adı>)`     | Dosyanın yolunu ve uzantısını döndürür (path, ext)  |
 
 * `<yol>` Path, dosya yolu
   * _Örn: C:\Users\Username\help.txt_
@@ -58,4 +57,3 @@ cwd = os.getcwd()
 ```
 {% endtab %}
 {% endtabs %}
-

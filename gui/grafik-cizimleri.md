@@ -52,4 +52,3 @@ plt.show()
 ![](../.gitbook/assets/gui_triangle.png)
 {% endtab %}
 {% endtabs %}
-

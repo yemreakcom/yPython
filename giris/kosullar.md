@@ -1,7 +1,6 @@
 ---
 description: Python'da koşul yapılarının kullanımı
 ---
-
 # ⚖️ Koşullar
 
 ## 🎌 Koşul Yapıları
@@ -27,7 +26,7 @@ else:
     print("Negatif sayı")
 ```
 
-## 🍢 Tek Satır If Yapısı \(Ternary If\)
+## 🍢 Tek Satır If Yapısı (Ternary If)
 
 ```python
 fruit = 'Apple'
@@ -39,4 +38,3 @@ isApple = True if fruit == 'Apple' else False
 ```python
 if any(s in line for s in ('string1', 'string2', ...)):
 ```
-

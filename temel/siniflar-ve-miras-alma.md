@@ -1,14 +1,11 @@
 ---
-description: >-
-  Python ile class, interface, meta class, property, static ve class metotları,
-  override vs gibi yapılar
+description: Python ile class, interface, meta class, property, static ve class metotları, override vs gibi yapılar
 ---
-
 # 🍎 Sınıflar ve Miras Alma
 
 ## 🏰 Class
 
-* Nesneye yönelik programlama \(OOP\) temelini oluşturur
+* Nesneye yönelik programlama (OOP) temelini oluşturur
 * Veri ve metotları gruplandırmamızı ve verimli kodlamamızı sağlar
 
 ```python
@@ -48,16 +45,16 @@ class Foo(object):
 
 > [Python Operator Overloading](https://www.programiz.com/python-programming/operator-overloading)
 
-| Anahtar | Açıklama |
-| :--- | :--- |
-| `self` | Diğer dillerdeki `this` anlamına gelir |
-| `__init__` | Constructor fonksiyonudur |
-| `__repr__` | Ekrana ne yazılacağı \(`print`\) |
-| `__str__` | `str()` içerisine alındığında yapılacaklar |
-| `__rmul__` | Ters `*` işlemi |
-| `__contains__` | Dahiliye işlemi |
-| `def function(param):` | Fonksiyon tanımlama |
-| `del p1.age`, `del p1` | Obje ya da class silme |
+| Anahtar                | Açıklama                                   |
+| ---------------------- | ------------------------------------------ |
+| `self`                 | Diğer dillerdeki `this` anlamına gelir     |
+| `__init__`             | Constructor fonksiyonudur                  |
+| `__repr__`             | Ekrana ne yazılacağı (`print`)             |
+| `__str__`              | `str()` içerisine alındığında yapılacaklar |
+| `__rmul__`             | Ters `*` işlemi                            |
+| `__contains__`         | Dahiliye işlemi                            |
+| `def function(param):` | Fonksiyon tanımlama                        |
+| `del p1.age`, `del p1` | Obje ya da class silme                     |
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için 
@@ -97,7 +94,7 @@ print(window.always_on_top) # "on"
 ### ❔ Class Metotları
 
 * 🔳 Class metotları sadece class objesine erişir
-* 👮‍♂️ Obje özelliklerine erişemez \(`self` ile erişilir\)
+* 👮‍♂️ Obje özelliklerine erişemez (`self` ile erişilir)
 * ⚡ Class objesi de kullanılmayacaksa Static metotları tercih ediniz
 
 ```python
@@ -127,11 +124,11 @@ laptop1 = Laptop()
 laptop1.details()
 ```
 
-### 🍏 Inheritance \(Miras\)
+### 🍏 Inheritance (Miras)
 
 Miras işlemlerinde `object` yerine miras alınacak **class** adı yazılır.
 
-* Üst sınıfın metotlarını ve değişkenlerini barındırır \(_yani özelliklerine sahip_\)
+* Üst sınıfın metotlarını ve değişkenlerini barındırır (_yani özelliklerine sahip_)
 * Karmaşık programlama mimarilerinde oldukça faydalıdır, düzenli olmayı sağlar
 
 ```python
@@ -557,4 +554,3 @@ class DType(MultiValueEnum):
 
 alanlarına bakabilirsin.
 {% endhint %}
-

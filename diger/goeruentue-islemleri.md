@@ -1,7 +1,6 @@
 ---
-description: 'Python ile görüntü işlemleri, histogram algoritmaları'
+description: Python ile görüntü işlemleri, histogram algoritmaları
 ---
-
 # 🎴 Görüntü İşlemleri
 
 ## 🔂 Resmi np.array Yapmak
@@ -90,6 +89,4 @@ def histogram_equalization(image: Image):
 * [Noise filtering in Digital Image Processing](https://medium.com/image-vision/noise-filtering-in-digital-image-processing-d12b5266847c)
 * [İki resmi birleştirme](https://stackoverflow.com/a/29108632/9770490)
 * [Matplotlib resim işlemleri](https://matplotlib.org/3.1.1/tutorials/introductory/images.html)
-
-
 

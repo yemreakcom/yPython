@@ -1,15 +1,14 @@
 ---
 description: Python ile veri veya objeleri sıralama yani sorting işlemi
 ---
-
 # 🚄 Sıralama
 
 ## 💠 Sıralama Metotları
 
-| Sort | Sorted |
-| :--- | :--- |
+| Sort                      | Sorted                                 |
+| ------------------------- | -------------------------------------- |
 | Objenin kendisini sıralar | Objenin sıralanmış kopyasını oluşturur |
-| Obje içeriği güncellenir | Obje içeriği değişmez |
+| Obje içeriği güncellenir  | Obje içeriği değişmez                  |
 
 ```python
 mylist = [1, 5, 4]
@@ -37,7 +36,7 @@ sorted(mydict, key=lambda x: x.value) #  'str' object has no attribute 'value'
 
 * 🏗️ Eğer sıralanacak objede birden fazla değişken varsa, `sorted(<obje>, key=<func>)` yapısı ile istenen objeyi referans eden fonksiyon ile sıralama işlemi yapılır
   * ⭐ Örnek fonksiyon: `lambda x: x.value` ile `x` objesinin `value` elemanına göre sırala demiş oluyoruz
-* 💁‍♂️ Sıralama işleminde obje içerisindeki belirli elemanların sıralı halini almak isterseniz, `sorted(map(<func>, <param1>, <param2>))` yapısını kullanın
+* 💁‍♂️ Sıralama işleminde obje içerisindeki belirli elemanların sıralı halini almak isterseniz, `sorted(map(<func>, <param1>, <param2>)) `yapısını kullanın
   * ⭐ Örnek olarak: `sorted(map(lambda p: p.x, points))` ile point elemanlarının x değerlerinin sıralı halini alırsınız
 
 ```python
@@ -58,4 +57,3 @@ sorted(temp, key=lambda x: x.x)   # [Temp(3,8), Temp(4,1), Temp(5,2)]
 sorted(map(lambda x: x.y, temp))  # [1, 2, 8]
 sorted(map(lambda x: x.y, temp))  # [3, 4, 5]
 ```
-

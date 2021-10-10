@@ -1,10 +1,7 @@
 ---
-description: >-
-  Python ve GitHub üzerinde sürekli entegrasyon, otomatik testler ve pytest
-  kullanımı
+description: Python ve GitHub üzerinde sürekli entegrasyon, otomatik testler ve pytest kullanımı
 ---
-
-# 🔄 Continuous İntegration \(CI\)
+# 🔄 Continuous İntegration (CI)
 
 ## 👀 Hızlı Bakış
 
@@ -32,7 +29,7 @@ flake8
 
 {% tabs %}
 {% tab title="✴️ Windows" %}
-{% code title="ci\\install.bat" %}
+{% code title="ci\install.bat" %}
 ```bash
 python -m venv venv
 call venv\Scripts\activate.bat
@@ -61,8 +58,8 @@ python3 -m pip install --upgrade .
 
 {% tabs %}
 {% tab title="✴️ Windows" %}
-{% code title="ci\\test.bat" %}
-```text
+{% code title="ci\test.bat" %}
+```
 call venv\Scripts\activate.bat
 pytest
 call deactivate
@@ -85,8 +82,8 @@ pytest
 
 {% tabs %}
 {% tab title="✴️ Windows" %}
-{% code title="ci/quality\_test.bat" %}
-```text
+{% code title="ci/quality_test.bat" %}
+```
 call venv\Scripts\activate.bat
 flake8 --exclude=venv* --statistics
 call deactivate
@@ -96,7 +93,7 @@ call deactivate
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-{% code title="ci/quality\_test.sh" %}
+{% code title="ci/quality_test.sh" %}
 ```
 flake8 --exclude=venv* --statistics
 
@@ -110,7 +107,7 @@ flake8 --exclude=venv* --statistics
 {% tabs %}
 {% tab title="✴️ Windows" %}
 {% code title="ci/build.bat" %}
-```text
+```
 call venv\Scripts\activate.bat
 python setup.py sdist bdist_wheel
 call deactivate
@@ -134,7 +131,7 @@ python3 setup.py sdist bdist_wheel
 {% tabs %}
 {% tab title="✴️ Windows" %}
 {% code title="ci/upload.bat" %}
-```text
+```
 call venv\Scripts\activate.bat
 twine upload dist/*
 call deactivate
@@ -239,6 +236,5 @@ jobs:
 * [👪 Create matrix with multiple OS and env for each one](https://github.community/t5/GitHub-Actions/Create-matrix-with-multiple-OS-and-env-for-each-one/td-p/38339)
 
 {% hint style="success" %}
-🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+🚀 Bu alandaki bağlantılar [YEmoji \~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
 {% endhint %}
-

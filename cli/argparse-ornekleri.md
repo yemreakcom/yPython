@@ -1,7 +1,6 @@
 ---
 description: Argparse kullanım örnekleri
 ---
-
 # ⭐ Argparse Örnekleri
 
 ## 🌟 Genel Kullanım
@@ -39,4 +38,3 @@ parser.add_argument('--nargs', nargs='+')
 
 args = parser.parse_args()
 ```
-

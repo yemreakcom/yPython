@@ -1,7 +1,6 @@
 ---
-description: 'Python''a hoş geldin, kuralları ve gelenekleri tanıyalım'
+description: Python'a hoş geldin, kuralları ve gelenekleri tanıyalım
 ---
-
 # 🙋‍♂️ Hoş Geldin
 
 ## 🚧 Python ile Programlamaya Hazırlanma
@@ -9,7 +8,7 @@ description: 'Python''a hoş geldin, kuralları ve gelenekleri tanıyalım'
 Python ve JavaScript en popüler diller arasındadır.
 
 * Python kodlarının uzantıları `.py` şeklindedir.
-* Windows için `.pyw` uzantılı python dosyaları `start` \(veya `pythonw`\) komutu ile çalıştırılabilmekte
+* Windows için `.pyw` uzantılı python dosyaları `start` (veya `pythonw`) komutu ile çalıştırılabilmekte
 * Python komutunu ve pip ile indirdiklerinizi terminal üzerinden görebilmek için aşağıdakileri ortam değişkenlerine kaydetmeniz gerekmekte
   * `python.exe`'nin yolunu
   * `pip` ile indirilen terminal üzerinden derlenebilir komutlar için de _Scripts_ yolunu
@@ -34,15 +33,15 @@ Orijinal dokümantasyon için [buraya](https://www.python.org/dev/peps/pep-0008/
 * Geri kalanlar için **snake case** yazım kuralı geçerlidir
   * Boşluk karakteri `_` ile temsil edilir
   * `snake_case`
-* Girintiler \(`\t` karakteri\) `{}` işlevi görür
-* `:` karakteri ile yeni bir scope \(alt alan\) açılır
+* Girintiler (`\t` karakteri) `{}` işlevi görür
+* `:` karakteri ile yeni bir scope (alt alan) açılır
   * `for`, `def` gibi döngü veya metot işlemlerinde kullanırlar
 * Metotlar arasında 2 satır bırakılır
-* Metotların en son satırları boş olmalıdır \(return için\)
-* Kodun en son satırı boş olmalıdır \(End of File\)
+* Metotların en son satırları boş olmalıdır (return için)
+* Kodun en son satırı boş olmalıdır (End of File)
 * _Private_ metotlar `_` ile başlar
   * `_add`, `_is_ prime`
-* Özel metotlar _"dunder"_ `__` ile başlar ve biter
+* Özel metotlar _"dunder" _`__` ile başlar ve biter
   * `__init__`, `__add__`
 
 {% hint style="info" %}
@@ -68,10 +67,9 @@ python 'train.py' --train_dir="/{MODELIN_CIKTI_DIZINI_YOLU}" --pipeline_config_p
 
 ## 📢 UTF-8 ve Script Bildirimleri
 
-Her python scriptinin en üstüne alttaki metni \(**shebang**\) yazın
+Her python scriptinin en üstüne alttaki metni (**shebang**) yazın
 
 ```bash
 ##!/usr/bin/python3
 # -*- coding: utf-8 -*-
 ```
-

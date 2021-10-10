@@ -11,4 +11,3 @@
   * `["a", 1]` olmaz, ikisi de `string` ya da `int` olmalıdır
 
 > [List vs Array](https://medium.com/backticks-tildes/list-vs-array-python-data-type-40ac4f294551)
-

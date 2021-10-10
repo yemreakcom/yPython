@@ -1,7 +1,6 @@
 ---
-description: 'Python ile arama (searching) işlemleri in, contains metotları'
+description: Python ile arama (searching) işlemleri in, contains metotları
 ---
-
 # 🔍 Arama
 
 ##  👀 Hızlı Bakış
@@ -15,8 +14,6 @@ if 'has dog' in me_dict:
 ```
 
 {% hint style="success" %}
-Arama işlemi `KeyError` \(_tanımsız değişkenler ile işlem yapma_\) sorunu ortadan kaldırır.
+Arama işlemi `KeyError` (_tanımsız değişkenler ile işlem yapma_) sorunu ortadan kaldırır.
 {% endhint %}
-
-
 

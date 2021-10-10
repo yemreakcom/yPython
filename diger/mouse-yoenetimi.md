@@ -28,4 +28,3 @@ mouse.unhook(mouse_events.append)
 mouse.play(mouse_events)
 
 ```
-

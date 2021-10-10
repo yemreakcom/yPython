@@ -1,18 +1,17 @@
 ---
 description: Argparse ile çoklu argüman (list) ekleme
 ---
-
 # 🌊 Argparse Nargs
 
 ## 🔰 Nargs Genel Kullanımı
 
 `nargs='<operatör>+'` şeklinde kullanılır
 
-| Operatör | Açıklama |
-| :--- | :--- |
-| `+` | 1 or more |
-| `*` | 0 or more |
-| `?` | 0 or 1 |
+| Operatör | Açıklama  |
+| -------- | --------- |
+| `+`      | 1 or more |
+| `*`      | 0 or more |
+| `?`      | 0 or 1    |
 
 ## 🌊 Argparse ile `nargs` Detayları
 
@@ -84,6 +83,4 @@ $ python arg.py --nargs-int-type -1234 2345 -3456 4567
 $ python arg.py --append-action 1234 --append-action 2345 --append-action 3456 --append-action 4567
 ['1234', '2345', '3456', '4567']
 ```
-
-
 

@@ -1,7 +1,6 @@
 ---
-description: 'Python ile kopyalama, copy, deep copy ve shallow copy işlemleri'
+description: Python ile kopyalama, copy, deep copy ve shallow copy işlemleri
 ---
-
 # 👯‍♀️ Kopyalama
 
 ## 👀 Hızlı Bakış
@@ -26,13 +25,13 @@ li4 = li1[:]
 
 ## 🆚 Shallow ve Deep Copy
 
-| 🌫️ Shallow Copy | 🕳 Deep Copy |
-| :--- | :--- |
-| Referans kopyalar | Değer kopyalar |
-| Obje yeniden oluşturulur | Obje yeniden oluşturulur |
-| Objenin her bir **referansı kopyalanır** ve yeniye aktarılır | Objenin her bir **değeri tek tek kopyalanır** ve yeniye aktarılır |
+| 🌫️ Shallow Copy                                                         | 🕳 Deep Copy                                                          |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| Referans kopyalar                                                        | Değer kopyalar                                                        |
+| Obje yeniden oluşturulur                                                 | Obje yeniden oluşturulur                                              |
+| Objenin her bir **referansı kopyalanır** ve yeniye aktarılır             | Objenin her bir **değeri tek tek kopyalanır** ve yeniye aktarılır     |
 | Kopyalanan objenin referansı alındığından orijinal ile **bağlantılıdır** | Her bilgi tek tek kopyalandığından orijinal ile **bağlantısı yoktur** |
-| Herhangi bir değişiklik diğerini de **etkiler** | Herhangi bir değişiklik diğerini **etkilemez** |
+| Herhangi bir değişiklik diğerini de **etkiler**                          | Herhangi bir değişiklik diğerini **etkilemez**                        |
 
 ## 📜 DeepCopy Hakkında
 
@@ -62,8 +61,7 @@ class3 = AnyClass(class1.x, class2.y)
 
 * 📃 [Python Shallow Copy and Deep Copy](https://www.programiz.com/python-programming/shallow-deep-copy)
 * 👪 [deepcopy override clarification](https://stackoverflow.com/questions/57181829/deepcopy-override-clarification)
-* 📃  [copy in Python \(Deep Copy and Shallow Copy\)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) 
+* 📃  [copy in Python (Deep Copy and Shallow Copy)](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/) 
 * 📃 [How do I copy an object in Python?](http://effbot.org/pyfaq/how-do-i-copy-an-object-in-python.htm)
 * 👪 [Emulating pass-by-value behavior in python](https://stackoverflow.com/a/9762918/9770490)
 * 📖 [copy  — Shallow and deep copy operations](https://docs.python.org/3/library/copy.html)
-

@@ -183,4 +183,3 @@ for condition in conditions:
         # Yapılacak işlemler
         break
 ```
-

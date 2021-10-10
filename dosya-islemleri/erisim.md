@@ -1,8 +1,7 @@
 ---
 description: Dosya işlemlerinde erişim işlemleri
 ---
-
-# 👮‍♂️ Erişim Yöntemleri \| Dosya
+# 👮‍♂️ Erişim Yöntemleri | Dosya
 
 ## ✨ Kullanım
 
@@ -18,12 +17,12 @@ description: Dosya işlemlerinde erişim işlemleri
 
 ## 💎 Erişim Modları
 
-| Mod | Anlamı | Açıklama |
-| :--- | :--- | :--- |
-| `r` | Read \(Okuma\) | Dosya varsa okumak için açar yoksa hata verir |
-| `w` | Write \(Yazma\) | Dosyayı sıfırdan yazmak için oluşturma \(verileri siler\) |
-| `a` | Append \(Ekleme\) | Dosyayı üzerine eklemek için açar, yoksa oluşturur |
-| `wb, rb, ab` | Binary işlemleri | Sıkıştırılmış dosyada işlemler |
+| Mod          | Anlamı           | Açıklama                                                |
+| ------------ | ---------------- | ------------------------------------------------------- |
+| `r`          | Read (Okuma)     | Dosya varsa okumak için açar yoksa hata verir           |
+| `w`          | Write (Yazma)    | Dosyayı sıfırdan yazmak için oluşturma (verileri siler) |
+| `a`          | Append (Ekleme)  | Dosyayı üzerine eklemek için açar, yoksa oluşturur      |
+| `wb, rb, ab` | Binary işlemleri | Sıkıştırılmış dosyada işlemler                          |
 
 > Ek bilgiler için [buraya](https://stackoverflow.com/a/1466036/9770490) bakabilirsin.
 
@@ -31,10 +30,10 @@ description: Dosya işlemlerinde erişim işlemleri
 
 * 📑 Dosya formatları `encoding` ile ifade edilir
 
-| 💎 Kod | ⭐ Karşılığı | 📝 Açıklama |
-| :--- | :--- | :--- |
-| `utf-8` | UTF-8 | Özel karakterler içeren dosya |
-| `utf-8-sig` | UTF-8 with BOM | Özel karakterler + BOM değeri içeren \(emoji js\) |
+| 💎 Kod      | ⭐ Karşılığı    | 📝 Açıklama                                     |
+| ----------- | -------------- | ----------------------------------------------- |
+| `utf-8`     | UTF-8          | Özel karakterler içeren dosya                   |
+| `utf-8-sig` | UTF-8 with BOM | Özel karakterler + BOM değeri içeren (emoji js) |
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [u'\ufeff' in Python string](https://stackoverflow.com/questions/17912307/u-ufeff-in-python-string)  alanına bakabilirsin.
@@ -42,9 +41,9 @@ description: Dosya işlemlerinde erişim işlemleri
 
 ## 👨‍💻 Sistem Kodlamaları
 
-| Komut | Açıklama |
-| :--- | :--- |
-| `sys.stdout.reconfigure(encoding='utf-8')` | 🚀 Emoji gibi farklı formattaki metinler üzerinde çalışırken kullanılır \(Terminal bunları algılayamaz\) |
+| Komut                                      | Açıklama                                                                                               |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `sys.stdout.reconfigure(encoding='utf-8')` | 🚀 Emoji gibi farklı formattaki metinler üzerinde çalışırken kullanılır (Terminal bunları algılayamaz) |
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [How to set sys.stdout encoding in Python 3?](https://stackoverflow.com/a/52372390/9770490) alanına bakabilirsin.
@@ -52,13 +51,13 @@ description: Dosya işlemlerinde erişim işlemleri
 
 ## 💠 İşlem Metodları
 
-| Mod | Açıklama |
-| :--- | :--- |
-| `read()` | Dosyayı komple okuma |
-| `readline()` | Dosyadaki 1 satırı okuma |
-| `readlines()` | Dosyadaki tüm satırları `list` objesine alma |
-| `write(<metin>)` | Dosyaya metin yazma |
-| `close()` | Dosyayı kapatma \(context manager için gerekli değil\) |
+| Mod              | Açıklama                                             |
+| ---------------- | ---------------------------------------------------- |
+| `read()`         | Dosyayı komple okuma                                 |
+| `readline()`     | Dosyadaki 1 satırı okuma                             |
+| `readlines()`    | Dosyadaki tüm satırları `list` objesine alma         |
+| `write(<metin>)` | Dosyaya metin yazma                                  |
+| `close()`        | Dosyayı kapatma (context manager için gerekli değil) |
 
 ## ⭐ Erişim Örnekleri
 
@@ -87,4 +86,3 @@ with open("README.md", "r", encoding="utf-8") as file:
     line = file.readline() # Tek bir satırı string olarak döndürür
     lines = file.readlines() # Tüm satırları liste olarak döndürür
 ```
-

@@ -27,4 +27,3 @@ pdfkit.from_file('file.html', 'out.pdf', configuration=config)
 import statistic # Medyan alma
 final = cv2.medianBlur(source, 3) # Medyan Filtre
 ```
-

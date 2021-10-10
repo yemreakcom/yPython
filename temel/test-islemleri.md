@@ -1,15 +1,12 @@
 ---
-description: >-
-  Python ile paket, modül veya kodları kontrol etme, unit test veya functional
-  test gibi yöntemlerle testing işlemleri uygulama
+description: Python ile paket, modül veya kodları kontrol etme, unit test veya functional test gibi yöntemlerle testing işlemleri uygulama
 ---
-
 # ⚗️ Test İşlemleri
 
 ## 👀 Hızlı Bakış
 
 * 👨‍🔬 İlerleyen zamanlarda eski metotların değişmesi durumunda, kodun istendiği gibi çalıştığından emin olunması amaçlanır
-* 📈 Test metotları ile tüm kodun çalışabilirliğinin testi; **155** test için **19s** gibi **kısa** sürelerde tamamlanabilir
+* 📈 Test metotları ile tüm kodun çalışabilirliğinin testi; **155** test için **19s** gibi **kısa **sürelerde tamamlanabilir
 * 🙄 `print` metotları yerine, doğru yazılmış test yapısı zaman kazandıracaktır
 * 💁‍♂️ Bu testleri elle yapmanız kesinlikle 19s'den fazla olacaktır ve de testlerin başkalarına aktarılması gerekecektir
 * 🧐 Ek olarak testleri unutacağınızı da unutmayın
@@ -51,7 +48,7 @@ description: >-
 > 💁‍♂️ Ufak metotlar için doküman ile testi çok daha efektif bulmaktayım
 
 {% hint style="warning" %}
-📢 Whitespace karakterleri, örneğin `\n`  için `'` karakteri arasında `\\n` olarak belirtilir
+📢 Whitespace karakterleri, örneğin `\n`  için `'` karakteri arasında `\\n `olarak belirtilir
 {% endhint %}
 
 ```python
@@ -184,7 +181,7 @@ def test_custom_subprocess():
 * 🕵️‍♂️ `pytest` test işlemleri için isminin başında `test` içeren metot ve sınıflar kullanır
 * 🔨 `pytest` tüm test paketlerini **varsa** `setup.cfg` dosyasında belirtildiği şekilde bulacaktır
 * 🧐 `flake8 --exclude=venv* --statistics` komutu ile kod kalitesini ölçebilirsiniz
-* 📜 `print` çıktılarını da görmek isterseniz   `pytest <python_dosyası> -s` komutunu kullanın
+* 📜 `print` çıktılarını da görmek isterseniz `  pytest <python_dosyası> -s` komutunu kullanın
 
 {% hint style="warning" %}
 📢 Sadece `pytest`komutu hatalara sebebiyet vermekte
@@ -367,5 +364,4 @@ if __name__ == '__main__':
 * [📖 Choosing a test layout / import rules](https://docs.pytest.org/en/latest/goodpractices.html#choosing-a-test-layout-import-rules)
 * [📖 Doctest integration for modules and test files](https://docs.python.org/3/library/doctest.html)
 * 👪 [How do I correctly setup and teardown my pytest class with tests?](https://stackoverflow.com/questions/26405380/how-do-i-correctly-setup-and-teardown-my-pytest-class-with-tests)
-* [✍ Yazıyı Medium sitesinde oku](https://medium.com/@yemreak/%EF%B8%8Fpython-pytest-ile-test-i%CC%87%C5%9Flemleri-d53c2cc4f791?sk=510e7c5c6b2ec6e733f82bf966233b0c) \(eski olabilir\)
-
+* [✍ Yazıyı Medium sitesinde oku](https://medium.com/@yemreak/%EF%B8%8Fpython-pytest-ile-test-i%CC%87%C5%9Flemleri-d53c2cc4f791?sk=510e7c5c6b2ec6e733f82bf966233b0c) (eski olabilir)

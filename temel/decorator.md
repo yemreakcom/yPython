@@ -4,7 +4,7 @@
 
 * 🍱 Metotları başka bir metotları tetikleyerek kullanmayı sağlar
 * 💠 Fonksiyonların üstlerinde kullanılır
-* 🏷️ Etiketleme \(annotations\) olarak da bilinir
+* 🏷️ Etiketleme (annotations) olarak da bilinir
 
 ```python
 def background(func):
@@ -60,4 +60,3 @@ if __name__ == "__main__":
 ## 🔗 Faydalı Bağlantılar
 
 * [👨‍💻 Decorators with Parameters](https://stackoverflow.com/a/25827070/9770490)
-

@@ -1,7 +1,6 @@
 ---
 description: Python ile veriler arasında dönüşüm yapma ve tip dönüştürme işlemleri
 ---
-
 # 💱 Dönüşüm
 
 ## 👀 Hızlı Bakış
@@ -20,6 +19,4 @@ print(example_list) # Set yapısından dolay tekrarlı verileri kaybederiz
 # {True, 10, 'a', 23, 'b'}
 # [True, 10, 'a', 23, 'b']
 ```
-
-
 

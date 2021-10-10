@@ -1,8 +1,7 @@
 ---
 description: Özelliklerin saklandığı yapılandırma veya configuration dosyası oluşturma
 ---
-
-# 🔨 Properties \| Dosya
+# 🔨 Properties | Dosya
 
 ## 🔨 Okuma
 
@@ -82,6 +81,4 @@ forwardx11
 >>> config['bitbucket.org']['ForwardX11']
 'yes'
 ```
-
-
 

@@ -1,7 +1,6 @@
 ---
 description: Periyodik olarak işleri yapmayı sağlayan zaman yönetimi paketi
 ---
-
 # 🕐 Schedule
 
 ## 👀 Hızlı Kullanım
@@ -27,4 +26,3 @@ while True:
     schedule.run_pending()
     time.sleep(1)
 ```
-

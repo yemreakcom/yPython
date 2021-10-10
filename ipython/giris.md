@@ -1,7 +1,6 @@
 ---
 description: IPython Giriş
 ---
-
 # 🚴‍♂️ IPython'a Giriş
 
 ## ❔ Nedir
@@ -11,6 +10,5 @@ description: IPython Giriş
 * _Jupyter Notebook_ ve _Google Collaboratory_ gibi platformlarda kullanılır
 
 {% hint style="warning" %}
-📢 Bu yazı [Google Colab](https://colab.research.google.com/) teknolojisini temel almıştır.
+📢 Bu yazı [Google Colab](https://colab.research.google.com) teknolojisini temel almıştır.
 {% endhint %}
-

@@ -1,4 +1,4 @@
-# 🧠 Yapay Zeka Paketleri \| Conda
+# 🧠 Yapay Zeka Paketleri | Conda
 
 ## 🏹 Tensorflow
 
@@ -8,7 +8,7 @@ Anaconda'nın resmi sitesindeki açıklama için [buraya](https://www.anaconda.c
 
 * Bu kurulum CPU kurulumu olarak da geçmekte
 * GPU kurulumu CPU'ya nazaran oldukça hızlı eğitim seçeneği sağlar
-* GPU kurulumu için gereksinimleri sağlıyorsanız GPU kurulumu \(tensorflow-gpu\) yapmanız tavsiye edilir
+* GPU kurulumu için gereksinimleri sağlıyorsanız GPU kurulumu (tensorflow-gpu) yapmanız tavsiye edilir
 
 > Daha yüksek verim için tensorflow için ortam oluşturun.
 
@@ -31,7 +31,7 @@ Anaconda'nın resmi sitesindeki açıklama için [buraya](https://www.anaconda.c
 
 * Bu kurulum GPU kurulumu olarak geçmekte
 * GPU kurulumu CPU'ya nazaran oldukça hızlı eğitim seçeneği sağlar
-* GPU kurulumu için gereksinimleri sağlamıyorsanız CPU kurulumu \(tensorflow\) yapmanız tavsiye edilir
+* GPU kurulumu için gereksinimleri sağlamıyorsanız CPU kurulumu (tensorflow) yapmanız tavsiye edilir
   * Ekran kartınızın **NVIDIA olması ve desteklemesi** gerekmektedir
   * Kontrol için [buraya](https://developer.nvidia.com/cuda-gpus) tıklayabilirsin
 
@@ -69,7 +69,6 @@ conda install -c mcs07 tesseract
 conda install -c jim-hart pytesseract
 ```
 
-> [Pillow \(Python Image Library\)](./#paket-ve-kuetuephane-kurulumlari) paketinin de indirilmesi gerekebilir.
+> [Pillow (Python Image Library)](./#paket-ve-kuetuephane-kurulumlari) paketinin de indirilmesi gerekebilir.
 
-## 
-
+##

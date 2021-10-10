@@ -1,32 +1,31 @@
 ---
 description: Python liste yapısı (list)
 ---
-
 # 📋 List
 
 ## 🔰 List Yapısını Tanıyalım
 
-* 🍱 Birden fazla veriyi saklamak için kullanılan değişkendir. \(array\)
-* 🩹 Birbirinden farklı değişkenleri tutabilir \(_confused list_\)
+* 🍱 Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
+* 🩹 Birbirinden farklı değişkenleri tutabilir (_confused list_)
 * 👯‍♀️ Aynı değişken birden fazla tekrar edebilir
 * 👀 Hızlıca göz atmak için [buraya](https://www.programiz.com/python-programming/list) buraya bakabilirsin
 
 ## 💎 List Metotları
 
-| List Metotları | Açıklama |
-| :--- | :--- |
-| `len(list)` | Karakter sayısı |
-| `list.append(<value>)` | Eleman ekleme |
-| `del list[i]` | `i`. elemanı silme |
-| `list.remove(elem)` | `elem`'i silme |
-| `list[i]` veya `list.get(i)` | `i`. karakter |
-| `list[-i]` | `len-i`. karakter |
-| `list[i:]` | `i`. eleman ve sonrasındakiler |
-| `list[:i]` | `i`. elemana kadar \(`i` dahil değil\) olanlar |
-| `list[i:j]` | `i`. eleman ve `j`. elemana kadar \(`j` dahil değil\) olanlar |
-| `list[:]` | Liste değerlerini kopyalama \(deep copy\) |
-| `list[i:j:k]` | For döngüsü ile elemanları alma |
-| `[5] * i` | `i` tane 5 sayısı \(`i=3` için `[5, 5, 5]`\) |
+| List Metotları               | Açıklama                                                    |
+| ---------------------------- | ----------------------------------------------------------- |
+| `len(list)`                  | Karakter sayısı                                             |
+| `list.append(<value>)`       | Eleman ekleme                                               |
+| `del list[i]`                | `i`. elemanı silme                                          |
+| `list.remove(elem)`          | `elem`'i silme                                              |
+| `list[i]` veya `list.get(i)` | `i`. karakter                                               |
+| `list[-i]`                   | `len-i`. karakter                                           |
+| `list[i:]`                   | `i`. eleman ve sonrasındakiler                              |
+| `list[:i]`                   | `i`. elemana kadar (`i` dahil değil) olanlar                |
+| `list[i:j]`                  | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar |
+| `list[:]`                    | Liste değerlerini kopyalama (deep copy)                     |
+| `list[i:j:k]`                | For döngüsü ile elemanları alma                             |
+| `[5] * i`                    | `i` tane 5 sayısı (`i=3` için `[5, 5, 5]`)                  |
 
 ## 🍢 List C**omprehension**
 
@@ -57,4 +56,3 @@ list3 = list(set(list1) - set(list2))
 ```
 
 > [Remove all values within one list from another list?](https://stackoverflow.com/a/30353802)
-

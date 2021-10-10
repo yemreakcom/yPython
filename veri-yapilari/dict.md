@@ -1,7 +1,6 @@
 ---
-description: 'Python obje, json veya anahtar-değer (key-value) çifti yapısı (dict)'
+description: Python obje, json veya anahtar-değer (key-value) çifti yapısı (dict)
 ---
-
 # 📙 Dict
 
 ## 🔰 Ne Amaçla Kullanılır
@@ -9,7 +8,7 @@ description: 'Python obje, json veya anahtar-değer (key-value) çifti yapısı 
 * Verilerin anahtar - değer yapısına göre saklandığı `list` yapısıdır
 * Her anahtar değeri eşsiz olmak zorundadır
 * Aynı anahtar değerine sahip yeni bir anahtar oluşturulamayacağından veriler, anahtarın üzerine yazılır
-* Anahtar değerleri primitive değişkenler dışında seçilemez \(`list`, `tuple` olamaz\)
+* Anahtar değerleri primitive değişkenler dışında seçilemez (`list`, `tuple` olamaz)
 
 {% hint style="warning" %}
 📢 `dict` içerisinde yer almayan anahtarlar kullanıldığında hata oluşur, bu sebeple `defaultdict` yapısını kullanmanız önerilir
@@ -116,4 +115,3 @@ libraries
  'zoneinfo': 'IANA time zone support',
  'graphlib': 'Functionality for graph-like structures'}
 ```
-

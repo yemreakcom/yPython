@@ -42,4 +42,3 @@ list(d) == l_ # True
 {% hint style="warning" %}
 📢 Süreleri **IPython** üzerinde`%%timeit` kodu ile hesaplayabilirsiniz.
 {% endhint %}
-

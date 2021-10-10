@@ -4,9 +4,9 @@
 
 * PySide2
 * PyQt5
-* Tkintrer \(zaten yüklü olarak gelir\)
+* Tkintrer (zaten yüklü olarak gelir)
 * WxPython
-* Kivy \(opensource\)
+* Kivy (opensource)
 * PyForms
 
 ![](../.gitbook/assets/python_gui_table.png)
@@ -30,7 +30,7 @@ GUI için _cross development_ desteği olan **pyqt** kullanılmaktadır.
 {% endtab %}
 
 {% tab title="✨ GUI Yapımı" %}
-GUI oluşturma yardımcı olan **QTDesigner** oldukça faydalı olacaktır. \(💡 Çek-bırak mantığında çalışır. \)
+GUI oluşturma yardımcı olan **QTDesigner** oldukça faydalı olacaktır. (💡 Çek-bırak mantığında çalışır. )
 
 ```python
 from PyQt5.QtWidgets import QApplication, QLabel
@@ -69,18 +69,16 @@ Yukarıdan-aşağı, soldan-sağa olmak üzere sırayla:
 {% endtab %}
 {% endtabs %}
 
-## 🟢 QT \(PySide2\)
+## 🟢 QT (PySide2)
 
 * 💰 Ticari kullanımlar için paralıdır
 * 👨‍💻 OpenSource ve GPL lisanslı kodlar için ücretsizdir
 
-{% embed url="https://www.qt.io/qt-for-python" caption="" %}
+{% embed url="https://www.qt.io/qt-for-python" %}
 
 ## ✨ Executable Dosya Oluşturma
 
-{% embed url="https://github.com/brentvollebregt/auto-py-to-exe" caption="" %}
+{% embed url="https://github.com/brentvollebregt/auto-py-to-exe" %}
 
-{% embed url="https://aka.ms/vs/16/release/VC\_redist.x64.exe" %}
-
-
+{% embed url="https://aka.ms/vs/16/release/VC_redist.x64.exe" %}
 

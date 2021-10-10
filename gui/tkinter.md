@@ -1,7 +1,6 @@
 ---
 description: Tkinter ile temel görsek tasarım işlemleri
 ---
-
 # 👨‍🎨 Tkinter
 
 ## 👀 Hızlı Bakış
@@ -95,4 +94,3 @@ root.quit()
 
 * [👨‍🏫 Tkinter Tutorial](https://likegeeks.com/python-gui-examples-tkinter-tutorial/)
 * [Frame](https://www.tutorialspoint.com/python/tk_frame.htm)
-

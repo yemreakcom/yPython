@@ -1,6 +1,6 @@
 # 🕐 Zaman İşlemleri
 
-## ⏱ Zaman İşlemleri \(Time, Datetime\)
+## ⏱ Zaman İşlemleri (Time, Datetime)
 
 ```python
 import time
@@ -64,7 +64,7 @@ def is_before(time: datetime.time) -> bool:
 ‍🧙‍♂ Detaylı bilgi için [How to get the difference between two 24 hour times?](https://stackoverflow.com/questions/39787787/how-to-get-the-difference-between-two-24-hour-times) alanına bakabilirsin.
 {% endhint %}
 
-## 🙇‍ Program Kapandığında İşlem Yapma \(on Exit\)
+## 🙇‍ Program Kapandığında İşlem Yapma (on Exit)
 
 ```python
 import atexit
@@ -76,4 +76,3 @@ atexit.register(exit_handler)
 ```
 
 > [Doing something before program exit](https://stackoverflow.com/a/3850271/9770490)
-

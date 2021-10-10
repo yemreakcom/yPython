@@ -2,10 +2,10 @@
 
 ## 🧱 Action Yapısı
 
-| Parametre | Açıklama |
-| :--- | :--- |
-| `'store_true'` | Flag\* değeri olur ve komutta içerilirse `True` değeri alır \(`-h` gibi\) |
-| `count` | Kaç kere yazıldığı bilgisini tutar \(-vvv için 3\) |
+| Parametre      | Açıklama                                                                |
+| -------------- | ----------------------------------------------------------------------- |
+| `'store_true'` | Flag\* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
+| `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                        |
 
 ```python
 import argparse
@@ -34,6 +34,4 @@ optional arguments:
   -h, --help  show this help message and exit
   --verbose   increase output verbosity
 ```
-
-
 

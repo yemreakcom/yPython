@@ -1,7 +1,6 @@
 ---
-description: 'Exception handling, try except (try / catch) yapısı'
+description: Exception handling, try except (try / catch) yapısı
 ---
-
 # 🐛 Hata Yönetimi
 
 ## 🧱 Temel Yapı
@@ -26,4 +25,3 @@ except (IDontLikeYouException, YouAreBeingMeanException) as e:
 
 * 📃 Hataları raporlamak için `logging.exception` metodu kullanılır
 * 💁‍♂️ Detaylı bilgi için [📜 Raporlama İşlemleri](raporlama.md) yazısına bakınız
-

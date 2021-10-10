@@ -7,7 +7,7 @@
 
 ## 🧃 DefaultDict
 
-* 🚫 `dict` verilerinde en önemli sorun olmayan anahtar \(_key_\) verileridir. 
+* 🚫 `dict` verilerinde en önemli sorun olmayan anahtar (_key_) verileridir. 
 * ✨ Olmayan anahtarlar için varsayılan değer atanır
 * 🧹 Kodda daha temiz yapı sunar
 * 🏗️`defaultdict(<type>)` şeklinde tanımlanır  
@@ -35,4 +35,3 @@ def count(x):
     return count_dict
 count(ele)
 ```
-

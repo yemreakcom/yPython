@@ -1,7 +1,6 @@
 ---
 description: Python ile compréhensions (tek satırlı yapı) işlemleri
 ---
-
 # 🤸‍ Comprehensions
 
 ## 👀 Hızlı Bakış
@@ -31,4 +30,3 @@ print(me_dict_dtypes)
 
 # {'name': <class 'str'>, 'age': <class 'int'>, 'height': <class 'float'>, 'weight': <class 'float'>, 'hair': <class 'str'>, 'eyes': <class 'str'>, 'has dog': <class 'bool'>, 'favorite color': <class 'str'>, 'nieces/nephews': <class 'int'>}
 ```
-

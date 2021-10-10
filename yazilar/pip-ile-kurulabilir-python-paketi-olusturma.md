@@ -1,9 +1,6 @@
 ---
-description: >-
-  Python paket yöneticisi olan pip ile projenizin indirilebilir olmasını
-  sağlamak isterseniz okumaya devam edin.
+description: Python paket yöneticisi olan pip ile projenizin indirilebilir olmasını sağlamak isterseniz okumaya devam edin.
 ---
-
 # 📦 Pip ile Kurulabilir Python Paketi Oluşturma
 
 ## 👀 Hızlı Bakış
@@ -25,7 +22,7 @@ description: >-
 * 🔸 Açıklama metninizi **markdown** formatı ile `README.md` içerisine yazın.
 * 💖 Önemli alanlar kırmızı ile ifade edilmiştir
 
-```text
+```
 setup.py
 src/
     mypkg/
@@ -295,8 +292,8 @@ pip install twine
 
 ### 🏗️ Projeyi Derleme
 
-* Proje dizininize girin \([yukarıdaki resimdeki alan](pip-ile-kurulabilir-python-paketi-olusturma.md#dosya-yapisini-olusturma)\)
-* `rm -rf build/ dist/` \(`del build/ dist/` veya el\) ile eski proje çalışmalarını silin
+* Proje dizininize girin ([yukarıdaki resimdeki alan](pip-ile-kurulabilir-python-paketi-olusturma.md#dosya-yapisini-olusturma))
+* `rm -rf build/ dist/` (`del build/ dist/` veya el) ile eski proje çalışmalarını silin
 * `python setup.py sdist bdist_wheel` komutu ile projenizi aktarılmaya hazır hale getirin
 * `twine upload dist/*` komutu ile PyPI'ya projenizi aktarın
 
@@ -314,4 +311,3 @@ pip install twine
 * [Pakete python dosyası harici dosya ekleme - 1](https://stackoverflow.com/a/10924965)
 * [Pakete python harici dosyalar ekleme - 2](https://stackoverflow.com/a/11848281)
 * [Paket için Sembolik link oluşturma](https://www.reddit.com/r/learnpython/comments/8pvne4/create_symlink_on_pip_install/)
-

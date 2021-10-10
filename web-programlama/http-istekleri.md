@@ -1,7 +1,6 @@
 ---
-description: 'Python ile HTTP istekleri, get, push request'
+description: Python ile HTTP istekleri, get, push request
 ---
-
 # 💌 HTTP İstekleri
 
 ## 🔸 HTTP Durum Kodları
@@ -28,4 +27,3 @@ print(status_code)
 ## 🔗 Faydalı Bağlantılar
 
 * [Python Requests library redirect new url](https://stackoverflow.com/questions/20475552/python-requests-library-redirect-new-url)
-

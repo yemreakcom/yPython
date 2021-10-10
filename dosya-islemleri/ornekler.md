@@ -1,4 +1,4 @@
-# ⭐ Örnekler \| Dosya
+# ⭐ Örnekler | Dosya
 
 ## 📦 Obje ile Okuma
 
@@ -109,7 +109,7 @@ for root, dirs, files in os.walk(path):
 
 ## 👮‍♂️ Özel Dizinlere Erişim
 
-### ⭐ Sistem Dizinlerine Erişme \(System Environment\)
+### ⭐ Sistem Dizinlerine Erişme (System Environment)
 
 ```python
 import os, sys, site
@@ -130,4 +130,3 @@ import module # Herhangi bir pip ile indirilen modülü temsil eder, örn: pynpu
 path = module.__file__
 site_packages_path = os.path.join(path, "..", "..")
 ```
-

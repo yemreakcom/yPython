@@ -122,4 +122,3 @@ print(draw_dimension())
 ```
 {% endtab %}
 {% endtabs %}
-

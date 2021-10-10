@@ -1,7 +1,6 @@
 ---
 description: Struct benzeri özelleştirilmiş veri sınıfları
 ---
-
 # 🍎 Data Classes
 
 ## 🔰 Nedir?
@@ -57,4 +56,3 @@ class C:
 
 bağlantılara bakabilirsin.
 {% endhint %}
-

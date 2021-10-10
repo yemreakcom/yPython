@@ -1,20 +1,19 @@
 ---
 description: VsCode üzerinde python kullanımı
 ---
-
 # 💻 Python için VsCode
 
 ## 🧩 Python Eklentileri
 
-| Eklenti | Açıklama |
-| :--- | :--- |
-| 🐍 [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | VsCode Dil desteği |
-| [✨ DarkCode Theme](https://marketplace.visualstudio.com/items?itemName=yedhrab.darkcode-theme-adopted-python-and-markdown) | Python'a özel temam |
-| 🏹 [Kite](https://marketplace.visualstudio.com/items?itemName=kiteco.kite) | AI destekli kod tamamlama |
-| 🤖 [Visual Studio IntelliCode - **Preview**](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | Sık kullanılan kod önerileri \(**eksik öneriler olabilir**\) |
-| 📜 [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) | Dokümantasyon parçaları sağlayan eklenti |
-| 🌈 [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) | Parantezleri renklendirme |
-| 🤖 [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl) | Anlık çıktıları gösterme |
+| Eklenti                                                                                                                                  | Açıklama                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 🐍 [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                                                        | VsCode Dil desteği                                         |
+| [✨ DarkCode Theme](https://marketplace.visualstudio.com/items?itemName=yedhrab.darkcode-theme-adopted-python-and-markdown)               | Python'a özel temam                                        |
+| 🏹 [Kite](https://marketplace.visualstudio.com/items?itemName=kiteco.kite)                                                               | AI destekli kod tamamlama                                  |
+| 🤖 [Visual Studio IntelliCode - **Preview**](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
+| 📜 [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)                                          | Dokümantasyon parçaları sağlayan eklenti                   |
+| 🌈 [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)                    | Parantezleri renklendirme                                  |
+| 🤖 [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl)                                                 | Anlık çıktıları gösterme                                   |
 
 ## 📏 Python Kodlarını Formatlama
 
@@ -22,12 +21,12 @@ description: VsCode üzerinde python kullanımı
 * Çıkan alana `Python: Select Linter` yazın
 * `pylint` düzenleyicisini seçin
   * `pylint` aynı dizindeki modulleri bulamamakta, bu hatananın çözümü için `.pylintrc` dosyasını düzenlemek gerekmekte
-  * `pylint --generate-rcfile .pylintrc` komutunu çalışma dizininde yazdıktan sonra, içini açıp `#init-hook` satırını `init-hook='import sys; system.path.append("${workspaceFolder}")'` ile değiştirin. \(Yorum satırı olmaktan kaldırın\)
+  * `pylint --generate-rcfile .pylintrc` komutunu çalışma dizininde yazdıktan sonra, içini açıp `#init-hook` satırını `init-hook='import sys; system.path.append("${workspaceFolder}")'` ile değiştirin. (Yorum satırı olmaktan kaldırın)
   * Eğer girintiyi ⭾ Tab ile yapıyorsanız `pylint`'de _bug_'a sebebiyet vermekte, SPACE kullanın
 * Python derleyicinize `autopep8` paketini aşağıdaki komutlarla veya VsCode arayüzü ile yükleyin
   * `pip install autopep8`
   * `conda install autopep8`
-* Artık ⇧ Shift + ⎇ Alt + `F` ile kodları __düzenleyebilirsiniz.
+* Artık ⇧ Shift + ⎇ Alt + `F` ile kodları_ _düzenleyebilirsiniz.
 * Dosyaya sağ tıklayarak derleyebilirsiniz.
 
 ## 🔨 Python Ayarlamaları
@@ -77,7 +76,7 @@ Kaynak için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#iss
 {% endtab %}
 
 {% tab title="⭐ Pythonpath Örneği" %}
-Resmi döküman için [buraya](https://code.visualstudio.com/docs/python/environments#_environment-variable-definitions-file) bakabilirsin.
+Resmi döküman için [buraya](https://code.visualstudio.com/docs/python/environments#\_environment-variable-definitions-file) bakabilirsin.
 
 * VsCode birden fazla satıra sahip değişken değerlerini kabul etmez
 * Ortam değişklenleri oluşturmak için proje ayarlarından **env file** seçmemiz gerekmekte
@@ -104,4 +103,3 @@ PYTHONPATH=./src:${PYTHONPATH}
 ```
 {% endtab %}
 {% endtabs %}
-

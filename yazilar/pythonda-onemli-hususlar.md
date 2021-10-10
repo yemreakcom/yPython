@@ -1,9 +1,6 @@
 ---
-description: >-
-  Python için bilmeniz ve öğrenmeniz gereken, faydalı olacak konular ve
-  derlediğim bilgiler
+description: Python için bilmeniz ve öğrenmeniz gereken, faydalı olacak konular ve derlediğim bilgiler
 ---
-
 # 🌟 Python'da Önemli Hususlar
 
 ## 🧐 Aceleci Olma Temel Kavramları Öğren
@@ -22,12 +19,12 @@ description: >-
   * 🌃 Oluşturulan sanal ortam, bilgisayarındaki python paketlerinden etkilenmez ve onları etkilemez
   * 💁‍♂️ Sanallaştırma ile paket sürümlerindeki çakışmalardan kurtulmuş olursun
 
-| 📃 Dosya İsmi | 💎 Açıklama |
-| :--- | :--- |
-| `LICENSE` | Projenin lisans bilgilerini taşır \(Apache, MIT vs\) |
-| `README` | Projen hakkında açıklamalar ve dokümanlarına bağlantılara burada yer verirsin |
+| 📃 Dosya İsmi      | 💎 Açıklama                                                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `LICENSE`          | Projenin lisans bilgilerini taşır (Apache, MIT vs)                                                                                                |
+| `README`           | Projen hakkında açıklamalar ve dokümanlarına bağlantılara burada yer verirsin                                                                     |
 | `requirements.txt` | Projenin bağımlılıklarını tutar, `pip freeze > requirements.txt` komutu ile oluşturulur ve `pip install -r requirements.txt` komutu ile indirilir |
-| `tests` | Projenin test metotlarının hepsi, `tests` dizininde saklanmalıdır |
+| `tests`            | Projenin test metotlarının hepsi, `tests` dizininde saklanmalıdır                                                                                 |
 
 ## 🤷‍♂️ Boşluk veya Tab Herhangi Birini Seç
 
@@ -126,8 +123,8 @@ handlers.get(response, smile)()
 
 ## 🆔 `==` ile `is` aynı değildir
 
-* 💡 Öncelikle `==` eşitlik sorgularken, `is` adres bilgisi \(veya id\) sorgular
-* 💁‍♂️ Primitif değişkenlerde \(`int`, `bool` … \) adresler değil değerler tutulur,`is` ile `==` eş değerdir
+* 💡 Öncelikle `==` eşitlik sorgularken, `is` adres bilgisi (veya id) sorgular
+* 💁‍♂️ Primitif değişkenlerde (`int`, `bool` … ) adresler değil değerler tutulur,`is` ile `==` eş değerdir
 * 👮‍♂️ Objeler ve `list`, `dict` gibi tipler için eş değer değildir
 
 ```python
@@ -247,7 +244,7 @@ merged  # {'a': 1, 'b': 3, 'c': 4}
 
 * `set` küme yapısı ile sadece eşsiz verileri tutarsın
 * `max` yapısı ile verilen `key`'e göre en yüksek değerleri bul
-* `map` yapısı ile üzerinde gezinebilir \(ilst, set vs\) verilerde her veri için fonksiyon çalıştır
+* `map` yapısı ile üzerinde gezinebilir (ilst, set vs) verilerde her veri için fonksiyon çalıştır
 * `collections.Counter` yapısı ile veri listesi içerisindeki elemanları say
 * `dateutil.parser.parse` ile loglardan zaman bilgilerini rastgele konumlarda da olsa çek
 * `chardet` ile dosya içerisindeki metinleri inceleyebilirsin
@@ -323,7 +320,7 @@ print(s2)
 
 ## 💠 Fonksiyonları Efektif Kullan
 
-* 💁‍♂️ Fonksiyonlar birden fazla değişken döndürebilir \(`tuple`\) ve bunu efektif kullanmak yararınadır
+* 💁‍♂️ Fonksiyonlar birden fazla değişken döndürebilir (`tuple`) ve bunu efektif kullanmak yararınadır
 * 🏷️ Parametre ve dönüş bilgilerini `typing` modülü ile belirt
 * 🔚 Dönüş tipi `-> <tip>` şeklinde belirtilir
 
@@ -366,12 +363,12 @@ card         # Card(rank='Q', suit='hearts')
 
 ## 💠 Özel Sınıf Metotlarını Kullanın
 
-| 🆔 İsim | 📃 Açıklama |
-| :--- | :--- |
-| `__init__` | Sınıf oluşturulduğunda çağırılır \(`constructor`\) |
-| `__str__` | Sınıf `str`, `f"{}"` veya `print` ile yazdırılmak istendiğinde çağırılır |
-| `__repr__` | Debug işlemleri sırasında sınıf hakkında bilgileri verir \(VS Code Debug metinleri vs\) |
-| `__eq__` | Sınıf arasında eşitlik kıyaslaması yapıldığında çalışır \(`a == b`\) |
+| 🆔 İsim    | 📃 Açıklama                                                                                                                 |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `__init__` | Sınıf oluşturulduğunda çağırılır (`constructor`)                                                                            |
+| `__str__`  | Sınıf `str`, `f"{}"` veya `print` ile yazdırılmak istendiğinde çağırılır                                                    |
+| `__repr__` | Debug işlemleri sırasında sınıf hakkında bilgileri verir (VS Code Debug metinleri vs)                                       |
+| `__eq__`   | Sınıf arasında eşitlik kıyaslaması yapıldığında çalışır (`a == b`)                                                          |
 | `__hash__` | Dict gibi işlemlerde key olarak sınıfın kullanılması için hashable olması gerekir `hash(str(self))` şeklinde kullanılabilir |
 
 ## 🏷️ Decorator Yapısı ile Tekrarlı Kodlardan Sakın
@@ -379,7 +376,7 @@ card         # Card(rank='Q', suit='hearts')
 * ➕ Decorator yapısı fonksiyonların üstüne `@` ile eklenen fonksiyonlardır
 * 🌊 Fonksiyon her çağırıldığında önce `@` ile eklenen fonksiyon çalışır sonra istenen çağırılır
 * 👮‍♂️ API işlemlerinde yetki kontrolleri için kullanılması zaman kazandırır
-* 💁‍♂️ `@functools.wraps(func)` decorator yapısı ile asıl fonksiyonun `__name__` gibi karakter özellikleri saklanır \(aksi halde `__name__` değeri `@` olan fonksiyonun ismini verir\)
+* 💁‍♂️ `@functools.wraps(func)` decorator yapısı ile asıl fonksiyonun `__name__` gibi karakter özellikleri saklanır (aksi halde `__name__` değeri `@` olan fonksiyonun ismini verir)
 
 ```python
 from typing import Tuple
@@ -417,7 +414,9 @@ name, birthdate = DataBase("👮‍♂️").get_user(7)
 
 > Buraya detaylı bilgi sonradan eklenecek
 
-{% page-ref page="../temel/raporlama.md" %}
+{% content-ref url="../temel/raporlama.md" %}
+[raporlama.md](../temel/raporlama.md)
+{% endcontent-ref %}
 
 ## 🔗 Faydalı Bağlantılar
 
@@ -427,6 +426,5 @@ name, birthdate = DataBase("👮‍♂️").get_user(7)
 * [📃 Python Tutorial](https://data-flair.training/blogs/python-tutorial/)
 
 {% hint style="success" %}
-🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+🚀 Bu alandaki bağlantılar [YEmoji \~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
 {% endhint %}
-

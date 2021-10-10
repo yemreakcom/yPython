@@ -1,16 +1,15 @@
 ---
-description: 'Paratic sitesi üzerinden dolar fiyatını websocket işlemleri ile alma, çekme'
+description: Paratic sitesi üzerinden dolar fiyatını websocket işlemleri ile alma, çekme
 ---
-
 # 💲 Anlık Dolar Fiyatı Alma
 
 ## 🔗 WS URL Bilgisini Alma
 
 * 🕸 [https://piyasa.paratic.com/doviz/dolar/](https://piyasa.paratic.com/doviz/dolar/) sitesi üzerinden geliştirici seçenekleri açıyoruz
 * 👨‍🔬 Geliştirici seçeneklerinden **Network** alanından **WS** filtresi ile ws isteğini buluyoruz
-* 📋 Bulunan ws isteğinin url değerini sağ tıklayıp **Copy Link Adress** ile kopyalıyoruz
+* 📋 Bulunan ws isteğinin url değerini sağ tıklayıp **Copy Link Adress **ile kopyalıyoruz
 
-![](../.gitbook/assets/screen-shot-2021-08-05-at-14.33.53.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-05 at 14.33.53.png>)
 
 ## 🚧 WS Hiyerarşisini Taklit Etme
 
@@ -20,9 +19,9 @@ description: 'Paratic sitesi üzerinden dolar fiyatını websocket işlemleri il
 
 > 😥 Dolar 8.52 olmuş, bu işlemleri yaparken de 8.53 oldu
 
-![](../.gitbook/assets/screen-shot-2021-08-05-at-14.38.23.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-05 at 14.38.23.png>)
 
-![](../.gitbook/assets/screen-shot-2021-08-05-at-14.41.30.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-05 at 14.41.30.png>)
 
 ## 💻 Kaynak Kod
 
@@ -63,4 +62,3 @@ async def main():
 
 asyncio.get_event_loop().run_until_complete(main())
 ```
-

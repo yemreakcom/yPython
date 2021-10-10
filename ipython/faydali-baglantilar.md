@@ -1,8 +1,7 @@
 ---
 description: IPython Harici Bağlantılar
 ---
-
-# 🔗 Faydalı Bağlantılar \| IPython
+# 🔗 Faydalı Bağlantılar | IPython
 
 * [Overview of Colaboratory Features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 * [External data: Drive, Sheets, and Cloud Storage](https://colab.research.google.com/notebooks/io.ipynb)
@@ -12,4 +11,3 @@ description: IPython Harici Bağlantılar
 * [Magic Command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 * [Resetting VM](https://stackoverflow.com/questions/49001921/how-to-restart-virtual-machine)
 * [Interacting with Shell](http://mmcdan.github.io/posts/interacting-with-the-shell-via-jupyter-notebook/)
-
