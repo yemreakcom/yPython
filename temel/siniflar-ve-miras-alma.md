@@ -64,7 +64,7 @@ class Foo(object):
 alanlarına bakabilirsin.
 {% endhint %}
 
-## Equal Metot Örneği
+### :star2: Equal Metot Örneği
 
 * `isinstance` metodu ile aynı sınıftan olup olmadığı kontrol edilir
 * `vars(self)` kodu ile sınıfın sahip olduğu tüm değişkenler `dict` olarak alınır
