@@ -64,6 +64,24 @@ class Foo(object):
 alanlarına bakabilirsin.
 {% endhint %}
 
+## Equal Metot Örneği
+
+* `isinstance` metodu ile aynı sınıftan olup olmadığı kontrol edilir
+* `vars(self)` kodu ile sınıfın sahip olduğu tüm değişkenler `dict` olarak alınır
+* `dict` verisi `key` `value` çiftlerine dönüştürülerek otomatik kontrole hazırlanır
+* `getattr` metodu ile verilen `key` ile değişken temsil edilir ve `value` değerine eşitliği kontrol edilir
+* Her koşulun sağlanması durumunda `True` aksi halde `False` döndürülür
+
+```python
+def __eq__(self, o: object) -> bool:
+	if isinstance(o, Account):
+	    for key, value in vars(self).items():
+	        if not getattr(o, key) == value:
+	            return False
+	    return True
+	return False
+```
+
 ### 💎 Properties
 
 ```python
