@@ -1,6 +1,9 @@
 ---
-description: Python ile Google Sheet verilerini otomatik olarak düzenleme, değiştirme, güncelleme
+description: >-
+  Python ile Google Sheet verilerini otomatik olarak düzenleme, değiştirme,
+  güncelleme
 ---
+
 # 📑 Google Sheet Düzenleme
 
 ## 👮‍♂️ API ve İzinleri Oluşturma
@@ -13,11 +16,11 @@ description: Python ile Google Sheet verilerini otomatik olarak düzenleme, değ
 * ➕ [API & Services](https://console.cloud.google.com/apis/credentials) sayfasından **Create Credential** butonu ile projede kullanmak için kimlik oluşturun
   * **🗝 Service Accounts** alanı altından oluştulanı seçip **Keys** kısmından **Add Key** butonuna tıklayın
   * **📜 Create New Key**, ardından da **JSON** butonunu seçin ve kimlik bilgilerinizi json formatında indirin
-* 📂 İndirdiğiniz dosyayı projenizin dizinine taşıyın, 
+* 📂 İndirdiğiniz dosyayı projenizin dizinine taşıyın,&#x20;
   * 👨‍💻 Kod üzerinden `gc = gspread.service_account(GS_CREDENTIAL_FILENAME)` komutu ile dosyaya erişeceğiz
 
 {% hint style="warning" %}
-📣 Uygulama ile erişmek istediğiniz Google Sheet dosyanızdan paylaşım ayarlarına girip **indirdiğiniz json** **dosyasındaki client_email** **alanındaki e-posta adresi** ile paylaşın, aksi halde uygulama erişemez ve `SpreadSheetNotFound` hatası verir
+📣 Uygulama ile erişmek istediğiniz Google Sheet dosyanızdan paylaşım ayarlarına girip **indirdiğiniz json** **dosyasındaki client\_email** **alanındaki e-posta adresi** ile paylaşın, aksi halde uygulama erişemez ve `SpreadSheetNotFound` hatası verir
 {% endhint %}
 
 ## 👨‍💻 Kaynak Kod
@@ -26,7 +29,7 @@ description: Python ile Google Sheet verilerini otomatik olarak düzenleme, değ
 * 📄 Gspred kullanımı için detaylı bilgi arıyorsunuz [dokümantasyonuna](https://docs.gspread.org/en/v4.0.0/) bakabilirsiniz
 
 {% hint style="warning" %}
-💡 Aşağıdaki örnekte **Sheet2 **üzerinden değişiklik yapıldığı için `GS_SHEET_INDEX` değeri 1'dir, normalde 0 olarak alabilirisiniz
+💡 Aşağıdaki örnekte **Sheet2** üzerinden değişiklik yapıldığı için `GS_SHEET_INDEX` değeri 1'dir, normalde 0 olarak alabilirisiniz
 {% endhint %}
 
 ```python

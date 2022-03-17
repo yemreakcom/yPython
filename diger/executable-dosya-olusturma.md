@@ -1,6 +1,7 @@
 ---
 description: Python ile windows için exe dosyası oluşturma
 ---
+
 # 🖤 Executable Dosya Oluşturma
 
 ## 👀 Hızlı Notlar
@@ -28,7 +29,7 @@ description: Python ile windows için exe dosyası oluşturma
 ![](../.gitbook/assets/auto-py-to-exe.png)
 
 {% hint style="warning" %}
-👨‍🔧 Sorun oluşması durumunda **python 3.7 veya alt sürümlerini **indirip, deneyiniz
+👨‍🔧 Sorun oluşması durumunda **python 3.7 veya alt sürümlerini** indirip, deneyiniz
 {% endhint %}
 
 ## 📂 `PyInstaller` Dizinini Kullanma

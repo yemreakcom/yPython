@@ -1,6 +1,7 @@
 ---
 description: Python üzerinde paraleli eş zamanlı ve çok çekirdekli işlemler
 ---
+
 # 🎎 Multiprocessing
 
 ## 🆚 Multiprocessing vs Multithreading
@@ -18,7 +19,7 @@ description: Python üzerinde paraleli eş zamanlı ve çok çekirdekli işlemle
 * 📈 IO işlemleri için 🧵 Multi-Threading, CPU işlemleri için 🎎 Multi-Processing daha verimlidir
 * 💡 Multiprocessing IO işlemleri için de hızlı olsa da maliyetli olduğundan thread daha uygun seçimdir
 
-> 🔸 Multithreading, **çoklu kullanım** anlamına gelirken; multiprocessing, **çoklu işleme **anlamına gelmektedir
+> 🔸 Multithreading, **çoklu kullanım** anlamına gelirken; multiprocessing, **çoklu işleme** anlamına gelmektedir
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için kaynaklar:

@@ -1,12 +1,13 @@
 ---
 description: Python ile module ve package kodlama veya oluşturma
 ---
+
 # 📦 Modül ve Paketler
 
 ## 🚶‍♂️ Dosyalar Arasında Gezinme
 
 * 💡 Python ile dizinlerde bulunan kaynak kodları `__init__.py` dosyası ile belirtilir
-* 📢 Eğer dizinde `__init__.py` **olmazsa **kaynak kod dosyaları arasında **import işlemi yapılmaz** 
+* 📢 Eğer dizinde `__init__.py` **olmazsa** kaynak kod dosyaları arasında **import işlemi yapılmaz**&#x20;
 * 👨‍💻 Kaynak kodlardan import işlemleri için `.` karakteri kullanılır
   * `.` ile aynı dizindeki dosyaya
   * `..` ile üst dizindeki dosyaya

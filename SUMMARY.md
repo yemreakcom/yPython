@@ -23,8 +23,7 @@
   * [🔮 Fonksiyonlar](temel/fonksiyonlar.md)
   * [🔤 String İşlemleri](temel/string-islemleri.md)
   * [💎 Regex İşlemleri](temel/regex-islemleri.md)
-  * [🍎 Sınıflar ve Miras Alma](temel/siniflar-ve-miras-alma/README.md)
-    * [Page 1](temel/siniflar-ve-miras-alma/page-1.md)
+  * [🍎 Sınıflar ve Miras Alma](temel/siniflar-ve-miras-alma.md)
   * [📦 Modül ve Paketler](temel/modul-ve-paketler.md)
   * [🎲 Rastgelelik](temel/rastgelelik.md)
   * [📜 Raporlama](temel/raporlama.md)
@@ -126,7 +125,7 @@
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 
-## Tüm Kişisel Notlarım <a href="tum-kisisel-notlarim" id="tum-kisisel-notlarim"></a>
+## Tüm Kişisel Notlarım <a href="#tum-kisisel-notlarim" id="tum-kisisel-notlarim"></a>
 
 * [🤵 YEmreAk](https://yemreak.com)
 * [📲 Android Notlarım](https://android.yemreak.com)

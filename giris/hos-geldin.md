@@ -1,6 +1,7 @@
 ---
 description: Python'a hoş geldin, kuralları ve gelenekleri tanıyalım
 ---
+
 # 🙋‍♂️ Hoş Geldin
 
 ## 🚧 Python ile Programlamaya Hazırlanma
@@ -41,7 +42,7 @@ Orijinal dokümantasyon için [buraya](https://www.python.org/dev/peps/pep-0008/
 * Kodun en son satırı boş olmalıdır (End of File)
 * _Private_ metotlar `_` ile başlar
   * `_add`, `_is_ prime`
-* Özel metotlar _"dunder" _`__` ile başlar ve biter
+* Özel metotlar _"dunder"_ `__` ile başlar ve biter
   * `__init__`, `__add__`
 
 {% hint style="info" %}

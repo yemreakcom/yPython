@@ -1,12 +1,15 @@
 ---
-description: Python ile paket, modül veya kodları kontrol etme, unit test veya functional test gibi yöntemlerle testing işlemleri uygulama
+description: >-
+  Python ile paket, modül veya kodları kontrol etme, unit test veya functional
+  test gibi yöntemlerle testing işlemleri uygulama
 ---
+
 # ⚗️ Test İşlemleri
 
 ## 👀 Hızlı Bakış
 
 * 👨‍🔬 İlerleyen zamanlarda eski metotların değişmesi durumunda, kodun istendiği gibi çalıştığından emin olunması amaçlanır
-* 📈 Test metotları ile tüm kodun çalışabilirliğinin testi; **155** test için **19s** gibi **kısa **sürelerde tamamlanabilir
+* 📈 Test metotları ile tüm kodun çalışabilirliğinin testi; **155** test için **19s** gibi **kısa** sürelerde tamamlanabilir
 * 🙄 `print` metotları yerine, doğru yazılmış test yapısı zaman kazandıracaktır
 * 💁‍♂️ Bu testleri elle yapmanız kesinlikle 19s'den fazla olacaktır ve de testlerin başkalarına aktarılması gerekecektir
 * 🧐 Ek olarak testleri unutacağınızı da unutmayın
@@ -17,15 +20,15 @@ description: Python ile paket, modül veya kodları kontrol etme, unit test veya
 
 * 👇 Test komutunu çalıştırdıktan sonra, çıktı aşağıdaki gibi olacaktır
 
-![](../.gitbook/assets/pytest_examples.png)
+![](../.gitbook/assets/pytest\_examples.png)
 
 * 📋 Başarısız olan testler hakkında size özet bir çıktı sunacaktır
 
-![](../.gitbook/assets/pytest_fail_summary.png)
+![](../.gitbook/assets/pytest\_fail\_summary.png)
 
 * 🧐 Hataların tam olarak nereden geldiğini gösteren detaylı sonuçları ile hızlıca düzeltmeler yapabileceksiniz
 
-![](../.gitbook/assets/pytest_fail_detailed.png)
+![](../.gitbook/assets/pytest\_fail\_detailed.png)
 
 * 🦸‍♂️ Eğer VS Code kullanıyorsanız, kırmızı linklere tıklayıp, direkt olarak hatalı satıra gidebilirsiniz
 * 💁‍♂️ Ayrıca ✲ Ctrl P komutuna basıp çıkan ekrana, : karakterini koyup, satır ve sütun değerlerini yazıp ilgili alana geçebilirsiniz
@@ -48,7 +51,7 @@ description: Python ile paket, modül veya kodları kontrol etme, unit test veya
 > 💁‍♂️ Ufak metotlar için doküman ile testi çok daha efektif bulmaktayım
 
 {% hint style="warning" %}
-📢 Whitespace karakterleri, örneğin `\n`  için `'` karakteri arasında `\\n `olarak belirtilir
+📢 Whitespace karakterleri, örneğin `\n`  için `'` karakteri arasında `\\n` olarak belirtilir
 {% endhint %}
 
 ```python
@@ -181,7 +184,7 @@ def test_custom_subprocess():
 * 🕵️‍♂️ `pytest` test işlemleri için isminin başında `test` içeren metot ve sınıflar kullanır
 * 🔨 `pytest` tüm test paketlerini **varsa** `setup.cfg` dosyasında belirtildiği şekilde bulacaktır
 * 🧐 `flake8 --exclude=venv* --statistics` komutu ile kod kalitesini ölçebilirsiniz
-* 📜 `print` çıktılarını da görmek isterseniz `  pytest <python_dosyası> -s` komutunu kullanın
+* 📜 `print` çıktılarını da görmek isterseniz `pytest <python_dosyası> -s` komutunu kullanın
 
 {% hint style="warning" %}
 📢 Sadece `pytest`komutu hatalara sebebiyet vermekte
