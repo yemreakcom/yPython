@@ -1,6 +1,7 @@
 ---
 description: Python ile virtual environment oluşturma (venv)
 ---
+
 # 🌇 Sanal Ortam Oluşturma
 
 ## 🚴‍♂️ Sanal Ortama Giriş
@@ -16,7 +17,7 @@ python3 -m venv tutorial-env
 
 ## 🐣 Sanal Ortamı Aktif Etme
 
-* 💁‍♂️ Eğer [VS Code](https://code.visualstudio.com) kullanıyorsanız, otomatik olarak aktif edilecektir
+* 💁‍♂️ Eğer [VS Code](https://code.visualstudio.com/) kullanıyorsanız, otomatik olarak aktif edilecektir
 
 {% tabs %}
 {% tab title="✴️ Windows" %}

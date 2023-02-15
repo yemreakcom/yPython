@@ -93,7 +93,7 @@ print("Pi: ", pi) # Pi: 3.141592653589793
 | Matplotlib                                                              | Grafik, çizim ve tablo işlemleri                |
 | Seaborn                                                                 |                                                 |
 | TensorFlow                                                              | Makine Öğrenimi ve Deep Learning                |
-| [tqdm](https://tqdm.github.io)                                          | Progress Bar (Yüklenyior vs gibi işlemler için) |
+| [tqdm](https://tqdm.github.io/)                                         | Progress Bar (Yüklenyior vs gibi işlemler için) |
 | [colorama](https://www.geeksforgeeks.org/print-colors-python-terminal/) | Terminal renklendirme                           |
 {% endtab %}
 

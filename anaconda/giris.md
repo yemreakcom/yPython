@@ -1,6 +1,7 @@
 ---
 description: Anaconda'ya giriş
 ---
+
 # 🏂 Anaconda'ya Giriş
 
 ## ❔ Nedir
@@ -9,7 +10,7 @@ description: Anaconda'ya giriş
 * 👨‍💼 Paket yönetimi `conda` ile onları yönetir
 
 {% hint style="success" %}
-Anaconda ile yerel PC üzerinden çalışmak yerine, kurulumlarla uğraşmamak adına [Google Colab](https://colab.research.google.com) hizmetini kullanabilirsin.
+Anaconda ile yerel PC üzerinden çalışmak yerine, kurulumlarla uğraşmamak adına [Google Colab](https://colab.research.google.com/) hizmetini kullanabilirsin.
 {% endhint %}
 
 ## 📈 Faydaları

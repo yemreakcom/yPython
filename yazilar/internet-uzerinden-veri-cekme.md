@@ -1,6 +1,7 @@
 ---
 description: Python ile internet, web üzerinden veri alma, çekme (data grab, web grab)
 ---
+
 # 🧲 İnternet Üzerinden Veri Çekme
 
 ## 💨 URL'den Veri Alma
@@ -18,7 +19,7 @@ contents = contents.decode(encoding)
 
 ## 🆔 Web Kimliği `UserAgent` Ayarlama
 
-* Bazı web siteleri, isteklerin nereden geldiğini bilmeden hareket edemezler. 
+* Bazı web siteleri, isteklerin nereden geldiğini bilmeden hareket edemezler.&#x20;
 * Bu sebeple isteği detaylandırmamız gerekmektedir.
 * `UserAgent` ile hangi tarayıcıdan ve bilgisayardan bağlandığımızı belli ederiz
 
@@ -45,9 +46,9 @@ html = urlopen(req).read() # Pandas için kullanılacak html objesi
 * Elements ekranından açılan satıra sağ tıklayın ve Copy → Copy selector deyin
 * Gelen metni bir notepad gibi bir yere kaydedin
 
-![](<../.gitbook/assets/temel-veri-cekme-islemi1 (1) (1) (1).png>)
+![](<../.gitbook/assets/temel-veri-cekme-islemi1 (1) (1).png>)
 
-![](<../.gitbook/assets/temel-veri-cekme-islemi2 (1) (1).png>)
+![](<../.gitbook/assets/temel-veri-cekme-islemi2 (1).png>)
 
 ## 🐍 Python Kodu ile Veriyi Çekme
 
@@ -87,7 +88,7 @@ fortune_500 = json.loads(df.to_json(orient="records"))
 df
 ```
 
-![](../.gitbook/assets/data_crowling_csv.png)
+![](../.gitbook/assets/data\_crowling\_csv.png)
 
 ```python
 df_list = pd.read_html("https://en.wikipedia.org/w/index.php?title=Automotive_industry&oldid=875776152", header=0)
@@ -95,7 +96,7 @@ car_totals = json.loads(df_list[1].to_json(orient="records"))
 car_by_man = json.loads(df_list[3].to_json(orient='records'))
 ```
 
-![](../.gitbook/assets/data_crowling_csv2.png)
+![](../.gitbook/assets/data\_crowling\_csv2.png)
 
 ## 👮‍♂️ Verilerin Sağlaması Gereken Özellikler
 

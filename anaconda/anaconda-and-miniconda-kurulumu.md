@@ -1,6 +1,7 @@
 ---
 description: Anaconda veya Miniconda için windows veya linux üzerinde kurulum işlemleri
 ---
+
 # 👷‍♂️ Anaconda & Miniconda Kurulumu
 
 ## 🐍 Anaconda Kurulumu
@@ -12,7 +13,7 @@ Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşa
 * Docker üzerine indirmek için [buraya](https://hub.docker.com/r/continuumio/anaconda3/) tıklayabilirsin
 * Anaconda’yı windowsda kullanmak için Anaconda Prompt’u kullanman gerekmekte!
 * _Aksi halde değişik sorunlarla karşılaşırsınız. (SSL error vs.)_
-* Dökümantasyonu için [buraya](https://docs.anaconda.com) tıklayabilirsin.
+* Dökümantasyonu için [buraya](https://docs.anaconda.com/) tıklayabilirsin.
 
 {% hint style="info" %}
 💁‍♂️ Ne yaptığımı biliyorum diyorsan Anaconda yerine Miniconda tavsiye edilir, minimalist bir yükleme sunar.

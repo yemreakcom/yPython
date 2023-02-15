@@ -1,6 +1,7 @@
 ---
 description: Python'da string (metin) işlemleri
 ---
+
 # 🔤 String İşlemleri
 
 ## 👀 Hızlı Bakış
@@ -28,7 +29,7 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 | `'{:i}'.format('test')`  | `i` karakter ayırır metni sola sağlar                                   |
 
 {% hint style="info" %}
-🧙‍♂️ Detaylar için [string formatlama](https://pyformat.info) sayfasına bakabilirsin.
+🧙‍♂️ Detaylar için [string formatlama](https://pyformat.info/) sayfasına bakabilirsin.
 {% endhint %}
 
 ## 🔌 String Ön Ekleri
