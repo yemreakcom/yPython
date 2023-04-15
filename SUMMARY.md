@@ -113,6 +113,7 @@
   * [🔆 Görsel Arayüz (GUI) | IPython](ipython/gui.md)
   * [🔗 Faydalı Bağlantılar | IPython](ipython/faydali-baglantilar.md)
 * [⭐️ Proje Örnekleri](proje-ornekleri/README.md)
+  * [👨💻 Daha fazlası İçin](proje-ornekleri/daha-fazlasi-icin.md)
   * [💲 Anlık Dolar Fiyatı Alma](proje-ornekleri/anlik-dolar-fiyati-alma.md)
   * [📑 Google Sheet Düzenleme](proje-ornekleri/google-sheet-duzenleme.md)
   * [🤖 Telegram Botu Oluşturma](proje-ornekleri/telegram-botu-olusturma.md)
