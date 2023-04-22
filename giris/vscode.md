@@ -27,7 +27,7 @@ description: VsCode üzerinde python kullanımı
 * Python derleyicinize `autopep8` paketini aşağıdaki komutlarla veya VsCode arayüzü ile yükleyin
   * `pip install autopep8`
   * `conda install autopep8`
-* Artık ⇧ Shift + ⎇ Alt + `F` ile kodları __ düzenleyebilirsiniz.
+* Artık ⇧ Shift + ⎇ Alt + `F` ile kodları düzenleyebilirsiniz.
 * Dosyaya sağ tıklayarak derleyebilirsiniz.
 
 ## 🔨 Python Ayarlamaları

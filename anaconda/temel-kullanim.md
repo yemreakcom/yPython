@@ -1,6 +1,7 @@
 ---
 description: Anaconda paket yöneticisi olan conda'nın kullanımı
 ---
+
 # 🧱Temel Kullanım | Conda
 
 ## 🚴‍♂️ Conda'ya Giriş
@@ -8,7 +9,7 @@ description: Anaconda paket yöneticisi olan conda'nın kullanımı
 Anaconda paket yönetim aracı `conda`'dır.
 
 * `requirements.txt` dosyası sayesinde projeyi farklı ortamlara aktarmak istediğimizde, gerekli kurulumları hızlıca yapabiliriz.
-* ****[Difference between pip freeze and conda list](https://stackoverflow.com/questions/41249401/difference-between-pip-freeze-and-conda-list)
+* [Difference between pip freeze and conda list](https://stackoverflow.com/questions/41249401/difference-between-pip-freeze-and-conda-list)
 
 ## ✨ Güncelleme İşlemleri
 
