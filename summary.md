@@ -1,7 +1,7 @@
 # 📋 Tüm İçerikler
 
 * [🐍 Python Notlarım](./)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](https://github.com/YEmreAk/YPython/blob/master/CHANGELOG.md)
 * [📋 Tüm İçerikler](summary.md)
 * [✍ Yazılarım](yazilar/)
   * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-onemli-hususlar.md)

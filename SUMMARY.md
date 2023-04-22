@@ -113,6 +113,7 @@
   * [🔆 Görsel Arayüz (GUI) | IPython](ipython/gui.md)
   * [🔗 Faydalı Bağlantılar | IPython](ipython/faydali-baglantilar.md)
 * [⭐ Proje Örnekleri](proje-ornekleri/README.md)
+  * [🧹 LinkedIn üzerindeki bağlantıları temizleme](proje-ornekleri/linkedin-uezerindeki-baglantilari-temizleme.md)
   * [⬇ Youtube Üzerinden Video İndirmek](proje-ornekleri/youtube-uezerinden-video-indirmek.md)
   * [💲 Anlık Dolar Fiyatı Alma](proje-ornekleri/anlik-dolar-fiyati-alma.md)
   * [📑 Google Sheet Düzenleme](proje-ornekleri/google-sheet-duzenleme.md)

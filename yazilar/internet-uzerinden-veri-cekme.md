@@ -46,7 +46,7 @@ html = urlopen(req).read() # Pandas için kullanılacak html objesi
 * Elements ekranından açılan satıra sağ tıklayın ve Copy → Copy selector deyin
 * Gelen metni bir notepad gibi bir yere kaydedin
 
-![](<../.gitbook/assets/temel-veri-cekme-islemi1 (1) (1).png>)
+![](<../.gitbook/assets/temel-veri-cekme-islemi1 (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/temel-veri-cekme-islemi2 (1).png>)
 
