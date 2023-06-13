@@ -4,6 +4,7 @@
 * [👀 Neler değişti](https://github.com/YEmreAk/YPython/blob/master/CHANGELOG.md)
 * [📋 Tüm İçerikler](summary.md)
 * [✍ Yazılarım](yazilar/README.md)
+  * [🐞 ImportError: attempted relative import with no known parent package](yazilar/importerror-attempted-relative-import-with-no-known-parent-package.md)
   * [🌟 Python'da Önemli Hususlar](yazilar/pythonda-onemli-hususlar.md)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](yazilar/pip-ile-kurulabilir-python-paketi-olusturma.md)
   * [🧲 İnternet Üzerinden Veri Çekme](yazilar/internet-uzerinden-veri-cekme.md)
